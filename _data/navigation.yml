@@ -1,0 +1,17 @@
+main: # Main menu (top)
+  - title: Setting and rules
+    url: /rules/
+
+home: # Home page menu (left)
+  - title: "Main menu"
+    children:
+      - title: Setting and rules
+        url: /rules/
+    
+rules: # Rules menu (left)
+  - title: "Rules"
+    children:
+      - title: Setting and rules
+        url: /rules/
+      - title: Imperial Troops Deployment Rules
+        url: /rules/imperial-troops-deployment-rules/
