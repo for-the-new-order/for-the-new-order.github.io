@@ -15,3 +15,5 @@ rules: # Rules menu (left)
         url: /rules/
       - title: Imperial Troops Deployment Rules
         url: /rules/imperial-troops-deployment-rules/
+      - title: Talents
+        url: /rules/talents/

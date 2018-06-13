@@ -10,6 +10,12 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# 
+# Data
+# talents.csv must be save as UTF-8 after exported from Excel.
+# In VSCode: Reopen as "Windows 1252" then Save as "UTF-8"
+#
+
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"

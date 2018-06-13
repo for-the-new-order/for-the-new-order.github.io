@@ -19,7 +19,8 @@ Genesys
 
 ## Star Wars specific mechanics
 
-Use Age of Rebellion's duty system.
+-   Use Age of Rebellion's duty system (p. 49, 325).
+-   Use Age of Rebellion's Onslaught at Arda I module's mass combat system (p. 30).
 
 ## Skills
 
@@ -35,12 +36,24 @@ Use Age of Rebellion's duty system.
 
 ## Talents
 
--   Use Star Wars Force Power trees (see FoD)
+-   By default, the following talents, but the depreciated one, are allowed: [Talents](/rules/talents/)
+    -   If a talent does not feel right for Star Wars, the GM can always forbid its use. This is especially true for `Realms of Terrinoth (ROT)` talents that could be more fantasy-oriented than Star Wars-y.
 -   Signature abilities
-    -   A character must have one rank 5 talent to attach a signature ability.
-        -   To be harder, it could be two rank 5 talents instead.
-        -   Players and GM should agree beforehand.
-    -   Use the Star Wars signature ability trees as is
+    -   A character must have two rank 5 talents to purchase a signature ability for his character.
+    -   The signature abilities are considered tier 6 talents.
+    -   They cost 30xp to purchase.
+    -   Optionnally, there is no limitation to how many signature abilities a character can have.
+    -   Once acquired, use the Star Wars signature ability trees as is.
+-   Use Star Wars Force Power trees as is.
+
+> This guy had something very similar to what I wrote about signature abilities, so I picked up some of his ideas to complete my version (which is almost the same thing now); Thanks to his work on [Star Wars to Genesys Special Rule Conversion](https://drive.google.com/drive/folders/1CD92_GacFtUMmlaFXQaBbvACcKz4eX_k).
+
+**Notes on conversions:**
+
+-   If there are missing talents, they can be ported over (or created) with a consensus of the players and the GM about rank, prerequisites, etc.
+-   By default, if a trait is available in both games, Genesys has priority
+-   If for some reason, the SW version feels more SW-y, consensus could be made to use that version instead or a hybrid house version of both.
+-   Nothing is set in stone; we could revert, change or update prior rules if the needs arise.
 
 ## Specialization
 
@@ -51,13 +64,6 @@ To account for the increased number of skills, at character creation:
     -   2 more career skills
         -   GM and player must agree on the skills
     -   2 skill points to add to career skills. At least one must increase the two new career skills.
-
-## Star Wars Traits
-
--   If there are missing traits in Genesys that are available in SW EotE, AoR or FoD, they can be ported over with a consensus of the players and the GM about rank, prerequisites, etc.
--   By default, if a trait is available in both games, Genesys has priority
--   If for some reason, the SW version feels more SW-y, consensus could be made to use that version instead or a hybrid house version of both.
--   Nothing is set in stone; we could revert, change or update prior rules if the needs arise.
 
 ## House rules
 
