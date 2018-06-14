@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700");
 
+@font-face {
+    font-family: "genesys";
+    src: url("../fonts/genesys.eot?n3ksai");
+    src: url("../fonts/genesys.eot?n3ksai#iefix") format("embedded-opentype"),
+        url("../fonts/genesys.ttf?n3ksai") format("truetype"),
+        url("../fonts/genesys.woff?n3ksai") format("woff"),
+        url("../fonts/genesys.svg?n3ksai#genesys") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .genesys-theme {
     .page__content {
         font-family: "Crimson Text", serif;
@@ -38,5 +49,21 @@
                 }
             }
         }
+    }
+}
+
+.genesys-symbol {
+    font-family: "genesys";
+
+    &.color-setback {
+        color: #000000;
+    }
+
+    &.color-bonus {
+        color: #72cddc;
+    }
+
+    &.color-difficulty {
+        color: #6c2a84;
     }
 }

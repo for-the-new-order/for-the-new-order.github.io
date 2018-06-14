@@ -1,0 +1,77 @@
+[
+    {
+        "source": "(?)",
+        "char": "([DI])",
+        "description": "Easy"
+    },
+    {
+        "source": "(??)",
+        "char": "([DI][DI])",
+        "description": "Average"
+    },
+    {
+        "source": "(???)",
+        "char": "([DI][DI][DI])",
+        "description": "Hard"
+    },
+    {
+        "source": "(????)",
+        "char": "([DI][DI][DI][DI])",
+        "description": "Daunting"
+    },
+    {
+        "source": "(?????)",
+        "char": "([DI][DI][DI][DI][DI])",
+        "description": "Formidable"
+    },
+
+    {
+        "source": "[DI]",
+        "char": "",
+        "color": "difficulty",
+        "description": "Difficulty dice"
+    },
+    {
+        "source": "[SE]",
+        "char": "",
+        "color": "setback",
+        "description": "Setback dice"
+    },
+    {
+        "source": "[BO]",
+        "char": "",
+        "color": "bonus",
+        "description": "Bonus dice"
+    },
+
+    {
+        "source": "[AD]",
+        "char": "",
+        "description": "Advantage"
+    },
+    {
+        "source": "[SU]",
+        "char": "",
+        "description": "Success"
+    },
+    {
+        "source": "[TR]",
+        "char": "",
+        "description": "Triumph"
+    },
+    {
+        "source": "[TH]",
+        "char": "",
+        "description": "Threat"
+    },
+    {
+        "source": "[DE]",
+        "char": "",
+        "description": "Despair"
+    },
+    {
+        "source": "[FA]",
+        "char": "",
+        "description": "Failure"
+    }
+]

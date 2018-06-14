@@ -10,7 +10,7 @@
 **Ranked:** {{ talent.Ranked }}
 </header>
 
-{{ talent.Text }}
+{% include text-with-symbols.html content=talent.Text %}
 
 <footer>
 **Source:** {{ talent.Source }}

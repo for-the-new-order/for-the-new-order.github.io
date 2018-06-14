@@ -1,0 +1,6 @@
+{% assign text = include.content %}
+{% for symbol in site.data.symbols %}
+{% capture imgTag %}<span title="{{ symbol.description }}" class="genesys-symbol{% if symbol.color %} color-{{ symbol.color }}{% endif %}">{{ symbol.char }}</span>{% endcapture %}
+{% assign text = text | replace: symbol.source, imgTag %}
+{% endfor %}
+{{ text }}
