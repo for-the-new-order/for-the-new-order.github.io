@@ -1,14 +1,11 @@
 ---
 title: Talents
 permalink: /rules/talents/
-# toc: false
 toc_sticky: false
-# classes: 
-#  - pages-rules
-#  - genesys-theme
 ---
 
 ## Imperial campaign
+
 By default, the following talents, but the depreciated one, are allowed.
 
 If a talent does not feel right for Star Wars, the GM can always forbid its use. This is especially true for `Realms of Terrinoth (ROT)` talents that could be more fantasy-oriented than Star Wars-y.
@@ -31,7 +28,9 @@ Additional talents, at the end of the collection, were created and vetted by the
 {% assign talents = site.data.talents | sort: 'Name' %}
 
 {% for tier in tiers %}
+
 ## Tier {{ tier }}
+
 {% for talent in talents %}
 {% if talent.Tier == tier and talent.Depreciated == "" %}
 {% include talent.md talent=talent %}
@@ -40,6 +39,7 @@ Additional talents, at the end of the collection, were created and vetted by the
 {% endfor %}
 
 ## Depreciated
+
 {% for talent in talents %}
 {% if talent.Depreciated != "" %}
 {% include talent.md talent=talent %}

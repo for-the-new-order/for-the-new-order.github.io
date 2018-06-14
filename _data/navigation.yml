@@ -13,7 +13,9 @@ rules: # Rules menu (left)
     children:
       - title: Setting and rules
         url: /rules/
-      - title: Imperial Troops Deployment Rules
-        url: /rules/imperial-troops-deployment-rules/
       - title: Talents
         url: /rules/talents/
+      - title: Imperial Troops Deployment Rules
+        url: /rules/imperial-troops-deployment-rules/
+      - title: Team presence talents
+        url: /rules/team-presence-talents/

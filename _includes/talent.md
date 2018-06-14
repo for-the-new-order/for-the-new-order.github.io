@@ -1,7 +1,7 @@
 {::options parse_block_html="true" /}
 <section class="talent">
 <header>
-### {{ talent.Name }}{% if talent.Depreciated != "" %} (depreciated on: {{ talent.Depreciated }}){% endif %}
+### {{ talent.Name }}{% if talent.Depreciated and talent.Depreciated != "" %} (depreciated on: {{ talent.Depreciated }}){% endif %}
 
 **Tier:** {{ talent.Tier }}
 
@@ -12,8 +12,10 @@
 
 {% include text-with-symbols.html content=talent.Text %}
 
+{% if talent.Source %}
 <footer>
 **Source:** {{ talent.Source }}
-{% if talent.From != talent.Name %}(origin: {{ talent.From }}){% endif %}
+{% if talent.From and talent.From != talent.Name %}(origin: {{ talent.From }}){% endif %}
 </footer>
+{% endif %}
 </section>
