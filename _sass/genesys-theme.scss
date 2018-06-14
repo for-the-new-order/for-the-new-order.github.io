@@ -52,18 +52,40 @@
     }
 }
 
+$genesys-symbol-icons: (
+    boost: "",
+    ability: "",
+    proficiency: "",
+    setback: "",
+    difficulty: "",
+    challenge: "",
+    advantage: "",
+    success: "",
+    triumph: "",
+    threat: "",
+    failure: "",
+    despair: ""
+);
+$genesys-symbol-colors: (
+    boost: rgb(114, 205, 220),
+    ability: rgb(65, 173, 73),
+    proficiency: rgb(255, 232, 0),
+    setback: rgb(0, 0, 0),
+    difficulty: rgb(108, 42, 132),
+    challenge: rgb(125, 24, 33)
+);
+
 .genesys-symbol {
     font-family: "genesys";
 
-    &.color-setback {
-        color: #000000;
-    }
-
-    &.color-bonus {
-        color: #72cddc;
-    }
-
-    &.color-difficulty {
-        color: #6c2a84;
+    @each $name, $value in $genesys-symbol-icons {
+        &.genesys-symbol-#{$name} {
+            &:before {
+                content: $value;
+            }
+            @if map-has-key($genesys-symbol-colors, $name) {
+                color: map-get($genesys-symbol-colors, $name);
+            }
+        }
     }
 }

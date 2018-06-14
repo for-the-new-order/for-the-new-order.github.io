@@ -305,6 +305,8 @@ defaults:
   - scope:
       path: "_pages/rules"
     values:
-      classes: "pages-rules"
+      classes: 
+        - pages-rules
+        - genesys-theme
       sidebar:
         nav: "rules"

@@ -3,9 +3,9 @@ title: Talents
 permalink: /rules/talents/
 # toc: false
 toc_sticky: false
-classes: 
-#  - wide
-  - genesys-theme
+# classes: 
+#  - pages-rules
+#  - genesys-theme
 ---
 
 ## Imperial campaign

@@ -1,77 +1,89 @@
 [
     {
         "source": "(?)",
-        "char": "([DI])",
+        "dest": "([DI])",
         "description": "Easy"
     },
     {
         "source": "(??)",
-        "char": "([DI][DI])",
+        "dest": "([DI][DI])",
         "description": "Average"
     },
     {
         "source": "(???)",
-        "char": "([DI][DI][DI])",
+        "dest": "([DI][DI][DI])",
         "description": "Hard"
     },
     {
         "source": "(????)",
-        "char": "([DI][DI][DI][DI])",
+        "dest": "([DI][DI][DI][DI])",
         "description": "Daunting"
     },
     {
         "source": "(?????)",
-        "char": "([DI][DI][DI][DI][DI])",
+        "dest": "([DI][DI][DI][DI][DI])",
         "description": "Formidable"
     },
 
     {
-        "source": "[DI]",
-        "char": "",
-        "color": "difficulty",
-        "description": "Difficulty dice"
-    },
-    {
         "source": "[SE]",
-        "char": "",
-        "color": "setback",
+        "type": "setback",
         "description": "Setback dice"
     },
     {
+        "source": "[DI]",
+        "type": "difficulty",
+        "description": "Difficulty dice"
+    },
+    {
+        "source": "[CH]",
+        "type": "challenge",
+        "description": "Challenge dice"
+    },
+    {
         "source": "[BO]",
-        "char": "",
-        "color": "bonus",
-        "description": "Bonus dice"
+        "type": "boost",
+        "description": "Boost dice"
+    },
+    {
+        "source": "[AB]",
+        "type": "ability",
+        "description": "Ability dice"
+    },
+    {
+        "source": "[PR]",
+        "type": "proficiency",
+        "description": "Proficiency dice"
     },
 
     {
         "source": "[AD]",
-        "char": "",
-        "description": "Advantage"
+        "type": "advantage",
+        "description": "Advantage symbol"
     },
     {
         "source": "[SU]",
-        "char": "",
-        "description": "Success"
+        "type": "success",
+        "description": "Success symbol"
     },
     {
         "source": "[TR]",
-        "char": "",
-        "description": "Triumph"
+        "type": "triumph",
+        "description": "Triumph symbol"
     },
     {
         "source": "[TH]",
-        "char": "",
-        "description": "Threat"
-    },
-    {
-        "source": "[DE]",
-        "char": "",
-        "description": "Despair"
+        "type": "threat",
+        "description": "Threat symbol"
     },
     {
         "source": "[FA]",
-        "char": "",
-        "description": "Failure"
+        "type": "failure",
+        "description": "Failure symbol"
+    },
+    {
+        "source": "[DE]",
+        "type": "despair",
+        "description": "Despair symbol"
     }
 ]
