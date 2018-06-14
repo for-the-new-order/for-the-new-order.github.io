@@ -5,7 +5,7 @@
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text":
-            "You were not destined to be a Stormtrooper, but you admire them, there blind loyalty, their force of character (i.e.: always following order) and their dedication to the New Order. That lead you to learn all of the Stormtrooper corps basics, allowing you to effectively command multiple Stormtroopers as if they were only one!\n\nThe PC can add [BO] to all combat check made by Stormtroopers under his order for one round. Can only be used once per rank per encounter."
+            "You were not destined to be a Stormtrooper, but you admire them, there blind loyalty, their force of character (i.e., always following orders) and their dedication to the New Order. That motivated you to learn all of the Stormtrooper corps basics, allowing you to effectively command multiple Stormtroopers as if they were only one!\n\nThe PC can add [BO] to all combat check made by Stormtroopers under his command for one round. Can only be used once per rank per encounter."
     },
     {
         "Name": "Squadron Leader",
@@ -13,7 +13,7 @@
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text":
-            "You always wished to make it to the academy, maybe you even did, but in the end, you were better out of the Ties. That never stopped you from learning all that need to be known to be an effective squad leader though!\n\nThe PC can add [BO] to all combat check made by Tie Fighters under his order for one round. Can only be used once per rank per encounter."
+            "You always wished to make it to the academy, maybe you even did, but in the end, you were better out of the Ties. That never stopped you from learning all that needed to be known to be an effective squad leader though!\n\nThe PC can add [BO] to all combat check made by Tie Fighters under his command for one round. Can only be used once per rank per encounter."
     },
     {
         "Name": "More to come",
