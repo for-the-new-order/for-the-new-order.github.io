@@ -1,5 +1,5 @@
 ---
-title: Talents
+title: Talents database
 permalink: /rules/talents/
 toc_sticky: false
 ---

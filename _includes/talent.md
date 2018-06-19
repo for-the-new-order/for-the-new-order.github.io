@@ -8,6 +8,8 @@
 **Activation:** {{ talent.Activation }}
 
 **Ranked:** {{ talent.Ranked }}
+
+{% if talent.Prerequisite and talent.Prerequisite != "" %}**Prerequisite:** {{ talent.Prerequisite }}{% endif %}
 </header>
 
 {% include text-with-symbols.html content=talent.Text %}

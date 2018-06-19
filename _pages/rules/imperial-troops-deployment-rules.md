@@ -3,6 +3,8 @@ title: Imperial Troops Deployment Rules
 permalink: /rules/imperial-troops-deployment-rules/
 ---
 
+_**This is an untested work in progress.**_
+
 As Imperial Agents, players have access to all kind of imperial perks!
 
 We could divide these perks into two categories: 1. Human resources 2. Material resources

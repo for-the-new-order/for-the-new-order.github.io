@@ -3,15 +3,13 @@ title: Setting and rules
 permalink: /rules/
 ---
 
-Following are the rules, or compilation of rules, that will be used in my Star Wars/Genesys campaign **For the New Order**.
-
 ## Campaign Theme
 
 Star Wars Imperial Security Bureau Agents: New Order fanatics!
 
 The story begins right after the Empire Strikes Back.
 
-The game will run as fast as possible, based on the story flow and player choices, with high XP rewards for fast evolution/climax.
+The game will run as fast as possible, based on the story flow and player choices.
 
 ## Core rules
 

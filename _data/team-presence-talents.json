@@ -4,6 +4,7 @@
         "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
+        "Prerequisite": "Any weapon skill rank 2 or more",
         "Text":
             "You were not destined to be a Stormtrooper, but you admire them, there blind loyalty, their force of character (i.e., always following orders) and their dedication to the New Order. That motivated you to learn all of the Stormtrooper corps basics, allowing you to effectively command multiple Stormtroopers as if they were only one!\n\nThe PC can add [BO] to all combat check made by Stormtroopers under his command for one round. Can only be used once per rank per encounter."
     },
@@ -12,8 +13,81 @@
         "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
+        "Prerequisite": "Any piloting skill rank 2 or more",
         "Text":
             "You always wished to make it to the academy, maybe you even did, but in the end, you were better out of the Ties. That never stopped you from learning all that needed to be known to be an effective squad leader though!\n\nThe PC can add [BO] to all combat check made by Tie Fighters under his command for one round. Can only be used once per rank per encounter."
+    },
+    {
+        "Name": "Leading by example",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "No",
+        "Prerequisite": "Any weapon skill rank 2 or more",
+        "Text":
+            "You are always in front of the troops, charging into battle! Soldiers love that about you and tend to follow you into battle easily for that.\n\nThe PC can add [BO][BO][BO] to its next Team Presence check related to controlling army assets. Can only be used once per game session."
+    },
+    {
+        "Name": "Fast and furious",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "No",
+        "Prerequisite": "Any piloting skill rank 2 or more",
+        "Text":
+            "You are always the first to jump into a cockpit then into battle! Pilots love that about you and tend to follow you into battle easily for that.\n\nThe PC can add [BO][BO][BO] to its next Team Presence check related to controlling navy assets. Can only be used once per game session."
+    },
+    {
+        "Name": "Life Hacker",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Prerequisite": "Mechanics skill rank 2 or more",
+        "Text":
+            "You are good at repairing stuff and helping people, like duct-taping a hyperspace relay or some other weird shortcuts that make some guy happy; and, for some reason, it is always working (well almost). For that perk you often end up trading help for gear; you don't know why but it is working well (until your fix get unfixed, but at that time, it is not your fault anymore, right?). Anyway, you see this as a positive contribution to the New Order: we are as strong as our weakest link!\n\nThe PC can spend some time fixing some things for some NPC in exchange for borrowing some piece of equipment. It could be a weapon, an armor, a weird massive tool that no one cares about but that is hard to get out of the garrison or what not. The GM and the PC should try to make something that makes sense happen. The GM should reject any nonsense!\n\nThe PC can add [BO][BO] per rank of Life Hacker to his Team Presence check required to acquire the piece of equipment he wants to borrow. Can only be used once per game session."
+    },
+    {
+        "Name": "Space Tactician",
+        "Tier": 2,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Prerequisite": "Squadron Leader or Fast and furious",
+        "Text":
+            "You studied space tactics a lot, but I mean A LOT! You are good at anticipating enemies moves, and for this reason, you always end up a step or two ahead of your opponents.\n\nThe PC can add the Adversary 1 (per Space Tactician rank) talent to up to one Tie Fighter squad per two Team Contribution Rank (rounded down) for one round per rank in Space Tactician. Can only be used once per game session."
+    },
+    {
+        "Name": "Ground Finale",
+        "Tier": 2,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Prerequisite": "Stormtrooper Admirer or Leading by example",
+        "Text":
+            "You studied ground combat tactics a lot, but I mean A LOT! You are good at anticipating enemies moves, and for this reason, you always end up a step or two ahead of your opponents.\n\nThe PC can add the Adversary 1 (per Ground Finale rank) talent to up to one Stormtrooper squad per two Team Contribution Rank (rounded down) for one round per rank in Ground Finale. Can only be used once per game session."
+    },
+    {
+        "Name": "The Bully",
+        "Tier": 2,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Prerequisite": "Leadership skill rank 2 or more",
+        "Text":
+            "You are good at it, they know it, that's it! Get the fuck out of the way now! And you! Follow me!\n\nThe PC can upgrade one dice per rank of *The Bully* when doing Team Presence check."
+    },
+    {
+        "Name": "Aces",
+        "Tier": 3,
+        "Activation": "Passive",
+        "Ranked": "No",
+        "Prerequisite": "Space Tactician",
+        "Text":
+            "For some reason, every time you seek help from the navy, you end up with some elite forces serving you. Maybe that's just pure luck, but you prefer to think of it as a reward from your hard earned dedication to the New Order!\n\nAllow the PC to upgrade up to one NPC per 3 Team Contribution Rank to ace (rounded down).\n\nAn ace has better gear and better training.\nAn ace must be from the Navy Corps.\nYou can upgrade a Minion to a Rival, add the Adversary 1 talent and recalculate Wound Threshold. This stack with other Adversary talents.\nOptionally, you can upgrade its equipment as long as it makes sense (GM discretion is advised).\nHis ship could also be upgraded or be an experimental fighter of some sort.\nAny other upgrade, allowed by the GM, can be applied; use your imagination here!\n\nOption: use an existing rival and change it a little or mix a rival with a minion.\nOther Idea: save those NPCs and reuse them later…"
+    },
+    {
+        "Name": "Commandos",
+        "Tier": 3,
+        "Activation": "Passive",
+        "Ranked": "No",
+        "Prerequisite": "Ground Finale",
+        "Text":
+            "For some reason, every time you seek help from the army, you end up with some elite forces serving you. Maybe that's just pure luck, but you prefer to think of it as a reward from your hard earned dedication to the New Order!\n\nAllow the PC to upgrade up to one NPC per 3 Team Contribution Rank to commando (rounded down). \n\nA commando has better gear and better training.\nA commando must be from the Army Corps.\nYou can upgrade a Minion to a Rival, add the Adversary 1 talent and recalculate Wound Threshold. This stack with other Adversary talents.\nOptionally, you can upgrade its equipment as long as it makes sense (GM discretion is advised).\nAny other upgrade, allowed by the GM, can be applied; use your imagination here!\n\nIdea: use an existing rival and change it a little or mix a rival with a minion.\nOther Idea: save those NPCs and reuse them later…"
     },
     {
         "Name": "More to come",

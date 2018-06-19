@@ -4,6 +4,8 @@ permalink: /rules/team-presence-talents/
 toc_sticky: false
 ---
 
+_**This is an untested work in progress.**_
+
 This page list all _Team Presence Talents_ available.
 
 For more info about the rules, see [Imperial Troops Deployment Rules](/rules/imperial-troops-deployment-rules/).
@@ -17,25 +19,24 @@ For more info about the rules, see [Imperial Troops Deployment Rules](/rules/imp
 
 ## Tier {{ tier }}
 
-    {% for talent in talents %}
-        {% if talent.Tier == tier %}
-            {% if talent.Depreciated %}
-                {% if talent.Depreciated == "" %}
+{% for talent in talents %}
+{% if talent.Tier == tier %}
+{% if talent.Depreciated %}
+{% if talent.Depreciated == "" %}{% include talent.md talent=talent %}{% endif %}
+{% else %}
 {% include talent.md talent=talent %}
-                {% endif %}
-            {% else %}
-{% include talent.md talent=talent %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
+{% endif %}
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 {% comment %}
+
 ## Depreciated
 
 {% for talent in talents %}
-    {% if talent.Depreciated and talent.Depreciated != "" %}
+{% if talent.Depreciated and talent.Depreciated != "" %}
 {% include talent.md talent=talent %}
-    {% endif %}
+{% endif %}
 {% endfor %}
 {% endcomment %}

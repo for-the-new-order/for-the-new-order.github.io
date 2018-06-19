@@ -9,12 +9,14 @@ home: # Home page menu (left)
         url: /rules/
     
 rules: # Rules menu (left)
-  - title: "Rules"
+  - title: "General"
     children:
       - title: Setting and rules
         url: /rules/
-      - title: Talents
+      - title: Talents database
         url: /rules/talents/
+  - title: "House rules"
+    children:
       - title: Imperial Troops Deployment Rules
         url: /rules/imperial-troops-deployment-rules/
       - title: Team presence talents
