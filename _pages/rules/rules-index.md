@@ -9,8 +9,6 @@ Star Wars Imperial Security Bureau Agents: New Order fanatics!
 
 The story begins right after the Empire Strikes Back.
 
-The game will run as fast as possible, based on the story flow and player choices.
-
 ## Core rules
 
 Genesys
@@ -26,8 +24,8 @@ Genesys
     -   `Alchemy`: not used
     -   `Driving` (same as `Piloting (planetary)`)
     -   `Operating` = piloting capital ship
-    -   `Piloting` = `Piloting (space)`
-    -   `Riding` = <mark>Keep or Discard?</mark> Could be survival instead; as specified in Genesys rulebook.
+    -   `Piloting` = (same as `Piloting (space)`)
+    -   `Riding` = not used, use survival instead; as specified in Genesys rulebook.
 -   Discard Genesys Magic skills
 -   Use Star Wars Combat skills
 -   Use Star Wars Knowledge skills
@@ -44,25 +42,14 @@ Genesys
     -   Once acquired, use the Star Wars signature ability trees as is.
 -   Use Star Wars Force Power trees as is.
 
-> This guy had something very similar to what I wrote about signature abilities, so I picked up some of his ideas to complete my version (which is almost the same thing now); Thanks to his work on [Star Wars to Genesys Special Rule Conversion](https://drive.google.com/drive/folders/1CD92_GacFtUMmlaFXQaBbvACcKz4eX_k).
-
-**Notes on conversions:**
-
--   If there are missing talents, they can be ported over (or created) with a consensus of the players and the GM about rank, prerequisites, etc.
--   By default, if a trait is available in both games, Genesys has priority
--   If for some reason, the SW version feels more SW-y, consensus could be made to use that version instead or a hybrid house version of both.
--   Nothing is set in stone; we could revert, change or update prior rules if the needs arise.
+> That guy had something very similar to what I wrote about signature abilities, so I picked up some of his ideas to complete my version (which is almost the same thing now); Thanks to his work on [Star Wars to Genesys Special Rule Conversion](https://drive.google.com/drive/folders/1CD92_GacFtUMmlaFXQaBbvACcKz4eX_k).
 
 ## Specialization
 
-To account for the increased number of skills, at character creation:
+To account for the increased number of skills (knowledge), at character creation:
 
 -   If a player find a specialization that suits him, apply the 4 new career skills and increase two of those by 1 as per the Star Wars rules.
--   If a player does not find a specialization, allow him to create (name) one and give that player:
+-   If a player does not find a specialization, allow him to create one and give that player:
     -   2 more career skills
         -   GM and player must agree on the skills
     -   2 skill points to add to career skills. At least one must increase the two new career skills.
-
-## House rules
-
--   [Troops deployment](/rules/imperial-troops-deployment-rules/)
