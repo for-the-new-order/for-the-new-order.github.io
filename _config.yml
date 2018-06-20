@@ -286,6 +286,8 @@ defaults:
       toc_label: "Table of Contents"
       toc_sticky: true
       enable_sharing: true
+      classes: 
+        - posts-rules
 
   - scope:
       path: "_pages"
@@ -298,10 +300,12 @@ defaults:
       share: true
       related: false
       sidebar:
-        nav: "main"
+        nav: "home"
       toc: true
       toc_label: "Table of Contents"
       toc_sticky: true
+      classes: 
+        - pages-rules
 
   - scope:
       path: "_pages/rules"

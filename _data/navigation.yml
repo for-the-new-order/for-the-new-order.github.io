@@ -1,13 +1,17 @@
 main: # Main menu (top)
   - title: Setting and rules
     url: /rules/
+  - title: About
+    url: /about/
 
 home: # Home page menu (left)
   - title: "Main menu"
     children:
       - title: Setting and rules
         url: /rules/
-    
+      - title: About
+        url: /about/
+
 rules: # Rules menu (left)
   - title: "General"
     children:

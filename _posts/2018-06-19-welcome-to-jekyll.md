@@ -7,3 +7,8 @@ toc: false
 This website host the rules of my Star Wars/Genesys campaign **For the New Order** where players' alter egos are Imperial Security Bureau Agents.
 
 Stay tuned, more to come...
+
+This post will be deleted at some point...
+{: .notice--info}
+
+Until then, you can start with [Setting and rules](/rules/).
