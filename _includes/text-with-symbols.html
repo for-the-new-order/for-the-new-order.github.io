@@ -1,6 +1,1 @@
-{% assign text = include.content %}
-{% assign cssPrefix = "genesys" %}
-{% if include.css-prefix %}
-{% assign cssPrefix = include.css-prefix %}
-{% endif %}
-{% for symbol in site.data.symbols %}{% capture htmlValue %}{% if symbol.type %}<span title="{{ symbol.description }}" class="{{ cssPrefix }}-symbol {{ cssPrefix }}-symbol-{{ symbol.type }}"></span>{% elsif symbol.dest %}{{ symbol.dest }}{% endif %}{% endcapture %}{% assign text = text | replace: symbol.source, htmlValue %}{% endfor %}{{ text }}
+{% assign text = include.content %}{% assign cssPrefix = "genesys" %}{% if include.css-prefix %}{% assign cssPrefix = include.css-prefix %}{% endif %}{% for symbol in site.data.symbols %}{% capture htmlValue %}{% if symbol.type %}<span title="{{ symbol.description }}" class="{{ cssPrefix }}-symbol {{ cssPrefix }}-symbol-{{ symbol.type }}"></span>{% elsif symbol.dest %}{{ symbol.dest }}{% endif %}{% endcapture %}{% assign text = text | replace: symbol.source, htmlValue %}{% endfor %}{{ text }}
