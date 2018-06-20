@@ -28,62 +28,74 @@
     {
         "source": "[SE]",
         "type": "setback",
-        "description": "Setback dice"
+        "description": "Setback dice",
+        "category": "dice"
     },
     {
         "source": "[DI]",
         "type": "difficulty",
-        "description": "Difficulty dice"
+        "description": "Difficulty dice",
+        "category": "dice"
     },
     {
         "source": "[CH]",
         "type": "challenge",
-        "description": "Challenge dice"
+        "description": "Challenge dice",
+        "category": "dice"
     },
     {
         "source": "[BO]",
         "type": "boost",
-        "description": "Boost dice"
+        "description": "Boost dice",
+        "category": "dice"
     },
     {
         "source": "[AB]",
         "type": "ability",
-        "description": "Ability dice"
+        "description": "Ability dice",
+        "category": "dice"
     },
     {
         "source": "[PR]",
         "type": "proficiency",
-        "description": "Proficiency dice"
+        "description": "Proficiency dice",
+        "category": "dice"
     },
 
     {
         "source": "[AD]",
         "type": "advantage",
-        "description": "Advantage symbol"
+        "description": "Advantage symbol",
+        "category": "symbol"
     },
     {
         "source": "[SU]",
         "type": "success",
-        "description": "Success symbol"
+        "description": "Success symbol",
+        "category": "symbol"
     },
     {
         "source": "[TR]",
         "type": "triumph",
-        "description": "Triumph symbol"
+        "description": "Triumph symbol",
+        "category": "symbol"
     },
     {
         "source": "[TH]",
         "type": "threat",
-        "description": "Threat symbol"
+        "description": "Threat symbol",
+        "category": "symbol"
     },
     {
         "source": "[FA]",
         "type": "failure",
-        "description": "Failure symbol"
+        "description": "Failure symbol",
+        "category": "symbol"
     },
     {
         "source": "[DE]",
         "type": "despair",
-        "description": "Despair symbol"
+        "description": "Despair symbol",
+        "category": "symbol"
     }
 ]
