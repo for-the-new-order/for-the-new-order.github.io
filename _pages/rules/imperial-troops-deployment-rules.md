@@ -203,3 +203,27 @@ Assuming that the PC spent all his points in the Team Presence Talent system, th
 ### List of talents
 
 See [Team presence talents](/rules/team-presence-talents/) for a list of talents.
+
+## Mass Combat Variance
+
+The Team Presence Talents will directly impact any mass combat the PCs are participating in!
+See "Onslaught at Arda I" p. 30 for more information about mass combat rules.
+
+Unless otherwise specified in the talent description, the following rules apply:
+
+-   Upgrade the ability of the dice pool once per rank 3 talent own by PCs. This represents the added force's tactics, organization, and morale, provided by the PCs reputation, participation, and leadership.
+-   If no PC possess any rank 3 talent, sum all of the ranks of all of the PCs, then divided that number by 9 (or 7 or 6 depending on the variance used), rounded down, then add {% include text-with-symbols.html content="[BO]" %} time the resulting number to the dice pool.
+    -   Ex.: if 4 PCs spent 4 ranks into Team Presence Talents, the sum is 16 (4x4=16). Then divided by 9, rounded down, equal 1. Add {% include text-with-symbols.html content="[BO]" %} to the dice pool.
+    -   Ex.: if 4 PCs spent 5 ranks into Team Presence Talents, the sum is 20 (4x5=20). Then divided by 9, rounded down, equal 2. Add {% include text-with-symbols.html content="[BO][BO]" %} to the dice pool.
+
+## NPCs Talents (GM)
+
+These talents are used only by NPCs. These are GM facilitators (like the Adversary talent).
+
+For player talents, see [Team presence talents](/rules/team-presence-talents/).
+
+{% assign talents = site.data.gm-team-presence-talents | sort: 'Name' %}
+
+{% for talent in talents %}
+{% include talent.md talent=talent %}
+{% endfor %}

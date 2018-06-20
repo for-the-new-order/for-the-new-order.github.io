@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Enemy",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Text":
+            "The enemy has a name, and the New Order troops know it!\n\nUpgrade the difficulty of all Team Presence skill check by 1 per rank in Enemy."
+    },
+    {
+        "Name": "I Kicked your big brother's ass",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Prerequisite":
+            "This talent should only be assigned to Nemesis or powerful recurring Rivals.",
+        "Text":
+            "Past defeats have an impact on our future decisions. Don't doubt yourself, but hey! I did kick your big brother's ass!\n\nDuring mass combat, upgrade the difficulty of the dice pool a number of times equal to the \"I Kicked your brother's ass\" rank."
+    }
+]
