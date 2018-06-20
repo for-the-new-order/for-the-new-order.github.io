@@ -3,7 +3,8 @@ title: Imperial Troops Deployment Rules
 permalink: /rules/imperial-troops-deployment-rules/
 ---
 
-_**This is an untested work in progress.**_
+This is an untested **work in progress**.
+{: .notice--danger}
 
 As Imperial Agents, players have access to all kind of imperial perks!
 

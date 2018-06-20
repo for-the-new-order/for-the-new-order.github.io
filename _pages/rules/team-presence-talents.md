@@ -4,7 +4,8 @@ permalink: /rules/team-presence-talents/
 toc_sticky: false
 ---
 
-_**This is an untested work in progress.**_
+This is an untested **work in progress**.
+{: .notice--danger}
 
 This page list all _Team Presence Talents_ available.
 
