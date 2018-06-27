@@ -8,7 +8,10 @@ This is an untested **work in progress**.
 
 As Imperial Agents, players have access to all kind of imperial perks!
 
-We could divide these perks into two categories: 1. Human resources 2. Material resources
+We could divide these perks into two categories:
+
+1.  Human resources
+2.  Material resources
 
 Some resources are easier than others to access… In this document, we will focus on the "human resources" aspect and how the PCs can control imperial troops during their adventures.
 

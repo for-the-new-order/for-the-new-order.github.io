@@ -16,7 +16,7 @@
 
 {% if talent.Source %}
 <footer>
-**Source:** {{ talent.Source }}
+**Source:** {% include talent-sources.html source=talent.Source %}
 {% if talent.From and talent.From != talent.Name %}(origin: {{ talent.From }}){% endif %}
 </footer>
 {% endif %}
