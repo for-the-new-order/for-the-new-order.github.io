@@ -20,10 +20,14 @@ rules: # Rules menu (left)
       - title: Talents database
         url: /rules/talents/
       - title: Symbols and dices
-        url: /symbols-and-dices/
+        url: /rules/symbols-and-dices/
   - title: "House rules"
     children:
-      - title: Imperial Troops Deployment Rules
+      - title: Imperial Troops Deployment
         url: /rules/imperial-troops-deployment-rules/
       - title: Team presence talents
         url: /rules/team-presence-talents/
+  - title: "Game master"
+    children:
+      - title: Mass combat (War)
+        url: /rules/mass-combat/

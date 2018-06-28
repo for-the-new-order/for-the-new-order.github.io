@@ -1,6 +1,6 @@
 ---
 title: Symbols and dices
-permalink: /symbols-and-dices/
+permalink: /rules/symbols-and-dices/
 ---
 
 ## Symbols
@@ -35,6 +35,7 @@ permalink: /symbols-and-dices/
 {% assign dices = site.data.symbols %}
 {% for dice in dices %}
 {% if dice.category == "dice" %}
+
   <tr>
     <td>{{dice.type | capitalize}}</td>
     <td>{% include text-with-symbols.html content=dice.source %}</td>

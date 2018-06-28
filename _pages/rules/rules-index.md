@@ -15,8 +15,7 @@ Genesys
 
 ## Star Wars specific mechanics
 
--   Use Age of Rebellion's duty system (p. 49, 325).
--   Use Age of Rebellion's Onslaught at Arda I module's mass combat system (p. 30).
+Age of Rebellion's duty system (p. 49, 325).
 
 ## Skills
 
@@ -46,10 +45,11 @@ Genesys
 
 ## Specialization
 
-To account for the increased number of skills (knowledge), at character creation:
+To account for the increased number of skills (knowledge) and the epicness of Star Wars heroes and villains, at character creation:
 
 -   If a player find a specialization that suits him, apply the 4 new career skills and increase two of those by 1 as per the Star Wars rules.
 -   If a player does not find a specialization, allow him to create one and give that player:
     -   2 more career skills
         -   GM and player must agree on the skills
     -   2 skill points to add to career skills. At least one must increase the two new career skills.
+        -   As per normal rules, no single skill can start with more than two ranks.
