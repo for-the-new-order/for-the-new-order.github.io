@@ -2,7 +2,7 @@
 title: Some secret guy!
 clan: Rebels
 type: NEMESIS
-public: false
+exerpt: "Some super dude!"
 ---
 
 Some private guy!

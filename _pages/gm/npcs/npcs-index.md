@@ -1,12 +1,10 @@
 ---
-title: NPCs
-permalink: /game-content/npcs/
+title:  Game Master NPCs
+permalink: /gm/npcs/
 ---
 
-NPCs that you know!
-
 <div class="npcs">
-{% for npc in site.npcs %}
+{% for npc in site.gm-npcs %}
   <div class="npc">
     <h2><a href="{{ npc.url }}">{{ npc.title }}</a></h2>
     {{ npc.exerpt }}

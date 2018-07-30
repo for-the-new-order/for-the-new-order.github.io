@@ -4,92 +4,126 @@ title: NPC
 classes: wide
 excerpt: "EMPTY!"
 ---
+{% assign data = site.data.npcs[page.title] %}
 <section class="npc-details">
     <header>
-        <aside class="clan">{{ page.clan }}</aside>
+        {% if data %}
+            <aside class="clan">{{ data.clan }}</aside>
+        {% endif %}
         <h2>
             {{ page.title }}
-            <small>({{ page.type }})</small>
+            {% if data %}
+                <small>({{ data.type }})</small>
+            {% endif %}
         </h2>
     </header>
     <section class="content">
         <img src="{{ page.image_path }}" alt="{{ page.title }}" />
         {{ page.content }}
     </section>
+    {% if data %}
+        {% if data.attributes and page.display-attributes %}
+        <section class="attributes">
+            <header>attributes</header>
+            <div class="attributes-row">
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">soak</div>
+                    <div class="attributeValue row">{{ data.attributes.soak }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">wounds</div>
+                    <div class="attributeValue row">{{ data.attributes.wounds }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">strain</div>
+                    <div class="attributeValue row">{{ data.attributes.strain }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/Defense.png" alt="" class="png">
+                    <div class="attributeValue row">{{ data.attributes.defense.ranged }}  |  {{ data.attributes.defense.melee }}</div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
 
-    {% if page.attributes %}
-    <section class="attributes">
-        <header>attributes</header>
-        <dl>
-            <dt>wounds</dt>
-            <dd>{{ page.attributes.wounds }}</dd>
-            <dt>defense</dt>
-            <dd class="defense">
-                <span>{{ page.attributes.defense.melee }}</span>
-                <span>{{ page.attributes.defense.ranged }}</span>
-            </dd>
-            <dt>soak</dt>
-            <dd>{{ page.attributes.soak }}</dd>
-        </dl>
-    </section>
-    {% endif %}
+        {% if data.characteristics and page.display-characteristics %}
+        <section class="characteristics">
+            <header>characteristics</header>
+            <div class="characteristics-row">
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.brawn}}</div>
+                    <div class="characteristicTitle row">brawn</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.agility}}</div>
+                    <div class="characteristicTitle row">agility</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.intellect}}</div>
+                    <div class="characteristicTitle row">intellect</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.cunning}}</div>
+                    <div class="characteristicTitle row">cunning</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.willpower}}</div>
+                    <div class="characteristicTitle row">willpower</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.presence}}</div>
+                    <div class="characteristicTitle row">presence</div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
 
-    {% if page.characteristics %}
-    <section class="characteristics">
-        <header>characteristics</header>
-        <dl>
-            <dt>brawn</dt>
-            <dd>{{page.characteristics.brawn}}</dd>
-            <dt>agility</dt>
-            <dd>{{page.characteristics.agility}}</dd>
-            <dt>intellect</dt>
-            <dd>{{page.characteristics.intellect}}</dd>
-            <dt>cunning</dt>
-            <dd>{{page.characteristics.cunning}}</dd>
-            <dt>willpower</dt>
-            <dd>{{page.characteristics.willpower}}</dd>
-            <dt>presence</dt>
-            <dd>{{page.characteristics.presence}}</dd>
-        </dl>
-    </section>
-    {% endif %}
+        {% if data.minion_skills and page.display-skills %}
+        <section>
+            <header>skills (group only)</header>
+            {{data.minion_skills}}
+        </section>
+        {% endif %}
 
-    {% if page.minion_skills %}
-    <section>
-        <header>skills (group only)</header>
-        {{page.minion_skills}}
-    </section>
-    {% endif %}
-
-    {% if page.skills %}
-    <section>
-        <header>skills</header>
-        ...
-    </section>
-    {% endif %}
-    
-    {% if page.talents %}
-    <section>
-        <header>talents</header>
-        ...
-    </section>
-    {% endif %}
-    
-    {% if page.abilities %}
-    <section>
-        <header>abilities</header>
-        ...
-    </section>
-    {% endif %}
-    
-    {% if page.equipment %}
-    <section>
-        <header>equipment</header>
-        <ul>
-            {% for e in page.equipment %}                
-                <li>{{e}}</li>
-            {% endfor %}
-        </ul>
-    </section>
+        {% if data.skills and page.display-skills %}
+        <section>
+            <header>skills</header>
+            ...
+        </section>
+        {% endif %}
+        
+        {% if data.talents and page.display-talents %}
+        <section>
+            <header>talents</header>
+            ...
+        </section>
+        {% endif %}
+        
+        {% if data.abilities and page.display-abilities %}
+        <section>
+            <header>abilities</header>
+            ...
+        </section>
+        {% endif %}
+        
+        {% if data.equipment and page.display-equipment %}
+        <section>
+            <header>equipment</header>
+            <ul>
+                {% for e in data.equipment %}                
+                    <li>{{e}}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
     {% endif %}
 </section>

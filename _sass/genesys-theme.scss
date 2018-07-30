@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700");
+@import "_mixins";
 
 @font-face {
     font-family: "genesys";
@@ -33,11 +34,7 @@
         h4,
         h5,
         h6 {
-            letter-spacing: 0.6px;
-            font-family: "Bebas Neue";
-            color: #1abeef;
-            font-variant: small-caps;
-            font-weight: 300;
+            @include genesys-heading();
         }
 
         .sidebar__right h4.nav__title {

@@ -43,3 +43,11 @@ gamecontent: # Player game content
         url: /game-content/
       - title: NPCs
         url: /game-content/npcs/
+
+gamemaster: # Game master menu
+  - title: "Game Master Content"
+    children:
+      - title: Game Master Home
+        url: /gm/
+      - title: NPCs
+        url: /gm/npcs/

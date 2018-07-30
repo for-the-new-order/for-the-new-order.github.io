@@ -332,12 +332,53 @@ defaults:
     values:
       layout: npc
       excerpt: ""
+      is-player: true
       sidebar:
         nav: "gamecontent"
       classes: 
         - npcs
+        - genesys-theme
+
+  - scope:
+      path: "_pages/gm"
+    values:
+      classes: 
+        - game-content
+        - game-master
+        - genesys-theme
+      sidebar:
+        nav: "gamemaster"
+      display-attributes: false
+      display-characteristics: false
+      display-skills: false
+      display-talents: false
+      display-abilities: false
+      display-equipment: false
+
+  - scope:
+      path: "_gm-npcs"
+      type: npcs
+    values:
+      layout: npc
+      excerpt: ""
+      is-player: false
+      sidebar:
+        nav: "gamemaster"
+      classes: 
+        - npcs
+        - genesys-theme
+      display-attributes: true
+      display-characteristics: true
+      display-skills: true
+      display-talents: true
+      display-abilities: true
+      display-equipment: true
+
 
 collections:
   npcs:
     output: true
     permalink: /game-content/:collection/:name
+  gm-npcs:
+    output: true
+    permalink: /gm/npcs/:name

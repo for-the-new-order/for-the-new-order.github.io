@@ -1,0 +1,29 @@
+Stormtrooper:
+  clan: Empire
+  type: MINION
+  attributes:
+      wounds: 5
+      defense: 
+          melee: 0
+          ranged: 0
+      soak: 5
+      strain: 0
+  characteristics:
+      brawn: 3
+      agility: 3
+      intellect: 2
+      cunning: 2
+      willpower: 3
+      presence: 1
+  minion_skills: Athletics, Discipline, Melee, Ranged (Heavy)
+  # skills
+  # talents: none
+  # abilities: none
+  equipment: 
+  - Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)
+  - Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)
+  - 2 frag grenades (Ranged [Light]; Damage 8; Critical 4; Range [Short]; Blast 6, Limited Ammo 1)
+  - Stormtrooper armor (+2 soak)
+  - Utility belt
+  - Extra reloads
+  - Individuals or groups of two may be armed with light repeating blasters with slings (Ranged [Heavy]; Damage 11; Critical 3; Range [Long]; Auto-fire, Cumbersome 4, Pierce 1)
