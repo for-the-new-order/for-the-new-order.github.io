@@ -348,6 +348,8 @@ defaults:
         - genesys-theme
       sidebar:
         nav: "gamemaster"
+      display-description: true
+      display-exerpt: false
       display-attributes: false
       display-characteristics: false
       display-skills: false
@@ -357,7 +359,7 @@ defaults:
 
   - scope:
       path: "_gm-npcs"
-      type: npcs
+      type: gm-npcs
     values:
       layout: npc
       excerpt: ""
@@ -367,6 +369,8 @@ defaults:
       classes: 
         - npcs
         - genesys-theme
+      display-description: true
+      display-exerpt: false
       display-attributes: true
       display-characteristics: true
       display-skills: true
