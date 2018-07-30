@@ -1,6 +1,8 @@
 main: # Main menu (top)
   - title: Setting and rules
     url: /rules/
+  - title: Player game content
+    url: /game-content/
   - title: About
     url: /about/
 
@@ -9,6 +11,8 @@ home: # Home page menu (left)
     children:
       - title: Setting and rules
         url: /rules/
+      - title: Player game content
+        url: /game-content/
       - title: About
         url: /about/
 
@@ -31,3 +35,11 @@ rules: # Rules menu (left)
     children:
       - title: Mass combat (War)
         url: /rules/mass-combat/
+
+gamecontent: # Player game content
+  - title: "Game Content"
+    children:
+      - title: Content root
+        url: /game-content/
+      - title: NPCs
+        url: /game-content/npcs/

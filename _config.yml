@@ -316,3 +316,28 @@ defaults:
         - genesys-theme
       sidebar:
         nav: "rules"
+
+  - scope:
+      path: "_pages/game-content"
+    values:
+      classes: 
+        - game-content
+        - genesys-theme
+      sidebar:
+        nav: "gamecontent"
+
+  - scope:
+      path: "_npcs"
+      type: npcs
+    values:
+      layout: npc
+      excerpt: ""
+      sidebar:
+        nav: "gamecontent"
+      classes: 
+        - npcs
+
+collections:
+  npcs:
+    output: true
+    permalink: /game-content/:collection/:name

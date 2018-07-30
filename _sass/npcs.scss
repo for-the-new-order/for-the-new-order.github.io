@@ -1,0 +1,19 @@
+.npcs {
+    .npc-details {
+        .clan {
+            float: right;
+            font-style: italic;
+            line-height: 2.1em;
+        }
+        .content {
+            clear: right;
+
+            img {
+                width: 250px;
+                float: right;
+                margin-left: 1em;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

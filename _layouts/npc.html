@@ -1,0 +1,95 @@
+--- 
+layout: single 
+title: NPC
+classes: wide
+excerpt: "EMPTY!"
+---
+<section class="npc-details">
+    <header>
+        <aside class="clan">{{ page.clan }}</aside>
+        <h2>
+            {{ page.title }}
+            <small>({{ page.type }})</small>
+        </h2>
+    </header>
+    <section class="content">
+        <img src="{{ page.image_path }}" alt="{{ page.title }}" />
+        {{ page.content }}
+    </section>
+
+    {% if page.attributes %}
+    <section class="attributes">
+        <header>attributes</header>
+        <dl>
+            <dt>wounds</dt>
+            <dd>{{ page.attributes.wounds }}</dd>
+            <dt>defense</dt>
+            <dd class="defense">
+                <span>{{ page.attributes.defense.melee }}</span>
+                <span>{{ page.attributes.defense.ranged }}</span>
+            </dd>
+            <dt>soak</dt>
+            <dd>{{ page.attributes.soak }}</dd>
+        </dl>
+    </section>
+    {% endif %}
+
+    {% if page.characteristics %}
+    <section class="characteristics">
+        <header>characteristics</header>
+        <dl>
+            <dt>brawn</dt>
+            <dd>{{page.characteristics.brawn}}</dd>
+            <dt>agility</dt>
+            <dd>{{page.characteristics.agility}}</dd>
+            <dt>intellect</dt>
+            <dd>{{page.characteristics.intellect}}</dd>
+            <dt>cunning</dt>
+            <dd>{{page.characteristics.cunning}}</dd>
+            <dt>willpower</dt>
+            <dd>{{page.characteristics.willpower}}</dd>
+            <dt>presence</dt>
+            <dd>{{page.characteristics.presence}}</dd>
+        </dl>
+    </section>
+    {% endif %}
+
+    {% if page.minion_skills %}
+    <section>
+        <header>skills (group only)</header>
+        {{page.minion_skills}}
+    </section>
+    {% endif %}
+
+    {% if page.skills %}
+    <section>
+        <header>skills</header>
+        ...
+    </section>
+    {% endif %}
+    
+    {% if page.talents %}
+    <section>
+        <header>talents</header>
+        ...
+    </section>
+    {% endif %}
+    
+    {% if page.abilities %}
+    <section>
+        <header>abilities</header>
+        ...
+    </section>
+    {% endif %}
+    
+    {% if page.equipment %}
+    <section>
+        <header>equipment</header>
+        <ul>
+            {% for e in page.equipment %}                
+                <li>{{e}}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+</section>
