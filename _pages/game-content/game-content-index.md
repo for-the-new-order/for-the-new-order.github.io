@@ -13,3 +13,5 @@ All West End Games books are available in PDF there: [http://www.starwarstimelin
 ## Crawls
 
 -   Introduction: For the New Order<!-- [Introduction: For the New Order](https://crawlcore.azurewebsites.net/crawls/facebook877700219000027/introduction-fortheneworder.json) -->
+-   Episode 1: The Imperial War Machine <!-- [Episode 1: The Imperial War Machine](https://crawlcore.azurewebsites.net/crawls/facebook877700219000027/episode1-theimperialwarmachine.json) -->
+-   Episode 2: ?
