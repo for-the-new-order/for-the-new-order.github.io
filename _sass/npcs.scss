@@ -1,7 +1,21 @@
 @import "_mixins";
 
 .npcs {
+    .npc-list-item {
+        footer {
+            text-align: center;
+            margin-top: 1em;
+            a {
+                display: block;
+                font-weight: normal;
+            }
+        }
+    }
     .npc-details {
+        & > header h2 {
+            margin-top: 0;
+        }
+
         .clan {
             float: right;
             font-style: italic;

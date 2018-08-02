@@ -28,7 +28,7 @@
     .page__content {
         font-family: "Crimson Text", serif;
 
-        h2:first-of-type {
+        & > h2:first-of-type {
             margin-top: 0;
         }
 

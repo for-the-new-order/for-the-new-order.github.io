@@ -1,0 +1,16 @@
+{% assign npcs = include.npcs %}
+<h2>NPCs</h2>
+<div class="npcs">
+{% for npc in npcs %}
+  <section class="npc-list-item">
+    <h3>{{ npc.title }}</h3>
+    {{ npc.exerpt }}
+    <footer>
+      <a href="{{ npc.url }}" class="btn btn--light-outline">
+        View sheet of
+        <i>{{ npc.title }}</i>
+      </a>
+    </footer>
+  </section>
+{% endfor %}
+</div>
