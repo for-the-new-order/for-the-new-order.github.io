@@ -3,8 +3,6 @@ title: NPCs
 permalink: /game-content/npcs/
 ---
 
-NPCs that you know!
-
 <div class="npcs">
 {% for npc in site.npcs %}
   <div class="npc">

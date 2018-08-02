@@ -32,3 +32,90 @@ Stormtrooper:
   - There is no greater symbol of the Emperor's New Order than the elite stormtrooper legions that enforce his will without remorse, mercy, or compassion. The featureless helmets, the uniformity of their armor, and the sheer number of them advancing without care for the losses they sustain, all contribute to their intractable image. The details of the Clone Wars have been long forgotten by the majority of the galaxy's denizens. As a result, there are precious few who associate the terrifying modern stormtroopers with the once-heroic clone troopers who waged that conflict on behalf of the Galactic Republic.
   - The Imperial Stormtrooper Corps is an independent branch of the military, and while they answer to the officers of both the Army and the Navy, their own commanders have the discretion to ignore or overrule orders issued to them if they feel they are not in the best interests of the Galactic Empire. There are numerous specialties within the stormtrooper legions, the majority of which use equipment that meshes with their training to create a cadre of elite troops that can effectively serve in virtually any combat theater.
   reference: AoR p.420
+Grand Moff Leeadra Leonis:
+  clan: Empire
+  type: NEMESIS
+  image_path: /assets/images/npcs/grand-moff-leeadra-leonis.jpg
+  attributes:
+      wounds: 12
+      defense: 
+          melee: 0
+          ranged: 0
+      soak: 2
+      strain: 14
+  characteristics:
+      brawn: 2
+      agility: 3
+      intellect: 4
+      cunning: 3
+      willpower: 4
+      presence: 5
+  skills: 
+  - Charm 4
+  - Coercion 5
+  - Cool 4
+  - Deception 5
+  - Discipline 4
+  - Knowledge (Core Worlds) 5
+  - Leadership 5
+  - Ranged (Light) 3
+  - Streetwise 3
+  - Vigilance 3
+  talents: 
+  - name: Adversary 2 
+    effect: Upgrade difficulty of all combat checks against this target twice.
+  - name: Plausible Deniability 4
+    effect: Remove [SE][SE][SE][SE] from all Coercion or Deception checks
+  - name: Supreme Inspiring Rhetoric 2
+    effect: As a maneuver, may make an Average ([DI][DI]) Leadership check; each [SU] removes 1 strain or wound from one ally in short range; spend [AD] to remove 1 additional strain or wound from an affected ally; all affected allies add [BO][BO] to all checks for 4 rounds.
+  abilities: 
+  - name: Imperial Valor
+    effect: May perform a maneuver to cause all ranged attacks targeting the Grand Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn.
+  equipment:
+  - Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting) 
+  description: 
+  - TODO, describe Grand Moff Leeadra Leonis
+Grand Admiral Barret Marh:
+  clan: Empire
+  type: NEMESIS
+  image_path: /assets/images/npcs/grand-admiral-barret-marh.jpg
+  attributes:
+      wounds: 13
+      defense: 
+          melee: 0
+          ranged: 0
+      soak: 3
+      strain: 14
+  characteristics:
+      brawn: 3
+      agility: 4
+      intellect: 5
+      cunning: 4
+      willpower: 4
+      presence: 5
+  skills: 
+  - Discipline 3
+  - Knowledge (Warfare) 4
+  - Leadership 4
+  - Ranged (Heavy) 2
+  - Ranged (Light) 3
+  - Perception 4
+  - Vigilance 3
+  talents: 
+  - name: Adversary 3 
+    effect: Upgrade difficulty of all combat checks against this target three time.
+  - name: Command 3
+    effect: Add [BO][BO][BO] to Leadership checks; affected targets add [BO][BO][BO] to Discipline checks for the next 24 hours.
+  - name: Commanding Presence 2
+    effect: Remove [SE][SE] from all Leadership checks.
+  - name: Field Commander
+    effect: As an action, may make an Average ([DI][DI]) Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver.
+  abilities: 
+  - name: Space Supremacy 2
+    effect: May perform a maneuver to direct two Imperial Navy minion group within medium range; the group may perform an immediate free maneuver or add [BO][BO] to its next check.
+  - name: Overwhelming Fire 2
+    effect: May perform a maneuver to direct two Imperial Navy minion group within medium range; the group may perform an immediate free combat check action.
+  equipment:
+  - Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting) 
+  description: 
+  - TODO, describe Grand Admiral Barret Marh

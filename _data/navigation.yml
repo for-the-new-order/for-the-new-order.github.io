@@ -39,11 +39,20 @@ rules: # Rules menu (left)
 gamecontent: # Player game content
   - title: "Game Content"
     children:
-      - title: Content root
+      - title: Content and Crawls
         url: /game-content/
       - title: NPCs
         url: /game-content/npcs/
-
+  - title: Imperial Sourcebook
+    children:
+      - title: Organization of the Empire
+        url: /imperial-sourcebook/organization-of-the-empire/
+      - title: Ranks
+        url: /imperial-sourcebook/ranks/
+      - title: COMPNOR
+        url: /imperial-sourcebook/compnor/
+      - title: Imperial Intelligence
+        url: /imperial-sourcebook/imperial-intelligence/
 gamemaster: # Game master menu
   - title: "Game Master Content"
     children:
