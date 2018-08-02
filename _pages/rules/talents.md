@@ -8,7 +8,10 @@ toc_sticky: false
 
 By default, the following talents, but the depreciated one, are allowed.
 
-If a talent does not feel right for Star Wars, the GM can always forbid its use. This is especially true for `Realms of Terrinoth (ROT)` talents that could be more fantasy-oriented than Star Wars-y.
+If a talent does not feel right for Star Wars, the GM can always forbid its use. 
+This is especially true for `Realms of Terrinoth (ROT)` talents that could be more fantasy-oriented than Star Wars-y.
+For that reason, I removed all `Realms of Terrinoth (ROT)` talents from the list.
+As for `Community Created Content (CCC)`, I placed them at the bottom of the list, before the `Depreciated` ones.
 
 ## Genesys Talents Expanded
 
@@ -33,10 +36,34 @@ Additional talents, at the end of the collection, were created and vetted by the
 
 {% for talent in talents %}
 {% if talent.Tier == tier and talent.Depreciated == "" %}
+{% assign sources = talent.Source | split: ", " %}
+{% unless sources contains 'ROT' %}
+{% assign isCCC = false %}
+{% for sourceAbbr in sources %}{% assign trimmedAbbr = sourceAbbr | strip %}{% if trimmedAbbr contains "CCC-" %}{% assign isCCC = true %}{% endif %}{% endfor %}
+{% unless isCCC %}
 {% include talent.md talent=talent %}
+{% endunless %}
+{% endunless %}
 {% endif %}
 {% endfor %}
+
 {% endfor %}
+
+
+
+## Community Created Content
+
+{% for talent in talents %}
+{% assign sources = talent.Source | split: ", " %}
+{% unless sources contains 'ROT' %}
+{% assign isCCC = false %}
+{% for sourceAbbr in sources %}{% assign trimmedAbbr = sourceAbbr | strip %}{% if trimmedAbbr contains "CCC-" %}{% assign isCCC = true %}{% endif %}{% endfor %}
+{% if isCCC %}
+{% include talent.md talent=talent %}
+{% endif %}
+{% endunless %}
+{% endfor %}
+
 
 ## Depreciated
 
