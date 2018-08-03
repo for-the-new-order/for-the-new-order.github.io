@@ -119,3 +119,33 @@ Grand Admiral Barret Marh:
   - Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting) 
   description: 
   - TODO, describe Grand Admiral Barret Marh
+Commander Carter Foxwell:
+  clan: Empire
+  type: NEMESIS
+  image_path: /assets/images/npcs/commander-carter-foxwell.jpg
+  attributes:
+      wounds: 0
+      defense: 
+          melee: 0
+          ranged: 0
+      soak: 0
+      strain: 0
+  characteristics:
+      brawn: 0
+      agility: 0
+      intellect: 0
+      cunning: 0
+      willpower: 0
+      presence: 0
+  skills: 
+  - Discipline 0
+  talents: 
+  - name: Adversary 2 
+    effect: Upgrade difficulty of all combat checks against this target twice.
+  abilities: 
+  - name: some name
+    effect: some effect
+  equipment:
+  - Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting) 
+  description: 
+  - TODO, describe Commander Carter Foxwell of the ISB...

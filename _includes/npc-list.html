@@ -1,16 +1,33 @@
 {% assign npcs = include.npcs %}
 <h2>NPCs</h2>
 <div class="npcs">
-{% for npc in npcs %}
-  <section class="npc-list-item">
-    <h3>{{ npc.title }}</h3>
-    {{ npc.exerpt }}
-    <footer>
-      <a href="{{ npc.url }}" class="btn btn--light-outline">
-        View sheet of
-        <i>{{ npc.title }}</i>
-      </a>
-    </footer>
-  </section>
-{% endfor %}
+
+  {% for npc in npcs %}
+    {% assign data = site.data.npcs[npc.title] %}
+    <section class="npc-list-item">
+    {% if data %}
+      <header>
+          <h2 id="{{ npc.title | handleize }}">
+              {{ npc.title }}
+              <small>({{ data.clan }})</small>
+          </h2>
+      </header>
+      <section class="content">
+          <img src="{{ data.image_path }}" alt="{{ npc.title }}" />
+          {{ npc.exerpt }}
+      </section>
+    {% else %}
+      <h2 id="{{ npc.title | handleize }}">{{ npc.title }}</h2>
+      <section class="content">
+          {{ npc.exerpt }}
+      </section>
+    {% endif %}
+      <footer>
+        <a href="{{ npc.url }}" class="btn btn--light-outline">
+          View sheet of
+          <i>{{ npc.title }}</i>
+        </a>
+      </footer>
+    </section>
+  {% endfor %}
 </div>
