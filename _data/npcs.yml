@@ -35,7 +35,8 @@ Stormtrooper:
 Grand Moff Leeadra Leonis:
   clan: Empire
   type: NEMESIS
-  image_path: /assets/images/npcs/grand-moff-leeadra-leonis.jpg
+  #image_path: /assets/images/npcs/grand-moff-leeadra-leonis.jpg
+  image_paht: http://via.placeholder.com/250x250
   attributes:
       wounds: 12
       defense: 
