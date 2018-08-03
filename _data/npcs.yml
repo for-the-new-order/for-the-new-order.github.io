@@ -36,7 +36,7 @@ Grand Moff Leeadra Leonis:
   clan: Empire
   type: NEMESIS
   #image_path: /assets/images/npcs/grand-moff-leeadra-leonis.jpg
-  image_paht: http://via.placeholder.com/250x250
+  image_paht: /assets/images/npcs/250x250.png
   attributes:
       wounds: 12
       defense: 
