@@ -4797,4 +4797,15 @@
         "From": "Sneak Attack",
         "Depreciated": "V4.0"
     }
+    ,
+    {
+        "Name": "Cunning Attack",
+        "Tier": 1,
+        "Activation": "Active (Incidental)",
+        "Ranked": "No",
+        "Text":
+            "When making a Melee check with a weapon of choice (choose 1), your character may use Cunning instead of Brawn. With any other melee weapon, your character may use Cunning instead of Brawn but must suffer 2 strain damage to do so.",
+        "Source": "FTNO",
+        "Depreciated": ""
+    }
 ]
