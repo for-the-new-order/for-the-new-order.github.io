@@ -65,6 +65,24 @@ Additional talents, at the end of the collection, were created and vetted by the
 {% endfor %}
 
 
+## Realms of Terrinoth
+
+{% for tier in tiers %}
+
+## Tier {{ tier }}
+
+{% assign talents = site.data.talents | sort: 'Tier' %}
+{% for talent in talents %}
+{% if talent.Tier == tier %}
+{% assign sources = talent.Source | split: ", " %}
+{% if sources contains 'ROT' %}
+{% include talent.md talent=talent %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+
 ## Depreciated
 
 {% for talent in talents %}
