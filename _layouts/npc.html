@@ -95,41 +95,53 @@ excerpt: "EMPTY!"
         {% endif %}
 
         {% if data.minion_skills and page.display-skills %}
-        <section>
+        <section class="minion-skills">
             <header>skills (group only)</header>
-            {{data.minion_skills}}
+            <p>{{data.minion_skills}}</p>
         </section>
         {% endif %}
 
         {% if data.skills and page.display-skills %}
-        <section>
+        <section class="skills">
             <header>skills</header>
-            ...
+            {% for skill in data.skills %}
+                <div class="skill">{{ skill }}</div>
+            {% endfor %}
         </section>
         {% endif %}
         
         {% if data.talents and page.display-talents %}
-        <section>
+        <section class="talents">
             <header>talents</header>
-            ...
+            {% for talent in data.talents %}
+                <div class="talent">
+                    <strong>{{ talent.name }}</strong>
+                    <p>{% include text-with-symbols.html content=talent.effect %}</p>
+                </div>
+            {% endfor %}
         </section>
         {% endif %}
         
         {% if data.abilities and page.display-abilities %}
-        <section>
+        <section class="abilities">
             <header>abilities</header>
-            ...
+            {% for ability in data.abilities %}
+                <div class="ability">
+                    <strong>{{ ability.name }}</strong>
+                    <p>{% include text-with-symbols.html content=ability.effect %}</p>
+                </div>
+            {% endfor %}
         </section>
         {% endif %}
         
         {% if data.equipment and page.display-equipment %}
-        <section>
+        <section class="equipment-list">
             <header>equipment</header>
-            <ul>
-                {% for e in data.equipment %}                
-                    <li>{{e}}</li>
-                {% endfor %}
-            </ul>
+            {% for e in data.equipment %}
+                <div class="equipment">
+                    {% include text-with-symbols.html content=e %}
+                </div>
+            {% endfor %}
         </section>
         {% endif %}
 
