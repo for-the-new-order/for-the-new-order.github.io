@@ -332,22 +332,13 @@ defaults:
     values:
       layout: npc
       excerpt: ""
-      is-player: true
       sidebar:
         nav: "gamecontent"
       classes: 
         - npcs
         - genesys-theme
-
-  - scope:
-      path: "_pages/gm"
-    values:
-      classes: 
-        - game-content
-        - game-master
-        - genesys-theme
-      sidebar:
-        nav: "gamemaster"
+        - wide
+      toc: false
       display-description: true
       display-exerpt: false
       display-attributes: false
@@ -358,17 +349,28 @@ defaults:
       display-equipment: false
 
   - scope:
+      path: "_pages/gm"
+    values:
+      classes: 
+        - game-content
+        - game-master
+        - genesys-theme
+      sidebar:
+        nav: "gamemaster"
+
+  - scope:
       path: "_gm-npcs"
       type: gm-npcs
     values:
       layout: npc
       excerpt: ""
-      is-player: false
       sidebar:
         nav: "gamemaster"
       classes: 
         - npcs
         - genesys-theme
+        - wide
+      toc: false
       display-description: true
       display-exerpt: false
       display-attributes: true

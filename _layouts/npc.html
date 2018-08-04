@@ -1,7 +1,6 @@
 --- 
 layout: single 
 title: NPC
-classes: wide
 excerpt: "EMPTY!"
 ---
 {% assign data = site.data.npcs[page.title] %}
@@ -147,7 +146,8 @@ excerpt: "EMPTY!"
 
         {% if data.reference %}
         <footer>
-            Source: {{data.reference}}
+            Source: {% include talent-sources.html source=data.reference.source %}
+            p.{{data.reference.page}}
         </footer>
         {% endif %}
     {% else %}
