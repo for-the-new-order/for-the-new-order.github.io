@@ -56,6 +56,30 @@
                 margin-bottom: 1em;
                 clear: both;
             }
+
+            &.motivation {
+                border: 1px solid #1abeef;
+                clear: both;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: stretch;
+                border-radius: 10px;
+
+                & > header {
+                    text-align: center;
+                    padding: 15px 0;
+                    margin-bottom: 0;
+                    width: 100%;
+                    background-color: darken($color: #1abeef, $amount: 35);
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+                & > section {
+                    padding: 1em;
+                    width: 50%;
+                }
+            }
         }
 
         .attributes-row,

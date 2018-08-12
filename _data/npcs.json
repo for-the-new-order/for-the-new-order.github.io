@@ -43,7 +43,7 @@
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Grand Moff",
-        "image_path": "/assets/images/npcs/250x250.png",
+        "image_path": "/assets/images/npcs/grand-moff-leeadra-leonis.jpg",
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -268,6 +268,61 @@
             "flaw": {
                 "name": "Compulsion",
                 "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
+    },
+    "Tlauhath": {
+        "initialSeed": 32968,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "rank": "Ensign",
+        "clan": "Empire",
+        "personality": "Angry",
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Your character values peace and comfort above all else. Perhaps they seek shelter, a steady source of food, or other material necessities, or they might seek emotional security in a place free from oppression and abuse."
+            },
+            "fear": {
+                "name": "Poverty",
+                "description": "For your character, it’s all about wealth and security. They fear being without, and they work hard to amass money, supplies, and other valuable items to ensure their status."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    },
+    "Karly Cop": {
+        "initialSeed": 56602,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Chief of Department",
+        "clan": "Empire",
+        "personality": "Clueless",
+        "motivation": {
+            "desires": {
+                "name": "Ambition",
+                "description": "Your character craves power and authority over others. The character may pursue privilege, social status, or rank to achieve this goal."
+            },
+            "fear": {
+                "name": "Expression",
+                "description": "Your character has some behavior or means of expressing themself privately that they do not want the world to know about. The nature of that behavior is up to you. Keep the setting in mind when you come up with it, though."
+            },
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Intolerance",
+                "description": "For whatever reason, your character harbors some prejudices toward a group of people. These may be relatively “minor” biases, or they may give rise to an intense emotion of hatred or revulsion. Whatever form it takes, remember that intolerance is based more in emotion than rationality."
             }
         }
     }
