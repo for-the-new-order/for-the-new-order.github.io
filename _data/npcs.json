@@ -39,9 +39,10 @@
             "page": "420"
         }
     },
-    "Grand Moff Leeadra Leonis": {
+    "Leeadra Leonis": {
         "clan": "Empire",
         "type": "NEMESIS",
+        "rank": "Grand Moff",
         "image_path": "/assets/images/npcs/250x250.png",
         "attributes": {
             "wounds": 12,
@@ -75,25 +76,21 @@
         "talents": [
             {
                 "name": "Adversary 2",
-                "effect":
-                    "Upgrade difficulty of all combat checks against this target twice."
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
             },
             {
                 "name": "Plausible Deniability 4",
-                "effect":
-                    "Remove [SE][SE][SE][SE] from all Coercion or Deception checks"
+                "effect": "Remove [SE][SE][SE][SE] from all Coercion or Deception checks"
             },
             {
                 "name": "Supreme Inspiring Rhetoric 2",
-                "effect":
-                    "As a maneuver, may make an Average ([DI][DI]) Leadership check; each [SU] removes 1 strain or wound from one ally in short range; spend [AD] to remove 1 additional strain or wound from an affected ally; all affected allies add [BO][BO] to all checks for 4 rounds."
+                "effect": "As a maneuver, may make an Average ([DI][DI]) Leadership check; each [SU] removes 1 strain or wound from one ally in short range; spend [AD] to remove 1 additional strain or wound from an affected ally; all affected allies add [BO][BO] to all checks for 4 rounds."
             }
         ],
         "abilities": [
             {
                 "name": "Imperial Valor",
-                "effect":
-                    "May perform a maneuver to cause all ranged attacks targeting the Grand Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
+                "effect": "May perform a maneuver to cause all ranged attacks targeting the Grand Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
             }
         ],
         "equipment": [
@@ -101,9 +98,10 @@
         ],
         "description": ["TODO, describe Grand Moff Leeadra Leonis"]
     },
-    "Grand Admiral Barret Marh": {
+    "Barret Marh": {
         "clan": "Empire",
         "type": "NEMESIS",
+        "rank": "Grand Admiral",
         "image_path": "/assets/images/npcs/grand-admiral-barret-marh.jpg",
         "attributes": {
             "wounds": 13,
@@ -134,13 +132,11 @@
         "talents": [
             {
                 "name": "Adversary 3",
-                "effect":
-                    "Upgrade difficulty of all combat checks against this target three time."
+                "effect": "Upgrade difficulty of all combat checks against this target three time."
             },
             {
                 "name": "Command 3",
-                "effect":
-                    "Add [BO][BO][BO] to Leadership checks; affected targets add [BO][BO][BO] to Discipline checks for the next 24 hours."
+                "effect": "Add [BO][BO][BO] to Leadership checks; affected targets add [BO][BO][BO] to Discipline checks for the next 24 hours."
             },
             {
                 "name": "Commanding Presence 2",
@@ -148,20 +144,17 @@
             },
             {
                 "name": "Field Commander",
-                "effect":
-                    "As an action, may make an Average ([DI][DI]) Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
+                "effect": "As an action, may make an Average ([DI][DI]) Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
             }
         ],
         "abilities": [
             {
                 "name": "Space Supremacy",
-                "effect":
-                    "May perform a maneuver to direct an Imperial Navy minion group within medium range; the group may perform an immediate free maneuver or add [BO][BO] to its next check."
+                "effect": "May perform a maneuver to direct an Imperial Navy minion group within medium range; the group may perform an immediate free maneuver or add [BO][BO] to its next check."
             },
             {
                 "name": "Overwhelming Fire",
-                "effect":
-                    "May perform a maneuver to direct an Imperial Navy minion group within medium range; the group may perform an immediate free combat check action."
+                "effect": "May perform a maneuver to direct an Imperial Navy minion group within medium range; the group may perform an immediate free combat check action."
             }
         ],
         "equipment": [
@@ -169,9 +162,10 @@
         ],
         "description": ["TODO, describe Grand Admiral Barret Marh"]
     },
-    "Commander Carter Foxwell": {
+    "Carter Foxwell": {
         "clan": "Empire",
         "type": "NEMESIS",
+        "rank": "Commander",
         "image_path": "/assets/images/npcs/commander-carter-foxwell.jpg",
         "attributes": {
             "wounds": 16,
@@ -202,25 +196,21 @@
         "talents": [
             {
                 "name": "Adversary 2",
-                "effect":
-                    "Upgrade difficulty of all combat checks against this target twice."
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
             },
             {
                 "name": "Command 2",
-                "effect":
-                    "Add [BO][BO] to Leadership checks; affected targets add [BO][BO] to Discipline checks for the next 24 hours."
+                "effect": "Add [BO][BO] to Leadership checks; affected targets add [BO][BO] to Discipline checks for the next 24 hours."
             },
             {
                 "name": "Field Commander",
-                "effect":
-                    "As an action, may make an Average ([DI][DI]) Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
+                "effect": "As an action, may make an Average ([DI][DI]) Leadership check; 4 allies may immediately suffer 1 strain to perform a free maneuver."
             }
         ],
         "abilities": [
             {
                 "name": "COMPNOR Dedication",
-                "effect":
-                    "May perform a maneuver to direct a COMPNOR agent within short range; the agent may suffer 1 strain to perform an immediate free combat check action."
+                "effect": "May perform a maneuver to direct a COMPNOR agent within short range; the agent may suffer 1 strain to perform an immediate free combat check action."
             }
         ],
         "equipment": [
@@ -230,5 +220,55 @@
             "Armored clothing (+ 1 defense, +1 soak)"
         ],
         "description": ["TODO, describe Commander Carter Foxwell"]
+    },
+    "Adena Baltzell": {
+        "initialSeed": 75225,
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "rank": "Colonel",
+        "clan": "Empire",
+        "personality": "Raspy voice",
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Your character seeks the limelight and wants to be famous. They pursue anything that can garner attention and praise."
+            },
+            "fear": {
+                "name": "Change",
+                "description": "Your character finds routine and stability comforting, and fears changes that could upend their day-to-day routine."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
+    },
+    "Bordie Claeson": {
+        "initialSeed": 164408,
+        "rank": "Captain",
+        "clan": "Empire",
+        "personality": "Amorous",
+        "motivation": {
+            "desires": {
+                "name": "Knowledge",
+                "description": "Your character wishes to uncover knowledge that may have been lost, forgotten, or locked away. This information could pertain to the world, or it could pertain to your character’s past or origins."
+            },
+            "fear": {
+                "name": "Nemesis",
+                "description": "Your character has a deadly foe, someone they fear (even if they don’t admit it). The nature of this enemy is up to you, but we suggest you consult with your GM. After all, your GM surely wants to bring this up in the game!"
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
     }
 }

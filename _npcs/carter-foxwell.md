@@ -1,6 +1,6 @@
 ---
-title: Commander Carter Foxwell
-exerpt: Commander Carter Foxwell is a key NPC in the campaign...
+title: Carter Foxwell
+exerpt: Carter Foxwell is a key NPC in the campaign...
 display-description: false
 display-exerpt: true
 # display-attributes: true

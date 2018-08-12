@@ -9,7 +9,7 @@ excerpt: "EMPTY!"
         <header>
             <aside class="clan">{{ data.clan }}</aside>
             <h2>
-                {{ page.title }}
+                {{ page.title }}{% if data.rank %}, {{data.rank}}{% endif %}
                 <small>({{ data.type }})</small>
             </h2>
         </header>
@@ -27,6 +27,36 @@ excerpt: "EMPTY!"
             {% endfor %}
             {% endif %}
         </section>
+
+        {% if data.motivation and page.display-motivation %}
+        <section class="motivation">
+            <header>motivation</header>
+            {% if data.motivation.desires and page.display-motivation-desires %}
+                <section class="desires">
+                    <header>desires - {{ data.motivation.desires.name }}</header>
+                    {{ data.motivation.desires.description }}
+                </section>
+            {% endif %}
+            {% if data.motivation.fear and page.display-motivation-fear %}
+                <section class="fear">
+                    <header>fear - {{ data.motivation.fear.name }}</header>
+                    {{ data.motivation.fear.description }}
+                </section>
+            {% endif %}
+            {% if data.motivation.strength and page.display-motivation-strength %}
+                <section class="strength">
+                    <header>strength - {{ data.motivation.strength.name }}</header>
+                    {{ data.motivation.strength.description }}
+                </section>
+            {% endif %}
+            {% if data.motivation.flaw and page.display-motivation-flaw %}
+                <section class="flaw">
+                    <header>flaw - {{ data.motivation.flaw.name }}</header>
+                    {{ data.motivation.flaw.description }}
+                </section>
+            {% endif %}
+        </section>
+        {% endif %}
 
         {% if data.characteristics and page.display-characteristics %}
         <section class="characteristics">
@@ -144,10 +174,15 @@ excerpt: "EMPTY!"
         </section>
         {% endif %}
 
-        {% if data.reference %}
+        {% if data.reference or data.initialSeed %}
         <footer>
+            {% if data.reference %}
             Source: {% include talent-sources.html source=data.reference.source %}
             p.{{data.reference.page}}
+            {% endif %}
+            {% if data.initialSeed %}
+                <small class="initial-seed">Initial Seed: {{data.initialSeed}}</small>
+            {% endif %}
         </footer>
         {% endif %}
     {% else %}

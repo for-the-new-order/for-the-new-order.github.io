@@ -6,9 +6,15 @@
     {% assign data = site.data.npcs[npc.title] %}
     <section class="npc-list-item">
     {% if data %}
+      {% if data.rank %}
+        {% assign rank = ', ' | append: data.rank %}
+      {% else %}
+        {% assign rank = '' %}
+      {% endif %}
+      {% assign npcName = npc.title | append: rank %}
       <header>
-          <h2 id="{{ npc.title | handleize }}">
-              {{ npc.title }}
+          <h2 id="{{ npcName | handleize }}">
+              {{ npcName }}
               <small>({{ data.clan }})</small>
           </h2>
       </header>
