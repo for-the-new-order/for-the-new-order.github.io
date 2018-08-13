@@ -7,7 +7,28 @@
 {% assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' %}
 
 {%- if page.title -%}
-  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+  {% comment %} BEGIN use NPC data for title {% endcomment %}
+  {%- capture seo_title -%}
+  {%- if page.layout == 'npc' -%}
+    {%- assign data = site.data.npcs[page.title] -%}
+    {%- if data -%}
+      {%- if data.clan -%}
+        {{ '[' | append: data.clan | append: '] ' }}
+      {%- endif -%}
+      {{ page.title }}
+      {%- if data.rank -%}
+        {{ ', ' | append: data.rank }}
+      {%- endif -%}
+      {%- if data.type -%}
+        {{ ' (' | append: data.type | append: ')' }}
+      {%- endif -%}
+    {%- endif -%}
+  {%- else -%}
+    {{ page.title }}
+  {%- endif -%}
+  {{ ' ' | append: title_separator | append: " " | append: site.title }}
+  {%- endcapture -%}
+  {% comment %} END use NPC data for title {% endcomment %}
 {%- endif -%}
 
 {%- if seo_title -%}
