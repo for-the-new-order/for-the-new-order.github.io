@@ -1,4 +1,9 @@
 <!-- begin _includes/seo.html -->
+{%- if page.layout == 'npc' -%}
+  {%- assign data = site.data.npcs[page.title] -%}
+{%- endif -%}
+
+
 {%- if site.url -%}
   {%- assign seo_url = site.url | append: site.baseurl -%}
 {%- endif -%}
@@ -9,19 +14,16 @@
 {%- if page.title -%}
   {% comment %} BEGIN use NPC data for title {% endcomment %}
   {%- capture seo_title -%}
-  {%- if page.layout == 'npc' -%}
-    {%- assign data = site.data.npcs[page.title] -%}
-    {%- if data -%}
-      {%- if data.clan -%}
-        {{ '[' | append: data.clan | append: '] ' }}
-      {%- endif -%}
-      {{ page.title }}
-      {%- if data.rank -%}
-        {{ ', ' | append: data.rank }}
-      {%- endif -%}
-      {%- if data.type -%}
-        {{ ' (' | append: data.type | append: ')' }}
-      {%- endif -%}
+  {%- if data -%}
+    {%- if data.clan -%}
+      {{ '[' | append: data.clan | append: '] ' }}
+    {%- endif -%}
+    {{ page.title }}
+    {%- if data.rank -%}
+      {{ ', ' | append: data.rank }}
+    {%- endif -%}
+    {%- if data.type -%}
+      {{ ' (' | append: data.type | append: ')' }}
     {%- endif -%}
   {%- else -%}
     {{ page.title }}
@@ -37,7 +39,13 @@
 
 {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
 
+
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
+{% comment %} BEGIN use NPC data for description {% endcomment %}
+{%- if data and data.description.size > 0 -%}
+{%- assign seo_description = data.description[0] -%}
+{%- endif -%}
+{% comment %} END use NPC data for description {% endcomment %}
 {%- if seo_description -%}
   {%- assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}
@@ -56,7 +64,6 @@
 
 {% comment %} BEGIN use NPC image {% endcomment %}
 {%- if page.layout == 'npc' -%}
-  {%- assign data = site.data.npcs[page.title] -%}
   {%- if data -%}
     {%- assign page_large_image = data.image_path | absolute_url -%}    
   {%- endif -%}
@@ -92,7 +99,7 @@
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta property="og:title" content="{{ seo_title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
 
 {% if page.excerpt %}
