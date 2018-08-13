@@ -325,5 +325,34 @@
                 "description": "For whatever reason, your character harbors some prejudices toward a group of people. These may be relatively “minor” biases, or they may give rise to an intense emotion of hatred or revulsion. Whatever form it takes, remember that intolerance is based more in emotion than rationality."
             }
         }
+    },
+    "Casandra Bucceri": {
+        "initialSeed": 56611,
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant-General",
+        "clan": "Generic",
+        "personality": "Raspy voice",
+        "motivation": {
+            "desires": {
+                "name": "Love",
+                "description": "Your character seeks romantic affection and intimacy from another character. Your character might already have a true love or may strive to find someone to love and be loved by."
+            },
+            "fear": {
+                "name": "Poverty",
+                "description": "For your character, it’s all about wealth and security. They fear being without, and they work hard to amass money, supplies, and other valuable items to ensure their status."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
     }
 }
