@@ -330,6 +330,7 @@ defaults:
               - wide
           toc: false
           display-description: true
+          display-gm-description: false
           display-exerpt: false
           display-attributes: false
           display-characteristics: false
@@ -338,6 +339,7 @@ defaults:
           display-abilities: false
           display-equipment: false
           display-motivation: false
+          display-motivation-personality: false
           display-motivation-desires: false
           display-motivation-fear: false
           display-motivation-strength: false
@@ -367,6 +369,7 @@ defaults:
               - wide
           toc: false
           display-description: true
+          display-gm-description: true
           display-exerpt: false
           display-attributes: true
           display-characteristics: true
@@ -375,6 +378,7 @@ defaults:
           display-abilities: true
           display-equipment: true
           display-motivation: true
+          display-motivation-personality: true
           display-motivation-desires: true
           display-motivation-fear: true
           display-motivation-strength: true

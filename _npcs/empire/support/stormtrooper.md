@@ -9,4 +9,9 @@ display-skills: true
 display-talents: true
 display-abilities: true
 display-equipment: true
+# display-motivation: false
+# display-motivation-desires: false
+# display-motivation-fear: false
+# display-motivation-strength: false
+# display-motivation-flaw: false
 ---

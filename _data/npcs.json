@@ -44,6 +44,24 @@
         "type": "NEMESIS",
         "rank": "Grand Moff",
         "image_path": "/assets/images/npcs/grand-moff-leeadra-leonis.jpg",
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Grand Moff Leonis seeks the limelight and wants to be recognized. She will pursue anything that can garner the attention and praise of the Emperor."
+            },
+            "fear": {
+                "name": "Failure",
+                "description": "Most people dislike failure, but Grand Moff Leonis actively fear it. She wants to be the perfect Imperial servant; which sometimes leads her to do nothing instead of a chance of failing."
+            },
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, Grand Moff Leonis has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Intolerance",
+                "description": "Grand Moff Leonis harbors some prejudices toward a group of people. These may be relatively “minor” biases, or they may give rise to an intense emotion of hatred or revulsion. Whatever form it takes, remember that intolerance is based more in emotion than rationality."
+            }
+        },
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -96,7 +114,9 @@
         "equipment": [
             "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"
         ],
-        "description": ["TODO, describe Grand Moff Leeadra Leonis"]
+        "description": [
+            "Grand Moff Leeadra Leonis overlook a critical priority sector consisting of almost 20 sectors and commands formidable forces aided by Grand Admiral Barret Marh and Grand General Lance Sleater."
+        ]
     },
     "Barret Marh": {
         "clan": "Empire",
@@ -160,7 +180,31 @@
         "equipment": [
             "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"
         ],
-        "description": ["TODO, describe Grand Admiral Barret Marh"]
+        "description": [
+            "Grand Admiral Barret Marh is actively seeking to eliminate the rebel threat, once and for all! And, under the command of Grand Moff Leonis, on board the Imperial Super Star Destroyer \"The Liberator\", he does a great job at it!"
+        ],
+        "gm-description": [
+            "Grand Admiral Barret Marh is the nemesis of Admiral Zryv'yhx."
+        ],
+        "personality": "Suspicious",
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Grand Admiral Marh values peace and comfort above all else. He seeks to eliminate the rebel threat, once and for all!"
+            },
+            "fear": {
+                "name": "Nemesis",
+                "description": "An old rival of Grand Admiral Marh, back at the academy, is now part of the Rebel Alliance: Zryv'yhx, an Arkanian. Marh failed to keep him from destroying 2 Imperial Star Destroyers before fleeing with a little band of rebels due to his cunning sense and his superior knowledge. Since then, Marh fears the day he will need to meat Zryv'yhx again."
+            },
+            "strength": {
+                "name": "Curious",
+                "description": "Life is a million mysteries, and Marh wants to learn about every one. This is probably the principal reason why he joined the navy!"
+            },
+            "flaw": {
+                "name": "Laziness",
+                "description": "Grand Admiral Marh always seeks the path of least resistance and can becomes intimidated by difficult or complex tasks."
+            }
+        }
     },
     "Carter Foxwell": {
         "clan": "Empire",
@@ -219,7 +263,60 @@
             "(optional) Blaster carbine (Ranged [Heavy]; Damage 9; Critical 3; Range [Medium]; Stun setting)",
             "Armored clothing (+ 1 defense, +1 soak)"
         ],
-        "description": ["TODO, describe Commander Carter Foxwell"]
+        "description": [
+            "Carter Foxwell is a respected Imperial Security Bureau Commander. He is the PCs overseer.",
+            "Commander Foxwell has a missing leg that has been replaced by a cybernetic implant. This is due to some mission."
+        ],
+        "personality": "Rude",
+        "motivation": {
+            "desires": {
+                "name": "Vengeance",
+                "description": "A rebel cruiser crashed on his natal planet of X and killed his parents. On that day, eight years old Foxwell sworn to exact revenge against the Rebel Alliance."
+            },
+            "fear": {
+                "name": "Obscurity",
+                "description": "For all the sacrifice Commander Foxwell made for the New Order (including his leg), he wishes to be remembered as a true patriot in honor of his family. To achieve that goal, he works tirelessly."
+            },
+            "strength": {
+                "name": "Idealistic",
+                "description": "Commander Foxwell knows that the New Order is the only way to move forward! Those who wrong him on this tend to disappear."
+            },
+            "flaw": {
+                "name": "Anger",
+                "description": "After getting his cybernetic leg, Foxwell lost the only bit of patience that was left in him. He now frequently lashes out at his subordinate with extreme force and he overreacts very often."
+            }
+        }
+    },
+    "Lance Sleater": {
+        "image_path": "/assets/images/npcs/lance-sleater.jpg",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Grand General",
+        "clan": "Empire",
+        "description": [
+            "Grand General Lance Sleater is a courageous man, serving under Grand Moff Leonis for many years, and leads the Priority Sectors' forces against the Rebel Alliance with pride!"
+        ],
+        "personality": "Gluttonous",
+        "motivation": {
+            "desires": {
+                "name": "Wealth",
+                "description": "Money and material possessions are the prime goals of Grand General Sleater. Grand General Sleater's family owns many businesses, and he will do many things to divert funds toward those companies (that he also own shares in)."
+            },
+            "fear": {
+                "name": "Change",
+                "description": "Grand General Sleater finds routine and stability comforting, and fears changes that could upend his day-to-day routine."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in Grand General Sleater's heart. He laughs at danger and gladly push himself and the men under his command to confront what others flee from."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Grand General Sleater is arrogant and thinks highly of himself; often at the expense of the others."
+            }
+        }
     },
     "Adena Baltzell": {
         "initialSeed": 75225,
@@ -352,6 +449,37 @@
             "flaw": {
                 "name": "Recklessness",
                 "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
+    },
+    "Zryv'yhx": {
+        "clan": "Rebel Alliance",
+        "type": "NEMESIS",
+        "rank": "Admiral",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "species": {
+            "name": "Arkanian"
+        },
+        "description": ["Zryv'yhx is ..."],
+        "gm-description": [
+            "Zryv'yhx is the nemesis of Grand Admiral Barret Marh"
+        ],
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Zryv'yhx values peace and comfort above all else. He wants to restore peace to the galaxy by getting rid of the evil Galactic Empire!"
+            },
+            "fear": {
+                "name": "Nemesis",
+                "description": "Admiral Zryv'yhx fears the next time he will have to encounter an old rival: Grand Admiral Marh. Back at the imperial academy, Marh failed to keep him from destroying 2 Imperial Star Destroyers before fleeing with a group of freedom fighters. Now Marh is a Grand Admiral!"
+            },
+            "strength": {
+                "name": "Idealistic",
+                "description": "Zryv'yhx believes in the Rebel Alliance and the freedom that it can get to the galaxy. Zryv'yhx feels like everyone should live up to his ideals and is disappointed when people don’t."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Zryv'yhx will become disloyal to those who do not adhere to his idealistic view of the galaxy, or anyone not agreeing with him for that matter. He does not fear to use coercion to help his cause; on both allies and enemies. Zryv'yhx is concerned with his wellbeing first and foremost, and he always presents himself in the best possible light even when that isn’t the case."
             }
         }
     }

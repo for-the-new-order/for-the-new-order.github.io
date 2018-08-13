@@ -19,18 +19,29 @@ excerpt: "EMPTY!"
                 {{ page.content }}
             {% endif %}
             {% if page.display-exerpt %}
-                {{ page.exerpt }}
+                <p>{{ page.exerpt }}</p>
             {% endif %}
-            {% if page.display-description %}
+            {% if page.display-description and data.description %}
             {% for d in data.description %}
                 <p>{{d}}</p>
             {% endfor %}
             {% endif %}
+            {%- if page.display-gm-description and data.gm-description -%}
+            <h3>(GM)</h3>
+            {% for d in data.gm-description %}
+                <p>{{d}}</p>
+            {% endfor %}
+            {%- endif -%}
         </section>
 
         {% if data.motivation and page.display-motivation %}
         <section class="motivation">
-            <header>motivation</header>
+            <header>
+                motivation
+                {%- if data.personality and page.display-motivation-personality -%}
+                    <small><strong>personality: </strong>{{data.personality}}</small>
+                {%- endif -%}
+            </header>
             {% if data.motivation.desires and page.display-motivation-desires %}
                 <section class="desires">
                     <header>desires - {{ data.motivation.desires.name }}</header>

@@ -20,7 +20,11 @@
       </header>
       <section class="content">
           <img src="{{ data.image_path }}" alt="{{ npc.title }}" />
-          {{ npc.exerpt }}
+          {%- if npc.exerpt -%}
+            <p>{{ npc.exerpt }}</p>
+          {%- elsif data.description and data.description.size > 0 -%}
+            <p>{{ data.description[0] }}</p>
+          {%- endif -%}
       </section>
     {% else %}
       <h2 id="{{ npc.title | handleize }}">{{ npc.title }}</h2>
@@ -30,8 +34,9 @@
     {% endif %}
       <footer>
         <a href="{{ npc.url }}" class="btn btn--light-outline">
-          View sheet of
+          View 
           <i>{{ npc.title }}</i>
+          details
         </a>
       </footer>
     </section>

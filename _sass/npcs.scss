@@ -74,6 +74,11 @@
                     background-color: darken($color: #1abeef, $amount: 35);
                     border-top-left-radius: 10px;
                     border-top-right-radius: 10px;
+
+                    small {
+                        display: block;
+                        font-size: 0.6em;
+                    }
                 }
                 & > section {
                     padding: 1em;
