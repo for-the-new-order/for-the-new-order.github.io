@@ -6,11 +6,6 @@ excerpt: "EMPTY!"
 {% assign data = site.data.npcs[page.title] %}
 <section class="npc-details">
     {% if data %}
-        <script>
-        var og_image = "{{ data.image_path | absolute_url }}";
-        var el = document.querySelector('meta[property="og:image"]');
-            el.setAttribute('content', og_image);
-        </script>
         <header>
             <aside class="clan">{{ data.clan }}</aside>
             <h2>
