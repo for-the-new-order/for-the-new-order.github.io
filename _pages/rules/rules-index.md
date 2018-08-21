@@ -9,6 +9,12 @@ Star Wars Imperial Security Bureau Agents: New Order fanatics!
 
 The story begins right after the Empire Strikes Back.
 
+The PCs are members of a special division: the "CSO" (Cross-Cutting Shadow Overseers).
+That gives them the opportunity to execute missions in all ISB branches (Internal Affairs, Re-Education, Enforcement, etc.) and not to be limited to one. 
+Only elite members of the COMPORN can dream of being a member of that division, and only the best will survive it.
+
+{% include campaign-theme.html %}
+
 ## Core rules
 
 Genesys
