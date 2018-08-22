@@ -385,6 +385,28 @@ defaults:
       display-motivation-flaw: true
 
   - scope:
+      path: "_vehicles"
+      type: vehicles
+    values:
+      layout: vehicle
+      excerpt: ""
+      sidebar:
+        nav: "gamecontent"
+      classes:
+        - vehicles
+        - genesys-theme
+        - wide
+      toc: false
+      display-description: true
+      display-gm-description: false
+      display-exerpt: false
+      display-characteristics: true
+      display-current-thresholds: false
+      display-general-info: true
+      display-cost: false
+      display-weapons: true
+
+  - scope:
       path: "_gm-vehicles"
       type: gm-vehicles
     values:
@@ -413,6 +435,9 @@ collections:
   gm-npcs:
     output: true
     permalink: /gm/npcs/:name
+  vehicles:
+    output: true
+    permalink: /game-content/vehicles/:name
   gm-vehicles:
     output: true
     permalink: /gm/vehicles/:name

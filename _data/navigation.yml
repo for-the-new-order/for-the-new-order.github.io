@@ -43,6 +43,8 @@ gamecontent: # Player game content
         url: /game-content/
       - title: NPCs
         url: /game-content/npcs/
+      - title: Vehicles
+        url: /game-content/vehicles/
   - title: Imperial Sourcebook
     children:
       - title: Organization of the Empire
