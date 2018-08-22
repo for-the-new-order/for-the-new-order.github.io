@@ -1,0 +1,30 @@
+{%- assign vehicles = include.vehicles -%}
+<h2>Vehicles</h2>
+<div class="vehicles">
+{%- for vehicle in vehicles -%}
+    {%- assign data = site.data.vehicles[vehicle.title] -%}
+    <section class="vehicle-list-item">
+        {%- assign vehicleName = vehicle.title | append: rank -%}
+        <header>
+            <h2 id="{{ vehicleName | handleize }}">{{ vehicleName }}</h2>
+        </header>
+        <section class="content">
+            {%- if data -%}
+                <img src="{{ data.image_path }}" alt="{{ vehicle.title }}" />
+                {%- if vehicle.exerpt -%}
+                    <p>{{ vehicle.exerpt }}</p>
+                {%- elsif data.description and data.description.size > 0 -%}
+                    <p>{{ data.description[0] }}</p>
+                {%- endif -%}
+            {%- else -%}
+                {{ vehicle.exerpt }}
+            {%- endif -%}
+        </section>
+        <footer>
+            <a href="{{ vehicle.url }}" class="btn btn--light-outline">
+                View  <i>{{ vehicle.title }}</i> details
+            </a>
+        </footer>
+    </section>
+{%- endfor -%}
+</div>

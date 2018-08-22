@@ -1,0 +1,31 @@
+@import "_mixins";
+
+.vehicles {
+    .vehicle-list-item,
+    .vehicle-details {
+        @include npcs-vehicles-content();
+    }
+
+    .vehicle-list-item {
+        @include npcs-vehicles-item-footer();
+    }
+
+    .vehicle-details {
+        @include npcs-vehicles-details-base();
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        & > header,
+        & > .content,
+        & > .weapons-list {
+            width: 100%;
+        }
+
+        .info-item {
+            strong {
+                text-transform: capitalize;
+            }
+        }
+    }
+}

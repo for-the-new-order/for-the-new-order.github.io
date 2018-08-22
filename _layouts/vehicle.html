@@ -1,0 +1,155 @@
+--- 
+layout: single 
+title: Vehicle
+excerpt: "EMPTY!"
+# Defaults
+display-description: true
+display-gm-description: true
+display-exerpt: false
+display-characteristics: true
+display-current-thresholds: true
+display-general-info: true
+display-cost: true
+display-weapons: true
+---
+{%- assign data = site.data.vehicles[page.title] -%}
+<section class="vehicle-details">
+    {%- if data -%}
+        <header>
+            <h2>{{ page.title }}</h2>
+        </header>
+        <section class="content">
+            <img src="{{ data.image_path }}" alt="{{ page.title }}" />
+            {%- if  page.content -%}
+                {{ page.content }}
+            {%- endif -%}
+            {%- if page.display-exerpt -%}
+                <p>{{ page.exerpt }}</p>
+            {%- endif -%}
+            {%- if page.display-description and data.description -%}
+                {%- for d in data.description -%}
+                    <p>{{d}}</p>
+                {%- endfor -%}
+            {%- endif -%}
+            {%- if page.display-gm-description and data.gm-description -%}
+                <h3>(GM)</h3>
+                {%- for d in data.gm-description -%}
+                    <p>{{d}}</p>
+                {%- endfor -%}
+            {%- endif -%}
+        </section>
+
+        {% if page.display-general-info %}
+        <section class="general-info">
+            <header>general information</header>
+            <div class="info-item">
+                <strong>skill: </strong>
+                {{ data.skill }}
+            </div>
+            <div class="info-item">
+                <strong>complement: </strong>
+                {{ data.complement }}
+            </div>
+            <div class="info-item">
+                <strong>passenger capacity: </strong>
+                {{ data.passenger_capacity }}
+            </div>
+            <div class="info-item">
+                <strong>consumables: </strong>
+                {{ data.consumables }}
+            </div>
+            <div class="info-item">
+                <strong>encumbrance capacity: </strong>
+                {{ data.encumbrance_capacity }}
+            </div>
+            {% if data.cost and page.display-cost %}
+                <div class="info-item">
+                    <strong>cost: </strong>
+                    {%- include numberWithCommas.html number=data.cost.price -%}/{{ data.cost.rarity }}
+                </div>
+            {% endif %}
+        </section>
+        {% endif %}
+
+        {%- if data.characteristics and page.display-characteristics -%}
+        <section class="characteristics">
+            <header>characteristics</header>
+            <div class="characteristics-row">
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.silhouette}}</div>
+                    <div class="characteristicTitle row">silhouette</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.max_speed}}</div>
+                    <div class="characteristicTitle row">max speed</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{data.characteristics.handling}}</div>
+                    <div class="characteristicTitle row">handling</div>
+                </div>
+            </div>
+            <div class="attributes-row">
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">defense</div>
+                    <div class="attributeValue row">{{ data.characteristics.protection.defense }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">armor</div>
+                    <div class="attributeValue row">{{ data.characteristics.protection.armor }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">hull trauma</div>
+                    <div class="attributeValue row">
+                        {{ data.characteristics.hull_trauma.threshold }}
+                        {% if page.display-current-thresholds %}
+                            | {{ data.characteristics.hull_trauma.current }}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">system strain</div>
+                    <div class="attributeValue row">
+                        {{ data.characteristics.system_strain.threshold }}
+                        {% if page.display-current-thresholds %}
+                            | {{ data.characteristics.system_strain.current }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {%- endif -%}
+        
+        {%- if data.weapons and page.display-weapons -%}
+        <section class="weapons-list">
+            <header>weapons</header>
+            {%- for w in data.weapons -%}
+                <div class="weapons">
+                    <strong>{{ w.name }}: </strong>
+                    {% include text-with-symbols.html content=w.specs %}
+                </div>
+            {%- endfor -%}
+        </section>
+        {%- endif -%}
+
+        {%- if data.reference or data.initialSeed -%}
+        <footer>
+            {%- if data.reference -%}
+            Source: {%- include talent-sources.html source=data.reference.source -%}
+            p.{{data.reference.page}}
+            {%- endif -%}
+            {%- if data.initialSeed -%}
+                <small class="initial-seed">Initial Seed: {{data.initialSeed}}</small>
+            {%- endif -%}
+        </footer>
+        {%- endif -%}
+    {%- else -%}
+        NO DATA FOUND for {{ page.title }}!
+    {%- endif -%}
+</section>

@@ -8,55 +8,16 @@
             font-style: italic;
             line-height: 2.1em;
         }
-        .content {
-            img {
-                width: 250px;
-                float: right;
-                margin-left: 1em;
-                margin-bottom: 1em;
-            }
-        }
+        @include npcs-vehicles-content();
     }
 
     .npc-list-item {
-        footer {
-            clear: right;
-            text-align: center;
-            margin-top: 1em;
-            a {
-                display: block;
-                font-weight: normal;
-            }
-        }
+        @include npcs-vehicles-item-footer();
     }
     .npc-details {
-        & > header h2 {
-            margin-top: 0;
-        }
-        .content {
-            clear: right;
-        }
-        footer {
-            text-align: right;
-            font-size: 0.75em;
-            font-style: italic;
-        }
+        @include npcs-vehicles-details-base();
 
         & > section {
-            margin: 1.5em 0;
-
-            header {
-                // font-size: 1.25rem;
-                // margin-bottom: 0;
-                // margin-top: .5rem;
-                @include genesys-heading();
-                text-align: right;
-                text-transform: uppercase;
-                border-bottom: 1px solid #1abeef;
-                margin-bottom: 1em;
-                clear: both;
-            }
-
             &.motivation {
                 border: 1px solid #1abeef;
                 clear: both;
@@ -85,72 +46,6 @@
                     width: 50%;
                 }
             }
-        }
-
-        .attributes-row,
-        .characteristics-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-right: -15px;
-            margin-left: -15px;
-        }
-        .imageBox {
-            position: relative;
-            text-align: center;
-            color: black;
-            padding: 0;
-            margin: 0.15rem;
-            width: 100px;
-        }
-
-        .png {
-            width: 100%;
-        }
-
-        .attribute {
-            width: 140px;
-        }
-
-        .attributeTitle {
-            position: absolute;
-            color: white;
-            font-size: 12px;
-            top: 17%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-transform: uppercase;
-        }
-
-        .attributeValue {
-            position: absolute;
-            font-size: 20px;
-            font-weight: 600;
-            top: 51%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            flex: unset;
-        }
-
-        .characteristicTitle {
-            position: absolute;
-            font-size: 17px;
-            color: white;
-            font-weight: 600;
-            top: 84%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-transform: capitalize;
-        }
-
-        .characteristicValue {
-            position: absolute;
-            font-size: 40px;
-            font-weight: 600;
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            flex: unset;
         }
 
         // .skills {

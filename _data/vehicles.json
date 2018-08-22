@@ -1,0 +1,48 @@
+{
+    "Aerospace Superiority Fighter": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "Barring the existence of armed satellites and advanced orbital platforms, the jet fighter is usually the final word in superiority in the skies of most modern and nearfuture settings. Note that this profile can function for both combat aircraft and space fighters, though in a scifi campaign, you might want to give the weapons new names with words that sound futuristic (involving some combination of “beam,” “pulse,” and/or “plasma”)."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 5,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "skill": "Driving",
+        "complement": "1 pilot, 1 copilot",
+        "passenger_capacity": "None",
+        "consumables": "1 day",
+        "encumbrance_capacity": 5,
+        "cost": {
+            "price": 100000000,
+            "rarity": 9
+        },
+        "weapons": [
+            {
+                "name": "Rotary cannon",
+                "specs": "Fire Arc Forward; Damage 2; Critical 5; Range [Long]; Auto-fire"
+            },
+            {
+                "name": "Air-to-air missiles",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range [Extreme]; Guided 3, Limited Ammo 6"
+            },
+            {
+                "name": "Anti-ship missile",
+                "specs": "Fire Arc Forward; Damage 8; Critical 1; Range [Strategic]; Blast 5, Breach 2, Limited Ammo 1"
+            }
+        ]
+    }
+}
