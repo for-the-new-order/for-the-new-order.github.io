@@ -318,13 +318,27 @@
             }
         }
     },
-    "Adena Baltzell": {
+    "Justen Baltzell": {
+        "locations": [
+            {
+                "game": "Episode 1",
+                "ship": "Interdictor-class heavy cruiser Destiny",
+                "zone": "TBD"
+            }
+        ],
         "initialSeed": 75225,
+        "gender": "Male",
         "type": "RIVAL",
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "rank": "Colonel",
         "clan": "Empire",
         "personality": "Raspy voice",
+        "description": [
+            "TODO"
+        ],
+        "gm-description": [
+            "If the PCs are making too much noize about the investigation, Baltzell will begin to not like that and will try to shut the operation down; claiming that his cruiser is safe for years and will continue to be so under his exemplary command!"
+        ],
         "motivation": {
             "desires": {
                 "name": "Fame",
@@ -340,7 +354,7 @@
             },
             "flaw": {
                 "name": "Compulsion",
-                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+                "description": "Colonel Baltzell is obsessed by it look; everything must be clean, his uniform perfect, etc. He (too) often replace his uniform, or try to clean it up (even when clean), etc. This is probably anoying to others, but he is most of the time the boss, so..."
             }
         }
     },
@@ -395,15 +409,29 @@
         }
     },
     "Karly Cop": {
+        "locations": [
+            {
+                "game": "Episode 1",
+                "ship": "Interdictor-class heavy cruiser Destiny",
+                "zone": "TBD"
+            }
+        ],
         "initialSeed": 56602,
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "RIVAL",
         "species": {
             "name": "Human"
         },
+        "gender": "Female",
         "rank": "Chief of Department",
         "clan": "Empire",
         "personality": "Clueless",
+        "description": [
+            "Karly looks like the perfect Imperial officer: no hair misplaced, uniform ironed out, shiny boots and no makeup."
+        ],
+        "gm-description": [
+            "Karly will do anything to delay internal affairs (the PCs), even if she has nothing against them. She realy is \"the perfect officer\", with a bright career in front of her."
+        ],
         "motivation": {
             "desires": {
                 "name": "Ambition",
@@ -411,7 +439,7 @@
             },
             "fear": {
                 "name": "Expression",
-                "description": "Your character has some behavior or means of expressing themself privately that they do not want the world to know about. The nature of that behavior is up to you. Keep the setting in mind when you come up with it, though."
+                "description": "Karly likes to be girly in private and off-duty; which is the total opposite of her day to day look."
             },
             "strength": {
                 "name": "Patient",
@@ -419,7 +447,7 @@
             },
             "flaw": {
                 "name": "Intolerance",
-                "description": "For whatever reason, your character harbors some prejudices toward a group of people. These may be relatively “minor” biases, or they may give rise to an intense emotion of hatred or revulsion. Whatever form it takes, remember that intolerance is based more in emotion than rationality."
+                "description": "Karly hates internal affairs, after her brother got himself wrongly imprisoned; she will reject most requests or reroute the agent to another higher ranked officer for approval (most of the time the agent will need to come back to her [and she knows it; she only want to delay them and piss them off a little])."
             }
         }
     },
@@ -460,7 +488,9 @@
         "species": {
             "name": "Arkanian"
         },
-        "description": ["Zryv'yhx is ..."],
+        "description": [
+            "Zryv'yhx is ..."
+        ],
         "gm-description": [
             "Zryv'yhx is the nemesis of Grand Admiral Barret Marh"
         ],
@@ -480,6 +510,49 @@
             "flaw": {
                 "name": "Deception",
                 "description": "Zryv'yhx will become disloyal to those who do not adhere to his idealistic view of the galaxy, or anyone not agreeing with him for that matter. He does not fear to use coercion to help his cause; on both allies and enemies. Zryv'yhx is concerned with his wellbeing first and foremost, and he always presents himself in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Tarrance Favreau": {
+        "locations": [
+            {
+                "game": "Episode 1",
+                "ship": "Interdictor-class heavy cruiser Destiny",
+                "zone": "Engineering section"
+            }
+        ],
+        "initialSeed": 422762,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Second Lieutenant",
+        "clan": "Empire",
+        "personality": "Hard of hearing",
+        "description": [
+            "Tarrance looks like he slept in a sublight engine and his uniform is stained by some unknown substances. He his clearly not heading to a parade...",
+            "He wear a toolbelt and has, most of a time, some kind of diagnostic tools in his hand."
+        ],
+        "gm-description": [
+            "Tarrance is a hell of a mehcanic but he hear nothing and know nothing; beside how to keep a capital ship flying!."
+        ],
+        "motivation": {
+            "desires": {
+                "name": "Vengeance",
+                "description": "Someone or something wronged your character in the past, and the character has sworn to exact revenge against the aggrieving party."
+            },
+            "fear": {
+                "name": "Failure",
+                "description": "Most people dislike failure, but some actively fear it. That fear may drive them to try to become absolutely perfect, or it may crush them into inaction. Maybe it does both."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Ignorance",
+                "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
             }
         }
     }
