@@ -34,6 +34,54 @@ excerpt: "EMPTY!"
             {%- endif -%}
         </section>
 
+        {% if data.locations and page.display-locations %}
+        <section class="locations">
+            <header>locations</header>
+            {% for location in data.locations %}
+            <section class="location">
+                <header>{{location.name}}</header>
+                {% if location.information %}
+                    {% for item in location.information %}
+                        <div>
+                            <strong>{{item[0]}}:</strong>
+                            {% if item[1].first %}
+                                <ul>
+                                {% for d in item[1] %}
+                                    <li>{{d}}</li>
+                                {% endfor %}
+                                </ul>
+                            {% else %}
+                                {{item[1]}}
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                {% if location.gm-information %}
+                    <h3>(GM)</h3>
+                    {% for item in location.gm-information %}
+                        <div>
+                            <strong>{{item[0]}}:</strong>
+                            {% if item[1].first and item[0] == "description" %}
+                                {% for d in item[1] %}
+                                    <p>{{d}}</p>
+                                {% endfor %}
+                            {% elsif item[1].first %}
+                                <ul>
+                                {% for d in item[1] %}
+                                    <li>{{d}}</li>
+                                {% endfor %}
+                                </ul>
+                            {% else %}
+                                {{item[1]}}
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </section>
+            {% endfor %}
+        </section>
+        {% endif %}
+
         {% if data.motivation and page.display-motivation %}
         <section class="motivation">
             <header>

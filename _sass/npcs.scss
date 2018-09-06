@@ -18,6 +18,22 @@
         @include npcs-vehicles-details-base();
 
         & > section {
+            &.locations {
+                & > .location {
+                    border-left: 1px solid #1abeef;
+                    padding-left: 25px;
+                    & > header {
+                        font-size: 0.9em;
+                        text-align: left;
+                    }
+                    & > div {
+                        & > strong {
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+
             &.motivation {
                 border: 1px solid #1abeef;
                 clear: both;

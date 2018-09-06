@@ -321,9 +321,15 @@
     "Justen Baltzell": {
         "locations": [
             {
-                "game": "Episode 1",
-                "ship": "Interdictor-class heavy cruiser Destiny",
-                "zone": "TBD"
+                "name": "Episode 1",
+                "information": {
+                    "ship": "Interdictor-class heavy cruiser Destiny"
+                },
+                "gm-information": {
+                    "description": [
+                        "If the PCs are making too much noize about the investigation, Baltzell will begin to not like that and will try to shut the operation down; claiming that his cruiser was safe for years and will continue to be so under his exemplary command!"
+                    ]
+                }
             }
         ],
         "initialSeed": 75225,
@@ -335,10 +341,7 @@
         "personality": "Raspy voice",
         "description": [
             "Colonel Baltzell is an old loyal officer of the New Order. He fought during the clone wars when he was only a young officer.",
-            "As the Navy is his life, he do not want to retire; but he prefer easier missions nowaday. That's why he got in charge of one of the first Interdictor-class heavy cruiser: Destiny. The Emperor himself presided the ceremony."
-        ],
-        "gm-description": [
-            "If the PCs are making too much noize about the investigation, Baltzell will begin to not like that and will try to shut the operation down; claiming that his cruiser was safe for years and will continue to be so under his exemplary command!"
+            "The Navy is his life and he do not want to retire; but he prefers easier missions nowaday. That's why he got in charge of one of the first Interdictor-class heavy cruiser: Destiny. The Emperor himself presided the ceremony."
         ],
         "motivation": {
             "desires": {
@@ -412,9 +415,14 @@
     "Karly Cop": {
         "locations": [
             {
-                "game": "Episode 1",
-                "ship": "Interdictor-class heavy cruiser Destiny",
-                "zone": "TBD"
+                "name": "Episode 1",
+                "information": {
+                    "ship": "Interdictor-class heavy cruiser Destiny",
+                    "area": [
+                        "Officers Row",
+                        "Command Section"
+                    ]
+                }
             }
         ],
         "initialSeed": 56602,
@@ -517,9 +525,11 @@
     "Tarrance Favreau": {
         "locations": [
             {
-                "game": "Episode 1",
-                "ship": "Interdictor-class heavy cruiser Destiny",
-                "zone": "Engineering section"
+                "name": "Episode 1",
+                "information": {
+                    "ship": "Interdictor-class heavy cruiser Destiny",
+                    "area": "Engineering section"
+                }
             }
         ],
         "initialSeed": 422762,

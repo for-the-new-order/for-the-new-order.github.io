@@ -331,6 +331,8 @@ defaults:
       toc: false
       display-description: true
       display-gm-description: false
+      display-locations: true
+      display-gm-information: false
       display-exerpt: false
       display-attributes: false
       display-characteristics: false
@@ -370,6 +372,8 @@ defaults:
       toc: false
       display-description: true
       display-gm-description: true
+      display-locations: true
+      display-gm-information: true
       display-exerpt: false
       display-attributes: true
       display-characteristics: true
