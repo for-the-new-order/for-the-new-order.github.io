@@ -334,10 +334,11 @@
         "clan": "Empire",
         "personality": "Raspy voice",
         "description": [
-            "TODO"
+            "Colonel Baltzell is an old loyal officer of the New Order. He fought during the clone wars when he was only a young officer.",
+            "As the Navy is his life, he do not want to retire; but he prefer easier missions nowaday. That's why he got in charge of one of the first Interdictor-class heavy cruiser: Destiny. The Emperor himself presided the ceremony."
         ],
         "gm-description": [
-            "If the PCs are making too much noize about the investigation, Baltzell will begin to not like that and will try to shut the operation down; claiming that his cruiser is safe for years and will continue to be so under his exemplary command!"
+            "If the PCs are making too much noize about the investigation, Baltzell will begin to not like that and will try to shut the operation down; claiming that his cruiser was safe for years and will continue to be so under his exemplary command!"
         ],
         "motivation": {
             "desires": {
@@ -354,7 +355,7 @@
             },
             "flaw": {
                 "name": "Compulsion",
-                "description": "Colonel Baltzell is obsessed by it look; everything must be clean, his uniform perfect, etc. He (too) often replace his uniform, or try to clean it up (even when clean), etc. This is probably anoying to others, but he is most of the time the boss, so..."
+                "description": "Colonel Baltzell is obsessed by his look; everything must be clean, his uniform perfect, etc. He (too) often replace his uniform, or try to clean it up (even when clean), etc. This is probably anoying to others, but he is most of the time the boss, so..."
             }
         }
     },
