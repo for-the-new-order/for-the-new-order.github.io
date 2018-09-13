@@ -566,5 +566,34 @@
                 "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
             }
         }
+    },
+    "Thacher Sigfrid": {
+        "initialSeed": 37445,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant Commander",
+        "clan": "Empire",
+        "personality": "Jovial",
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Your character values peace and comfort above all else. Perhaps they seek shelter, a steady source of food, or other material necessities, or they might seek emotional security in a place free from oppression and abuse."
+            },
+            "fear": {
+                "name": "Isolation",
+                "description": "Your character fears being isolated from other people and being doomed to live and die alone. Maybe this drives them to seek out relationships with anyone and everyone, even when a relationship is unpleasant or unhealthy."
+            },
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
     }
 }
