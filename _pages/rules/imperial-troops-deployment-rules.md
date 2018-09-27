@@ -91,7 +91,7 @@ The most obvious use of Imperial resources would be troops! As Imperial Agents, 
 
 The following table is only a guideline and must be treated as so. It is in no way a strict way of assembling the difficulty dice pool of a specific task.
 
-![Military operations difficulty - Table 1](/assets/images/001-military-operations-difficulty.png)
+![Military operations difficulty - Table 1](/assets/images/rules/001-military-operations-difficulty.png)
 
 ## Team Contribution Ranks
 
@@ -99,7 +99,7 @@ Based on the Duty system of AoR, the team Contribution Rank increase as a group.
 
 The following table describes the benefits of each rank. The perks in that table do not require any roll (unless the GM decide otherwise). But, aiming for higher gear or resources than your rank allows usually do.
 
-![Team Contribution Ranks - Table 2](/assets/images/002-team-contribution-ranks.png)
+![Team Contribution Ranks - Table 2](/assets/images/rules/002-team-contribution-ranks.png)
 
 ## Adjustments
 
@@ -109,7 +109,7 @@ As with everything else, situation and location tend to change the difficulty of
 
 The higher the contribution rank of a character, the easier it is to get obeyed by troops and officers alike. At some point, you have done so much that you became well known and respected (or feared) throughout the Empire (and the rebels).
 
-![Team Contribution Rank Bonuses - Table 3](/assets/images/003-team-contribution-rank-bonuses.png)
+![Team Contribution Rank Bonuses - Table 3](/assets/images/rules/003-team-contribution-rank-bonuses.png)
 
 ### Milieu
 
@@ -117,7 +117,7 @@ Depending on the milieu, having backup could be easier or harder.
 
 **Example:** getting a squad of Stormtroopers to guard some doors on a remote planet can be tricky if the place is already understaffed!
 
-![Milieu - Table 4](/assets/images/004-milieu.png)
+![Milieu - Table 4](/assets/images/rules/004-milieu.png)
 
 ### Mission type
 
@@ -125,7 +125,7 @@ Based on the mission assigned to the PCs, it could run from forbidden to highly 
 
 Example: during the infiltration of a rebel base, calling Stormtroopers for help is impossible; there is no Stormtrooper on the base; it is a Rebel base!
 
-![Mission type - Table 5](/assets/images/005-mission-type.png)
+![Mission type - Table 5](/assets/images/rules/005-mission-type.png)
 
 ### Spare some change?
 
@@ -145,11 +145,11 @@ See also the _Mass Combat_ rules, related to _Team Presence Talents_ below.
 
 ### Spending {% include text-with-symbols.html content="[TR] and [DE]" %}
 
-![Spending symbols - Table 6](/assets/images/006-spending-good-symbols.png)
+![Spending symbols - Table 6](/assets/images/rules/006-spending-good-symbols.png)
 
 ### Spending {% include text-with-symbols.html content="[AD] and [TH]" %}
 
-![Spending symbols - Table 7](/assets/images/007-spending-bad-symbols.png)
+![Spending symbols - Table 7](/assets/images/rules/007-spending-bad-symbols.png)
 
 ## The Setbacks
 
