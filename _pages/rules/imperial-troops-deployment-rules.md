@@ -170,7 +170,7 @@ As an example, one player could specialize in the army, while another PC could f
 
 When acquiring a new Contribution Rank, a player can decide to buy a Team Presence Talent (TPT) instead of choosing a reward (see Alliance Rewards p. 50 AoR).
 
-<mark>The variance used in the campaign is: **Super-fast reward variance**</mark>
+<mark>The variance used in the campaign is: <strong>Super-fast reward variance</strong></mark>
 
 #### Slower (normal) reward variance
 
