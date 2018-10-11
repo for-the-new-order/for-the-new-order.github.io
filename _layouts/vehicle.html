@@ -141,8 +141,15 @@ display-weapons: true
         {%- if data.reference or data.initialSeed -%}
         <footer>
             {%- if data.reference -%}
-            Source: {%- include talent-sources.html source=data.reference.source -%}
-            p.{{data.reference.page}}
+                <small class="original-source">
+                    Original Source: {% include talent-sources.html source=data.reference.source %}
+                    {%- if data.reference.link -%}
+                        <a href="{{data.reference.link.url}}">{{data.reference.link.text}}</a>
+                    {%- endif -%}
+                    {%- if data.reference.page -%}
+                        p.{{data.reference.page}}
+                    {%- endif -%}
+                </small>
             {%- endif -%}
             {%- if data.initialSeed -%}
                 <small class="initial-seed">Initial Seed: {{data.initialSeed}}</small>

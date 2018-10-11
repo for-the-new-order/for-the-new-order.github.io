@@ -1,0 +1,33 @@
+{
+    "intro": {
+        "name": "Introduction",
+        "playersDescription": "An introductory mission, allowing the PCs to get the feel of their character and of the setting.",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
+        "isVisibleToPlayer": true,
+        "chapters": [
+            {
+                "isVisibleToPlayer": false,
+                "name": "The simulator",
+                "playersDescription": ""
+            },
+            {
+                "isVisibleToPlayer": false,
+                "name": "The secret code generator",
+                "playersDescription": ""
+            }
+        ]
+    },
+    "episode1": {
+        "name": "Episode 1: The Imperial War Machine",
+        "playersDescription": "This adventure displays the full power of the imperial armada and how weak are the rebels!",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/6gGIibqnFUtcHIBHnUJ7",
+        "isVisibleToPlayer": false,
+        "chapters": [
+            {
+                "isVisibleToPlayer": false,
+                "name": "...",
+                "playersDescription": ""
+            }
+        ]
+    }
+}

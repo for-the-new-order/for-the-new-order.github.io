@@ -323,7 +323,7 @@
             {
                 "name": "Episode 1",
                 "information": {
-                    "ship": "Interdictor-class heavy cruiser Destiny"
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny"
                 },
                 "gm-information": {
                     "description": [
@@ -336,12 +336,12 @@
         "gender": "Male",
         "type": "RIVAL",
         "image_path": "/assets/images/npcs/250x250-empire.png",
-        "rank": "Colonel",
+        "rank": "Commodore",
         "clan": "Empire",
         "personality": "Raspy voice",
         "description": [
-            "Colonel Baltzell is an old loyal officer of the New Order. He fought during the clone wars when he was only a young officer.",
-            "The Navy is his life and he do not want to retire; but he prefers easier missions nowaday. That's why he got in charge of one of the first Interdictor-class heavy cruiser: Destiny. The Emperor himself presided the ceremony."
+            "Commodore Baltzell is an old loyal officer of the New Order. He fought during the clone wars when he was only a young officer.",
+            "The Navy is his life and he do not want to retire; but he prefers easier missions nowaday. That's why he got in charge of the first Assimilator-Class Interdictor Star Destroyer: the Destiny. The Emperor himself presided the ceremony."
         ],
         "motivation": {
             "desires": {
@@ -358,7 +358,7 @@
             },
             "flaw": {
                 "name": "Compulsion",
-                "description": "Colonel Baltzell is obsessed by his look; everything must be clean, his uniform perfect, etc. He (too) often replace his uniform, or try to clean it up (even when clean), etc. This is probably anoying to others, but he is most of the time the boss, so..."
+                "description": "Commodore Baltzell is obsessed by his look; everything must be clean, his uniform perfect, etc. He (too) often replace his uniform, or try to clean it up (even when clean), etc. This is probably anoying to others, but he is most of the time the boss, so..."
             }
         }
     },
@@ -417,11 +417,8 @@
             {
                 "name": "Episode 1",
                 "information": {
-                    "ship": "Interdictor-class heavy cruiser Destiny",
-                    "area": [
-                        "Officers Row",
-                        "Command Section"
-                    ]
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": ["Officers Row", "Command Section"]
                 }
             }
         ],
@@ -497,9 +494,7 @@
         "species": {
             "name": "Arkanian"
         },
-        "description": [
-            "Zryv'yhx is ..."
-        ],
+        "description": ["Zryv'yhx is ..."],
         "gm-description": [
             "Zryv'yhx is the nemesis of Grand Admiral Barret Marh"
         ],
@@ -527,7 +522,7 @@
             {
                 "name": "Episode 1",
                 "information": {
-                    "ship": "Interdictor-class heavy cruiser Destiny",
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": "Engineering section"
                 }
             }
