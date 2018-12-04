@@ -95,7 +95,9 @@ The following table is only a guideline and must be treated as so. It is in no w
 
 ## Team Contribution Ranks
 
-Based on the Duty system of AoR, the team Contribution Rank increase as a group. Even players playing imperial agents should focus on teamplay; the team want the New Order to succeed and will do anything in their power to see that happen (collectively)!
+<mark>TODO: rephrase the first paragraph; ranks are acquired individually not "as a group".</mark>
+
+_Based on the Duty system of AoR, the team Contribution Rank increase as a group. Even players playing imperial agents should focus on teamplay; the team want the New Order to succeed and will do anything in their power to see that happen (collectively)!_
 
 The following table describes the benefits of each rank. The perks in that table do not require any roll (unless the GM decide otherwise). But, aiming for higher gear or resources than your rank allows usually do.
 
@@ -159,7 +161,7 @@ Of course, using the Imperial Armada sounds easy and fun, but getting too many t
 
 ## Team Presence Talents
 
-To get better results, PCs can invest their contribution rank rewards into _Team Presence Talents_. These special talents are applied to the _Team Presence_ skill and affect its effectiveness. Each player buys _Team Presence Talents_ individually.
+To get better results, PCs can invest their contribution rank into _Team Presence Talents_. This is complementary to the usual rewards; The PC can have a reward and a Team Presence Talent Point (TP²). These special talents can be applied to the _Team Presence_ skill checks to affect its effectiveness. Each player buys _Team Presence Talents_ individually.
 
 The concept is the same as the characters' talents: you must have more lower level ranks than the rank you want to purchase (see Genesys talents rules for more info).
 The higher rank is 3.
@@ -168,11 +170,11 @@ As an example, one player could specialize in the army, while another PC could f
 
 ### Buying Team Presence Talents
 
-When acquiring a new Contribution Rank, a player can decide to buy a Team Presence Talent (TPT) instead of choosing a reward (see Alliance Rewards p. 50 AoR).
+When acquiring a new Contribution Rank, a player can buy a Team Presence Talent (TPT) as well as choosing a reward (see Alliance Rewards p. 50 AoR).
 
-<mark>The variance used in the campaign is: <strong>Super-fast reward variance</strong></mark>
+<mark>The variance used in the campaign is: <strong>Average-speed reward variance</strong></mark>
 
-#### Slower (normal) reward variance
+#### Average-speed reward variance
 
 Each TPT's rank cost 1 contribution rank reward.
 Ex.: rank 1 cost 1, rank 2 cost 2 and rank 3 cost 3.
@@ -211,6 +213,8 @@ See [Team presence talents](/rules/team-presence-talents/) for a list of talents
 
 ## Mass Combat Variance
 
+<mark>To be revised</mark>
+
 The Team Presence Talents will directly impact any mass combat the PCs are participating in!
 See "Onslaught at Arda I" p. 30 for more information about mass combat rules.
 
@@ -230,5 +234,7 @@ For player talents, see [Team presence talents](/rules/team-presence-talents/).
 {% assign talents = site.data.gm-team-presence-talents | sort: 'Name' %}
 
 {% for talent in talents %}
+
 {% include talent.md talent=talent %}
+
 {% endfor %}

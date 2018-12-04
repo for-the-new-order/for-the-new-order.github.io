@@ -24,7 +24,6 @@
         "dest": "([DI][DI][DI][DI][DI])",
         "description": "Formidable"
     },
-
     {
         "source": "[SE]",
         "type": "setback",
