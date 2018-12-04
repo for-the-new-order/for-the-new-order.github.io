@@ -4806,5 +4806,14 @@
             "When making a Melee check with a weapon of choice (choose 1), your character may use Cunning instead of Brawn. With any other melee weapon, your character may use Cunning instead of Brawn but must suffer 2 strain damage to do so.",
         "Source": "FTNO",
         "Depreciated": ""
+    },
+    {
+        "Name":"Galaxy Mapper",
+        "Tier": 1,
+        "Activation": "Passive",
+        "Ranked": "Yes",
+        "Text":
+            "The character removes [SE] per rank of Galaxy Mapper from his Astrogation checks. In addition, Astrogation checks take 50% less time (this does not increase with additional ranks of Galaxy Mapper).",
+        "Source": "ACRB"
     }
 ]
