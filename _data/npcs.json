@@ -324,10 +324,10 @@
         }
     },
     "Justen Baltzell": {
-        "folder": "Empire/Missions/Introduction",
+        "folder": "Empire/Missions/Episode 00",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny"
                 },
@@ -419,10 +419,10 @@
         }
     },
     "Karly Cop": {
-        "folder": "Empire/Missions/Introduction",
+        "folder": "Empire/Missions/Episode 00",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": ["Officers Row", "Command Section"]
@@ -526,10 +526,10 @@
         }
     },
     "Tarrance Favreau": {
-        "folder": "Empire/Missions/Introduction",
+        "folder": "Empire/Missions/Episode 00",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": "Engineering section"
@@ -601,10 +601,10 @@
         }
     },
     "Corry Stocks": {
-        "folder": "Empire/Missions/Introduction",
+        "folder": "Empire/Missions/Episode 00",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": ["Docking Bay", "Everywhere"]
