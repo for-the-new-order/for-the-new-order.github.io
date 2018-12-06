@@ -590,5 +590,37 @@
                 "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
             }
         }
+    },
+    "Corry Stocks": {
+        "image_path": "/assets/images/npcs/lieutenant-corry-stocks.jpg",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Female",
+        "clan": "Empire",
+        "description": [
+            "Standing 5' 9\" tall, Lieutenant Corry Stocks is an olive-skinned woman that has a sweet and innocent feel about her. She has a narrow face with a small nose, small ears, rosy cheeks, and puffy lips. Her blue eyes are wide, she has tapered eyebrows, and long braided blonde hairs. She has toned arms, sexy curves, and long legs."
+        ],
+        "personality": "Vain",
+        "motivation": {
+            "desires": {
+                "name": "Love",
+                "description": "She seeks romantic affection and intimacy from [some offier] and she strive to be loved by him. But just being loved or charmed could also do, for a while."
+            },
+            "fear": {
+                "name": "Isolation",
+                "description": "She fears being isolated from other people and being doomed to live and die alone. That's what drives her to seek out relationships with anyone and everyone, even when a relationship is unpleasant or unhealthy."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "She is concerned with her own wellbeing first and foremost, and she always present herself in the best possible light even when that isn’t the case."
+            }
+        }
     }
 }
