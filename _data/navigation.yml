@@ -62,5 +62,7 @@ gamemaster: # Game master menu
         url: /gm/
       - title: NPCs
         url: /gm/npcs/
+      - title: NPCs (by folder)
+        url: /gm/npcs/by-folders
       - title: Vehicles
         url: /gm/vehicles/

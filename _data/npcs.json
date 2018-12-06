@@ -1,5 +1,6 @@
 {
     "Stormtrooper": {
+        "folder": "Empire/Support",
         "clan": "Empire",
         "type": "MINION",
         "image_path": "/assets/images/npcs/stormtrooper.jpg",
@@ -40,6 +41,7 @@
         }
     },
     "Leeadra Leonis": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Grand Moff",
@@ -119,6 +121,7 @@
         ]
     },
     "Barret Marh": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Grand Admiral",
@@ -207,6 +210,7 @@
         }
     },
     "Carter Foxwell": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Commander",
@@ -288,6 +292,7 @@
         }
     },
     "Lance Sleater": {
+        "folder": "Empire/Main",
         "image_path": "/assets/images/npcs/lance-sleater.jpg",
         "type": "NEMESIS",
         "species": {
@@ -319,6 +324,7 @@
         }
     },
     "Justen Baltzell": {
+        "folder": "Empire/Missions/Introduction",
         "locations": [
             {
                 "name": "Episode 1",
@@ -413,6 +419,7 @@
         }
     },
     "Karly Cop": {
+        "folder": "Empire/Missions/Introduction",
         "locations": [
             {
                 "name": "Episode 1",
@@ -487,6 +494,7 @@
         }
     },
     "Zryv'yhx": {
+        "folder": "Rebels/Main",
         "clan": "Rebel Alliance",
         "type": "NEMESIS",
         "rank": "Admiral",
@@ -518,6 +526,7 @@
         }
     },
     "Tarrance Favreau": {
+        "folder": "Empire/Missions/Introduction",
         "locations": [
             {
                 "name": "Episode 1",
@@ -592,6 +601,16 @@
         }
     },
     "Corry Stocks": {
+        "folder": "Empire/Missions/Introduction",
+        "locations": [
+            {
+                "name": "Episode 1",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": ["Docking Bay", "Everywhere"]
+                }
+            }
+        ],
         "image_path": "/assets/images/npcs/lieutenant-corry-stocks.jpg",
         "type": "RIVAL",
         "species": {
