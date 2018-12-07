@@ -1,21 +1,4 @@
----
-title: Game Master NPCs
-permalink: /gm/npcs/by-folders
----
-
-{%- comment -%} Get categories {%- endcomment -%}
-{%- capture categories -%}
-{%- for npc in site.data.npcs -%}
-    {%- assign key = npc | first -%}
-    {%- assign data = site.data.npcs[key] -%}
-    {%- if data.folder -%}
-        {{ data.folder }},
-    {%- else -%}
-        {{ data.clan }},
-    {%- endif -%}
-{%- endfor -%}
-{%- endcapture -%}
-{%- assign categories = categories | split: ',' | uniq | sort -%}
+{%- assign categories = include.categories -%}
 
 {%- comment -%} Get NPCs name {%- endcomment -%}
 {%- capture names -%}
@@ -26,10 +9,12 @@ permalink: /gm/npcs/by-folders
 {%- endcapture -%}
 {%- assign names = names | split: ',' | sort  -%}
 
+<section class="npc-categories">
+
 {%- comment -%} List categories > npcs {%- endcomment -%}
 {%- for category in categories -%}
-
-    <h2>{{ category }}</h2><ul>
+    
+    <div class="npc-category"><h2>{{ category }}</h2><ul class="npc-category-items">
 
     {%- for name in names -%}
         {%- assign data = site.data.npcs[name] -%}
@@ -47,5 +32,7 @@ permalink: /gm/npcs/by-folders
             <li><a href="/gm/npcs/{{ name | slugify }}">{{ name }}</a></li>
         {%- endif -%}
     {%- endfor -%}
-    </ul>
+    </ul></div>
 {%- endfor -%}
+
+</section>

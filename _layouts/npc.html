@@ -244,6 +244,21 @@ excerpt: "EMPTY!"
             {% endif %}
         </footer>
         {% endif %}
+        {%- if page.display-related-npcs -%}
+            {%- capture categories -%}
+            {%- if data.folder -%}
+                {{ data.folder }},
+            {%- endif -%}
+            {%- if data.clan -%}
+                {{ data.clan }},
+            {%- endif -%}
+            {%- endcapture -%}
+            <section class="related-npcs">
+                <h2>Related NPCs</h2>
+                {%- assign categories = categories | split: ',' | uniq | sort -%}
+                {%- include npcs-by-categories.html categories=categories -%}
+            </section>
+        {%- endif -%}
     {% else %}
         NO DATA FOUND for {{ page.title }}!
     {% endif %}

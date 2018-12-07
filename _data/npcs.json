@@ -1,6 +1,5 @@
 {
     "Stormtrooper": {
-        "folder": "Empire/Support",
         "clan": "Empire",
         "type": "MINION",
         "image_path": "/assets/images/npcs/stormtrooper.jpg",
@@ -324,7 +323,7 @@
         }
     },
     "Justen Baltzell": {
-        "folder": "Empire/Missions/Episode 00",
+        "folder": "Empire/Episode 00",
         "locations": [
             {
                 "name": "Episode 0",
@@ -419,7 +418,7 @@
         }
     },
     "Karly Cop": {
-        "folder": "Empire/Missions/Episode 00",
+        "folder": "Empire/Episode 00",
         "locations": [
             {
                 "name": "Episode 0",
@@ -526,7 +525,7 @@
         }
     },
     "Tarrance Favreau": {
-        "folder": "Empire/Missions/Episode 00",
+        "folder": "Empire/Episode 00",
         "locations": [
             {
                 "name": "Episode 0",
@@ -601,7 +600,7 @@
         }
     },
     "Corry Stocks": {
-        "folder": "Empire/Missions/Episode 00",
+        "folder": "Empire/Episode 00",
         "locations": [
             {
                 "name": "Episode 0",

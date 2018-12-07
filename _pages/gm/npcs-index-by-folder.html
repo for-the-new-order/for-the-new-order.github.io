@@ -1,0 +1,23 @@
+---
+title: Game Master NPCs
+permalink: /gm/npcs/by-folders
+---
+
+{%- comment -%} Get categories {%- endcomment -%}
+{%- capture categories -%}
+{%- for npc in site.data.npcs -%}
+    {%- assign key = npc | first -%}
+    {%- assign data = site.data.npcs[key] -%}
+    {%- if data.folder -%}
+        {{ data.folder }},
+    {%- else -%}
+        {{ data.clan }},
+    {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign categories = categories | split: ',' | uniq | sort -%}
+
+<h2>NPCs</h2>
+<div class="npcs">
+{%- include npcs-by-categories.html categories=categories -%}
+</div>

@@ -84,4 +84,29 @@
         //     }
         // }
     }
+
+    section.npc-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .npc-category {
+            flex-basis: 49%;
+            ul.npc-category-items {
+                list-style-type: none;
+                padding-left: 0;
+                // li {
+                // }
+            }
+        }
+    }
+
+    .related-npcs {
+        & > h2 {
+            font-size: 1.5em;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    }
 }
