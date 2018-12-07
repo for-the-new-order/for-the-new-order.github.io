@@ -545,11 +545,11 @@
         "clan": "Empire",
         "personality": "Hard of hearing",
         "description": [
-            "Tarrance looks like he slept in a sublight engine and his uniform is stained by some unknown substances. He his clearly not heading to a parade...",
-            "He wear a toolbelt and has, most of a time, some kind of diagnostic tools in his hand."
+            "Tarrance looks like he slept in a sublight engine and some unknown substances stain his uniform. He his clearly not heading to a parade.",
+            "He wears a toolbelt and has, most of the time, some kind of diagnostic tools in his hand."
         ],
         "gm-description": [
-            "Tarrance is a hell of a mehcanic but he hear nothing and know nothing; beside how to keep a capital ship flying!."
+            "Tarrance is a hell of a mechanic, but he hears nothing and knows nothing; besides how to keep a capital ship flying!"
         ],
         "motivation": {
             "desires": {

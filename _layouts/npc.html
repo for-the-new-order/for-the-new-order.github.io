@@ -56,7 +56,7 @@ excerpt: "EMPTY!"
                         </div>
                     {% endfor %}
                 {% endif %}
-                {% if location.gm-information %}
+                {% if location.gm-information and page.display-gm-information %}
                     <h3>(GM)</h3>
                     {% for item in location.gm-information %}
                         <div>

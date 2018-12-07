@@ -347,7 +347,7 @@ defaults:
       display-motivation-fear: false
       display-motivation-strength: false
       display-motivation-flaw: false
-      display-related-npcs: true
+      display-related-npcs: false
 
   - scope:
       path: "_pages/gm"
