@@ -119,5 +119,59 @@
                 "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
             }
         ]
+    },
+    "The Raazial": {
+        "image_path": "/assets/images/vehicles/The-Raazial.png",
+        "description": [
+            "The Raazial is a highly modified Nebulon-B frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it."
+        ],
+        "characteristics": {
+            "silhouette": 6,
+            "max_speed": 5,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 75,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 45,
+                "current": 0
+            },
+            "protection": {
+                "defense": 3,
+                "armor": 8
+            }
+        },
+        "skill": "Operating",
+        "complement": "920 officers, pilots, and enlisted crew",
+        "passenger_capacity": "75 troops",
+        "consumables": "2 years",
+        "encumbrance_capacity": 3000,
+        "cost": {
+            "price": 8500000,
+            "rarity": 7
+        },
+        "weapons": [
+            {
+                "name": "6 port and 6 starboard retractable turret mounted double medium turbolasers",
+                "specs": "Fire Arc: All; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1, linked 1"
+            },
+            {
+                "name": "3 starboard and 3 port turret-mounted light laser cannons",
+                "specs": "Fire Arc: starboard or port; Damage 5; Critical 3; Range [Close]"
+            },
+            {
+                "name": "3 forward and 3 aft retractable turret-mounted double light laser cannons",
+                "specs": "Fire Arc: forward or aft; Damage 5; Critical 2; Range [Close], Linked 1"
+            },
+            {
+                "name": "3 forward-mounted heavy tractor beam emitters",
+                "specs": "Fire Arc Forward; Range [Medium]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 279
+        }
     }
 }

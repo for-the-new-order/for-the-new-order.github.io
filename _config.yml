@@ -407,11 +407,11 @@ defaults:
       display-description: true
       display-gm-description: false
       display-exerpt: false
-      display-characteristics: true
+      display-characteristics: false
       display-current-thresholds: false
-      display-general-info: true
+      display-general-info: false
       display-cost: false
-      display-weapons: true
+      display-weapons: false
 
   - scope:
       path: "_gm-vehicles"

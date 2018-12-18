@@ -50,7 +50,19 @@
         { "name": "Justen Baltzell" },
         { "name": "Corry Stocks" },
         { "name": "Karly Cop" },
-        { "name": "Tarrance Favreau" }
+        { "name": "Tarrance Favreau" },
+        { "name": "Naarlock" }
+    ],
+    "vehicles": [
+        {
+            "name": "Aerospace Superiority Fighter",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-general-info: true",
+                "display-weapons: true"
+            ]
+        },
+        { "name": "The Raazial" }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }]
 }

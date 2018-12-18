@@ -1,4 +1,5 @@
 $npcs = (Get-Content _data/npcs.json) | ConvertFrom-Json
+$vehicles = (Get-Content _data/vehicles.json) | ConvertFrom-Json
 
 function Main {
     Set-GM-NPCs
@@ -20,6 +21,20 @@ title: $name
 "@
         Set-FileContent -name $name -path $path -content $content
     }
+
+    Write-Host "====================" -ForegroundColor Cyan
+    Write-Host "Handling GM VEHICLES" -ForegroundColor Cyan
+    Write-Host "====================" -ForegroundColor Cyan
+    $vehicles.PsObject.Properties | ForEach-Object {
+        $name = $_.Name
+        $path = "_gm-vehicles/$name.md"
+        $content = @"
+---
+title: $name
+---
+"@
+        Set-FileContent -name $name -path $path -content $content
+    }
 }
 
 # Enfore PCs npcs
@@ -32,6 +47,25 @@ function Set-Players-NPCs {
     $publicNpcs.npcs  | ForEach-Object {
         $name = $_.name
         $path = "_npcs/$name.md"
+        $frontMatter = $_.frontMatter
+        if (!$frontMatter) {
+            $frontMatter = @()
+        }
+        $content = @"
+---
+title: $name
+$([String]::Join("`n", $frontMatter))
+---
+"@
+        Set-FileContent -name $name -path $path -content $content
+    }
+
+    Write-Host "=====================" -ForegroundColor Cyan
+    Write-Host "Handling PCs VEHICLES" -ForegroundColor Cyan
+    Write-Host "=====================" -ForegroundColor Cyan
+    $publicNpcs.vehicles  | ForEach-Object {
+        $name = $_.name
+        $path = "_vehicles/$name.md"
         $frontMatter = $_.frontMatter
         if (!$frontMatter) {
             $frontMatter = @()

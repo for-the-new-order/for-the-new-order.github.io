@@ -640,5 +640,35 @@
                 "description": "She is concerned with her own wellbeing first and foremost, and she always present herself in the best possible light even when that isn’t the case."
             }
         }
+    },
+    "Naarlock": {
+        "folder": "Pirates/Episode 00",
+        "image_path": "/assets/images/npcs/Captain-Naarlock.png",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": ["Bad ass killer pirate captain!"],
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Your character seeks the limelight and wants to be famous. They pursue anything that can garner attention and praise."
+            },
+            "fear": {
+                "name": "Commitment",
+                "description": "The idea of making promises or being relied on scares your character, who hates the idea that someone else is relying on them. This fear of commitment could manifest in relationships, on the job, or among family."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        }
     }
 }
