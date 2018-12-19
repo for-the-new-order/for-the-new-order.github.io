@@ -642,7 +642,7 @@
         }
     },
     "Naarlock": {
-        "folder": "Pirates/Episode 00",
+        "folder": "Pirates/Naarlock",
         "image_path": "/assets/images/npcs/Captain-Naarlock.png",
         "type": "NEMESIS",
         "species": {
@@ -668,6 +668,76 @@
             "flaw": {
                 "name": "Deception",
                 "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Claudette Mauve Malasky": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Claudette-Mauve-Malasky.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": [
+            "Claudette “Mauve” Malasky, called M&M, is the captain and pilot of the Scalvenker!",
+            "The Scalvenker's crew is part of Captain Naarlock's pirates band."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Intolerance",
+                "description": "She is highly intolerance against all political groups like the Empire or the Rebel Alliance."
+            }
+        }
+    },
+    "Hugo the Hatless": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Hugo-the-Hatless.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Male",
+        "clan": "Pirates",
+        "description": [
+            "Hugo the Hatless is a crew member of the Scalvenker (Cannoneers)."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Spiritual",
+                "description": "Hugo the Hatless believes in Naarlok. His belief gives him a solid mental bedrock he can always rely on."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Hugo the Hatless is arrogant, vain, self-absorbed, and thinks highly of himself at the expense of others. He also feel indestructible, due to his believes."
+            }
+        }
+    },
+    "Elanor Bones": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Elanor-Bones-Deranek.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": [
+            "Elanor “Bones” is a crew member of the Scalvenker (Cannoneers)."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Idealistic",
+                "description": "Elanor “Bones” believes in the Naarlock pirate's code; Pirates for life!; those ideals are nothing short of sacred. Bones feels that everyone should live up to the pirate code and she gets disappointed with people that don’t."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Elanor “Bones” shows little regard for how their actions may affect herself or others, as long as she follows her ideals. She is prone to dangerous and inconsiderate actions."
             }
         }
     }
