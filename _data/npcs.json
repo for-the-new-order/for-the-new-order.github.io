@@ -323,7 +323,7 @@
         }
     },
     "Justen Baltzell": {
-        "folder": "Empire/Episode 00",
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
                 "name": "Episode 0",
@@ -340,7 +340,7 @@
         "initialSeed": 75225,
         "gender": "Male",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/Justen-Baltzell.png",
         "rank": "Commodore",
         "clan": "Empire",
         "personality": "Raspy voice",
@@ -418,7 +418,7 @@
         }
     },
     "Karly Cop": {
-        "folder": "Empire/Episode 00",
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
                 "name": "Episode 0",
@@ -525,7 +525,7 @@
         }
     },
     "Tarrance Favreau": {
-        "folder": "Empire/Episode 00",
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
                 "name": "Episode 0",
@@ -600,7 +600,7 @@
         }
     },
     "Corry Stocks": {
-        "folder": "Empire/Episode 00",
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
                 "name": "Episode 0",
