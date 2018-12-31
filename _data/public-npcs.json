@@ -51,7 +51,10 @@
         { "name": "Corry Stocks" },
         { "name": "Karly Cop" },
         { "name": "Tarrance Favreau" },
-        { "name": "Naarlock" }
+        { "name": "Naarlock" },
+        { "name": "Claudette Mauve Malasky" },
+        { "name": "Hugo the Hatless" },
+        { "name": "Elanor Bones" }
     ],
     "vehicles": [
         {
@@ -62,7 +65,8 @@
                 "display-weapons: true"
             ]
         },
-        { "name": "The Raazial" }
+        { "name": "The Raazial" },
+        { "name": "The Scalvenker" }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }]
 }
