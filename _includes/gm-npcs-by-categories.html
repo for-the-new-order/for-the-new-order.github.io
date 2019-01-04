@@ -1,5 +1,0 @@
-{%- assign categories = include.categories -%}
-{%- assign names = site.gm-npcs | map: "title" -%}
-{%- assign baseUrl = '/gm/npcs' -%}
-
-{%- include npcs-by-categories.html categories=categories names=names baseUrl=baseUrl -%}
