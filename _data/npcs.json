@@ -740,5 +740,183 @@
                 "description": "Elanor “Bones” shows little regard for how their actions may affect herself or others, as long as she follows her ideals. She is prone to dangerous and inconsiderate actions."
             }
         }
+    },
+    "Pirate Swarm": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-Minions.jpg",
+        "type": "minion",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 2
+        },
+        "minion_skills": "Cool, Ranged (Heavy) or Ranged (Light)",
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light], Damage: 7; Critical: 3; Range [Medium]; Stun Setting)",
+            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Vibroknife (Melee; Damage 3; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Padded Armor (+2 soak)"
+        ],
+        "description": ["Captain Naarlock's pirates swarm!"]
+    },
+    "Pirate Commando": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-Commando.jpg",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 4,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": [
+            "Cool 2",
+            "Melee 1",
+            "Ranged (Light) 2",
+            "Ranged (Heavy) 2",
+            "Perception 2",
+            "Stealth 1",
+            "Streewise 2",
+            "Survival 2"
+        ],
+        "talents": [
+            {
+                "name": "Quick Draw",
+                "effect": "May draw or holster a weapon as an incidental."
+            },
+            {
+                "name": "TODO",
+                "effect": "Find another one; maybe something like a flamethrower attack or something else badass..."
+            }
+        ],
+        "equipment": [
+            "Disruptor Pistol (Ranged [Light]; Damage 10; Critical 2; Range [Short]; Vicious 4)",
+            "TODO: add a rifle (Ranged [Heavy])",
+            "2x Stun Grenade (Ranged [Light]; Damage 8; Critical 4; Range [Short]; Blast 8; Disorient 3; Limited Ammo 1; Stun Damage)",
+            "Pirate Commando Armor (+2 soak, +1 defense)",
+            "Utility belt"
+        ],
+        "description": ["Captain Naarlock's pirates commandos!"]
+    },
+    "Briggs The Ghost Hatzenbuhler": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-The-Ghost.jpg",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "personality": "Silent",
+        "motivation": {
+            "desires": {
+                "name": "Justice",
+                "description": "Your character believes in a set of ethics that demands fair treatment for all. Your character is dedicated to righting inequality and protecting others’ rights."
+            },
+            "fear": {
+                "name": "Failure",
+                "description": "Most people dislike failure, but some actively fear it. That fear may drive them to try to become absolutely perfect, or it may crush them into inaction. Maybe it does both."
+            },
+            "strength": {
+                "name": "Curious",
+                "description": "Life is a million mysteries, and your character wants to learn about every one. Whether curiosity drives them to meet new people, explore distant locales, or learn fantastic new truths and ideas is up to you."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        },
+        "attributes": {
+            "wounds": 20,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 6,
+            "strain": 12
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 3
+        },
+        "skills": [
+            "Brawl 3",
+            "Coercion 3",
+            "Cool 3",
+            "Coordination 2",
+            "Deception 3",
+            "Discipline 3",
+            "Leadership 2",
+            "Ranged (Light) 3",
+            "Ranged (Heavy) 3",
+            "Melee 4",
+            "Resilience 2",
+            "Skulduggery 3",
+            "Stealth 4"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Feral Strength 2",
+                "effect": "+2 damage on all Brawl and Melee attacks."
+            },
+            {
+                "name": "Knockdown",
+                "effect": "May spend [TR] to knock target prone with successful melee attack."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Pirate Leader",
+                "effect": "May perform a maneuver to give orders to other pirate allies in medium range, granting them [BO] on their next check."
+            }
+        ],
+        "equipment": [
+            "Heavy Blaster Rifle (Ranged [Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Cumbersome 3)",
+            "Vibro-ax (Melee; Damage 9; Critical 2; Range [Engaged]; Pierce 2, Sunder, Vicious 3)",
+            "Briggs' Ghost Pirate Armor (+2 soak, +1 defense; Personal Stealth/Phaser Generator [Upgrade detection check twice when stealth; Upgrade difficulty of all combat checks against this target once]; Sound suppressor [Add [BO] to Stealth checks])",
+            "Utility belt"
+        ],
+        "description": [
+            "Briggs Hatzenbuhler also known as « The Ghost », is one of the high ranking members of the Naarlock's pirate crew.",
+            "He got his nickname due to his stealthy nature, or because he doesn't speak much, or both. Nevertheless, he is not someone to reckon with."
+        ]
     }
 }
