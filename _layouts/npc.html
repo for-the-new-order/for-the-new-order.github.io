@@ -256,7 +256,11 @@ excerpt: "EMPTY!"
             <section class="related-npcs">
                 <h2>Related NPCs</h2>
                 {%- assign categories = categories | split: ',' | uniq | sort -%}
-                {%- include npcs-by-categories.html categories=categories -%}
+                {%- if page.is-gm -%}
+                    {%- include gm-npcs-by-categories.html categories=categories -%}
+                {%- else -%}
+                    {%- include pc-npcs-by-categories.html categories=categories -%}
+                {%- endif -%}
             </section>
         {%- endif -%}
     {% else %}

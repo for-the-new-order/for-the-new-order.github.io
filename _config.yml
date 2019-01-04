@@ -347,7 +347,7 @@ defaults:
       display-motivation-fear: false
       display-motivation-strength: false
       display-motivation-flaw: false
-      display-related-npcs: false
+      display-related-npcs: true
 
   - scope:
       path: "_pages/gm"
@@ -358,6 +358,7 @@ defaults:
         - genesys-theme
       sidebar:
         nav: "gamemaster"
+      is-gm: true
 
   - scope:
       path: "_gm-npcs"
@@ -372,6 +373,7 @@ defaults:
         - genesys-theme
         - wide
       toc: false
+      is-gm: true
       display-description: true
       display-gm-description: true
       display-locations: true
@@ -426,6 +428,7 @@ defaults:
         - genesys-theme
         - wide
       toc: false
+      is-gm: true
       display-description: true
       display-gm-description: true
       display-exerpt: false

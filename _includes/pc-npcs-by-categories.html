@@ -1,0 +1,30 @@
+{%- assign categories = include.categories -%}
+{%- assign names = site.npcs | map: "title" -%}
+
+<section class="npc-categories">
+
+{%- comment -%} List categories > npcs {%- endcomment -%}
+{%- for category in categories -%}
+    
+    <div class="npc-category"><h2>{{ category }}</h2><ul class="npc-category-items">
+
+    {%- for name in names -%}
+        {%- assign data = site.data.npcs[name] -%}
+        {%- assign shouldBeDisplayed = false -%}
+        {%- if data.folder -%}
+            {%- if data.folder == category -%}
+                {%- assign shouldBeDisplayed = true -%}
+            {%- endif -%}
+        {%- else -%}
+            {%- if data.clan == category -%}
+                {%- assign shouldBeDisplayed = true -%}
+            {%- endif -%}
+        {%- endif -%}
+        {%- if shouldBeDisplayed -%}
+            <li><a href="/game-content/npcs/{{ name | slugify }}">{{ name }}</a></li>
+        {%- endif -%}
+    {%- endfor -%}
+    </ul></div>
+{%- endfor -%}
+
+</section>
