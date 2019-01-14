@@ -720,7 +720,7 @@
     },
     "Elanor Bones": {
         "folder": "Pirates/Naarlock",
-        "image_path": "/assets/images/npcs/Elanor-Bones-Deranek.png",
+        "image_path": "/assets/images/npcs/Elanor-Bones-Deranek.jpg",
         "type": "RIVAL",
         "species": {
             "name": "Human"
