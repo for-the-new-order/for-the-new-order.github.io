@@ -1,6 +1,8 @@
 <!-- begin _includes/seo.html -->
 {%- if page.layout == 'npc' -%}
   {%- assign data = site.data.npcs[page.title] -%}
+{%- elseif page.layout == 'vehicles' -%}
+  {%- assign data = site.data.vehicles[page.title] -%}
 {%- endif -%}
 
 
@@ -43,7 +45,7 @@
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
 {% comment %} BEGIN use NPC data for description {% endcomment %}
 {%- if data and data.description.size > 0 -%}
-{%- assign seo_description = data.description[0] -%}
+  {%- assign seo_description = data.description[0] -%}
 {%- endif -%}
 {% comment %} END use NPC data for description {% endcomment %}
 {%- if seo_description -%}
@@ -63,8 +65,8 @@
 {%- endunless -%}
 
 {% comment %} BEGIN use NPC image {% endcomment %}
-{%- if page.layout == 'npc' -%}
-  {%- if data -%}
+{%- if page.layout == 'npc' or page.layout == 'vehicles' -%}
+  {%- if data and data.image_path -%}
     {%- assign page_large_image = data.image_path | absolute_url -%}    
   {%- endif -%}
 {%- endif -%}
