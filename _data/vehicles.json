@@ -119,5 +119,106 @@
                 "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
             }
         ]
+    },
+    "The Raazial": {
+        "image_path": "/assets/images/vehicles/The-Raazial.png",
+        "description": [
+            "The Raazial is a highly modified Nebulon-B frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it."
+        ],
+        "characteristics": {
+            "silhouette": 6,
+            "max_speed": 5,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 75,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 45,
+                "current": 0
+            },
+            "protection": {
+                "defense": 3,
+                "armor": 8
+            }
+        },
+        "skill": "Operating",
+        "complement": "920 officers, pilots, and enlisted crew",
+        "passenger_capacity": "75 troops",
+        "consumables": "2 years",
+        "encumbrance_capacity": 3000,
+        "cost": {
+            "price": 8500000,
+            "rarity": 7
+        },
+        "weapons": [
+            {
+                "name": "6 port and 6 starboard retractable turret mounted double medium turbolasers",
+                "specs": "Fire Arc: All; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1, linked 1"
+            },
+            {
+                "name": "3 starboard and 3 port turret-mounted light laser cannons",
+                "specs": "Fire Arc: starboard or port; Damage 5; Critical 3; Range [Close]"
+            },
+            {
+                "name": "3 forward and 3 aft retractable turret-mounted double light laser cannons",
+                "specs": "Fire Arc: forward or aft; Damage 5; Critical 2; Range [Close], Linked 1"
+            },
+            {
+                "name": "3 forward-mounted heavy tractor beam emitters",
+                "specs": "Fire Arc Forward; Range [Medium]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 279
+        }
+    },
+    "The Scalvenker": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The Scalvenker is a modified VCX-820 Corellian Escort Freighter that serves a pirate crew under Claudette “Mauve” Malasky (M&M) that herself reports to Captain Naarlock.",
+            "Hugo the Hatless and Elanor Bones are two known associates of M&M and cannoneers of the Scalvenker."
+        ],
+        "characteristics": {
+            "silhouette": 4,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 27,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 19,
+                "current": 0
+            },
+            "protection": {
+                "defense": 2,
+                "armor": 5
+            }
+        },
+        "skill": "Piloting",
+        "complement": "1 pilot, 1 copilot, 6 gunners",
+        "passenger_capacity": "None",
+        "consumables": "6 months",
+        "encumbrance_capacity": "15 (1 metric ton)",
+        "cost": {
+            "price": 450000,
+            "rarity": 7
+        },
+        "weapons": [
+            {
+                "name": "One Port and One Starboard Turret Mounted Twin Heavy Laser Cannons",
+                "specs": "Fire Arc: Forward, Port and Aft or Forward, Starboard and Aft; Damage 6; Critical Hit 3; Range [Short]; Linked 1"
+            },
+            {
+                "name": "One Forward, One Port and One Starboard Mounted Auto-blaster Cannon",
+                "specs": "Fire Arc: Forward or Port or Starboard; Damage 3; Critical Hit 5; Range [Close]; Auto-Fire"
+            },
+            {
+                "name": "Forward Proton Torpedo Launcher",
+                "specs": "Fire Arc: Forward; Damage 8; Critical Hit 2; Range [Short]; Blast 6, Breach 6, Guided 2, Limited Ammo 16, Slow-Firing 1"
+            }
+        ]
     }
 }

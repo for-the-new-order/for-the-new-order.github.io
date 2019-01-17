@@ -40,6 +40,7 @@
         }
     },
     "Leeadra Leonis": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Grand Moff",
@@ -119,6 +120,7 @@
         ]
     },
     "Barret Marh": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Grand Admiral",
@@ -207,6 +209,7 @@
         }
     },
     "Carter Foxwell": {
+        "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
         "rank": "Commander",
@@ -288,6 +291,7 @@
         }
     },
     "Lance Sleater": {
+        "folder": "Empire/Main",
         "image_path": "/assets/images/npcs/lance-sleater.jpg",
         "type": "NEMESIS",
         "species": {
@@ -319,9 +323,10 @@
         }
     },
     "Justen Baltzell": {
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny"
                 },
@@ -335,7 +340,7 @@
         "initialSeed": 75225,
         "gender": "Male",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/Justen-Baltzell.png",
         "rank": "Commodore",
         "clan": "Empire",
         "personality": "Raspy voice",
@@ -413,9 +418,10 @@
         }
     },
     "Karly Cop": {
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": ["Officers Row", "Command Section"]
@@ -487,6 +493,7 @@
         }
     },
     "Zryv'yhx": {
+        "folder": "Rebels/Main",
         "clan": "Rebel Alliance",
         "type": "NEMESIS",
         "rank": "Admiral",
@@ -518,9 +525,10 @@
         }
     },
     "Tarrance Favreau": {
+        "folder": "Empire/Assimilator-Destiny",
         "locations": [
             {
-                "name": "Episode 1",
+                "name": "Episode 0",
                 "information": {
                     "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
                     "area": "Engineering section"
@@ -537,11 +545,11 @@
         "clan": "Empire",
         "personality": "Hard of hearing",
         "description": [
-            "Tarrance looks like he slept in a sublight engine and his uniform is stained by some unknown substances. He his clearly not heading to a parade...",
-            "He wear a toolbelt and has, most of a time, some kind of diagnostic tools in his hand."
+            "Tarrance looks like he slept in a sublight engine and some unknown substances stain his uniform. He his clearly not heading to a parade.",
+            "He wears a toolbelt and has, most of the time, some kind of diagnostic tools in his hand."
         ],
         "gm-description": [
-            "Tarrance is a hell of a mehcanic but he hear nothing and know nothing; beside how to keep a capital ship flying!."
+            "Tarrance is a hell of a mechanic, but he hears nothing and knows nothing; besides how to keep a capital ship flying!"
         ],
         "motivation": {
             "desires": {
@@ -590,5 +598,325 @@
                 "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
             }
         }
+    },
+    "Corry Stocks": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": ["Docking Bay", "Everywhere"]
+                }
+            }
+        ],
+        "image_path": "/assets/images/npcs/lieutenant-corry-stocks.jpg",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Female",
+        "clan": "Empire",
+        "description": [
+            "Standing 5' 9\" tall, Lieutenant Corry Stocks is an olive-skinned woman that has a sweet and innocent feel about her. She has a narrow face with a small nose, small ears, rosy cheeks, and puffy lips. Her blue eyes are wide, she has tapered eyebrows, and long braided blonde hairs. She has toned arms, sexy curves, and long legs."
+        ],
+        "personality": "Vain",
+        "motivation": {
+            "desires": {
+                "name": "Love",
+                "description": "She seeks romantic affection and intimacy from [some offier] and she strive to be loved by him. But just being loved or charmed could also do, for a while."
+            },
+            "fear": {
+                "name": "Isolation",
+                "description": "She fears being isolated from other people and being doomed to live and die alone. That's what drives her to seek out relationships with anyone and everyone, even when a relationship is unpleasant or unhealthy."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "She is concerned with her own wellbeing first and foremost, and she always present herself in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Naarlock": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Captain-Naarlock.png",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": ["Bad ass killer pirate captain!"],
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Your character seeks the limelight and wants to be famous. They pursue anything that can garner attention and praise."
+            },
+            "fear": {
+                "name": "Commitment",
+                "description": "The idea of making promises or being relied on scares your character, who hates the idea that someone else is relying on them. This fear of commitment could manifest in relationships, on the job, or among family."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Claudette Mauve Malasky": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Claudette-Mauve-Malasky.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": [
+            "Claudette “Mauve” Malasky, called M&M, is the captain and pilot of the Scalvenker!",
+            "The Scalvenker's crew is part of Captain Naarlock's pirates band."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Intolerance",
+                "description": "She is highly intolerance against all political groups like the Empire or the Rebel Alliance."
+            }
+        }
+    },
+    "Hugo the Hatless": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Hugo-the-Hatless.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Male",
+        "clan": "Pirates",
+        "description": [
+            "Hugo the Hatless is a crew member of the Scalvenker (Cannoneers)."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Spiritual",
+                "description": "Hugo the Hatless believes in Naarlok. His belief gives him a solid mental bedrock he can always rely on."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Hugo the Hatless is arrogant, vain, self-absorbed, and thinks highly of himself at the expense of others. He also feel indestructible, due to his believes."
+            }
+        }
+    },
+    "Elanor Bones": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Elanor-Bones-Deranek.jpg",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Female",
+        "clan": "Pirates",
+        "description": [
+            "Elanor “Bones” is a crew member of the Scalvenker (Cannoneers)."
+        ],
+        "motivation": {
+            "strength": {
+                "name": "Idealistic",
+                "description": "Elanor “Bones” believes in the Naarlock pirate's code; Pirates for life!; those ideals are nothing short of sacred. Bones feels that everyone should live up to the pirate code and she gets disappointed with people that don’t."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Elanor “Bones” shows little regard for how their actions may affect herself or others, as long as she follows her ideals. She is prone to dangerous and inconsiderate actions."
+            }
+        }
+    },
+    "Pirate Swarm": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-Minions.jpg",
+        "type": "minion",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 2
+        },
+        "minion_skills": "Cool, Ranged (Heavy) or Ranged (Light)",
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light], Damage: 7; Critical: 3; Range [Medium]; Stun Setting)",
+            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Vibroknife (Melee; Damage 3; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Padded Armor (+2 soak)"
+        ],
+        "description": ["Captain Naarlock's pirates swarm!"]
+    },
+    "Pirate Commando": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-Commando.jpg",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 4,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": [
+            "Cool 2",
+            "Melee 1",
+            "Ranged (Light) 2",
+            "Ranged (Heavy) 2",
+            "Perception 2",
+            "Stealth 1",
+            "Streewise 2",
+            "Survival 2"
+        ],
+        "talents": [
+            {
+                "name": "Quick Draw",
+                "effect": "May draw or holster a weapon as an incidental."
+            },
+            {
+                "name": "TODO",
+                "effect": "Find another one; maybe something like a flamethrower attack or something else badass..."
+            }
+        ],
+        "equipment": [
+            "Disruptor Pistol (Ranged [Light]; Damage 10; Critical 2; Range [Short]; Vicious 4)",
+            "TODO: add a rifle (Ranged [Heavy])",
+            "2x Stun Grenade (Ranged [Light]; Damage 8; Critical 4; Range [Short]; Blast 8; Disorient 3; Limited Ammo 1; Stun Damage)",
+            "Pirate Commando Armor (+2 soak, +1 defense)",
+            "Utility belt"
+        ],
+        "description": ["Captain Naarlock's pirates commandos!"]
+    },
+    "Briggs The Ghost Hatzenbuhler": {
+        "folder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-The-Ghost.jpg",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "personality": "Silent",
+        "motivation": {
+            "desires": {
+                "name": "Justice",
+                "description": "Your character believes in a set of ethics that demands fair treatment for all. Your character is dedicated to righting inequality and protecting others’ rights."
+            },
+            "fear": {
+                "name": "Failure",
+                "description": "Most people dislike failure, but some actively fear it. That fear may drive them to try to become absolutely perfect, or it may crush them into inaction. Maybe it does both."
+            },
+            "strength": {
+                "name": "Curious",
+                "description": "Life is a million mysteries, and your character wants to learn about every one. Whether curiosity drives them to meet new people, explore distant locales, or learn fantastic new truths and ideas is up to you."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        },
+        "attributes": {
+            "wounds": 20,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 6,
+            "strain": 12
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 3
+        },
+        "skills": [
+            "Brawl 3",
+            "Coercion 3",
+            "Cool 3",
+            "Coordination 2",
+            "Deception 3",
+            "Discipline 3",
+            "Leadership 2",
+            "Ranged (Light) 3",
+            "Ranged (Heavy) 3",
+            "Melee 4",
+            "Resilience 2",
+            "Skulduggery 3",
+            "Stealth 4"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Feral Strength 2",
+                "effect": "+2 damage on all Brawl and Melee attacks."
+            },
+            {
+                "name": "Knockdown",
+                "effect": "May spend [TR] to knock target prone with successful melee attack."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Pirate Leader",
+                "effect": "May perform a maneuver to give orders to other pirate allies in medium range, granting them [BO] on their next check."
+            }
+        ],
+        "equipment": [
+            "Heavy Blaster Rifle (Ranged [Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Cumbersome 3)",
+            "Vibro-ax (Melee; Damage 9; Critical 2; Range [Engaged]; Pierce 2, Sunder, Vicious 3)",
+            "Briggs' Ghost Pirate Armor (+2 soak, +1 defense; Personal Stealth/Phaser Generator [Upgrade detection check twice when stealth; Upgrade difficulty of all combat checks against this target once]; Sound suppressor [Add [BO] to Stealth checks])",
+            "Utility belt"
+        ],
+        "description": [
+            "Briggs Hatzenbuhler also known as « The Ghost », is one of the high ranking members of the Naarlock's pirate crew.",
+            "He got his nickname due to his stealthy nature, or because he doesn't speak much, or both. Nevertheless, he is not someone to reckon with."
+        ]
     }
 }

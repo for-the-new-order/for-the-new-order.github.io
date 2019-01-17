@@ -1,0 +1,59 @@
+{%- assign categories = include.categories -%}
+{%- assign names = include.names -%}
+{%- assign baseUrl = include.baseUrl -%}
+
+{%- unless baseUrl -%}
+    {%- if page.is-gm -%}
+        {%- assign baseUrl = '/gm/npcs' -%}
+    {%- else -%}
+        {%- assign baseUrl = '/game-content/npcs' -%}
+    {%- endif -%}
+{%- endunless -%}
+
+{%- unless names -%}
+    {%- if page.is-gm -%}
+        {%- assign names = site.gm-npcs | map: "title" -%}
+    {%- else -%}
+        {%- assign names = site.npcs | map: "title" -%}
+    {%- endif -%}
+{%- endunless -%}
+
+{%- unless categories -%}
+    {%- capture categories -%}
+    {%- for name in names -%}
+        {%- assign data = site.data.npcs[name] -%}
+        {%- if data.folder -%}
+            {{ data.folder }},
+        {%- endif -%}
+        {%- if data.clan -%}
+            {{ data.clan }},
+        {%- endif -%}
+    {%- endfor -%}
+    {%- endcapture -%}
+    {%- assign categories = categories | split: ',' | uniq | sort -%}
+{%- endunless -%}
+
+<section class="npc-categories">
+
+{%- comment -%} List categories > npcs {%- endcomment -%}
+{%- for category in categories -%}
+    
+    <div class="npc-category"><h2>{{ category }}</h2><ul class="npc-category-items">
+
+    {%- for name in names -%}
+        {%- assign data = site.data.npcs[name] -%}
+        {%- assign shouldBeDisplayed = false -%}
+        {%- if data.folder and data.folder == category -%}
+            {%- assign shouldBeDisplayed = true -%}
+        {%- endif -%}
+        {%- if data.clan and data.clan == category -%}
+            {%- assign shouldBeDisplayed = true -%}
+        {%- endif -%}
+        {%- if shouldBeDisplayed -%}
+            <li><a href="{{ baseUrl }}/{{ name | slugify }}">{{ name }}</a></li>
+        {%- endif -%}
+    {%- endfor -%}
+    </ul></div>
+{%- endfor -%}
+
+</section>
