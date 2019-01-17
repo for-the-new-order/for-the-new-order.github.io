@@ -1,10 +1,9 @@
 <!-- begin _includes/seo.html -->
 {%- if page.layout == 'npc' -%}
   {%- assign data = site.data.npcs[page.title] -%}
-{%- elseif page.layout == 'vehicles' -%}
+{%- elsif page.layout == 'vehicles' -%}
   {%- assign data = site.data.vehicles[page.title] -%}
 {%- endif -%}
-
 
 {%- if site.url -%}
   {%- assign seo_url = site.url | append: site.baseurl -%}
