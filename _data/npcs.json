@@ -918,5 +918,32 @@
             "Briggs Hatzenbuhler also known as « The Ghost », is one of the high ranking members of the Naarlock's pirate crew.",
             "He got his nickname due to his stealthy nature, or because he doesn't speak much, or both. Nevertheless, he is not someone to reckon with."
         ]
+    },
+    "Garold Carbonneau": {
+        "folder": "Empire/Introduction",
+        "initialSeed": 459882,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Commodore",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Snooty",
+        "motivation": {
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        },
+        "description": [
+            "Commodore Carbonneau is officer in charge of the ISD Falsifier"
+        ]
     }
 }
