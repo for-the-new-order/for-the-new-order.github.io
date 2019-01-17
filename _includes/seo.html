@@ -1,7 +1,7 @@
 <!-- begin _includes/seo.html -->
 {%- if page.layout == 'npc' -%}
   {%- assign data = site.data.npcs[page.title] -%}
-{%- elsif page.layout == 'vehicles' -%}
+{%- elsif page.layout == 'vehicle' -%}
   {%- assign data = site.data.vehicles[page.title] -%}
 {%- endif -%}
 
@@ -64,7 +64,7 @@
 {%- endunless -%}
 
 {% comment %} BEGIN use NPC image {% endcomment %}
-{%- if page.layout == 'npc' or page.layout == 'vehicles' -%}
+{%- if page.layout == 'npc' or page.layout == 'vehicle' -%}
   {%- if data and data.image_path -%}
     {%- assign page_large_image = data.image_path | absolute_url -%}    
   {%- endif -%}
