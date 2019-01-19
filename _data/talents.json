@@ -601,7 +601,7 @@
     },
     {
         "Name": "Animal Expertise",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add [BO] per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
@@ -621,7 +621,7 @@
     },
     {
         "Name": "Barrage",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
@@ -641,7 +641,7 @@
     },
     {
         "Name": "Beast Wrangler",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add [BO] per rank of Beast Wrangler to checks to tame or wrangle creatures.",
@@ -691,7 +691,7 @@
     },
     {
         "Name": "Blooded",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add [BO] per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
@@ -731,7 +731,7 @@
     },
     {
         "Name": "Command",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add [BO] per rank of Command when making Leadership checks. Affected targets add [BO] to Discipline checks for next 24 hours.",
@@ -741,7 +741,7 @@
     },
     {
         "Name": "Confidence",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence, to a minimum of Easy (?).",
@@ -751,7 +751,7 @@
     },
     {
         "Name": "Coordinated Assault",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Maneuver)",
         "Ranked": "Yes",
         "Text": "Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add [AD] to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first.",
@@ -781,7 +781,7 @@
     },
     {
         "Name": "Daring Aviator",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Incidental)",
         "Ranked": "Yes",
         "Text": "Before your character makes a Driving or Piloting check, they may add a number of [TH] to the results to use this talent to add an equal number of [SU]. The number may not exceed your character’s ranks in Daring Aviator.",
@@ -811,7 +811,7 @@
     },
     {
         "Name": "Defensive Stance",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Maneuver)",
         "Ranked": "Yes",
         "Text": "Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character’s next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered.",
@@ -841,7 +841,7 @@
     },
     {
         "Name": "Disorient",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "After hitting with combat check, may spend [AD][AD] to disorient target for number of rounds equal to ranks in Disorient.",
@@ -851,7 +851,7 @@
     },
     {
         "Name": "Distracting Behavior",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Maneuver)",
         "Ranked": "Yes",
         "Text": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of engaged NPC's suffer [TH] on checks. Range increases with additional ranks.",
@@ -951,7 +951,7 @@
     },
     {
         "Name": "Fine Tuning",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "When reducing the amount of system strain a starship or vehicle suffers, reduce 1 additional strain per rank of Fine Tuning.",
@@ -1101,7 +1101,7 @@
     },
     {
         "Name": "Inventor",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Incidental)",
         "Ranked": "Yes",
         "Text": "When your character makes a check to construct new items or modify existing ones, use this talent to add a number of [BO] to the check equal to ranks of Inventor. In addition, your character may attempt to reconstruct devices that they have heard described but have not seen and do not have any kinds of plans or schematics for.",
@@ -1271,7 +1271,7 @@
     },
     {
         "Name": "Researcher",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "On a successful Knowledge check, character and allies gain automatic [AD] per rank of Researcher on checks to act on those facts until the end of his next turn.",
@@ -1341,7 +1341,7 @@
     },
     {
         "Name": "Shortcut",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "During a chase, add [BO] per rank in Shortcut to any checks made to catch or escape an opponent.",
@@ -1351,7 +1351,7 @@
     },
     {
         "Name": "Side Step",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Active (Maneuver)",
         "Ranked": "Yes",
         "Text": "Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character’s next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered.",
@@ -1371,7 +1371,7 @@
     },
     {
         "Name": "Speaks Binary",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "When directing non-sentient NPC artificial life forms, may grant them [BO] per rank of Speaks Binary on checks.",
@@ -1381,7 +1381,7 @@
     },
     {
         "Name": "Stalker",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "Add [BO] per rank of Stalker to all Stealth and Coordination checks.",
@@ -1411,7 +1411,7 @@
     },
     {
         "Name": "Suppressing Fire",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "The character and each ally within short range may spend [AD] on their failed combat checks to inflict one strain on the target per rank of Suppressing Fire. Each character can only activate this effect once per round.",
@@ -1461,7 +1461,7 @@
     },
     {
         "Name": "Tinkerer",
-        "Tier": 2,
+        "Tier": 1,
         "Activation": "Passive",
         "Ranked": "Yes",
         "Text": "May add 1 additional hard point to a number of items equal to ranks in Tinkerer. Each item may only be modified once.",
