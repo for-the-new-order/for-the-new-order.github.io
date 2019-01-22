@@ -251,6 +251,10 @@ excerpt: "EMPTY!"
             {%- endif -%}
             {%- if data.clan -%}
                 {{ data.clan }},
+                {%- if data.corp -%}
+                    {%- assign currentClanCorp = data.clan | append: "/" | append: data.corp -%}
+                    {{ currentClanCorp }},
+                {%- endif -%}
             {%- endif -%}
             {%- endcapture -%}
             <section class="related-npcs">

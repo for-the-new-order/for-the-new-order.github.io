@@ -27,6 +27,9 @@
         {%- endif -%}
         {%- if data.clan -%}
             {{ data.clan }},
+            {%- if data.corp -%}
+                {{ data.clan }}/{{ data.corp }},
+            {%- endif -%}
         {%- endif -%}
     {%- endfor -%}
     {%- endcapture -%}
@@ -47,6 +50,10 @@
             {%- assign shouldBeDisplayed = true -%}
         {%- endif -%}
         {%- if data.clan and data.clan == category -%}
+            {%- assign shouldBeDisplayed = true -%}
+        {%- endif -%}
+        {%- assign currentClanCorp = data.clan | append: "/" | append: data.corp -%}
+        {%- if data.clan and data.corp and currentClanCorp == category -%}
             {%- assign shouldBeDisplayed = true -%}
         {%- endif -%}
         {%- if shouldBeDisplayed -%}
