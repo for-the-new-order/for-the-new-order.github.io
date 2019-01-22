@@ -1,0 +1,18 @@
+{
+    "Episode 0: npc folder and location": {
+        "prefix": "npc-folder-and-location-episode-0-destiny",
+        "body": [
+            "\"folder\": \"Empire/Assimilator-Destiny\",",
+            "\"locations\": [",
+            "\t{",
+            "\t\t\"name\": \"Episode 0\",",
+            "\t\t\"information\": {",
+            "\t\t\t\"ship\": \"Assimilator-Class Interdictor Star Destroyer Destiny\",",
+            "\t\t\t\"area\": \"${1|Everywhere,Engineering section,Vehicle Storage,Hangar Bays,Vehicle Maintenance,Crew living section,Detention Center,Command section,Officers row,Bridge|}\"",
+            "\t\t}",
+            "\t}",
+            "],"
+        ],
+        "description": "Create the Empire/Assimilator-Destiny folder and locations array of an NPC that was in Episode 0 on board of the Assimilator-Class Interdictor Star Destroyer Destiny."
+    }
+}

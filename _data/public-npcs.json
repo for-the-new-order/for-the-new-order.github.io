@@ -58,7 +58,21 @@
         { "name": "Pirate Swarm" },
         { "name": "Pirate Commando" },
         { "name": "Briggs The Ghost Hatzenbuhler" },
-        { "name": "Garold Carbonneau" }
+        { "name": "Garold Carbonneau" },
+        { "name": "Derrek Guthrie" },
+        { "name": "Federico Taliento" },
+        { "name": "Winne Squires" },
+        { "name": "Steven Winterrowd" },
+        { "name": "Joseph Mcvaney" },
+        {
+            "name": "Sylvia Pellissier",
+            "frontMatter": ["display-motivation-flaw: true"]
+        },
+        { "name": "Jeannette Shotts" },
+        { "name": "Marve Stathas" },
+        { "name": "Husein Bluma" },
+        { "name": "Barclay Camu" },
+        { "name": "Phil Ellingsen" }
     ],
     "vehicles": [
         {
@@ -72,5 +86,11 @@
         { "name": "The Raazial" },
         { "name": "The Scalvenker" }
     ],
-    "to-be-revealed-soon": [{ "name": "TBD" }]
+    "to-be-revealed-soon": [{ "name": "TBD" }],
+    "other-npcs": {
+        "compnor": [
+            { "name": "Prescott Oleksyn", "rank": "Agent" },
+            { "name": "Ambros Walty", "rank": "Deputy Director" }
+        ]
+    }
 }
