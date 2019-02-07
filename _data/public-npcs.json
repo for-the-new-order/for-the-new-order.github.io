@@ -48,7 +48,13 @@
             ]
         },
         { "name": "Justen Baltzell" },
-        { "name": "Corry Stocks" },
+        {
+            "name": "Corry Stocks",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true"
+            ]
+        },
         {
             "name": "Tarrance Favreau",
             "frontMatter": [
