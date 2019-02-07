@@ -1,4 +1,0 @@
----
-title: Federico Taliento
-
----

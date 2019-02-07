@@ -49,30 +49,42 @@
         },
         { "name": "Justen Baltzell" },
         { "name": "Corry Stocks" },
-        { "name": "Karly Cop" },
-        { "name": "Tarrance Favreau" },
+        {
+            "name": "Tarrance Favreau",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true"
+            ]
+        },
         { "name": "Naarlock" },
         { "name": "Claudette Mauve Malasky" },
         { "name": "Hugo the Hatless" },
         { "name": "Elanor Bones" },
         { "name": "Pirate Swarm" },
         { "name": "Pirate Commando" },
-        { "name": "Briggs The Ghost Hatzenbuhler" },
-        { "name": "Garold Carbonneau" },
-        { "name": "Derrek Guthrie" },
-        { "name": "Federico Taliento" },
-        { "name": "Winne Squires" },
-        { "name": "Steven Winterrowd" },
-        { "name": "Joseph Mcvaney" },
         {
-            "name": "Sylvia Pellissier",
-            "frontMatter": ["display-motivation-flaw: true"]
+            "name": "Winne Squires",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: true"
+            ]
         },
-        { "name": "Jeannette Shotts" },
-        { "name": "Marve Stathas" },
-        { "name": "Husein Bluma" },
-        { "name": "Barclay Camu" },
-        { "name": "Phil Ellingsen" }
+        {
+            "name": "Derrek Guthrie",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-strength: true"
+            ]
+        },
+        {
+            "name": "Phil Ellingsen",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true"
+            ]
+        }
     ],
     "vehicles": [
         {
@@ -89,6 +101,22 @@
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {
+        "empire": [
+            { "name": "Karly Cop" },
+            { "name": "Briggs The Ghost Hatzenbuhler" },
+            { "name": "Garold Carbonneau" },
+            { "name": "Federico Taliento" },
+            { "name": "Steven Winterrowd" },
+            { "name": "Joseph Mcvaney" },
+            {
+                "name": "Sylvia Pellissier",
+                "frontMatter": ["display-motivation-flaw: true"]
+            },
+            { "name": "Jeannette Shotts" },
+            { "name": "Marve Stathas" },
+            { "name": "Husein Bluma" },
+            { "name": "Barclay Camu" }
+        ],
         "compnor": [
             { "name": "Prescott Oleksyn", "rank": "Agent" },
             { "name": "Ambros Walty", "rank": "Deputy Director" }

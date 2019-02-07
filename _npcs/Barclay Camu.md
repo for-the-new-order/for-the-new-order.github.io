@@ -1,4 +1,0 @@
----
-title: Barclay Camu
-
----
