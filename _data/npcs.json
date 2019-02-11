@@ -1383,5 +1383,89 @@
                 "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
             }
         }
+    },
+    "Fitz Gorr": {
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Commander",
+        "gender": "Male",
+        "clan": "rebels",
+        "corp": "navy",
+        "description": [
+            "https://www.pinterest.ca/pin/704883779157553494/",
+            "https://www.pinterest.ca/pin/774408098400278375/"
+        ],
+        "personality": "Jovial",
+        "motivation": {
+            "desires": {
+                "name": "Justice",
+                "description": "Commander Gorr want to restore the galactic republic at all cost!"
+            },
+            "fear": {
+                "name": "Stability",
+                "description": "Commander Gorr prefer to be in the flow of the action than stable somewhere safe. For him, stability is so boring that it becomes debilitating."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your Commander Gorr's heart. He laugh at danger and gladly push himself to confront what others flee from."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Commander Gorr shows little regard for how their actions may affect himself or others, and is especially prone to dangerous or inconsiderate actions. Even suicidal actions!"
+            }
+        }
+    },
+    "Travus Karns": {
+        "initialSeed": 434977,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "description": [
+            "Captain of the Nebulon-B Frigates Kryptoria.",
+            "Obsequious: obedient or attentive to an excessive or servile degree."
+        ],
+        "personality": "Obsequious",
+        "motivation": {
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Pride does not always have to be a Flaw, but it can easily become one. Your character is arrogant, vain, or self-absorbed, or thinks highly of themself at the expense of others."
+            }
+        }
+    },
+    "Ashton Mccausland": {
+        "initialSeed": 475267,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Rude",
+        "motivation": {
+            "strength": {
+                "name": "Curious",
+                "description": "Life is a million mysteries, and your character wants to learn about every one. Whether curiosity drives them to meet new people, explore distant locales, or learn fantastic new truths and ideas is up to you."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        }
     }
 }

@@ -105,7 +105,12 @@
         { "name": "The Scalvenker" },
         { "name": "Assimilator-Class Interdictor Star Destroyer" }
     ],
-    "to-be-revealed-soon": [{ "name": "TBD" }],
+    "to-be-revealed-soon": [
+        { "name": "TBD" },
+        { "name": "Fitz Gorr" },
+        { "name": "Travus Karns" },
+        { "name": "Ashton Mccausland" }
+    ],
     "other-npcs": {
         "empire": [
             { "name": "Karly Cop" },
