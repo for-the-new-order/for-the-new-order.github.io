@@ -494,7 +494,8 @@
     },
     "Zryv'yhx": {
         "folder": "Rebels/Main",
-        "clan": "Rebel Alliance",
+        "clan": "rebels",
+        "corp": "Navy",
         "type": "NEMESIS",
         "rank": "Admiral",
         "image_path": "/assets/images/npcs/250x250-rebels.png",
@@ -1385,6 +1386,7 @@
         }
     },
     "Fitz Gorr": {
+        "folder": "Rebels/Calamari-Cruiser-Gladiator",
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "nemesis",
         "species": {
@@ -1395,8 +1397,8 @@
         "clan": "rebels",
         "corp": "navy",
         "description": [
-            "https://www.pinterest.ca/pin/704883779157553494/",
-            "https://www.pinterest.ca/pin/774408098400278375/"
+            "[https://www.pinterest.ca/pin/704883779157553494/](https://www.pinterest.ca/pin/704883779157553494/)",
+            "[https://www.pinterest.ca/pin/774408098400278375/](https://www.pinterest.ca/pin/774408098400278375/)"
         ],
         "personality": "Jovial",
         "motivation": {
@@ -1419,6 +1421,7 @@
         }
     },
     "Travus Karns": {
+        "folder": "Empire/Nebulon-B-Kryptoria",
         "initialSeed": 434977,
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "rival",
@@ -1446,6 +1449,7 @@
         }
     },
     "Ashton Mccausland": {
+        "folder": "Empire/Nebulon-B-Sparta",
         "initialSeed": 475267,
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "rival",
