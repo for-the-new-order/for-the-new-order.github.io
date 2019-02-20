@@ -1471,5 +1471,67 @@
                 "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
             }
         }
+    },
+    "Lindsey Rostock": {
+        "initialSeed": 255051,
+        "image_path": "/assets/images/npcs/Lindsey-Rostock.jpg",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Commander",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Intelligence",
+        "personality": "Missing eye",
+        "motivation": {
+            "desires": {
+                "name": "Vengeance",
+                "description": "Some ISB agent wronged Rostock in the past and the ISB stood by encouraging him/her, and she sworn to exact revenge against the ISB by diminishing them every time that she can."
+            },
+            "fear": {
+                "name": "Expression",
+                "description": "TBD: Your character has some behavior or means of expressing themself privately that they do not want the world to know about. The nature of that behavior is up to you. Keep the setting in mind when you come up with it, though."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at Rostock, she always rise to the challenge. Rostock is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "TBD: This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
+    },
+    "Juno Eclipse": {
+        "initialSeed": 380114,
+        "image_path": "/assets/images/npcs/Juno-Eclipse.jpg",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Major",
+        "gender": "Female",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Gearhead",
+        "motivation": {
+            "desires": {
+                "name": "Vengeance",
+                "description": "The Empire wronged your Juno by forcing her to kill the innocents, and she has sworn to exact revenge against them by joining the Rebel Alliance."
+            },
+            "fear": {
+                "name": "Nemesis",
+                "description": "Juno fears Darth Vader!"
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
     }
 }

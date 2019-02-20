@@ -90,7 +90,12 @@
                 "display-motivation: true",
                 "display-motivation-personality: true"
             ]
-        }
+        },
+        { "name": "Fitz Gorr" },
+        { "name": "Travus Karns" },
+        { "name": "Ashton Mccausland" },
+        { "name": "Lindsey Rostock" },
+        { "name": "Juno Eclipse" }
     ],
     "vehicles": [
         {
@@ -105,12 +110,7 @@
         { "name": "The Scalvenker" },
         { "name": "Assimilator-Class Interdictor Star Destroyer" }
     ],
-    "to-be-revealed-soon": [
-        { "name": "TBD" },
-        { "name": "Fitz Gorr" },
-        { "name": "Travus Karns" },
-        { "name": "Ashton Mccausland" }
-    ],
+    "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {
         "empire": [
             { "name": "Karly Cop" },
