@@ -9,14 +9,12 @@ main: # Main menu (top)
 home: # Home page menu (left)
   - title: "Main menu"
     children:
-      - title: Setting and rules
+      - title: Setting, rules and player content
         url: /rules/
-      - title: Player game content
-        url: /game-content/
       - title: About
         url: /about/
 
-rules: # Rules menu (left)
+rulesandgamecontent: # Rules menu (left)
   - title: "General"
     children:
       - title: Setting and rules
@@ -35,8 +33,6 @@ rules: # Rules menu (left)
     children:
       - title: Mass combat (War)
         url: /rules/mass-combat/
-
-gamecontent: # Player game content
   - title: "Game Content"
     children:
       - title: Content and Crawls
@@ -57,6 +53,7 @@ gamecontent: # Player game content
         url: /imperial-sourcebook/compnor/
       - title: Imperial Intelligence
         url: /imperial-sourcebook/imperial-intelligence/
+
 gamemaster: # Game master menu
   - title: "Game Master Content"
     children:

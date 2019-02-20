@@ -306,7 +306,7 @@ defaults:
         - pages-rules
         - genesys-theme
       sidebar:
-        nav: "rules"
+        nav: "rulesandgamecontent"
 
   - scope:
       path: "_pages/game-content"
@@ -315,7 +315,7 @@ defaults:
         - game-content
         - genesys-theme
       sidebar:
-        nav: "gamecontent"
+        nav: "rulesandgamecontent"
 
   - scope:
       path: "_npcs"
@@ -324,7 +324,7 @@ defaults:
       layout: npc
       excerpt: ""
       sidebar:
-        nav: "gamecontent"
+        nav: "rulesandgamecontent"
       classes:
         - npcs
         - genesys-theme
@@ -400,7 +400,7 @@ defaults:
       layout: vehicle
       excerpt: ""
       sidebar:
-        nav: "gamecontent"
+        nav: "rulesandgamecontent"
       classes:
         - vehicles
         - genesys-theme
