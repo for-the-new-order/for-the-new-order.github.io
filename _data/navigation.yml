@@ -1,16 +1,16 @@
 main: # Main menu (top)
-  - title: Setting and rules
+  - title: Setting, rules and player content
     url: /rules/
-  - title: Player game content
-    url: /game-content/
   - title: About
     url: /about/
 
 home: # Home page menu (left)
   - title: "Main menu"
     children:
-      - title: Setting, rules and player content
+      - title: Setting and rules
         url: /rules/
+      - title: Player game content
+        url: /game-content/
       - title: About
         url: /about/
 
