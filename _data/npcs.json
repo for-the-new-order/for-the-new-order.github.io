@@ -1475,7 +1475,7 @@
     "Lindsey Rostock": {
         "initialSeed": 255051,
         "image_path": "/assets/images/npcs/Lindsey-Rostock.jpg",
-        "type": "rival",
+        "type": "nemesis",
         "species": {
             "name": "Human"
         },
@@ -1483,6 +1483,9 @@
         "gender": "Female",
         "clan": "Empire",
         "corp": "Intelligence",
+        "description": [
+            "Commander Rostock is the Imperial Intelligence's equivalent to Commander Foxwell and she loves to make the ISB looks bad."
+        ],
         "personality": "Missing eye",
         "motivation": {
             "desires": {
@@ -1514,6 +1517,9 @@
         "gender": "Female",
         "clan": "Rebels",
         "corp": "Navy",
+        "description": [
+            "Juno Eclipse was a Human female officer and pilot in the Alliance to Restore the Republic. Prior to her service in the Alliance Fleet, Eclipse served in the naval forces of the Galactic Empire. A graduate of the Imperial Academy on Corulag, her homeworld, she ultimately attained the rank of Captain after making a name for herself as an exceptionally skilled TIE pilot. At the height of her military career, the young Imperial officer was personally chosen by Darth Vader—the Dark Lord of the Sith and Emperor Palpatine's apprentice—to lead the Black Eight Squadron. Although she was initially honored to serve under Vader's command, Eclipse was disturbed by the Sith Lord's tactics which she considered excessively brutal."
+        ],
         "personality": "Gearhead",
         "motivation": {
             "desires": {
