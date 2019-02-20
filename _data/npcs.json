@@ -1513,12 +1513,14 @@
         "species": {
             "name": "Human"
         },
-        "rank": "Major",
+        "rank": "Captain",
         "gender": "Female",
         "clan": "Rebels",
         "corp": "Navy",
         "description": [
-            "Juno Eclipse was a Human female officer and pilot in the Alliance to Restore the Republic. Prior to her service in the Alliance Fleet, Eclipse served in the naval forces of the Galactic Empire. A graduate of the Imperial Academy on Corulag, her homeworld, she ultimately attained the rank of Captain after making a name for herself as an exceptionally skilled TIE pilot. At the height of her military career, the young Imperial officer was personally chosen by Darth Vader—the Dark Lord of the Sith and Emperor Palpatine's apprentice—to lead the Black Eight Squadron. Although she was initially honored to serve under Vader's command, Eclipse was disturbed by the Sith Lord's tactics which she considered excessively brutal."
+            "Juno Eclipse was a Human female officer and pilot in the Alliance to Restore the Republic. Prior to her service in the Alliance Fleet, Eclipse served in the naval forces of the Galactic Empire. A graduate of the Imperial Academy on Corulag, her homeworld, she ultimately attained the rank of Captain after making a name for herself as an exceptionally skilled TIE pilot.",
+            "At the height of her military career, the young Imperial officer was personally chosen by Darth Vader to lead the Black Eight Squadron. Although she was initially honored to serve under Vader's command, Eclipse was disturbed by the Sith Lord's tactics which she considered excessively brutal.",
+            "Inspired by Galen Marek's sacrifice, Juno Eclipse stayed with the newly formed Rebel Alliance. To ensure that Marek's death would not be in vain, Eclipse dedicated her life to serving in the Alliance's Rebel Fleet, becoming an officer in its ranks and retaining the rank of captain that she previously earned in the Imperial Navy."
         ],
         "personality": "Gearhead",
         "motivation": {
