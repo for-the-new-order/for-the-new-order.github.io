@@ -1541,5 +1541,25 @@
                 "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
             }
         }
+    },
+    "Raymond Fremder": {
+        "alias": "Raymond L'impitoyable",
+        "folder": "Allies",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "description": [
+            "Raymond got recruited by Dargon Starlight during a mission. He is now an employee of Starlight Industries, doing Dargon's biddings.",
+            "More TBD..."
+        ],
+        "clan": "Pirates",
+        "corp": "Smuggler",
+        "equipment": [
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Vibroblade"
+        ]
     }
 }
