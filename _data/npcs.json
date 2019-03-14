@@ -1551,15 +1551,56 @@
             "name": "Human"
         },
         "description": [
-            "Raymond got recruited by Dargon Starlight during a mission. He is now an employee of Starlight Industries, doing Dargon's biddings.",
+            "Raymond was a pirate smuggler in the Captain Naarlok organization; he deserted when Dargon Starlight recruited him. He is now an employee of Starlight Industries, doing Dargon's biddings.",
             "More TBD..."
         ],
-        "clan": "Pirates",
+        "clan": "Starlight Industries",
         "corp": "Smuggler",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": 12
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 3
+        },
+        "skills": [
+            "Cool 1",
+            "Ranged (light) 2",
+            "Ranged (Heavy) 1",
+            "Charm 2",
+            "Deception 2",
+            "Skulduggery 2",
+            "Piloting 3",
+            "Streetwise 2",
+            "Vigilance 1"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Skilled Jockey 2",
+                "effect": "Remove [SE][SE] from all Piloting checks."
+            }
+        ],
+        "abilities": [],
         "equipment": [
+            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
             "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
-            "Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
-            "Vibroblade"
+            "Vibroknife (Melee; Damage +1; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Vibrosword (Melee; Damage +2; Critical 2; Range [Engaged]; Pierce 2, Vicious 1, Defensive 1)",
+            "Blast Vest (+1 Soak)"
         ]
     }
 }
