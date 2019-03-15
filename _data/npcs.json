@@ -1545,7 +1545,7 @@
     "Raymond Fremder": {
         "alias": "Raymond L'impitoyable",
         "folder": "Allies",
-        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "image_path": "/assets/images/npcs/Raymond-Fremder.jpg",
         "type": "rival",
         "species": {
             "name": "Human"
