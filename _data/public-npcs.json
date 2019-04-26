@@ -125,7 +125,15 @@
         },
         { "name": "The Raazial" },
         { "name": "The Scalvenker" },
-        { "name": "Assimilator-Class Interdictor Star Destroyer" }
+        { "name": "Assimilator-Class Interdictor Star Destroyer" },
+        {
+            "name": "Nssis-class Clawcraft",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-general-info: true",
+                "display-weapons: true"
+            ]
+        }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {

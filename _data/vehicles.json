@@ -220,5 +220,45 @@
                 "specs": "Fire Arc: Forward; Damage 8; Critical Hit 2; Range [Short]; Blast 6, Breach 6, Guided 2, Limited Ammo 16, Slow-Firing 1"
             }
         ]
+    },
+    "Nssis-class Clawcraft": {
+        "image_path": "/assets/images/vehicles/NssisClassClawcraft-500px.png",
+        "description": [
+            "The Nssis-class Clawcraft was a starfighter typically associated with the Chiss, but in fact was a hybrid development of standard Imperial technology.",
+            "Equipped with a Chiss hyperspace beacon system",
+            "Hyperdrive class 1.5"
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 6,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
+            "protection": {
+                "defense": 1,
+                "armor": 3
+            }
+        },
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": "None",
+        "consumables": "1 week",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 0,
+            "rarity": 99
+        },
+        "weapons": [
+            {
+                "name": "SFS L-s7.2 laser cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
+            }
+        ]
     }
 }
