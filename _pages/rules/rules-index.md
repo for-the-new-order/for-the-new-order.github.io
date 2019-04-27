@@ -64,17 +64,6 @@ Since there is no specialization in Genesys the players have a few choices:
 1.  Choose a Star Wars specialization, choose and check 8 of the 12 career skills and gain 1 rank in 4 of those.
 1.  Create a new career that better fits your needs, with your GM.
 
-<!--
-To account for the increased number of skills (knowledge) and the epicness of Star Wars heroes and villains, at character creation:
-
--   If a player find a specialization that suits him, apply the 4 new career skills and increase two of those by 1 as per the Star Wars rules.
--   If a player does not find a specialization, allow him to create one and give that player:
-    -   2 more career skills
-        -   GM and player must agree on the skills
-    -   2 skill points to add to career skills. At least one must increase the two new career skills.
-        -   As per normal rules, no single skill can start with more than two ranks.
- -->
-
 ## Character creation
 
 To kickstart the game and meat the Overwatch Division requirements, the PCs must be more than simple recruits.
@@ -110,17 +99,17 @@ The players will rank following:
 
 | Officer Code | ISB Rank             | Minimum Contribution Rank |
 | ------------ | -------------------- | ------------------------- |
-| 16           | -                    | 34                        |
-| 15           | Director             | 30                        |
-| 14           | Deputy Director      | 26                        |
-| 13           | -                    | 23                        |
-| 12           | -                    | 20                        |
-| 11           | Senior Colonel       | 17                        |
-| 10           | Colonel              | 14                        |
-| 9            | Commander            | 11                        |
-| 8            | Lieutenant Commander | 9                         |
-| 7            | Senior Agent         | 7                         |
-| 6            | Agent                | 5                         |
+| 16           | -                    | 45                        |
+| 15           | Director             | 40                        |
+| 14           | Deputy Director      | 35                        |
+| 13           | -                    | 31                        |
+| 12           | -                    | 27                        |
+| 11           | Senior Colonel       | 23                        |
+| 10           | Colonel              | 19                        |
+| 9            | Commander            | 15                        |
+| 8            | Lieutenant Commander | 12                        |
+| 7            | Senior Agent         | 9                         |
+| 6            | Agent                | 6                         |
 | 5            | Inspector General    | 4                         |
 | 4            | Inspector            | 3                         |
 | 3            | Junior Inspector     | 2                         |
