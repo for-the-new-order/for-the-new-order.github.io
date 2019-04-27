@@ -74,3 +74,55 @@ To account for the increased number of skills (knowledge) and the epicness of St
     -   2 skill points to add to career skills. At least one must increase the two new career skills.
         -   As per normal rules, no single skill can start with more than two ranks.
  -->
+
+## Character creation
+
+To kickstart the game and meat the Overwatch Division requirements, the PCs must be more than simple recruits.
+
+### Starting Gear
+
+-   Max 2,000 credits per individual piece of standard equipment with a Rarity of 6 or less
+-   Max 10,000 credits of standard gear
+    -   So, you can buy 5 items that are worth 2,000 or 1,000 items that are worth 10.
+    -   You don't need to hit the limit, some character will need more than others; you’re are part of the imperial war machine, you have access to special stuff without the need to own it!
+    -   Remember: the GM always have the last word!
+-   Definition of standard equipment: your day-to-day gear; nothing special and nothing that fits only a few specific situations. For example, an armor that suits your character, one or more weapons that suit your style, a few other pieces of gear like a Commlink, an extra reload, a backpack, as long as the equipment aligns with your character day to day role in the empire.
+-   For anything that cost more than the specified amounts, the GM must approve. Your background story and your motivations must be aligned with the gear.
+
+### Starting Duty
+
+-   20 Duty points each (for 4 players as per standard rules)
+-   3 contribution rank (PCs are talented and have been recruited by the Overwatch Division; they deserve a little extra!)
+    -   Each rank can contribute to one piece of special gear; something rare or costly; some personal vehicle, some kind of amenity's access or whatever else that feels like a good reward for 100 duty point of contribution to the empire's prosperity! GM approval is mandatory. See AoR p. 50, 325 (Table 9-3: group contribution rank guidelines) for more info.
+    -   Should have of a maximum rarity of (3 + Contribution Rank) with a minimum of 6.
+-   ~~Alternate rules~~ Not yet into play
+    -   ~~Each CR can also be invested in "Team Presence Talents". The rules are described at Imperial Troops Deployment Rules and the talents can be found at Team Presence Talents~~
+
+### After character creation
+
+Award players +100 XP that cannot be used for characteristics.
+
+## Ranks
+
+The ranks used are available at [Imperial > Ranks](/imperial-sourcebook/ranks/).
+
+The players will rank following:
+
+| Officer Code | ISB Rank             | Minimum Contribution Rank |
+| ------------ | -------------------- | ------------------------- |
+| 16           | -                    | 34                        |
+| 15           | Director             | 30                        |
+| 14           | Deputy Director      | 26                        |
+| 13           | -                    | 23                        |
+| 12           | -                    | 20                        |
+| 11           | Senior Colonel       | 17                        |
+| 10           | Colonel              | 14                        |
+| 9            | Commander            | 11                        |
+| 8            | Lieutenant Commander | 9                         |
+| 7            | Senior Agent         | 7                         |
+| 6            | Agent                | 5                         |
+| 5            | Inspector General    | 4                         |
+| 4            | Inspector            | 3                         |
+| 3            | Junior Inspector     | 2                         |
+| 2            | -                    | 1                         |
+| 1            | -                    | 0                         |
