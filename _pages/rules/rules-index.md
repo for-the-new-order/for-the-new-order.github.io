@@ -95,23 +95,23 @@ Award players +100 XP that cannot be used for characteristics.
 
 The ranks used are available at [Imperial > Ranks](/imperial-sourcebook/ranks/).
 
-The players will rank following:
+The players will rank up using the following table. GM discretion is advised, especially for higher ranks.
 
-| Officer Code | ISB Rank             | Minimum Contribution Rank |
-| ------------ | -------------------- | ------------------------- |
-| 16           | -                    | 45                        |
-| 15           | Director             | 40                        |
-| 14           | Deputy Director      | 35                        |
-| 13           | -                    | 31                        |
-| 12           | -                    | 27                        |
-| 11           | Senior Colonel       | 23                        |
-| 10           | Colonel              | 19                        |
-| 9            | Commander            | 15                        |
-| 8            | Lieutenant Commander | 12                        |
-| 7            | Senior Agent         | 9                         |
-| 6            | Agent                | 6                         |
-| 5            | Inspector General    | 4                         |
-| 4            | Inspector            | 3                         |
-| 3            | Junior Inspector     | 2                         |
-| 2            | -                    | 1                         |
-| 1            | -                    | 0                         |
+| Officer Code | ISB Rank             | Minimum Contribution Rank | Governance       |
+| ------------ | -------------------- | ------------------------- | ---------------- |
+| 16           | -                    | 45                        | Grand Moff       |
+| 15           | Director             | 40                        | Moff             |
+| 14           | Deputy Director      | 35                        | Governor/Viceroy |
+| 13           | -                    | 31                        |                  |
+| 12           | -                    | 27                        |                  |
+| 11           | Senior Colonel       | 23                        |                  |
+| 10           | Colonel              | 19                        |                  |
+| 9            | Commander            | 15                        |                  |
+| 8            | Lieutenant Commander | 12                        |                  |
+| 7            | Senior Agent         | 9                         |                  |
+| 6            | Agent                | 6                         |                  |
+| 5            | Inspector General    | 4                         |                  |
+| 4            | Inspector            | 3                         |                  |
+| 3            | Junior Inspector     | 2                         |                  |
+| 2            | -                    | 1                         |                  |
+| 1            | -                    | 0                         |                  |
