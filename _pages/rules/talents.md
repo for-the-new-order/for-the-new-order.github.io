@@ -8,10 +8,15 @@ toc_sticky: false
 
 By default, the following talents, but the depreciated one, are allowed.
 
-If a talent does not feel right for Star Wars, the GM can always forbid its use. 
+If a talent does not feel right for Star Wars, the GM can always forbid its use.
 This is especially true for `Realms of Terrinoth (ROT)` talents that could be more fantasy-oriented than Star Wars-y.
 For that reason, I removed all `Realms of Terrinoth (ROT)` talents from the list.
 As for `Community Created Content (CCC)`, I placed them at the bottom of the list, before the `Depreciated` ones.
+
+### Update to 5.0
+
+The talents from `Shadow of the Beanstalk (SOTB)` should be validated by the GM to make sure they are Star Wars-y enough.
+
 
 ## Genesys Talents Expanded
 
@@ -25,6 +30,30 @@ Additional talents, at the end of the collection, were created and vetted by the
 
 > Data Source: [Genesys Talents Expanded](https://community.fantasyflightgames.com/topic/265863-genesys-talents-expanded/).
 
+### Update to 5.0 (differences)
+
+- I lowered the rank of multiple Star Wars talents because I judged they were not powerful enough to be rank ranked as they were. Here is the list:
+    - Barrage,2>1
+    - Beast Wrangler,2>1
+    - Blooded,2>1
+    - Command,2>1
+    - Confidence,2>1
+    - Coordinated Assault,2>1
+    - Daring Aviator,2>1
+    - Defensive Stance,2>1
+    - Disorient,2>1
+    - Distracting Behavior,2>1
+    - Fine Tuning,2>1
+    - Inventor,2>1
+    - Researcher,2>1
+    - Shortcut,2>1
+    - Side Step,2>1
+    - Speaks Binary,2>1
+    - Stalker,2>1
+    - Tinkerer,2>1
+- The original "Suppressing Fire" was renamed to "Suppressing Fire (old)" and was down-ranked from rank 2 to rank 1.
+- The new "Suppressing Fire (rank 3)" was added as well as they are both different.
+- Cunning Attack is a new talent from this campaign.
 ---
 
 {% assign tiers = site.data.talents | map: 'Tier' | uniq %}
@@ -49,8 +78,6 @@ Additional talents, at the end of the collection, were created and vetted by the
 
 {% endfor %}
 
-
-
 ## Community Created Content
 
 {% for talent in talents %}
@@ -63,7 +90,6 @@ Additional talents, at the end of the collection, were created and vetted by the
 {% endif %}
 {% endunless %}
 {% endfor %}
-
 
 ## Realms of Terrinoth
 
