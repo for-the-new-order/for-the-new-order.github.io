@@ -66,7 +66,7 @@ Since there is no specialization in Genesys the players have a few choices:
 
 ## Character creation
 
-To kickstart the game and meat the Overwatch Division requirements, the PCs must be more than simple recruits.
+To kickstart the game and meet the Overwatch Division requirements, the PCs must be more than simple recruits.
 
 ### Starting Gear
 
