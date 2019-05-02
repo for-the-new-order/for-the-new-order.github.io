@@ -1601,5 +1601,39 @@
             "Vibrosword (Melee; Damage +2[4]; Critical 2; Range [Engaged]; Pierce 2, Vicious 1, Defensive 1)",
             "Blast Vest (+1 Soak)"
         ]
+    },
+    "Salomon Fauls": {
+        "initialSeed": 327162,
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "description": [
+            "Captain of the Vigial-class corvette Kaki Usyk, under the command of the PCs."
+        ],
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Overwatch",
+        "personality": "Clueless",
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Your character seeks the limelight and wants to be famous. They pursue anything that can garner attention and praise."
+            },
+            "fear": {
+                "name": "Humiliation",
+                "description": "Characters who are especially concerned with how others view them are particularly sensitive to potential humiliation. They go out of their way to avoid ever appearing wrong or foolish, even if that means missing out on exciting opportunities and experiences."
+            },
+            "strength": {
+                "name": "Curious",
+                "description": "Life is a million mysteries, and your character wants to learn about every one. Whether curiosity drives them to meet new people, explore distant locales, or learn fantastic new truths and ideas is up to you."
+            },
+            "flaw": {
+                "name": "Laziness",
+                "description": "Your character always seeks the path of least resistance and becomes intimidated by difficult or complex tasks."
+            }
+        }
     }
 }

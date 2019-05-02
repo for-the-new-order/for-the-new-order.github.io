@@ -133,6 +133,17 @@
                 "display-general-info: true",
                 "display-weapons: true"
             ]
+        },
+        {
+            "name": "Salomon Fauls",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-desires: true",
+                "display-motivation-fear: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: true"
+            ]
         }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
