@@ -1614,7 +1614,7 @@
         ],
         "folder": "Allies",
         "initialSeed": 327162,
-        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "image_path": "/assets/images/npcs/some-random-officer-in-a-crowd.png",
         "type": "rival",
         "species": {
             "name": "Human"
