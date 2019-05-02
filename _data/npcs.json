@@ -1603,6 +1603,15 @@
         ]
     },
     "Salomon Fauls": {
+        "locations": [
+            {
+                "name": "Overwatch Fleet",
+                "information": {
+                    "ship": "KDY Vigil-class corvette Kaki Usyk",
+                    "area": "Bridge"
+                }
+            }
+        ],
         "folder": "Allies",
         "initialSeed": 327162,
         "image_path": "/assets/images/npcs/250x250-rebels.png",
