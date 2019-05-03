@@ -260,5 +260,1981 @@
                 "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
             }
         ]
+    },
+    "Ugly's Y-wing body & Toscan 8-Q wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Y-wing body, Toscan 8-Q wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s), 1 gunner(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's CloakShape body & Eta-2 wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a CloakShape body, Eta-2 wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Autoblaster",
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range Close; Auto-Fire"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's R-41  body & Z-95 MK I wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a R-41  body, Z-95 MK I wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 4,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Autoblaster",
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range Close; Auto-Fire"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Eta-2 body & Z-95 MK I wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Eta-2 body, Z-95 MK I wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close; Ion"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & X-wing wings & Toscan 8-Q engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, X-wing wings and what looks like a Toscan 8-Q engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Twin Laser Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Linked 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Pinook body & X-wing wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Pinook body, X-wing wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & Y-wing wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, Y-wing wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Eta-2 body & Tri-Fighter wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Eta-2 body, Tri-Fighter wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's ARC-170 body & CloakShape wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a ARC-170 body, CloakShape wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s), 2 others(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Twin Laser Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Linked 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & R-41 wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, R-41 wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & C-73 wings & Toscan 8-Q engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, C-73 wings and what looks like a Toscan 8-Q engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Pinook body & TIE-LN wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Pinook body, TIE/LN wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & Pinook  wings & Z-95 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, Pinook  wings and what looks like a Z-95 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's ARC-170 body & Tri-Fighter wings & Toscan 8-Q engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a ARC-170 body, Tri-Fighter wings and what looks like a Toscan 8-Q engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 11,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s), 2 others(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's R-41  body & T-16 wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a R-41  body, T-16 wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's CloakShape body & CloakShape wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a CloakShape body, CloakShape wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's X-wing body & Toscan 8-Q wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a X-wing body, Toscan 8-Q wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium laser Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & Y-wing wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, Y-wing wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & Toscan 8-Q wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, Toscan 8-Q wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & Toscan 8-Q wings & Toscan 8-Q engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, Toscan 8-Q wings and what looks like a Toscan 8-Q engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & C-73 wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, C-73 wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's CloakShape body & Pinook  wings & TIE engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a CloakShape body, Pinook  wings and what looks like a TIE engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's R-41  body & Z-95 wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a R-41  body, Z-95 wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium laser Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's ARC-170 body & Eta-2 wings & ARC-170 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a ARC-170 body, Eta-2 wings and what looks like a ARC-170 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 11,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s), 2 others(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Toscan 8-Q body & TIE-D wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Toscan 8-Q body, TIE/D wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Quad laser cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Accurate, Linked 3"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & Z-95 MK I wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, Z-95 MK I wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Twin Laser Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Linked 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Z-95 MK I body & Toscan 8-Q wings & ARC-170 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Z-95 MK I body, Toscan 8-Q wings and what looks like a ARC-170 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Twin Laser Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Linked 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & Z-95 MK I wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, Z-95 MK I wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close; Ion"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Z-95 body & Pinook  wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Z-95 body, Pinook  wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 4,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Toscan 8-Q body & TIE-LN wings & Toscan 8-Q engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Toscan 8-Q body, TIE/LN wings and what looks like a Toscan 8-Q engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & R-41 wings & ARC-170 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, R-41 wings and what looks like a ARC-170 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & V-wing wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, V-wing wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            },
+            {
+                "name": "Proton Torpedo Launcher",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range Short; Blast 6, Breach 6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Y-wing body & TIE-IN wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Y-wing body, TIE/IN wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s), 1 gunner(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 4; Range Short; Ion"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & Toscan 8-Q wings & TIE engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, Toscan 8-Q wings and what looks like a TIE engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Z-95 body & ARC-170 wings & X-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Z-95 body, ARC-170 wings and what looks like a X-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            },
+            {
+                "name": "Proton Torpedo Launcher",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range Short; Blast 6, Breach 6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's X-wing body & TIE-D wings & V-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a X-wing body, TIE/D wings and what looks like a V-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & V-wing wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, V-wing wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Ion Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close; Ion"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Pinook body & R-41 wings & X-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Pinook body, R-41 wings and what looks like a X-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Autoblaster",
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range Close; Auto-Fire"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & V-wing wings & TIE engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, V-wing wings and what looks like a TIE engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & Z-95 wings & CloakShape engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, Z-95 wings and what looks like a CloakShape engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 4; Critical 4; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & ARC-170 wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, ARC-170 wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's C-73 body & R-41 wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a C-73 body, R-41 wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Z-95 body & TIE-IN wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Z-95 body, TIE/IN wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Twin Laser Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close; Linked 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & R-41 wings & R-41 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, R-41 wings and what looks like a R-41 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & C-73 wings & ARC-170 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, C-73 wings and what looks like a ARC-170 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium laser Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's V-wing body & TIE-D wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a V-wing body, TIE/D wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            },
+            {
+                "name": "Proton Torpedo Launcher",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range Short; Blast 6, Breach 6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's TIE body & X-wing wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a TIE body, X-wing wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            },
+            {
+                "name": "Proton Torpedo Launcher",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range Short; Blast 6, Breach 6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Z-95 MK I body & ARC-170 wings & Z-95 MK I engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Z-95 MK I body, ARC-170 wings and what looks like a Z-95 MK I engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 2
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range Close;"
+            },
+            {
+                "name": "Concussion missile launcher",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Short; Blast 4, Breach 4, Guided 3, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Toscan 8-Q body & ARC-170 wings & Eta-2 engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Toscan 8-Q body, ARC-170 wings and what looks like a Eta-2 engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Medium laser Cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range Close;"
+            },
+            {
+                "name": "Proton Torpedo Launcher",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range Short; Blast 6, Breach 6, Guided 2, Limited Ammo 3, Slow-Firing 1"
+            }
+        ],
+        "skill": "Piloting"
+    },
+    "Ugly's Toscan 8-Q body & Y-wing wings & Y-wing engine": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "The ugly's is composed of a Toscan 8-Q body, Y-wing wings and what looks like a Y-wing engine."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 9,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 7,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 3
+            }
+        },
+        "complement": "1 pilot(s)",
+        "passenger_capacity": "None",
+        "consumables": "",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "Heavy blaster Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range Close;"
+            }
+        ],
+        "skill": "Piloting"
     }
 }
