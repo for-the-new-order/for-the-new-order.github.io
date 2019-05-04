@@ -1,8 +1,18 @@
 {%- assign vehicles = include.vehicles -%}
-<h2>Vehicles</h2>
+<h2>
+{%- if page.is-ugly -%}
+    Ugly's
+{%- else -%}
+    Vehicles
+{%- endif -%}
+</h2>
 <div class="vehicles">
 {%- for vehicle in vehicles -%}
-    {%- assign data = site.data.vehicles[vehicle.title] -%}
+    {%- if include.data -%}
+        {%- assign data = include.data[vehicle.title] -%}
+    {%- else -%}
+        {%- assign data = site.data.vehicles[vehicle.title] -%}
+    {%- endif -%}
     <section class="vehicle-list-item">
         {%- assign vehicleName = vehicle.title | append: rank -%}
         <header>

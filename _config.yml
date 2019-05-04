@@ -438,6 +438,30 @@ defaults:
       display-cost: true
       display-weapons: true
 
+  - scope:
+      path: "_ugly"
+      type: ugly
+    values:
+      layout: vehicle
+      excerpt: ""
+      sidebar:
+        nav: "rulesandgamecontent"
+      classes:
+        - vehicles
+        - genesys-theme
+        - wide
+      toc: false
+      is-gm: true
+      is-ugly: true
+      display-description: true
+      display-gm-description: true
+      display-exerpt: false
+      display-characteristics: true
+      display-current-thresholds: true
+      display-general-info: true
+      display-cost: true
+      display-weapons: true
+
 collections:
   npcs:
     output: true
@@ -451,3 +475,6 @@ collections:
   gm-vehicles:
     output: true
     permalink: /gm/vehicles/:name
+  ugly:
+    output: true
+    permalink: /game-content/uglys/:name

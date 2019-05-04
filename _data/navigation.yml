@@ -53,6 +53,8 @@ rulesandgamecontent: # Rules menu (left)
     children:
       - title: Mass combat (War)
         url: /rules/mass-combat/
+      - title: Ugly's
+        url: /game-content/uglys/
 
 gamemaster: # Game master menu
   - title: "Game Master Content"

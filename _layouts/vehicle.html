@@ -12,7 +12,11 @@ display-general-info: true
 display-cost: true
 display-weapons: true
 ---
+{%- if page.is-ugly -%}
+{%- assign data = site.data.ugly[page.title] -%}
+{%- else -%}
 {%- assign data = site.data.vehicles[page.title] -%}
+{%- endif -%}
 <section class="vehicle-details">
     {%- if data -%}
         <header>

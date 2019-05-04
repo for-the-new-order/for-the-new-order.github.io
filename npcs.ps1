@@ -1,9 +1,29 @@
 $npcs = (Get-Content _data/npcs.json) | ConvertFrom-Json
+$publicNpcs = (Get-Content _data/public-npcs.json) | ConvertFrom-Json
 $vehicles = (Get-Content _data/vehicles.json) | ConvertFrom-Json
+$ugly = (Get-Content _data/ugly.json) | ConvertFrom-Json
 
 function Main {
     Set-GM-NPCs
     Set-Players-NPCs
+    Set-Ugly
+}
+
+# Enfore Ugly's creation
+function Set-Ugly {
+    Write-Host "===============" -ForegroundColor Cyan
+    Write-Host "Handling Ugly's" -ForegroundColor Cyan
+    Write-Host "===============" -ForegroundColor Cyan
+    $ugly.PsObject.Properties | ForEach-Object {
+        $name = $_.Name
+        $path = "_ugly/$name.md"
+        $content = @"
+---
+title: $name
+---
+"@
+        Set-FileContent -name $name -path $path -content $content
+    }
 }
 
 # Enforce GM npcs
@@ -42,9 +62,8 @@ function Set-Players-NPCs {
     Write-Host "================" -ForegroundColor Cyan
     Write-Host "Handling PCs NPCs" -ForegroundColor Cyan
     Write-Host "=================" -ForegroundColor Cyan
-    $publicNpcs = (Get-Content _data/public-npcs.json) | ConvertFrom-Json
 
-    $publicNpcs.npcs  | ForEach-Object {
+    $publicNpcs.npcs | ForEach-Object {
         $name = $_.name
         $path = "_npcs/$name.md"
         $frontMatter = $_.frontMatter
@@ -63,7 +82,7 @@ $([String]::Join("`n", $frontMatter))
     Write-Host "=====================" -ForegroundColor Cyan
     Write-Host "Handling PCs VEHICLES" -ForegroundColor Cyan
     Write-Host "=====================" -ForegroundColor Cyan
-    $publicNpcs.vehicles  | ForEach-Object {
+    $publicNpcs.vehicles | ForEach-Object {
         $name = $_.name
         $path = "_vehicles/$name.md"
         $frontMatter = $_.frontMatter
