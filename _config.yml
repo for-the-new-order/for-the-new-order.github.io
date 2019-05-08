@@ -292,7 +292,7 @@ defaults:
       share: true
       related: false
       sidebar:
-        nav: "home"
+        nav: "rulesandgamecontent"
       toc: true
       toc_label: "Table of Contents"
       toc_sticky: true

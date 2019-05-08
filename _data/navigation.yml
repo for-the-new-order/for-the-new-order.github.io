@@ -4,16 +4,6 @@ main: # Main menu (top)
   - title: About
     url: /about/
 
-home: # Home page menu (left)
-  - title: "Main menu"
-    children:
-      - title: Setting and rules
-        url: /rules/
-      - title: Player game content
-        url: /game-content/
-      - title: About
-        url: /about/
-
 rulesandgamecontent: # Rules menu (left)
   - title: "General"
     children:
@@ -23,12 +13,6 @@ rulesandgamecontent: # Rules menu (left)
         url: /rules/talents/
       - title: Symbols and dices
         url: /rules/symbols-and-dices/
-  - title: "House rules"
-    children:
-      - title: Imperial Troops Deployment
-        url: /rules/imperial-troops-deployment-rules/
-      - title: Team presence talents
-        url: /rules/team-presence-talents/
   - title: "Game Content"
     children:
       - title: Content and Crawls
@@ -49,11 +33,17 @@ rulesandgamecontent: # Rules menu (left)
         url: /imperial-sourcebook/compnor/
       - title: Imperial Intelligence
         url: /imperial-sourcebook/imperial-intelligence/
+  - title: "House rules"
+    children:
+      - title: Imperial Troops Deployment
+        url: /rules/imperial-troops-deployment-rules/
+      - title: Team presence talents
+        url: /rules/team-presence-talents/
   - title: "Game master"
     children:
       - title: Mass combat (War)
         url: /rules/mass-combat/
-      - title: Ugly's
+      - title: Ugly's starfighters
         url: /game-content/uglys/
 
 gamemaster: # Game master menu
