@@ -50,10 +50,11 @@ Here are the few differences with this list and the Genesys Talents Expanded v5.
     - `Speaks Binary` was down-ranked from 2 to 1
     - `Stalker` was down-ranked from 2 to 1
     - `Tinkerer` was down-ranked from 2 to 1
+    - `Well Rounded` was down-ranked from 3 to 2
 2. `Suppressing Fire`
     - The original `Suppressing Fire` was renamed to `Suppressing Fire (old)` and was down-ranked from rank 2 to rank 1.
     - The new `Suppressing Fire` (rank 3) was added as well since they are two different talents.
-3.  `Cunning Attack` is a new talent from this campaign.
+3. `Cunning Attack` is a new talent from this campaign.
 
 ---
 

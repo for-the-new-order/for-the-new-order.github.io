@@ -5061,7 +5061,7 @@
     },
     {
         "Name": "Well Rounded",
-        "Tier": 3,
+        "Tier": 2,
         "Activation": "Passive",
         "Ranked": "No",
         "Text": "Choose any 2 non-magic skills. They permanently become career skills.",
