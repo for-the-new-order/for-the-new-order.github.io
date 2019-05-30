@@ -13,7 +13,8 @@ permalink: /game-content/
 -   [Episode 3: Coercive Diplomacy](https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/MAPuC0DkNeaNDPghf09V)
 -   [Episode 4: Elusive Maneuvers](https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/FwyNHyCqSJmndMMRdkHI)
 -   [Episode 5: The Cryptic Text](https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/Rsj6jNlgdW8aOZt0eKzI)
--   Episode 6: TBD
+-   [Episode 6: The Cortosis Shipment](https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/hosulUHpW2YOLOAalzCI)
+-   ...
 
 ## Other info
 
