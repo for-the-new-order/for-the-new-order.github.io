@@ -1,5 +1,11 @@
 ---
 title: Salomon Fauls
+display-attributes: true
+display-characteristics: true
+display-skills: true
+display-talents: true
+display-abilities: true
+display-equipment: true
 display-motivation: true
 display-motivation-personality: true
 display-motivation-desires: true

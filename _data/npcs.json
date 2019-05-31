@@ -1644,6 +1644,37 @@
                 "name": "Laziness",
                 "description": "Your character always seeks the path of least resistance and becomes intimidated by difficult or complex tasks."
             }
-        }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 3,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 3
+        },
+        "skills": [
+            "Cool 2",
+            "Knowledge (Warfare) 3",
+            "Leadership 2",
+            "Negotiate 1",
+            "Piloting 1",
+            "Ranged (Light) 1"
+        ],
+        "talents": [],
+        "abilities": [],
+        "equipment": [
+            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "Datapad"
+        ]
     }
 }
