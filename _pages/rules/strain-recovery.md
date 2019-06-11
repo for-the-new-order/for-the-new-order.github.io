@@ -1,8 +1,14 @@
 ---
 title: Strain recovery
 permalink: /rules/strain-recovery/
-toc_sticky: false
+toc: false
+classes: 
+  - game-content
+  - genesys-theme
+  - wide
 ---
+
+## Strain recovery
 
 After each combat, players can recover some strain (see p. 116 CRB).
 
