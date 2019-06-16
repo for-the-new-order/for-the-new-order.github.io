@@ -10,11 +10,14 @@ redirect_from:
     - /imperial-sourcebook/ranks/
 ---
 
-## Ranks
+## Ranks & Rewards
 
-See below to the full ranks list and their badges [Badges](#badges).
+_See below to the full ranks list and their badges [Badges](#badges)._
 
-The players will rank up using the following table. GM discretion is advised, especially for higher ranks.
+To rank up, the players needs to accumulate contribution ranks (see Age of Rebellion’s duty system [p. 49, 325] for more info).
+The following table gives the GMs a guide about how many Contribution Ranks (CR) are needed to achieve a certain ranks. GM discretion is advised, especially for higher ranks.
+
+Below are also some guidelines about the kind of rewards a PC could want, based on his CR.
 
 | Officer<br>Code | ISB Rank             | Minimum<br>Contribution<br>Rank | Governance       |
 | --------------- | -------------------- | ------------------------------- | ---------------- |
@@ -40,3 +43,24 @@ The players will rank up using the following table. GM discretion is advised, es
 This may not be the absolute truth, but this is the best that I found:
 
 [![Ranks diagram](/assets/images/imperial-sourcebook/ranks.png)](/assets/images/imperial-sourcebook/ranks.png)
+
+## Rewards
+
+These are guidelines to help with CR rewards. <mark>This is a work in progress.<mark>
+
+| Required Rank | Rewards                                                                           | Cost                      |
+| ------------- | --------------------------------------------------------------------------------- | ------------------------- |
+| any           | 2x4 minion + 1 rivals                                                             | 1                         |
+| any           | Personal Starfighter, light freighter                                             | 1                         |
+| 5+            | Nemesis (follow the rule of PC creation, then add 200 xp)<sup>1</sup><sup>2</sup> | 1                         |
+| 5+            | Corvette or Gunship                                                               | 1 per player in the team  |
+| 9+            | Cruiser                                                                           | 1 per player in the team  |
+| 12+           | Small Battleship (example: Victory-Class Star Destroyer)                          | 1+ per player in the team |
+| 15+           | Battleship (example: Imperial I-Class Star Destroyer)                             | 1+ per player in the team |
+| 23+           | Big Battleship (example: Praetor Mark II-class battlecruiser)                     | 1+ per player in the team |
+| 35+           | Huge Battleship and battle stations (example: Super Star Destroyer)               | 1+ per player in the team |
+| 45+           | Unique project (like building a Death Star or something)                          | 1+ per player in the team |
+
+-   <sup>1</sup> The XP related to NPCs are simply guides; a player or a GM could choose a NPC from a book and modify it a bit. Everything ios at the discretion of the GM.
+-   <sup>2</sup> Idea: 40xp\*Contribution rank used
+-   All starship comes in fully crewed and equipped with standard equipment

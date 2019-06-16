@@ -13,8 +13,8 @@ rulesandgamecontent: # Rules menu (left)
         url: /rules/talents/
       - title: Symbols and dices
         url: /rules/symbols-and-dices/
-      - title: Ranks
-        url: /imperial-sourcebook/ranks/
+      - title: Ranks & Rewards
+        url: /rules/ranks-and-rewards/
   - title: "Game Content"
     children:
       - title: Content and Crawls
