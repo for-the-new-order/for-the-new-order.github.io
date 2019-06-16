@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
-#     bundle exec jekyll serve --incremental
+#     bundle exec jekyll serve --incremental --safe
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
@@ -33,3 +33,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Allow redirect from moved pages
+gem 'jekyll-redirect-from'
