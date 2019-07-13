@@ -144,6 +144,14 @@
                 "display-general-info: true",
                 "display-weapons: true"
             ]
+        },
+        {
+            "name": "Old leftover Hover Bike",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-general-info: true",
+                "display-weapons: true"
+            ]
         }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],

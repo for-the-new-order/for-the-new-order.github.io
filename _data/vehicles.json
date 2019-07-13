@@ -260,5 +260,105 @@
                 "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
             }
         ]
+    },
+    "Rebels Hovercraft": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "Modified heavy hovercraft/yacht that can transport; lightly armed."
+        ],
+        "characteristics": {
+            "silhouette": 2,
+            "max_speed": 3,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 5,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 5,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 1
+            }
+        },
+        "skill": "Driving",
+        "complement": "1 pilot",
+        "passenger_capacity": "4",
+        "consumables": "6 hours",
+        "encumbrance_capacity": 10,
+        "cost": {
+            "price": 15000,
+            "rarity": 4
+        },
+        "weapons": [
+            {
+                "name": "Refurbished Light Repeating Blaster on a tripod",
+                "specs": "Fire Arc All; Damage 11; Critical 3; Range [Long]; Auto-Fire, Pierce 1, Inaccurate 1; Skill Gunnery"
+            }
+        ]
+    },
+    "Rebels Hover Bike": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "A recent hover bike/jet-ski-like recreational vehicle."
+        ],
+        "characteristics": {
+            "silhouette": 2,
+            "max_speed": 3,
+            "handling": 2,
+            "hull_trauma": {
+                "threshold": 2,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 3,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 0
+            }
+        },
+        "skill": "Driving",
+        "complement": "1 pilot",
+        "passenger_capacity": "1",
+        "consumables": "2 hours",
+        "encumbrance_capacity": 1,
+        "cost": {
+            "price": 10000,
+            "rarity": 3
+        }
+    },
+    "Old leftover Hover Bike": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": ["An old hover bike/jet-ski-like recreational vehicle."],
+        "characteristics": {
+            "silhouette": 2,
+            "max_speed": 3,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 2,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 4,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 0
+            }
+        },
+        "skill": "Driving",
+        "complement": "1 pilot",
+        "passenger_capacity": "1",
+        "consumables": "2 hours",
+        "encumbrance_capacity": 1,
+        "cost": {
+            "price": 8000,
+            "rarity": 4
+        }
     }
 }
