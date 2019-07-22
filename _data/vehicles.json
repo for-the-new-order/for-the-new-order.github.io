@@ -268,8 +268,8 @@
         ],
         "characteristics": {
             "silhouette": 2,
-            "max_speed": 3,
-            "handling": 0,
+            "max_speed": 4,
+            "handling": -1,
             "hull_trauma": {
                 "threshold": 5,
                 "current": 0
