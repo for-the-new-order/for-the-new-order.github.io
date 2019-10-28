@@ -360,5 +360,60 @@
             "price": 8000,
             "rarity": 4
         }
+    },
+    "Utopia": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "Utopia is an enormous cube-shaped space station that hosts a never-ending rave, filled with criminals and information. There are rooms for almost any taste, including a casino!",
+            "In Utopia, all kind of exotic spices and drugs are available. There are also offering of slaves and strippers from all corners of the galaxy.",
+            "There are guards posts and patrols everywhere. The guards wear riot-control equipment, but a fully stocked armory is also available to them if need be.",
+            "Utopia is divided into three major sections, but as a rule of thumbs, the lower levels are creepier while the higher levels are more vibrant.",
+            "### The scums slum",
+            "The lower part of Utopia is filled with scums of all kinds; “light” weapons are allowed, but for a few credits and the right contacts, you walk around with an E-Web, and no one will care.",
+            "There are suspicious bars, obscure strip-club, dirty parties, shady lounges, and other fun places where scoundrels like to hang out.",
+            "#### The low docks",
+            "The low docks is the name given to the scums docking bays. All docks open on the scums slum.",
+            "### The vibrant district",
+            "The vibrant zone hosts “cleaner” raves, bars, and other crazy things as well as a casino, an “higher-class” strip-club, a “clean” slave market and an auction for exotic items (sometimes slaves are auctioned there as well).",
+            "Administrator Blinn’s office is on that side of the space station as well as all the real business.",
+            "#### The high docks",
+            "The high docks is the name given to the rich people’s docking bays; they open on a private buffer zone which leads directly into the vibrant district. The access to the high docks is highly restricted and requires high-level connections; trespassers will be shut down.",
+            "### The buffer zone",
+            "Between the criminals and the elite areas, Blinn built an antechamber with increased security. There is a huge waiting room and a small heavily guarded “disarming room”.",
+            "The weapons, taken from visitors, are stored in sealed pods. Those pods are sent elsewhere on the ship, which leads to an extremely safe process; even more reliable than on many Imperial spaceports. Blinn has to keep is neutral reputation intact!"
+        ],
+        "characteristics": {
+            "silhouette": 9,
+            "max_speed": 1,
+            "handling": -5,
+            "hull_trauma": {
+                "threshold": 125,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 75,
+                "current": 0
+            },
+            "protection": {
+                "defense": 3,
+                "armor": 10
+            }
+        },
+
+        "skill": "Operating",
+        "complement": "Unknown",
+        "passenger_capacity": "Unknown",
+        "consumables": "2 years",
+        "encumbrance_capacity": "Unknown",
+        "cost": {
+            "price": 0,
+            "rarity": "Unique"
+        },
+        "weapons": [
+            {
+                "name": "Unknown",
+                "specs": "Unknown"
+            }
+        ]
     }
 }

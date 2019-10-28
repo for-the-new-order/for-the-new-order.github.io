@@ -1676,5 +1676,61 @@
             "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
             "Datapad"
         ]
+    },
+    "Administrator Blinn": {
+        "image_path": "/assets/images/npcs/some-random-officer-in-a-crowd.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Lutrillian"
+        },
+        "description": [
+            "Blinnmâtoe-Stiwruq is the administrator of Utopia; the cube-shaped peasure station."
+        ],
+        "gender": "Male",
+        "clan": "Utopia",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": 13
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 1,
+            "intellect": 3,
+            "cunning": 2,
+            "willpower": 3,
+            "presence": 4
+        },
+        "skills": [
+            "Negotiate 4",
+            "Charm 2",
+            "Cool 1",
+            "Deception 1",
+            "Streetwise (cun) 3",
+            "Underworld 3",
+            "Outer Rim 3",
+            "Xenology 3",
+            "Education 3",
+            "Core World 3"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Enduring",
+                "effect": "+1 Soak"
+            },
+            {
+                "name": "Nobody's Fool 1",
+                "effect": "Upgrade difficulty of all Charm, Coercion, and Decep-tion checks targeting Sera Riggers"
+            }
+        ],
+        "equipment": ["Comlink", "Datapad", "Robes (+1 soak)"]
     }
 }
