@@ -123,6 +123,18 @@
                 "display-motivation-strength: true",
                 "display-motivation-flaw: true"
             ]
+        },
+        {
+            "name": "Ephrem Frystak",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
+        },
+        {
+            "name": "Administrator Blinn"
         }
     ],
     "vehicles": [

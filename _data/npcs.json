@@ -1678,7 +1678,7 @@
         ]
     },
     "Administrator Blinn": {
-        "image_path": "/assets/images/npcs/some-random-officer-in-a-crowd.png",
+        "image_path": "/assets/images/npcs/Administrator-Blinn.png",
         "type": "nemesis",
         "species": {
             "name": "Lutrillian"
@@ -1732,5 +1732,35 @@
             }
         ],
         "equipment": ["Comlink", "Datapad", "Robes (+1 soak)"]
+    },
+    "Ephrem Frystak": {
+        "initialSeed": 422225,
+        "image_path": "/assets/images/npcs/Ephrem-Frystak.png",
+        "description": [
+            "Ephrem Frystak was an imperial cadet that got kicked out of the academy for being Absent-minded. He then joined the Ancillary corp and became a notorious Waiter, attending important events and serving important people, like Grand Moff Leonis and Cie during the Episode 8: The Galactic Race.",
+            "Ephrem knew Kaine at the academy and is always ready to help him out!"
+        ],
+        "gm-description": [
+            "Ephrem is a contact of Kaine (made by using his \"contact talent\")."
+        ],
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Waiter",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Ancillary",
+        "personality": "Absent-minded",
+        "motivation": {
+            "strength": {
+                "name": "Witty",
+                "description": "Your character is extremely clever, with the right joke for a friend and the perfect insult for a foe. Some may love their company, while others loathe their cutting remarks, but none can deny that your character has the sharpest tongue around."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
     }
 }
