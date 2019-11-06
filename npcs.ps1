@@ -1,3 +1,7 @@
+[CmdletBinding()]
+param (
+    [switch]$uglies = $false
+)
 $npcs = (Get-Content _data/npcs.json) | ConvertFrom-Json
 $publicNpcs = (Get-Content _data/public-npcs.json) | ConvertFrom-Json
 $vehicles = (Get-Content _data/vehicles.json) | ConvertFrom-Json
@@ -6,7 +10,9 @@ $ugly = (Get-Content _data/ugly.json) | ConvertFrom-Json
 function Main {
     Set-GM-NPCs
     Set-Players-NPCs
-    Set-Ugly
+    if ($uglies) {
+        Set-Ugly
+    }
 }
 
 # Enfore Ugly's creation
@@ -110,7 +116,7 @@ function Set-FileContent {
         Write-Host "File $name created" -ForegroundColor DarkGreen
     }
     else {
-        Write-Host "File exists $name"
+        Write-Verbose "File exists $name"
     }
 }
 

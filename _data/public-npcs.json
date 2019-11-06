@@ -164,7 +164,8 @@
                 "display-general-info: true",
                 "display-weapons: true"
             ]
-        }
+        },
+        { "name": "Utopia" }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {
