@@ -1418,7 +1418,63 @@
                 "name": "Recklessness",
                 "description": "Commander Gorr shows little regard for how their actions may affect himself or others, and is especially prone to dangerous or inconsiderate actions. Even suicidal actions!"
             }
-        }
+        },
+        "attributes": {
+            "wounds": 18,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": 22
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 4,
+            "cunning": 4,
+            "willpower": 3,
+            "presence": 4
+        },
+        "skills": [
+            "Discipline (will) 3",
+            "Knowledge (Warfare) 3",
+            "Leadership (pr) 3",
+            "Ranged (Heavy) 2",
+            "Ranged (light) 3",
+            "Perception (cun) 3",
+            "Vigilance (will) 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Command 2",
+                "effect": "Add [BO][BO] to Leadership checks; affected targets add [BO][BO] to Discipline checks for the next 24 hours."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Leader",
+                "effect": "All subordinates within medium range add [BO] to all Discipline checks"
+            },
+            {
+                "name": "Tactical Direction",
+                "effect": "May spend a maneuver to direct one minion group within medium range. The group may make an immediate free maneuver or adds one Boost die [BO] to its next check"
+            },
+            {
+                "name": "Overwhelming Fire",
+                "effect": "May perform a maneuver to direct one minion group within medium range. The group may perform an immediate free combat check action."
+            }
+        ],
+        "equipment": [
+            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "Blast Vest (+1 Soak)",
+            "Comlink"
+        ]
     },
     "Travus Karns": {
         "folder": "Empire/Nebulon-B-Kryptoria",
