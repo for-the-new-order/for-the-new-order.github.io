@@ -133,9 +133,9 @@
                 "display-motivation-flaw: false"
             ]
         },
-        {
-            "name": "Administrator Blinn"
-        }
+        { "name": "Administrator Blinn" },
+        { "name": "Olav Heglund" },
+        { "name": "Alexandros Haff" }
     ],
     "vehicles": [
         {
