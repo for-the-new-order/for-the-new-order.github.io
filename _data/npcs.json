@@ -1387,7 +1387,7 @@
     },
     "Fitz Gorr": {
         "folder": "Rebels/Calamari-Cruiser-Gladiator",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
         "type": "nemesis",
         "species": {
             "name": "Human"
@@ -1763,5 +1763,213 @@
                 "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
             }
         }
+    },
+    "Olav Heglund": {
+        "folder": "Rebels/Calamari-Cruiser-Gladiator",
+        "initialSeed": 498823,
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Body Guard",
+        "gender": "Male",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Rude",
+        "motivation": {
+            "desires": {
+                "name": "Love",
+                "description": "Your character seeks romantic affection and intimacy from another character. Your character might already have a true love or may strive to find someone to love and be loved by."
+            },
+            "fear": {
+                "name": "Obscurity",
+                "description": "Your character wishes to be remembered after they are gone and works tirelessly to secure their legacy."
+            },
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Ignorance",
+                "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
+            }
+        },
+        "description": [
+            "Olav Heglund is one of the two loyal bodyguards of the rebel Commander Fitz Gorr."
+        ],
+        "attributes": {
+            "wounds": 20,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 8,
+            "strain": 14
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 3,
+            "presence": 2
+        },
+        "skills": [
+            "Discipline (will) 3",
+            "Resilience (br) 3",
+            "Ranged [Heavy] (ag) 3",
+            "Melee (br) 3",
+            "Cool (pr) 2",
+            "Vigilance (will) 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Body Guard 2 (Supreme)",
+                "effect": "Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose a number of engaged characters up to ranks in Resilience, until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered."
+            },
+            {
+                "name": "Body Guard (Improved)",
+                "effect": "Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Armor Master",
+                "effect": "When wearing armor, Increase total soak value by 1."
+            },
+            {
+                "name": "Armor Master (Improved)",
+                "effect": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Shield Projector",
+                "effect": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the character once, but the character cannot use the Move maneuver."
+            },
+            {
+                "name": "Shielded",
+                "effect": "Require Shield Projector to be active. Once per encounter, make an Average (??) Discipline Check. If successful, your character plus one ally per [SU] within short range behind the shield gains +1 defense for the remainder of the encounter. Effects end if the initial conditions are not meet anymore."
+            },
+            {
+                "name": "Improved Covering Fire",
+                "effect": "When allied minion groups within short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
+            }
+        ],
+        "equipment": [
+            "Bodyguard Armor (+3 soak)",
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Comlink",
+            "Vibroknife (Melee; Damage 6; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)"
+        ]
+    },
+    "Alexandros Haff": {
+        "folder": "Rebels/Calamari-Cruiser-Gladiator",
+        "initialSeed": 388171,
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Body Guard",
+        "gender": "Male",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Hates droids",
+        "motivation": {
+            "desires": {
+                "name": "Fame",
+                "description": "Your character seeks the limelight and wants to be famous. They pursue anything that can garner attention and praise."
+            },
+            "fear": {
+                "name": "Isolation",
+                "description": "Your character fears being isolated from other people and being doomed to live and die alone. Maybe this drives them to seek out relationships with anyone and everyone, even when a relationship is unpleasant or unhealthy."
+            },
+            "strength": {
+                "name": "Idealistic",
+                "description": "What ideals your character believes in are up to you, but to your character, those ideals are nothing short of sacred. Your character may feel that everyone should live up to those same ideals (and may be disappointed when people don’t), or they may be content to meet the standards they have set for themself."
+            },
+            "flaw": {
+                "name": "Ignorance",
+                "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
+            }
+        },
+        "description": [
+            "Alexandros Haff is one of the two loyal bodyguards of the rebel Commander Fitz Gorr."
+        ],
+        "attributes": {
+            "wounds": 20,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 8,
+            "strain": 14
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 3,
+            "presence": 2
+        },
+        "skills": [
+            "Discipline (will) 3",
+            "Resilience (br) 3",
+            "Ranged [Heavy] (ag) 3",
+            "Melee (br) 3",
+            "Cool (pr) 2",
+            "Vigilance (will) 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Body Guard 2 (Supreme)",
+                "effect": "Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose a number of engaged characters up to ranks in Resilience, until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered."
+            },
+            {
+                "name": "Body Guard (Improved)",
+                "effect": "Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Armor Master",
+                "effect": "When wearing armor, Increase total soak value by 1."
+            },
+            {
+                "name": "Armor Master (Improved)",
+                "effect": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Shield Projector",
+                "effect": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the character once, but the character cannot use the Move maneuver."
+            },
+            {
+                "name": "Shielded",
+                "effect": "Require Shield Projector to be active. Once per encounter, make an Average (??) Discipline Check. If successful, your character plus one ally per [SU] within short range behind the shield gains +1 defense for the remainder of the encounter. Effects end if the initial conditions are not meet anymore."
+            },
+            {
+                "name": "Improved Covering Fire",
+                "effect": "When allied minion groups within short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
+            }
+        ],
+        "equipment": [
+            "Bodyguard Armor (+3 soak)",
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Comlink",
+            "Vibroknife (Melee; Damage 6; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)"
+        ]
     }
 }
