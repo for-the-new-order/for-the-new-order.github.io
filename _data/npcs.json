@@ -1828,7 +1828,7 @@
         "species": {
             "name": "Human"
         },
-        "rank": "Body Guard",
+        "rank": "Sniper",
         "gender": "Male",
         "clan": "Rebels",
         "corp": "Navy",
@@ -1852,74 +1852,52 @@
             }
         },
         "description": [
-            "Olav Heglund is one of the two loyal bodyguards of the rebel Commander Fitz Gorr."
+            "Olav Heglund is a seasoned sniper and one loyal member of rebel Commander Fitz Gorr's inner circle."
         ],
         "attributes": {
-            "wounds": 20,
+            "wounds": 17,
             "defense": {
-                "melee": 1,
-                "ranged": 1
+                "melee": 0,
+                "ranged": 0
             },
-            "soak": 8,
-            "strain": 14
+            "soak": 5,
+            "strain": 17
         },
         "characteristics": {
-            "brawn": 4,
+            "brawn": 3,
             "agility": 4,
             "intellect": 2,
             "cunning": 3,
             "willpower": 3,
-            "presence": 2
+            "presence": 3
         },
         "skills": [
-            "Discipline (will) 3",
-            "Resilience (br) 3",
-            "Ranged [Heavy] (ag) 3",
-            "Melee (br) 3",
-            "Cool (pr) 2",
+            "Ranged [Heavy] (ag) 4",
+            "Ranged [Light] (ag) 3",
+            "Gunnery (ag) 3",
+            "Cool (pr) 3",
             "Vigilance (will) 2"
         ],
         "talents": [
             {
                 "name": "Adversary 1",
                 "effect": "Upgrade difficulty of all combat checks against this target once."
-            },
-            {
-                "name": "Body Guard 2 (Supreme)",
-                "effect": "Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose a number of engaged characters up to ranks in Resilience, until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered."
-            },
-            {
-                "name": "Body Guard (Improved)",
-                "effect": "Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
             }
         ],
         "passiveTalents": [
             {
-                "name": "Armor Master",
-                "effect": "When wearing armor, Increase total soak value by 1."
+                "name": "Grit 4",
+                "effect": "+4 strain"
             },
             {
-                "name": "Armor Master (Improved)",
-                "effect": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
+                "name": "Toughened 2",
+                "effect": "+4 wound"
             }
         ],
-        "abilities": [
-            {
-                "name": "Shield Projector",
-                "effect": "Maneuver to activate or deactivate; while active, gains defense 2 and upgrades the difficulty of all combat attacks targeting the character once, but the character cannot use the Move maneuver."
-            },
-            {
-                "name": "Shielded",
-                "effect": "Require Shield Projector to be active. Once per encounter, make an Average (??) Discipline Check. If successful, your character plus one ally per [SU] within short range behind the shield gains +1 defense for the remainder of the encounter. Effects end if the initial conditions are not meet anymore."
-            },
-            {
-                "name": "Improved Covering Fire",
-                "effect": "When allied minion groups within short range perform the Covering Fire maneuver, they add +2 ranged defense instead."
-            }
-        ],
+        "abilities": [],
         "equipment": [
-            "Bodyguard Armor (+3 soak)",
-            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Sniper Armor (+2 soak)",
+            "Sniper rifle (Ranged [Heavy]; Damage 11; Critical 2; Range [Long]; Pierce 2; Accurate 1)",
             "Comlink",
             "Vibroknife (Melee; Damage 6; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)"
         ]
@@ -1965,7 +1943,7 @@
                 "ranged": 1
             },
             "soak": 8,
-            "strain": 14
+            "strain": 16
         },
         "characteristics": {
             "brawn": 4,
@@ -2005,6 +1983,14 @@
             {
                 "name": "Armor Master (Improved)",
                 "effect": "When wearing armor with a soak value of 2 or higher, increase defense by 1."
+            },
+            {
+                "name": "Grit 3",
+                "effect": "+3 strain"
+            },
+            {
+                "name": "Toughened 3",
+                "effect": "+6 wound"
             }
         ],
         "abilities": [
