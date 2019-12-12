@@ -1998,6 +1998,10 @@
             {
                 "name": "Body Guard (Improved)",
                 "effect": "Once per session, when an ally protected by the Body Guard maneuver suffers a hit, suffer the hit instead."
+            },
+            {
+                "name": "Forgot to Count?",
+                "effect": "When an opponent makes a ranged combat check, you can spend [TH][TH] from that check to use this talent to cause their weapon to run out of ammo (see page 104), as long as the weapon can normally run out of ammunition."
             }
         ],
         "passiveTalents": [
