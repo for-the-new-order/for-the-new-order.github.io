@@ -1882,6 +1882,22 @@
             {
                 "name": "Adversary 1",
                 "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Dynamic Fire",
+                "effect": "When making a ranged attack while engaged with an opponent, may suffer 2 strain to reduce the ranged modifier by 1."
+            },
+            {
+                "name": "Point Blank 3",
+                "effect": "Add 3 damage while using Ranged (Heavy) or Ranged (Light) skills at short range or engaged"
+            },
+            {
+                "name": "Deadeye",
+                "effect": "After your character inflicts a Critical Injury with a ranged weapon and rolls the result, your character may suffer 2 strain to use this talent. Then, you may select any Critical Injury of the same severity to apply to the target instead."
+            },
+            {
+                "name": "Precise Aim",
+                "effect": "Once per round on the character’s turn, when the character performs an Aim maneuver before attempting a combat check, may suffer a number of strain. The number of strain cannot exceed his ranks in Precise Aim. He then decreases the target’s defense (ranged and melee) by one per strain suffered for that combat check."
             }
         ],
         "passiveTalents": [
@@ -1894,10 +1910,19 @@
                 "effect": "+4 wound"
             }
         ],
-        "abilities": [],
+        "abilities": [
+            {
+                "name": "Sniper Eyes",
+                "effect": "Increase your weapon’s range by one range band (to a maximum of extreme range) when using any Ranged (Heavy) weapon."
+            },
+            {
+                "name": "Trained Killer",
+                "effect": "After a successful Ranged (Heavy) check, you can use a Story Point to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1."
+            }
+        ],
         "equipment": [
             "Sniper Armor (+2 soak)",
-            "Sniper rifle (Ranged [Heavy]; Damage 11; Critical 2; Range [Long]; Pierce 2; Accurate 1)",
+            "Modified Sniper rifle (Ranged [Heavy]; Damage 11; Critical 2; Range [Long]; Pierce 2; Accurate 1)",
             "Comlink",
             "Vibroknife (Melee; Damage 6; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)"
         ]
