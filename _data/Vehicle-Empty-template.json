@@ -1,0 +1,91 @@
+{
+    "SHIP_NAME": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "captain": "",
+        "description": [""],
+        "characteristics": {
+            "silhouette": 0,
+            "max_speed": 0,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 0,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 0,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 0
+            }
+        },
+
+        "skill": "",
+        "complement": "",
+        "passenger_capacity": "",
+        "consumables": "",
+        "encumbrance_capacity": "",
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "",
+                "specs": ""
+            }
+        ]
+    },
+    "SHIP_NAME_WITH_REFERENCE": {
+        "reference": {
+            "source": "CCC",
+            "link": {
+                "text": "Assimilator Class Interdictor Destroyer",
+                "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
+            }
+        },
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "captain": "",
+        "description": [""],
+        "characteristics": {
+            "silhouette": 0,
+            "max_speed": 0,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 0,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 0,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 0
+            }
+        },
+
+        "skill": "",
+        "complement": "",
+        "passenger_capacity": "",
+        "consumables": "",
+        "encumbrance_capacity": "",
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "",
+                "specs": ""
+            }
+        ]
+    },
+
+    "SHIP_NAME_NO_STATS": {
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "captain": "",
+        "description": [""]
+    }
+}
