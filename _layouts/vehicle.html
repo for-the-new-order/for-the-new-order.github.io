@@ -43,29 +43,40 @@ display-weapons: true
             {%- endif -%}
         </section>
 
-        {% if page.display-general-info %}
+        {%- if page.display-general-info -%}
+        {%- if data.skill or data.complement or data.passenger_capacity or data.consumables or data.encumbrance_capacity or data.cost -%}
         <section class="general-info">
             <header>general information</header>
+            {%- if data.skill -%}
             <div class="info-item">
                 <strong>skill: </strong>
                 {{ data.skill }}
             </div>
+            {%- endif -%}
+            {%- if data.complement -%}
             <div class="info-item">
                 <strong>complement: </strong>
                 {{ data.complement }}
             </div>
+            {%- endif -%}
+            {%- if data.passenger_capacity -%}
             <div class="info-item">
                 <strong>passenger capacity: </strong>
                 {{ data.passenger_capacity }}
             </div>
+            {%- endif -%}
+            {%- if data.consumables -%}
             <div class="info-item">
                 <strong>consumables: </strong>
                 {{ data.consumables }}
             </div>
+            {%- endif -%}
+            {%- if data.encumbrance_capacity -%}
             <div class="info-item">
                 <strong>encumbrance capacity: </strong>
                 {{ data.encumbrance_capacity }}
             </div>
+            {%- endif -%}
             {% if data.cost and page.display-cost %}
                 <div class="info-item">
                     <strong>cost: </strong>
@@ -73,7 +84,8 @@ display-weapons: true
                 </div>
             {% endif %}
         </section>
-        {% endif %}
+        {%- endif -%}
+        {%- endif -%}
 
         {%- if data.characteristics and page.display-characteristics -%}
         <section class="characteristics">
