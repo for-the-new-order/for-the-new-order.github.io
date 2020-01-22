@@ -35,3 +35,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Allow redirect from moved pages
 gem 'jekyll-redirect-from'
+
+# Fix a bug
+gem "faraday", "< 1.0"

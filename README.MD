@@ -1,4 +1,3 @@
-
 Mount removable media: (e.g. D:)
 
 ```bash
@@ -19,7 +18,16 @@ bundle install
 bundle exec jekyll serve
 ```
 
+or
+
+```bash
+bundle exec jekyll serve
+# OR
+bundle exec jekyll serve --incremental --safe
+```
+
 ## Jekyll Install Bug
+
 BUG: An error occurred while installing nokogiri (1.8.2), and Bundler cannot continue. (zlib is missing; necessary for building libxml2)
 
 Fix:
