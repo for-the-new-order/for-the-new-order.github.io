@@ -171,7 +171,18 @@
                 "display-weapons: true"
             ]
         },
-        { "name": "Utopia" }
+        { "name": "Utopia" },
+        { "name": "Vigil Corvette Kaki Usyk" },
+        { "name": "Imperial Star Destroyer Judgment" },
+        { "name": "Vindicator Heavy Cruiser Armorer" },
+        { "name": "Nebulon-B Frigate Kryptoria" },
+        { "name": "Gladiator-class Star Destroyer Alienator" },
+        { "name": "Raider II-class Corvette Glory" },
+        { "name": "Super Star Destroyer Liberator" },
+        { "name": "Imperial Star Destroyer Herald of Sorrow" },
+        { "name": "Imperial Star Destroyer Avalanche" },
+        { "name": "Nebulon-B Frigate Lullaby" },
+        { "name": "Victory-class Star Destroyer Bastion" }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {

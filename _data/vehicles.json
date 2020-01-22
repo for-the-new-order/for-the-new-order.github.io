@@ -415,5 +415,82 @@
                 "specs": "Unknown"
             }
         ]
+    },
+    "Vigil Corvette Kaki Usyk": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""],
+        "characteristics": {
+            "silhouette": 0,
+            "max_speed": 0,
+            "handling": 0,
+            "hull_trauma": {
+                "threshold": 0,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 0,
+                "current": 0
+            },
+            "protection": {
+                "defense": 0,
+                "armor": 0
+            }
+        },
+
+        "skill": "",
+        "complement": "",
+        "passenger_capacity": "",
+        "consumables": "",
+        "encumbrance_capacity": "",
+        "cost": {
+            "price": 0,
+            "rarity": 0
+        },
+        "weapons": [
+            {
+                "name": "",
+                "specs": ""
+            }
+        ]
+    },
+    "Imperial Star Destroyer Judgment": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Vindicator Heavy Cruiser Armorer": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Nebulon-B Frigate Kryptoria": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Gladiator-class Star Destroyer Alienator": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Raider II-class Corvette Glory": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Super Star Destroyer Liberator": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Imperial Star Destroyer Herald of Sorrow": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Imperial Star Destroyer Avalanche": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Nebulon-B Frigate Lullaby": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
+    },
+    "Victory-class Star Destroyer Bastion": {
+        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "description": [""]
     }
 }
