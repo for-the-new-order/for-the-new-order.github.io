@@ -94,7 +94,13 @@
         { "name": "Fitz Gorr" },
         { "name": "Travus Karns" },
         { "name": "Ashton Mccausland" },
-        { "name": "Lindsey Rostock" },
+        {
+            "name": "Lindsey Rostock",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-strength: true"
+            ]
+        },
         { "name": "Juno Eclipse" },
         {
             "name": "Raymond Fremder",
