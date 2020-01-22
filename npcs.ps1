@@ -1,6 +1,7 @@
 [CmdletBinding()]
 param (
-    [switch]$uglies = $false
+    [switch]$uglies = $false,
+    [switch]$rewrite = $false
 )
 $npcs = (Get-Content _data/npcs.json) | ConvertFrom-Json
 $publicNpcs = (Get-Content _data/public-npcs.json) | ConvertFrom-Json
@@ -111,9 +112,15 @@ function Set-FileContent {
         [string]$path,
         [string]$content
     )
-    if (!(Test-Path $path)) {
+    $fileExists = Test-Path $path;
+    if (!$fileExists -or $rewrite) {
         Set-Content -Value $content -Path $path
-        Write-Host "File $name created" -ForegroundColor DarkGreen
+        if ($fileExists) {
+            Write-Host "File $name updated" -ForegroundColor DarkMagenta
+        }
+        else {
+            Write-Host "File $name created" -ForegroundColor DarkGreen
+        }
     }
     else {
         Write-Verbose "File exists $name"
