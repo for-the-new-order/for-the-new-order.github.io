@@ -78,6 +78,499 @@
                 "name": "15 Gravity Mines",
                 "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
             }
+        ],
+        "reference": {
+            "source": "CCC",
+            "link": {
+                "text": "Assimilator Class Interdictor Destroyer",
+                "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
+            }
+        }
+    },
+    "Nebulon-B Frigate": {
+        "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
+        "characteristics": {
+            "silhouette": 6,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 71,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 40,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,2,2,2",
+                "armor": 6
+            }
+        },
+        "skill": "Operating",
+        "consumables": "2 years",
+        "encumbrance_capacity": 4000,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 12",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "920 officers, pilots, and enlisted crew",
+            "starfighters": "24 starfighters",
+            "troops": "75 troops"
+        },
+
+        "customization": {
+            "hard_points": 2
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 8500000,
+            "rarity": 7,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "6 port and 6 starboard retractable turret mounted double medium turbolasers",
+                "specs": "Fire Arc: All; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1, linked 1"
+            },
+            {
+                "name": "3 starboard and 3 port turret-mounted light laser cannons",
+                "specs": "Fire Arc: starboard or port; Damage 5; Critical 3; Range [Close]"
+            },
+            {
+                "name": "3 forward and 3 aft retractable turret-mounted double light laser cannons",
+                "specs": "Fire Arc: forward or aft; Damage 5; Critical 2; Range [Close], Linked 1"
+            },
+            {
+                "name": "3 forward-mounted heavy tractor beam emitters",
+                "specs": "Fire Arc Forward; Range [Medium]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 279
+        }
+    },
+    "Imperial I-class Star Destroyer": {
+        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
+        "characteristics": {
+            "silhouette": 8,
+            "max_speed": 2,
+            "handling": -3,
+            "hull_trauma": {
+                "threshold": 145,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 60,
+                "current": 0
+            },
+            "protection": {
+                "defense": "3,3,3,2",
+                "armor": 10
+            },
+            "massive": 2
+        },
+        "skill": "Operating",
+        "consumables": "2 years",
+        "encumbrance_capacity": 15000,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 8",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "37,085 officers, pilots, and enlisted crew",
+            "starfighters": "72 starfighters",
+            "vehicles": "Numerous shuttles, landing craft, utility vehicles, landing barges, and AT-series walkers",
+            "troops": "9,700 troops"
+        },
+        "customization": {
+            "hard_points": 2
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 150000000,
+            "rarity": 7,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "10 port and 10 starboard heavy turbolaser batteries",
+                "specs": "Fire Arc Port and Forward or Starboard and Forward; Damage 11; Critical 3; Range [Long]; Breach 4, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "10 dorsal heavy turbolaser batteries",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage 11; Critical 3; Range [Long]; Breach 4, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "10 port, 10 starboard, and 10 forward light turbolasers",
+                "specs": "Fire Arc Port, Starboard, or Forward; Damage 9; Critical 3; Range [Medium]; Breach 2, Slow-Firing 1"
+            },
+            {
+                "name": "10 port and 10 starboard battleship ion cannon turrets",
+                "specs": "Fire Arc Port and Forward or Starboard and Forward; Damage 9; Critical 4; Range [Medium]; Breach 3, Ion, Slow-Firing 2"
+            },
+            {
+                "name": "10 ventral battleship ion cannon batteries",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage 9; Critical 4; Range [Medium]; Breach 3, Ion, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "15 port and 15 starboard medium ion cannons",
+                "specs": "Fire Arc Port or Starboard; Damage 6; Critical 4; Range [Short]; Ion"
+            },
+            {
+                "name": "10 heavy tractor beam emitters",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage -; Critical -; Range [Short]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 279
+        }
+    },
+    "Victory II-class Star Destroyer": {
+        "image_path": "/assets/images/vehicles/victory-class-star-destroyer.jpg",
+        "characteristics": {
+            "silhouette": 8,
+            "max_speed": 1,
+            "handling": -3,
+            "hull_trauma": {
+                "threshold": 120,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 50,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,2,2,2",
+                "armor": 9
+            },
+            "massive": 1
+        },
+        "skill": "Operating",
+        "consumables": "1 year",
+        "encumbrance_capacity": 6500,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 1",
+            "backup": "Class 15",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "6,107 officers, pilots, and enlisted crew",
+            "starfighters": "24 starfighters",
+            "vehicles": "Numerous shuttles, landing craft, utility vehicles, and AT-series walkers",
+            "troops": "1,600 troops"
+        },
+        "customization": {
+            "hard_points": 4
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 50000000,
+            "rarity": 6,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "5 port and 5 starboard light quad turbolaser batteries",
+                "specs": "Fire Arc Port and Forward or Starboard and Forward; Damage 9; Critical 3; Range [Medium]; Breach 2, Linked 3, Slow-Firing 1"
+            },
+            {
+                "name": "10 forward-mounted twin medium turbolasers",
+                "specs": "Fire Arc Forward; Damage 10; Critical 3; Range [Long]; Breach 3, SlowFiring 1"
+            },
+            {
+                "name": "10 dorsal twin medium turbolasers",
+                "specs": "Fire Arc Forward; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1"
+            },
+            {
+                "name": "20 assault concussion missile launchers",
+                "specs": "Fire Arc Forward; Damage 7; Critical 3; Range [Short]; Blast 4, Breach 5, Guided 2, Inaccurate 1, Slow-Firing 1"
+            },
+            {
+                "name": "10 hull-mounted heavy tractor beams",
+                "specs": "Fire Arc All; Damage -; Critical Hit -; Range [Short]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 283
+        }
+    },
+    "Executor-class Star Dreadnought": {
+        "image_path": "/assets/images/vehicles/super-star-destroyer.jpg",
+        "characteristics": {
+            "silhouette": 9,
+            "max_speed": 2,
+            "handling": -4,
+            "hull_trauma": {
+                "threshold": 250,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 150,
+                "current": 0
+            },
+            "protection": {
+                "defense": "4,4,4,3",
+                "armor": 12
+            },
+            "massive": 4
+        },
+        "skill": "Operating",
+        "consumables": "6 year",
+        "encumbrance_capacity": 250000,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 10",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "280,000 officers, pilots, and enlisted crew",
+            "starfighters": "144 racked fighters, 1000+ in storage",
+            "vehicles": "30 AT-ATs, 40 AT-STs, Y-85 Titan dropships, 2 Prefabricated garrison bases, and various other assault and support craft",
+            "troops": "40,000 troops"
+        },
+        "customization": {
+            "hard_points": 2
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 25000000000,
+            "rarity": 10,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "250 Port and Starboard heavy turbolaser batteries",
+                "specs": "Fire Arc: Port, Rear and Forward or Starboard Rear and Forward; Damage 11; Critical 3; Range [Long]; Breach 4; linked 3; Slow-Firing 2"
+            },
+            {
+                "name": "250 Concussion Missile Launchers",
+                "specs": "Fire Arc: All; Damage 6, Crit 3; Range [Short]; Blast 4; Breach 4; Guided 3, Slow-Firing 1"
+            },
+            {
+                "name": "250 Ion Cannons (Battleship)",
+                "specs": "Fire Arc: Port, Forward, Starboard; Damage 9; Crit 4; Range [Medium]; Breach 3; Ion; Slow-Firing 2"
+            },
+            {
+                "name": "250 Dorsal and Ventral Quad Laser Cannons",
+                "specs": "Fire Arc: All; Damage 5, Crit 3; Range [Close]; Accurate 1; Linked 3"
+            },
+            {
+                "name": "250 port and starboard Heavy ion cannons",
+                "specs": "Fire Arc Port or Starboard; Damage 10; Critical 4; Range [Short]; Ion"
+            },
+            {
+                "name": "40 heavy tractor beam emitters",
+                "specs": "Fire Arc All; Damage -; Critical -; Range [Short]; Tractor 6"
+            },
+            {
+                "name": "And more...",
+                "specs": ""
+            }
+        ],
+        "reference": {
+            "source": "CCC",
+            "link": {
+                "text": "Executor-class Star Dreadnought",
+                "url": "https://community.fantasyflightgames.com/topic/247013-executor-class-star-dreadnought/?do=findComment&comment=2729352"
+            }
+        }
+    },
+    "Vindicator-class Heavy Cruiser": {
+        "image_path": "/assets/images/vehicles/vindicator-class-heavy-cruiser.jpg",
+        "characteristics": {
+            "silhouette": 7,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 85,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 55,
+                "current": 0
+            },
+            "protection": {
+                "defense": "3,2,2,2",
+                "armor": 6
+            },
+            "massive": 1
+        },
+        "skill": "Operating",
+        "consumables": "16 months",
+        "encumbrance_capacity": 7500,
+        "manufacturer": "Sienar Fleet Systems",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 12",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "2,551 officers, pilots, and enlisted crew",
+            "starfighters": "24 starfighters",
+            "troops": "400 troops"
+        },
+        "customization": {
+            "hard_points": 0
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 10400000,
+            "rarity": 8,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "5 dorsal, 5 port, and 5 starboard medium turbolasers",
+                "specs": "Fire Arc Forward, Port, and Starboard, or Forward and Port, or Forward and Starboard; Damage 10; Critical 3; Range (Long); Breach 3, Slow-Firing 1"
+            },
+            {
+                "name": "5 port and 5 starboard quad light turbolaser batteries",
+                "specs": "Fire Arc Forward and Port or Forward and Starboard; Damage 9; Critical 3; Range [Medium]; Breach 2, Linked 3, Slow-Firing 1"
+            },
+            {
+                "name": "6 forward, 8 port, 8 starboard, and 8 aft point defense laser cannons",
+                "specs": "Fire Arc Forward or Port or Starboard or Aft; Damage 5; Critical 3; Range [Close]; Accurate 1"
+            },
+            {
+                "name": "1 forward, 1 port, and 1 starboard heavy tractor beam emitters",
+                "specs": "Fire Arc Forward or Starboard or Port; Damage -; Critical Hit -; Range [Short]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 280
+        }
+    },
+    "Gladiator-class Star Destroyer": {
+        "image_path": "/assets/images/vehicles/gladiator-class-star-destroyer.jpg"
+    },
+    "Raider II-class Corvette": {
+        "image_path": "/assets/images/vehicles/raider-II-class-corvette.jpg"
+    },
+    "Vigil-class Corvette": {
+        "image_path": "/assets/images/vehicles/vigil-class-corvette.jpg",
+        "characteristics": {
+            "silhouette": 5,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 55,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 35,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,2,2,1",
+                "armor": 5
+            }
+        },
+        "skill": "Operating",
+        "consumables": "16 months",
+        "encumbrance_capacity": 7500,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 10",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "200 officers, and enlisted, and troops",
+            "starfighters": "TIE Interceptors (8), TIE/RC Fighters (2), TIE/SR Righter (1), TIE/FC Fighter (1), TIE Bomber (4)"
+        },
+        "customization": {
+            "hard_points": 0
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 3500000,
+            "rarity": 5,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "Three dorsal turret-mounted twin light turbolaser batteries",
+                "specs": "Fire Arc All; Damage 9; Critical 3; Range [Medium]; Breach 2, Linked 1, Slow-Firing 1"
+            },
+            {
+                "name": "Three dorsal twin heavy laser cannon turrets",
+                "specs": "Fire Arc All; Damage 6; Critical 3; Range [Short]; Linked 1"
+            },
+            {
+                "name": "Forward-mounted medium tractor beam emitters",
+                "specs": "Fire Arc Forward; Damage -; Critical -; Range [Close]; Tractor 4"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 274
+        }
+    },
+    "Nssis-class Clawcraft": {
+        "image_path": "/assets/images/vehicles/NssisClassClawcraft-500px.png",
+        "description": [
+            "The Nssis-class Clawcraft was a starfighter typically associated with the Chiss, but in fact was a hybrid development of standard Imperial technology.",
+            "Equipped with a Chiss hyperspace beacon system"
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 6,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
+            "protection": {
+                "defense": 1,
+                "armor": 3
+            }
+        },
+        "hyperdrive": {
+            "primary": "Class 1.5",
+            "navicomputer": "No"
+        },
+
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": "None",
+        "consumables": "1 week",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 0,
+            "rarity": 99
+        },
+        "weapons": [
+            {
+                "name": "SFS L-s7.2 laser cannon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
+            }
         ]
     }
 }

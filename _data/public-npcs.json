@@ -173,7 +173,16 @@
     "vehicles": [
         { "name": "The Raazial" },
         { "name": "The Scalvenker" },
-        { "name": "Destiny" },
+        {
+            "name": "Destiny",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
         {
             "name": "Nssis-class Clawcraft",
             "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
@@ -183,17 +192,126 @@
             "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
         },
         { "name": "Utopia" },
-        { "name": "Vigil Corvette Kaki Usyk" },
-        { "name": "Imperial Star Destroyer Judgment" },
-        { "name": "Vindicator Heavy Cruiser Armorer" },
-        { "name": "Nebulon-B Frigate Kryptoria" },
-        { "name": "Gladiator-class Star Destroyer Alienator" },
-        { "name": "Raider II-class Corvette Glory" },
-        { "name": "Super Star Destroyer Liberator" },
-        { "name": "Imperial Star Destroyer Herald of Sorrow" },
-        { "name": "Imperial Star Destroyer Avalanche" },
-        { "name": "Nebulon-B Frigate Lullaby" },
-        { "name": "Victory-class Star Destroyer Bastion" }
+        {
+            "name": "Kaki Usyk",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Judgment",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Armorer",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Kryptoria",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Alienator",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Glory",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Liberator",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Herald of Sorrow",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Avalanche",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Lullaby",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Bastion",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Falsifier",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {

@@ -1,5 +1,5 @@
 ---
-title: Destiny
+title: Judgment
 display-characteristics: true
 display-current-thresholds: true
 display-general-info: true

@@ -1,5 +1,5 @@
 ---
-title: Destiny
+title: Avalanche
 display-characteristics: true
 display-current-thresholds: true
 display-general-info: true

@@ -1,5 +1,5 @@
 ---
-title: Destiny
+title: Herald of Sorrow
 display-characteristics: true
 display-current-thresholds: true
 display-general-info: true

@@ -3,13 +3,6 @@
         "model": {
             "name": "Assimilator-class Interdictor Star Destroyer"
         },
-        "reference": {
-            "source": "CCC",
-            "link": {
-                "text": "Assimilator Class Interdictor Destroyer",
-                "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
-            }
-        },
         "campaign_info": {
             "captain": "Justen Baltzell",
             "encounters": [
@@ -30,12 +23,23 @@
         }
     },
     "The Raazial": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
+        "campaign_info": {
+            "captain": "Naarlok",
+            "encounters": [
+                {
+                    "episode": "episode000",
+                    "description": ["..."]
+                }
+            ]
+        },
         "image_path": "/assets/images/vehicles/The-Raazial.png",
         "description": [
-            "The Raazial is a highly modified Nebulon-B frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it."
+            "The Raazial is a highly modified Nebulon-B Frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it."
         ],
         "characteristics": {
-            "silhouette": 6,
             "max_speed": 5,
             "handling": 2,
             "hull_trauma": {
@@ -51,36 +55,11 @@
                 "armor": 8
             }
         },
-        "skill": "Operating",
-        "complement": "920 officers, pilots, and enlisted crew",
-        "passenger_capacity": "75 troops",
-        "consumables": "2 years",
         "encumbrance_capacity": 3000,
+        "hyperdrive": "Primary: Class 1, Backup: Class 12",
+        "starfighter": "Unknown",
         "cost": {
-            "price": 8500000,
-            "rarity": 7
-        },
-        "weapons": [
-            {
-                "name": "6 port and 6 starboard retractable turret mounted double medium turbolasers",
-                "specs": "Fire Arc: All; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1, linked 1"
-            },
-            {
-                "name": "3 starboard and 3 port turret-mounted light laser cannons",
-                "specs": "Fire Arc: starboard or port; Damage 5; Critical 3; Range [Close]"
-            },
-            {
-                "name": "3 forward and 3 aft retractable turret-mounted double light laser cannons",
-                "specs": "Fire Arc: forward or aft; Damage 5; Critical 2; Range [Close], Linked 1"
-            },
-            {
-                "name": "3 forward-mounted heavy tractor beam emitters",
-                "specs": "Fire Arc Forward; Range [Medium]; Tractor 6"
-            }
-        ],
-        "reference": {
-            "source": "ACRB",
-            "page": 279
+            "price": "unique"
         }
     },
     "The Scalvenker": {
@@ -131,44 +110,9 @@
         ]
     },
     "Nssis-class Clawcraft": {
-        "image_path": "/assets/images/vehicles/NssisClassClawcraft-500px.png",
-        "description": [
-            "The Nssis-class Clawcraft was a starfighter typically associated with the Chiss, but in fact was a hybrid development of standard Imperial technology.",
-            "Equipped with a Chiss hyperspace beacon system",
-            "Hyperdrive class 1.5"
-        ],
-        "characteristics": {
-            "silhouette": 3,
-            "max_speed": 6,
-            "handling": 3,
-            "hull_trauma": {
-                "threshold": 10,
-                "current": 0
-            },
-            "system_strain": {
-                "threshold": 10,
-                "current": 0
-            },
-            "protection": {
-                "defense": 1,
-                "armor": 3
-            }
-        },
-        "skill": "Piloting",
-        "complement": "1 pilot",
-        "passenger_capacity": "None",
-        "consumables": "1 week",
-        "encumbrance_capacity": 4,
-        "cost": {
-            "price": 0,
-            "rarity": 99
-        },
-        "weapons": [
-            {
-                "name": "SFS L-s7.2 laser cannon",
-                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
-            }
-        ]
+        "model": {
+            "name": "Nssis-class Clawcraft"
+        }
     },
     "Rebels Hovercraft": {
         "image_path": "/assets/images/vehicles/250x250-generic.png",
@@ -322,112 +266,109 @@
         ]
     },
     "Vigil Corvette Kaki Usyk": {
-        "image_path": "/assets/images/vehicles/vigil-class-corvette.jpg",
-        "description": [""],
+        "model": {
+            "name": "Vigil-class Corvette"
+        },
         "campaign_info": {
             "captain": "Salomon Fauls"
-        },
-        "characteristics": {
-            "silhouette": 0,
-            "max_speed": 0,
-            "handling": 0,
-            "hull_trauma": {
-                "threshold": 0,
-                "current": 0
-            },
-            "system_strain": {
-                "threshold": 0,
-                "current": 0
-            },
-            "protection": {
-                "defense": 0,
-                "armor": 0
-            }
-        },
-        "skill": "",
-        "complement": "",
-        "passenger_capacity": "",
-        "consumables": "",
-        "encumbrance_capacity": "",
-        "cost": {
-            "price": 0,
-            "rarity": 0
-        },
-        "weapons": [
-            {
-                "name": "",
-                "specs": ""
-            }
-        ]
-    },
-    "Imperial Star Destroyer Judgment": {
-        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
-        "description": [""],
-        "campaign_info": {
-            "captain": "Lance Sleater"
         }
     },
-    "Vindicator Heavy Cruiser Armorer": {
-        "image_path": "/assets/images/vehicles/vindicator-class-heavy-cruiser.jpg",
+    "Judgment": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "captain": "Carter Foxwell"
+        }
+    },
+    "Armorer": {
+        "model": {
+            "name": "Vindicator-class Heavy Cruiser"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Benjy Lazzo"
         }
     },
-    "Nebulon-B Frigate Kryptoria": {
-        "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
+    "Kryptoria": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Travus Karns"
         }
     },
-    "Gladiator-class Star Destroyer Alienator": {
-        "image_path": "/assets/images/vehicles/gladiator-class-star-destroyer.jpg",
+    "Alienator": {
+        "model": {
+            "name": "Gladiator-class Star Destroyer"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Helen Hartwich"
         }
     },
-    "Raider II-class Corvette Glory": {
-        "image_path": "/assets/images/vehicles/raider-II-class-corvette.jpg",
+    "Glory": {
+        "model": {
+            "name": "Raider II-class Corvette"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Dillon Poke"
         }
     },
-    "Super Star Destroyer Liberator": {
-        "image_path": "/assets/images/vehicles/super-star-destroyer.jpg",
+    "Liberator": {
+        "model": {
+            "name": "Executor-class Star Dreadnought"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Barret Marh"
         }
     },
-    "Imperial Star Destroyer Herald of Sorrow": {
-        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
+    "Herald of Sorrow": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Ashton Mccausland"
         }
     },
-    "Imperial Star Destroyer Avalanche": {
-        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
+    "Avalanche": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Bevin Stefanski"
         }
     },
-    "Nebulon-B Frigate Lullaby": {
-        "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
+    "Lullaby": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Kellina Niemiec"
         }
     },
-    "Victory-class Star Destroyer Bastion": {
-        "image_path": "/assets/images/vehicles/victory-class-star-destroyer.jpg",
+    "Bastion": {
+        "model": {
+            "name": "Victory II-class Star Destroyer"
+        },
         "description": [""],
         "campaign_info": {
             "captain": "Jerrold Penagonzalez"
+        }
+    },
+    "Falsifier": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "campaign_info": {
+            "captain": "Garold Carbonneau"
         }
     }
 }
