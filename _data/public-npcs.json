@@ -2,19 +2,11 @@
     "npcs": [
         {
             "name": "Leeadra Leonis",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-desires: true",
-                "display-motivation-strength: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-desires: true", "display-motivation-strength: true"]
         },
         {
             "name": "Barret Marh",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-desires: true",
-                "display-motivation-strength: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-desires: true", "display-motivation-strength: true"]
         },
         {
             "name": "Carter Foxwell",
@@ -41,26 +33,16 @@
         },
         {
             "name": "Lance Sleater",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-strength: true",
-                "display-motivation-flaw: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-strength: true", "display-motivation-flaw: true"]
         },
         { "name": "Justen Baltzell" },
         {
             "name": "Corry Stocks",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-personality: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true"]
         },
         {
             "name": "Tarrance Favreau",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-personality: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true"]
         },
         { "name": "Naarlock" },
         { "name": "Claudette Mauve Malasky" },
@@ -79,27 +61,18 @@
         },
         {
             "name": "Derrek Guthrie",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-strength: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-strength: true"]
         },
         {
             "name": "Phil Ellingsen",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-personality: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true"]
         },
         { "name": "Fitz Gorr" },
         { "name": "Travus Karns" },
         { "name": "Ashton Mccausland" },
         {
             "name": "Lindsey Rostock",
-            "frontMatter": [
-                "display-motivation: true",
-                "display-motivation-strength: true"
-            ]
+            "frontMatter": ["display-motivation: true", "display-motivation-strength: true"]
         },
         { "name": "Juno Eclipse" },
         {
@@ -141,35 +114,58 @@
         },
         { "name": "Administrator Blinn" },
         { "name": "Olav Heglund" },
-        { "name": "Alexandros Haff" }
-    ],
-    "vehicles": [
+        { "name": "Alexandros Haff" },
         {
-            "name": "Aerospace Superiority Fighter",
+            "name": "Benjy Lazzo",
             "frontMatter": [
-                "display-characteristics: true",
-                "display-general-info: true",
-                "display-weapons: true"
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
             ]
         },
+        {
+            "name": "Helen Hartwich",
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+        },
+        {
+            "name": "Dillon Poke",
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+        },
+        {
+            "name": "Bevin Stefanski",
+            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+        },
+        {
+            "name": "Kellina Niemiec",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
+        },
+        {
+            "name": "Jerrold Penagonzalez",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
+        }
+    ],
+    "vehicles": [
         { "name": "The Raazial" },
         { "name": "The Scalvenker" },
         { "name": "Assimilator-Class Interdictor Star Destroyer" },
         {
             "name": "Nssis-class Clawcraft",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-general-info: true",
-                "display-weapons: true"
-            ]
+            "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
         },
         {
             "name": "Old leftover Hover Bike",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-general-info: true",
-                "display-weapons: true"
-            ]
+            "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
         },
         { "name": "Utopia" },
         { "name": "Vigil Corvette Kaki Usyk" },

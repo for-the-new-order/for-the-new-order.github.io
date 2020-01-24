@@ -1454,7 +1454,7 @@
         ]
     },
     "Travus Karns": {
-        "folder": "Empire/Nebulon-B-Kryptoria",
+        "folder": "Empire/Navy",
         "initialSeed": 434977,
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "rival",
@@ -1482,7 +1482,10 @@
         }
     },
     "Ashton Mccausland": {
-        "folder": "Empire/Nebulon-B-Sparta",
+        "folder": "Empire/Navy",
+        "description": [
+            "Ashton Mccausland was the captain of the Nebulon-B Frigate Sparta, when it was disabled by the rebels at the battle of the Niyrius system."
+        ],
         "initialSeed": 475267,
         "image_path": "/assets/images/npcs/250x250-empire.png",
         "type": "rival",
@@ -1993,5 +1996,143 @@
             "Comlink",
             "Vibroknife (Melee; Damage 6; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)"
         ]
+    },
+    "Benjy Lazzo": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Absent-minded",
+        "motivation": {
+            "strength": {
+                "name": "Idealistic",
+                "description": "What ideals your character believes in are up to you, but to your character, those ideals are nothing short of sacred. Your character may feel that everyone should live up to those same ideals (and may be disappointed when people don’t), or they may be content to meet the standards they have set for themself."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        }
+    },
+    "Helen Hartwich": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Very old",
+        "motivation": {
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    },
+    "Dillon Poke": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Angry",
+        "motivation": {
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, your character has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
+    },
+    "Bevin Stefanski": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Dry-humored",
+        "motivation": {
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Kellina Niemiec": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Aggressive",
+        "motivation": {
+            "strength": {
+                "name": "Independent",
+                "description": "When everyone else has failed or fallen, your character knows they can still count on themself. Your character may get along with others just fine but makes sure not to rely on others. That way, when things go wrong, your character is always prepared to deal with the situation and isn’t waiting for someone else to help."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
+    },
+    "Jerrold Penagonzalez": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Hates droids",
+        "motivation": {
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Ignorance",
+                "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
+            }
+        }
     }
 }
