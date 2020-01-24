@@ -173,7 +173,7 @@
     "vehicles": [
         { "name": "The Raazial" },
         { "name": "The Scalvenker" },
-        { "name": "Assimilator-class Interdictor Star Destroyer Destiny" },
+        { "name": "Destiny" },
         {
             "name": "Nssis-class Clawcraft",
             "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]

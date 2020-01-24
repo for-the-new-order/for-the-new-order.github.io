@@ -1,0 +1,83 @@
+{
+    "Assimilator-class Interdictor Star Destroyer": {
+        "image_path": "/assets/images/vehicles/Assimilator-Class-Interdictor-Star-Destroyer.jpg",
+        "description": [
+            "Faster than the standard Star Destroyer, the Assimilator, as its classification would suggest, is typically going to be found apart of a taskforce conducting patrols of large expanses of Space, or apart of a rapid response taskforce that works to prevent the retreat of hostiles.",
+            "Main purposes: Patrol and Interdiction.",
+            "The Assimilator only possesses two fighter squadrons, thus leaving it the wrong type of ship to patrol solo. Its small complement is the reason why it is apart of taskforces, rather than solo missions.",
+            "A flaw was pointed out that the ship was incapable of immediately leaping into a charted Hyperspace Jump after turning off its Gravity Well Projectors, requiring almost two minutes of a cooldown before allowing the jump to complete, should the ship be under fire while holding that gravity field, it'd leave the ship vulnerable before making its hopeful escape."
+        ],
+        "characteristics": {
+            "silhouette": "?",
+            "max_speed": "?",
+            "handling": "?",
+            "hull_trauma": {
+                "threshold": "?",
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": "?",
+                "current": 0
+            },
+            "protection": {
+                "defense": "?",
+                "armor": "?"
+            }
+        },
+        "skill": "Operating",
+        "complement": "?",
+        "passenger_capacity": "?",
+        "consumables": "?",
+        "encumbrance_capacity": "?",
+        "cost": {
+            "price": "?",
+            "rarity": "?"
+        },
+        "weapons": [
+            {
+                "name": "Hangar",
+                "specs": "2 Tie Interdictor Squadrons"
+            },
+            {
+                "name": "20 Heavy Turbolaser Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "15 Ion Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "10 Quad Turbolaser Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "30 Long-Range Turbolaser Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "30 Warhead Launchers",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "50 Quad Laser Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "50 Flak Cannons",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "2 Tractor Beam Projectors",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "Gravity Well Projector",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            },
+            {
+                "name": "15 Gravity Mines",
+                "specs": "Fire Arc ?; Damage ?; Critical ?; Range [?]; ?"
+            }
+        ]
+    }
+}

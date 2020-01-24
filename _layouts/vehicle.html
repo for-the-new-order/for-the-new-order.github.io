@@ -2,6 +2,7 @@
 layout: single 
 title: Vehicle
 excerpt: "EMPTY!"
+regenerate: true
 # Defaults
 display-description: true
 display-gm-description: true
@@ -13,9 +14,9 @@ display-cost: true
 display-weapons: true
 ---
 {%- if page.is-ugly -%}
-{%- assign data = site.data.ugly[page.title] -%}
+    {%- assign data = site.data.ugly[page.title] -%}
 {%- else -%}
-{%- assign data = site.data.vehicles[page.title] -%}
+    {%- assign data = site.data.vehicles[page.title] -%}
 {%- endif -%}
 {%- if page.is-gm -%}
     {%- assign baseUrl = '/gm' -%}
@@ -23,18 +24,38 @@ display-weapons: true
     {%- assign baseUrl = '/game-content' -%}
 {%- endif -%}
 
+{%- if data.model and data.model.name -%}
+    {%- assign model = site.data.vehicle-models[data.model.name] -%}
+{%- else -%}
+    {%- assign model = false -%}
+{%- endif -%}
+
 <section class="vehicle-details">
     {%- if data -%}
         <header>
-            <h2>{{ page.title }}</h2>
+            <h2>
+                {{ page.title }}
+                {%- if data.model and data.model.name and page.title <> data.model.name -%}
+                    <small class="model">{{data.model.name}}</small>
+                {%- endif -%}
+            </h2>
         </header>
         <section class="content">
-            <img src="{{ data.image_path }}" alt="{{ page.title }}" />
+            {%- if data.image_path -%}
+                <img src="{{ data.image_path }}" alt="{{ page.title }}" />
+            {%- elsif model and model.image_path -%}
+                <img src="{{ model.image_path }}" alt="{{ page.title }}" />
+            {%- endif -%}
             {%- if  page.content -%}
                 {{ page.content }}
             {%- endif -%}
             {%- if page.display-exerpt -%}
                 <p>{{ page.exerpt }}</p>
+            {%- endif -%}
+            {%- if model and model.description -%}
+                {%- for d in model.description -%}
+                    {{- d | markdownify -}}
+                {%- endfor -%}
             {%- endif -%}
             {%- if page.display-description and data.description -%}
                 {%- for d in data.description -%}
@@ -49,115 +70,10 @@ display-weapons: true
             {%- endif -%}
         </section>
 
-        {%- if page.display-general-info -%}
-        {%- if data.skill or data.complement or data.passenger_capacity or data.consumables or data.encumbrance_capacity or data.cost -%}
-        <section class="general-info">
-            <header>general information</header>
-            {%- if data.skill -%}
-            <div class="info-item">
-                <strong>skill: </strong>
-                {{ data.skill }}
-            </div>
-            {%- endif -%}
-            {%- if data.complement -%}
-            <div class="info-item">
-                <strong>complement: </strong>
-                {{ data.complement }}
-            </div>
-            {%- endif -%}
-            {%- if data.passenger_capacity -%}
-            <div class="info-item">
-                <strong>passenger capacity: </strong>
-                {{ data.passenger_capacity }}
-            </div>
-            {%- endif -%}
-            {%- if data.consumables -%}
-            <div class="info-item">
-                <strong>consumables: </strong>
-                {{ data.consumables }}
-            </div>
-            {%- endif -%}
-            {%- if data.encumbrance_capacity -%}
-            <div class="info-item">
-                <strong>encumbrance capacity: </strong>
-                {{ data.encumbrance_capacity }}
-            </div>
-            {%- endif -%}
-            {% if data.cost and page.display-cost %}
-                <div class="info-item">
-                    <strong>cost: </strong>
-                    {%- include numberWithCommas.html number=data.cost.price -%}/{{ data.cost.rarity }}
-                </div>
-            {% endif %}
-        </section>
-        {%- endif -%}
-        {%- endif -%}
-
-        {%- if data.characteristics and page.display-characteristics -%}
-        <section class="characteristics">
-            <header>characteristics</header>
-            <div class="characteristics-row">
-                <div class="imageBox">
-                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
-                    <div class="characteristicValue row">{{data.characteristics.silhouette}}</div>
-                    <div class="characteristicTitle row">silhouette</div>
-                </div>
-                <div class="imageBox">
-                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
-                    <div class="characteristicValue row">{{data.characteristics.max_speed}}</div>
-                    <div class="characteristicTitle row">max speed</div>
-                </div>
-                <div class="imageBox">
-                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
-                    <div class="characteristicValue row">{{data.characteristics.handling}}</div>
-                    <div class="characteristicTitle row">handling</div>
-                </div>
-            </div>
-            <div class="attributes-row">
-                <div class="imageBox attribute">
-                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
-                    <div class="attributeTitle row">defense</div>
-                    <div class="attributeValue row">{{ data.characteristics.protection.defense }}</div>
-                </div>
-                <div class="imageBox attribute">
-                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
-                    <div class="attributeTitle row">armor</div>
-                    <div class="attributeValue row">{{ data.characteristics.protection.armor }}</div>
-                </div>
-                <div class="imageBox attribute">
-                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
-                    <div class="attributeTitle row">hull trauma</div>
-                    <div class="attributeValue row">
-                        {{ data.characteristics.hull_trauma.threshold }}
-                        {% if page.display-current-thresholds %}
-                            | {{ data.characteristics.hull_trauma.current }}
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="imageBox attribute">
-                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
-                    <div class="attributeTitle row">system strain</div>
-                    <div class="attributeValue row">
-                        {{ data.characteristics.system_strain.threshold }}
-                        {% if page.display-current-thresholds %}
-                            | {{ data.characteristics.system_strain.current }}
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </section>
-        {%- endif -%}
-        
-        {%- if data.weapons and page.display-weapons -%}
-        <section class="weapons-list">
-            <header>weapons</header>
-            {%- for w in data.weapons -%}
-                <div class="weapons">
-                    <strong>{{ w.name }}: </strong>
-                    {% include text-with-symbols.html content=w.specs %}
-                </div>
-            {%- endfor -%}
-        </section>
+        {%- if model -%}
+            {%- include vehicle-stats.html stats=model overrides=data -%}
+        {%- else -%}
+            {%- include vehicle-stats.html stats=data -%}
         {%- endif -%}
 
         {%- if page.display-campaign-info and data.campaign_info -%}

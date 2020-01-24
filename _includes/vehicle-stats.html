@@ -1,0 +1,165 @@
+{%- assign stats = include.stats -%}
+{%- assign overrides = include.overrides -%}
+
+{%- if page.display-general-info -%}
+{%- if stats.skill or stats.complement or stats.passenger_capacity or stats.consumables or stats.encumbrance_capacity or stats.cost or overrides.skill or overrides.complement or overrides.passenger_capacity or overrides.consumables or overrides.encumbrance_capacity or overrides.cost -%}
+<section class="general-info">
+    <header>general information</header>
+    
+    {%- if overrides and overrides.skill -%}
+        <div class="info-item">
+            <strong>skill: </strong>
+            {{ overrides.skill }}
+        </div>
+    {%- elsif stats.skill -%}
+        <div class="info-item">
+            <strong>skill: </strong>
+            {{ stats.skill }}
+        </div>
+    {%- endif -%}
+
+    {%- if overrides and overrides.complement -%}
+        <div class="info-item">
+            <strong>complement: </strong>
+            {{ overrides.complement }}
+        </div>
+    {%- elsif stats.complement -%}
+        <div class="info-item">
+            <strong>complement: </strong>
+            {{ stats.complement }}
+        </div>
+    {%- endif -%}
+
+    {%- if overrides and overrides.passenger_capacity -%}
+        <div class="info-item">
+            <strong>passenger capacity: </strong>
+            {{ overrides.passenger_capacity }}
+        </div>
+    {%- elsif stats.passenger_capacity -%}
+        <div class="info-item">
+            <strong>passenger capacity: </strong>
+            {{ stats.passenger_capacity }}
+        </div>
+    {%- endif -%}
+    
+    {%- if overrides and overrides.consumables -%}
+        <div class="info-item">
+            <strong>consumables: </strong>
+            {{ overrides.consumables }}
+        </div>
+    {%- elsif stats.consumables -%}
+        <div class="info-item">
+            <strong>consumables: </strong>
+            {{ stats.consumables }}
+        </div>
+    {%- endif -%}
+    
+    {%- if overrides and overrides.encumbrance_capacity -%}
+        <div class="info-item">
+            <strong>encumbrance capacity: </strong>
+            {{ overrides.encumbrance_capacity }}
+        </div>
+    {%-elsif stats.encumbrance_capacity -%}
+        <div class="info-item">
+            <strong>encumbrance capacity: </strong>
+            {{ stats.encumbrance_capacity }}
+        </div>
+    {%- endif -%}
+
+    {% if overrides and overrides.cost and page.display-cost %}
+        <div class="info-item">
+            <strong>cost: </strong>
+            {%- include numberWithCommas.html number=overrides.cost.price -%}/{{ overrides.cost.rarity }}
+        </div>
+    {% elsif stats.cost and page.display-cost %}
+        <div class="info-item">
+            <strong>cost: </strong>
+            {%- include numberWithCommas.html number=stats.cost.price -%}/{{ stats.cost.rarity }}
+        </div>
+    {% endif %}
+</section>
+{%- endif -%}
+{%- endif -%}
+
+{%- if page.display-characteristics -%}
+    {%- if stats.characteristics or overrides.characteristics -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.silhouette -%}{%- assign silhouette = overrides.characteristics.silhouette -%}{%- else -%}{%- assign silhouette = stats.characteristics.silhouette -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.max_speed -%}{%- assign max_speed = overrides.characteristics.max_speed -%}{%- else -%}{%- assign max_speed = stats.characteristics.max_speed -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.handling -%}{%- assign handling = overrides.characteristics.handling -%}{%- else -%}{%- assign handling = stats.characteristics.handling -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.protection -%}{%- assign protection = overrides.characteristics.protection -%}{%- else -%}{%- assign protection = stats.characteristics.protection -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.hull_trauma -%}{%- assign hull_trauma = overrides.characteristics.hull_trauma -%}{%- else -%}{%- assign hull_trauma = stats.characteristics.hull_trauma -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.system_strain -%}{%- assign system_strain = overrides.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = stats.characteristics.system_strain -%}{%- endif -%}
+
+        <section class="characteristics">
+            <header>characteristics</header>
+            <div class="characteristics-row">
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{ silhouette }}</div>
+                    <div class="characteristicTitle row">silhouette</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{ max_speed }}</div>
+                    <div class="characteristicTitle row">max speed</div>
+                </div>
+                <div class="imageBox">
+                    <img src="/assets/images/sheets/Characteristic.png" alt="" class="png">
+                    <div class="characteristicValue row">{{ handling }}</div>
+                    <div class="characteristicTitle row">handling</div>
+                </div>
+            </div>
+            <div class="attributes-row">
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">defense</div>
+                    <div class="attributeValue row">{{ protection.defense }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">armor</div>
+                    <div class="attributeValue row">{{ protection.armor }}</div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">hull trauma</div>
+                    <div class="attributeValue row">
+                        {{ hull_trauma.threshold }}
+                        {% if page.display-current-thresholds %}
+                            | {{ hull_trauma.current }}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="imageBox attribute">
+                    <img src="/assets/images/sheets/SingleAttribute.png" alt="" class="png">
+                    <div class="attributeTitle row">system strain</div>
+                    <div class="attributeValue row">
+                        {{ system_strain.threshold }}
+                        {% if page.display-current-thresholds %}
+                            | {{ system_strain.current }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {%- endif -%}
+{%- endif -%}
+
+{%- if page.display-weapons -%}
+    {%- if overrides and overrides.weapons -%}
+        {%- assign weapons = overrides.weapons -%}
+    {%- else -%}
+        {%- assign weapons = stats.weapons -%}
+    {%- endif -%}
+    {%- if weapons -%}
+        <section class="weapons-list">
+            <header>weapons</header>
+            {%- for w in weapons -%}
+                <div class="weapons">
+                    <strong>{{ w.name }}: </strong>
+                    {% include text-with-symbols.html content=w.specs %}
+                </div>
+            {%- endfor -%}
+        </section>
+    {%- endif -%}
+{%- endif -%}

@@ -13,18 +13,32 @@
     {%- else -%}
         {%- assign data = site.data.vehicles[vehicle.title] -%}
     {%- endif -%}
+    {%- if data.model and data.model.name -%}
+        {%- assign model = site.data.vehicle-models[data.model.name] -%}
+    {%- endif -%}
     <section class="vehicle-list-item">
         {%- assign vehicleName = vehicle.title | append: rank -%}
         <header>
-            <h2 id="{{ vehicleName | handleize }}">{{ vehicleName }}</h2>
+            <h2 id="{{ vehicleName | handleize }}">
+                {{ vehicleName }}
+                {%- if data.model and data.model.name and vehicle.title <> data.model.name -%}
+                    <small class="model">{{data.model.name}}</small>
+                {%- endif -%}
+            </h2>
         </header>
         <section class="content">
             {%- if data -%}
-                <img src="{{ data.image_path }}" alt="{{ vehicle.title }}" />
+                {%- if data.image_path -%}
+                    <img src="{{ data.image_path }}" alt="{{ vehicle.title }}" />
+                {%- elsif model and model.image_path -%}
+                    <img src="{{ model.image_path }}" alt="{{ data.model.name }}" />
+                {%- endif -%}
                 {%- if vehicle.exerpt -%}
                     <p>{{ vehicle.exerpt }}</p>
                 {%- elsif data.description and data.description.size > 0 -%}
                     <p>{{ data.description[0] }}</p>
+                {%- elsif model and model.description and model.description.size > 0 -%}
+                    <p>{{ model.description[0] }}</p>
                 {%- endif -%}
             {%- else -%}
                 {{ vehicle.exerpt }}
@@ -38,3 +52,22 @@
     </section>
 {%- endfor -%}
 </div>
+<script>
+window.addEventListener('DOMContentLoaded', (event) => {
+    var links = updateHeaderLinks();
+    if (links.length === 0){
+        setTimeout(updateHeaderLinks, 500)
+    }
+});
+
+function updateHeaderLinks(){
+    var headerLinks = document.getElementsByClassName('header-link');
+    for (var i =0;i<headerLinks.length; i++){
+        var headerLink = headerLinks[i];
+        var parent =headerLink.parentNode;
+        parent.removeChild(headerLink);
+        parent.prepend(headerLink);
+    }
+    return headerLinks;
+}
+</script>
