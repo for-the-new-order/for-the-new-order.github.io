@@ -121,20 +121,35 @@
                 "display-motivation: true",
                 "display-motivation-personality: true",
                 "display-motivation-strength: true",
-                "display-motivation-flaw: false"
+                "display-motivation-flaw: true"
             ]
         },
         {
             "name": "Helen Hartwich",
-            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
         },
         {
             "name": "Dillon Poke",
-            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
         },
         {
             "name": "Bevin Stefanski",
-            "frontMatter": ["display-motivation: true", "display-motivation-personality: true", "display-motivation-strength: true"]
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
         },
         {
             "name": "Kellina Niemiec",
@@ -142,7 +157,7 @@
                 "display-motivation: true",
                 "display-motivation-personality: true",
                 "display-motivation-strength: true",
-                "display-motivation-flaw: false"
+                "display-motivation-flaw: true"
             ]
         },
         {
@@ -151,7 +166,7 @@
                 "display-motivation: true",
                 "display-motivation-personality: true",
                 "display-motivation-strength: true",
-                "display-motivation-flaw: false"
+                "display-motivation-flaw: true"
             ]
         }
     ],

@@ -363,7 +363,7 @@
         ]
     },
     "Vigil Corvette Kaki Usyk": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/vigil-class-corvette.jpg",
         "description": [""],
         "captain": "Salomon Fauls",
         "characteristics": {
@@ -383,7 +383,6 @@
                 "armor": 0
             }
         },
-
         "skill": "",
         "complement": "",
         "passenger_capacity": "",
@@ -401,52 +400,52 @@
         ]
     },
     "Imperial Star Destroyer Judgment": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
         "captain": "Lance Sleater"
     },
     "Vindicator Heavy Cruiser Armorer": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/vindicator-class-heavy-cruiser.jpg",
         "description": [""],
         "captain": "Benjy Lazzo"
     },
     "Nebulon-B Frigate Kryptoria": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
         "description": [""],
         "captain": "Travus Karns"
     },
     "Gladiator-class Star Destroyer Alienator": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/gladiator-class-star-destroyer.jpg",
         "description": [""],
         "captain": "Helen Hartwich"
     },
     "Raider II-class Corvette Glory": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/raider-II-class-corvette.jpg",
         "description": [""],
         "captain": "Dillon Poke"
     },
     "Super Star Destroyer Liberator": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/super-star-destroyer.jpg",
         "description": [""],
         "captain": "Barret Marh"
     },
     "Imperial Star Destroyer Herald of Sorrow": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
         "captain": "Ashton Mccausland"
     },
     "Imperial Star Destroyer Avalanche": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
         "captain": "Bevin Stefanski"
     },
     "Nebulon-B Frigate Lullaby": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
         "description": [""],
         "captain": "Kellina Niemiec"
     },
     "Victory-class Star Destroyer Bastion": {
-        "image_path": "/assets/images/vehicles/250x250-empire.png",
+        "image_path": "/assets/images/vehicles/victory-class-star-destroyer.jpg",
         "description": [""],
         "captain": "Jerrold Penagonzalez"
     }
