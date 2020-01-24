@@ -81,10 +81,12 @@
         ],
         "reference": {
             "source": "CCC",
-            "link": {
-                "text": "Assimilator Class Interdictor Destroyer",
-                "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
-            }
+            "links": [
+                {
+                    "text": "Assimilator Class Interdictor Destroyer",
+                    "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
+                }
+            ]
         }
     },
     "Nebulon-B Frigate": {
@@ -387,10 +389,16 @@
         ],
         "reference": {
             "source": "CCC",
-            "link": {
-                "text": "Executor-class Star Dreadnought",
-                "url": "https://community.fantasyflightgames.com/topic/247013-executor-class-star-dreadnought/?do=findComment&comment=2729352"
-            }
+            "links": [
+                {
+                    "text": "Executor-class Star Dreadnought (FFG forums)",
+                    "url": "https://community.fantasyflightgames.com/topic/247013-executor-class-star-dreadnought/?do=findComment&comment=2729352"
+                },
+                {
+                    "text": "Executor-class Star Dreadnought (Wookieepedia)",
+                    "url": "https://starwars.fandom.com/wiki/Executor-class_Star_Dreadnought/Legends"
+                }
+            ]
         }
     },
     "Vindicator-class Heavy Cruiser": {

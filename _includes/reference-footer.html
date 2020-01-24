@@ -1,0 +1,30 @@
+{%- assign reference = include.reference -%}
+{%- assign initialSeed = include.initialSeed -%}
+
+{%- if reference or initialSeed -%}
+<footer>
+    {%- if reference -%}
+        <small class="original-source">
+            References: {% include talent-sources.html source=reference.source %}
+            {%- if reference.links -%}
+                {%- assign linksCount = reference.links | size -%}
+                {%- if linksCount > 1 -%}
+                    <ul>
+                    {%- for link in reference.links -%}
+                        <li><a href="{{link.url}}" target="_blank">{{link.text}}</a></li>
+                    {%- endfor -%}
+                    </ul>
+                {%- else -%}
+                    <a href="{{reference.links[0].url}}" target="_blank">{{reference.links[0].text}}</a>
+                {%- endif -%}
+            {%- endif -%}
+            {%- if reference.page -%}
+                p.{{reference.page}}
+            {%- endif -%}
+        </small>
+    {%- endif -%}
+    {%- if initialSeed -%}
+        <small class="initial-seed">Initial Seed: {{initialSeed}}</small>
+    {%- endif -%}
+</footer>
+{%- endif -%}
