@@ -1,5 +1,5 @@
 {
-    "episode000": {
+    "episode0000": {
         "name": "Episode 0: Introduction",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
         "isVisible": true,
@@ -17,7 +17,7 @@
             }
         ]
     },
-    "episode001": {
+    "episode0010": {
         "name": "Episode 1: The Imperial War Machine",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/6gGIibqnFUtcHIBHnUJ7",
         "isVisible": true,
@@ -32,7 +32,7 @@
             }
         ]
     },
-    "episode002": {
+    "episode0020": {
         "name": "Episode 2: The Communication Logs",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/yxO7Y6wv6DhmuAi9sXEb",
         "isVisible": true,
@@ -45,7 +45,7 @@
             }
         ]
     },
-    "episode003": {
+    "episode0030": {
         "name": "Episode 3: Coercive Diplomacy",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/MAPuC0DkNeaNDPghf09V",
         "isVisible": true,
@@ -58,7 +58,7 @@
             }
         ]
     },
-    "episode004": {
+    "episode0040": {
         "name": "Episode 4: Elusive maneuvers",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/FwyNHyCqSJmndMMRdkHI",
         "isVisible": true,
@@ -71,7 +71,19 @@
             }
         ]
     },
-    "episode005": {
+    "episode0045": {
+        "name": "Episode 4.5: The Newcomer",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode0050": {
         "name": "Episode 5: The Cryptic Text",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/Rsj6jNlgdW8aOZt0eKzI",
         "isVisible": true,
@@ -84,7 +96,7 @@
             }
         ]
     },
-    "episode006": {
+    "episode0060": {
         "name": "Episode 6: The Cortosis Shipment",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/hosulUHpW2YOLOAalzCI",
         "isVisible": true,
@@ -97,7 +109,7 @@
             }
         ]
     },
-    "episode007": {
+    "episode0070": {
         "name": "Episode 7: Deputy Director Kataz",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/eGS9SBL99Ccgcq0M3Kbz",
         "isVisible": true,
@@ -110,7 +122,7 @@
             }
         ]
     },
-    "episode008": {
+    "episode0080": {
         "name": "Episode 8: The Galactic Race",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/AILcWpnDofmCuukOXzVW",
         "isVisible": true,
@@ -123,7 +135,7 @@
             }
         ]
     },
-    "episode009": {
+    "episode0090": {
         "name": "Episode 9: Phantom Operation",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/OkodotlxomYRgFnMw9qX",
         "isVisible": false,

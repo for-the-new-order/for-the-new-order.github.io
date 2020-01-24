@@ -1,4 +1,4 @@
 ---
 title: 'Episode 3: Coercive Diplomacy'
-key: episode003
+key: episode0030
 ---

@@ -477,6 +477,10 @@
     },
     "Vigil-class Corvette": {
         "image_path": "/assets/images/vehicles/vigil-class-corvette.jpg",
+        "description": [
+            "The Vigil-class corvette is the smallest vessel in the iconic Star Destroyer class of ships. Lightly armed and armored, it shares the dagger-shaped hull and large crew of its larger siblings, and operates as both a picket and reconnaissance vessel as well as an escort ship for larger, cruiser-sized ships",
+            "Thanks to their size and role, these vessels rarely serve in the line of battle with larger types of Star Destroyers. Instead, they patrol trade routes, serve as battlegroup leaders for small, backwater fleets, and operate as lone cruisers among the fringes of the Inner and Outer Rim, battling pirates and smugglers and rooting out Alliance agents."
+        ],
         "characteristics": {
             "silhouette": 5,
             "max_speed": 3,
