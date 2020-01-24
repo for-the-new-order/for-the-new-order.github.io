@@ -1,6 +1,6 @@
 {
     "episode000": {
-        "name": "Introduction",
+        "name": "Episode 0: Introduction",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
         "isVisible": true,
         "description": ["An introductory mission, allowing the PCs to get the feel of their character and of the setting."],
