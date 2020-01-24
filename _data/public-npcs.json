@@ -168,6 +168,15 @@
                 "display-motivation-strength: true",
                 "display-motivation-flaw: true"
             ]
+        },
+        {
+            "name": "Garold Carbonneau",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
         }
     ],
     "vehicles": [
@@ -318,7 +327,6 @@
         "empire": [
             { "name": "Karly Cop" },
             { "name": "Briggs The Ghost Hatzenbuhler" },
-            { "name": "Garold Carbonneau" },
             { "name": "Federico Taliento" },
             { "name": "Steven Winterrowd" },
             { "name": "Joseph Mcvaney" },
