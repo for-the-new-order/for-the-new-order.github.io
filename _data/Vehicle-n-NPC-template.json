@@ -127,7 +127,7 @@
         "species": {
             "name": "Human"
         },
-        "rank": "Lieutenant Commander",
+        "rank": "",
         "gender": "Male|Female",
         "clan": "Empire|Generic|Rebels|Pirates|Starlight Industries|Utopia",
         "corp": "",
