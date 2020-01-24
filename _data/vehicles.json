@@ -1,11 +1,28 @@
 {
-    "Assimilator-Class Interdictor Star Destroyer": {
+    "Assimilator-class Interdictor Star Destroyer Destiny": {
         "reference": {
             "source": "CCC",
             "link": {
                 "text": "Assimilator Class Interdictor Destroyer",
                 "url": "http://starwarsrp.net/topic/96951-assimilator-class-interdictor-destroyer/"
             }
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "intro",
+                    "description": [
+                        "The players investigated the ship as internal affair ISB agents to make sure that no traitor or uncataloged alien technologies were onboard."
+                    ]
+                },
+                {
+                    "episode": "episode1",
+                    "description": [
+                        "The players arrived on board of the Destiny.",
+                        "The Destiny's gravitational well was disabled by the infamous rebels of the B-Wings _Phantom Squadron_ during the battle."
+                    ]
+                }
+            ]
         },
         "image_path": "/assets/images/vehicles/Assimilator-Class-Interdictor-Star-Destroyer.jpg",
         "description": [
@@ -365,7 +382,9 @@
     "Vigil Corvette Kaki Usyk": {
         "image_path": "/assets/images/vehicles/vigil-class-corvette.jpg",
         "description": [""],
-        "captain": "Salomon Fauls",
+        "campaign_info": {
+            "captain": "Salomon Fauls"
+        },
         "characteristics": {
             "silhouette": 0,
             "max_speed": 0,
@@ -402,51 +421,71 @@
     "Imperial Star Destroyer Judgment": {
         "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
-        "captain": "Lance Sleater"
+        "campaign_info": {
+            "captain": "Lance Sleater"
+        }
     },
     "Vindicator Heavy Cruiser Armorer": {
         "image_path": "/assets/images/vehicles/vindicator-class-heavy-cruiser.jpg",
         "description": [""],
-        "captain": "Benjy Lazzo"
+        "campaign_info": {
+            "captain": "Benjy Lazzo"
+        }
     },
     "Nebulon-B Frigate Kryptoria": {
         "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
         "description": [""],
-        "captain": "Travus Karns"
+        "campaign_info": {
+            "captain": "Travus Karns"
+        }
     },
     "Gladiator-class Star Destroyer Alienator": {
         "image_path": "/assets/images/vehicles/gladiator-class-star-destroyer.jpg",
         "description": [""],
-        "captain": "Helen Hartwich"
+        "campaign_info": {
+            "captain": "Helen Hartwich"
+        }
     },
     "Raider II-class Corvette Glory": {
         "image_path": "/assets/images/vehicles/raider-II-class-corvette.jpg",
         "description": [""],
-        "captain": "Dillon Poke"
+        "campaign_info": {
+            "captain": "Dillon Poke"
+        }
     },
     "Super Star Destroyer Liberator": {
         "image_path": "/assets/images/vehicles/super-star-destroyer.jpg",
         "description": [""],
-        "captain": "Barret Marh"
+        "campaign_info": {
+            "captain": "Barret Marh"
+        }
     },
     "Imperial Star Destroyer Herald of Sorrow": {
         "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
-        "captain": "Ashton Mccausland"
+        "campaign_info": {
+            "captain": "Ashton Mccausland"
+        }
     },
     "Imperial Star Destroyer Avalanche": {
         "image_path": "/assets/images/vehicles/imperial-star-destroyer.jpg",
         "description": [""],
-        "captain": "Bevin Stefanski"
+        "campaign_info": {
+            "captain": "Bevin Stefanski"
+        }
     },
     "Nebulon-B Frigate Lullaby": {
         "image_path": "/assets/images/vehicles/nebulon-b-frigate.jpg",
         "description": [""],
-        "captain": "Kellina Niemiec"
+        "campaign_info": {
+            "captain": "Kellina Niemiec"
+        }
     },
     "Victory-class Star Destroyer Bastion": {
         "image_path": "/assets/images/vehicles/victory-class-star-destroyer.jpg",
         "description": [""],
-        "captain": "Jerrold Penagonzalez"
+        "campaign_info": {
+            "captain": "Jerrold Penagonzalez"
+        }
     }
 }
