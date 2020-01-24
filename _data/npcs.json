@@ -112,9 +112,7 @@
                 "effect": "May perform a maneuver to cause all ranged attacks targeting the Grand Moff to instead hit one ally or helpless enemy he is engaged with, until the beginning of his next turn."
             }
         ],
-        "equipment": [
-            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"
-        ],
+        "equipment": ["Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"],
         "description": [
             "Grand Moff Leeadra Leonis overlook a critical priority sector consisting of almost 20 sectors and commands formidable forces aided by Grand Admiral Barret Marh and Grand General Lance Sleater."
         ]
@@ -179,15 +177,11 @@
                 "effect": "May perform a maneuver to direct an Imperial Navy minion group within medium range; the group may perform an immediate free combat check action."
             }
         ],
-        "equipment": [
-            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"
-        ],
+        "equipment": ["Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)"],
         "description": [
             "Grand Admiral Barret Marh is actively seeking to eliminate the rebel threat, once and for all! And, under the command of Grand Moff Leonis, on board the Imperial Super Star Destroyer \"The Liberator\", he does a great job at it!"
         ],
-        "gm-description": [
-            "Grand Admiral Barret Marh is the nemesis of Admiral Zryv'yhx."
-        ],
+        "gm-description": ["Grand Admiral Barret Marh is the nemesis of Admiral Zryv'yhx."],
         "personality": "Suspicious",
         "motivation": {
             "desires": {
@@ -438,9 +432,7 @@
         "rank": "Chief of Department",
         "clan": "Empire",
         "personality": "Clueless",
-        "description": [
-            "Karly looks like the perfect Imperial officer: no hair misplaced, uniform ironed out, shiny boots and no makeup."
-        ],
+        "description": ["Karly looks like the perfect Imperial officer: no hair misplaced, uniform ironed out, shiny boots and no makeup."],
         "gm-description": [
             "Karly will do anything to delay internal affairs (the PCs), even if she has nothing against them. She realy is \"the perfect officer\", with a bright career in front of her."
         ],
@@ -503,9 +495,7 @@
             "name": "Arkanian"
         },
         "description": ["Zryv'yhx is ..."],
-        "gm-description": [
-            "Zryv'yhx is the nemesis of Grand Admiral Barret Marh"
-        ],
+        "gm-description": ["Zryv'yhx is the nemesis of Grand Admiral Barret Marh"],
         "motivation": {
             "desires": {
                 "name": "Safety",
@@ -708,9 +698,7 @@
         },
         "gender": "Male",
         "clan": "Pirates",
-        "description": [
-            "Hugo the Hatless is a crew member of the Scalvenker (Cannoneers)."
-        ],
+        "description": ["Hugo the Hatless is a crew member of the Scalvenker (Cannoneers)."],
         "motivation": {
             "strength": {
                 "name": "Spiritual",
@@ -731,9 +719,7 @@
         },
         "gender": "Female",
         "clan": "Pirates",
-        "description": [
-            "Elanor “Bones” is a crew member of the Scalvenker (Cannoneers)."
-        ],
+        "description": ["Elanor “Bones” is a crew member of the Scalvenker (Cannoneers)."],
         "motivation": {
             "strength": {
                 "name": "Idealistic",
@@ -804,16 +790,7 @@
             "willpower": 2,
             "presence": 2
         },
-        "skills": [
-            "Cool 2",
-            "Melee 1",
-            "Ranged (Light) 2",
-            "Ranged (Heavy) 2",
-            "Perception 2",
-            "Stealth 1",
-            "Streewise 2",
-            "Survival 2"
-        ],
+        "skills": ["Cool 2", "Melee 1", "Ranged (Light) 2", "Ranged (Heavy) 2", "Perception 2", "Stealth 1", "Streewise 2", "Survival 2"],
         "talents": [
             {
                 "name": "Quick Draw",
@@ -1675,9 +1652,7 @@
         "species": {
             "name": "Human"
         },
-        "description": [
-            "Captain of the Vigial-class corvette Kaki Usyk, under the command of the PCs."
-        ],
+        "description": ["Captain of the Vigial-class corvette Kaki Usyk, under the command of the PCs."],
         "rank": "Captain",
         "gender": "Male",
         "clan": "Empire",
@@ -1718,20 +1693,10 @@
             "willpower": 2,
             "presence": 3
         },
-        "skills": [
-            "Cool 2",
-            "Knowledge (Warfare) 3",
-            "Leadership 2",
-            "Negotiate 1",
-            "Piloting 1",
-            "Ranged (Light) 1"
-        ],
+        "skills": ["Cool 2", "Knowledge (Warfare) 3", "Leadership 2", "Negotiate 1", "Piloting 1", "Ranged (Light) 1"],
         "talents": [],
         "abilities": [],
-        "equipment": [
-            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
-            "Datapad"
-        ]
+        "equipment": ["Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)", "Datapad"]
     },
     "Administrator Blinn": {
         "image_path": "/assets/images/npcs/Administrator-Blinn.png",
@@ -1739,9 +1704,7 @@
         "species": {
             "name": "Lutrillian"
         },
-        "description": [
-            "Blinnmâtoe-Stiwruq is the administrator of Utopia; the cube-shaped pleasure station."
-        ],
+        "description": ["Blinnmâtoe-Stiwruq is the administrator of Utopia; the cube-shaped pleasure station."],
         "gender": "Male",
         "clan": "Utopia",
         "attributes": {
@@ -1797,9 +1760,7 @@
             "Ephrem Frystak was an imperial cadet that got kicked out of the academy for being Absent-minded. He then joined the Ancillary corp and became a notorious Waiter, attending important events and serving important people, like Grand Moff Leonis and Cie during the Episode 8: The Galactic Race.",
             "Ephrem knew Kaine at the academy and is always ready to help him out!"
         ],
-        "gm-description": [
-            "Ephrem is a contact of Kaine (made by using his \"contact talent\")."
-        ],
+        "gm-description": ["Ephrem is a contact of Kaine (made by using his \"contact talent\")."],
         "type": "rival",
         "species": {
             "name": "Human"
@@ -1851,9 +1812,7 @@
                 "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
             }
         },
-        "description": [
-            "Olav Heglund is a seasoned sniper and one loyal member of rebel Commander Fitz Gorr's inner circle."
-        ],
+        "description": ["Olav Heglund is a seasoned sniper and one loyal member of rebel Commander Fitz Gorr's inner circle."],
         "attributes": {
             "wounds": 17,
             "defense": {
@@ -1871,13 +1830,7 @@
             "willpower": 3,
             "presence": 3
         },
-        "skills": [
-            "Ranged [Heavy] (ag) 4",
-            "Ranged [Light] (ag) 3",
-            "Gunnery (ag) 3",
-            "Cool (pr) 3",
-            "Vigilance (will) 2"
-        ],
+        "skills": ["Ranged [Heavy] (ag) 4", "Ranged [Light] (ag) 3", "Gunnery (ag) 3", "Cool (pr) 3", "Vigilance (will) 2"],
         "talents": [
             {
                 "name": "Adversary 1",
@@ -1958,9 +1911,7 @@
                 "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
             }
         },
-        "description": [
-            "Alexandros Haff is one of the two loyal bodyguards of the rebel Commander Fitz Gorr."
-        ],
+        "description": ["Alexandros Haff is one of the two loyal bodyguards of the rebel Commander Fitz Gorr."],
         "attributes": {
             "wounds": 20,
             "defense": {
