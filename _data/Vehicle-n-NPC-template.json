@@ -87,5 +87,60 @@
         "image_path": "/assets/images/vehicles/250x250-generic.png",
         "captain": "",
         "description": [""]
+    },
+
+    "NEMESIS_NAME": {
+        "folder": "",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "",
+        "gender": "Male|Female",
+        "clan": "Empire|Generic|Rebels|Pirates|Starlight Industries|Utopia",
+        "corp": "",
+        "personality": "",
+        "motivation": {
+            "desires": {
+                "name": "",
+                "description": ""
+            },
+            "fear": {
+                "name": "",
+                "description": ""
+            },
+            "strength": {
+                "name": "",
+                "description": ""
+            },
+            "flaw": {
+                "name": "",
+                "description": ""
+            }
+        }
+    },
+    "RIVAL_NAME": {
+        "folder": "",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant Commander",
+        "gender": "Male|Female",
+        "clan": "Empire|Generic|Rebels|Pirates|Starlight Industries|Utopia",
+        "corp": "",
+        "personality": "",
+        "motivation": {
+            "strength": {
+                "name": "",
+                "description": ""
+            },
+            "flaw": {
+                "name": "",
+                "description": ""
+            }
+        }
     }
 }
