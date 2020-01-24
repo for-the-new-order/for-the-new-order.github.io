@@ -3,9 +3,10 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "layout";
-@import "home";
-@import "pages-rules";
-@import "genesys-theme";
-@import "npcs";
-@import "vehicles";
+@import 'layout';
+@import 'home';
+@import 'pages-rules';
+@import 'genesys-theme';
+@import 'npcs';
+@import 'vehicles';
+@import 'adventures';

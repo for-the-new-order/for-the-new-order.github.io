@@ -20,10 +20,17 @@ permalink: /game-content/adventures/
                 </section>
             </section>
             <footer>
-                <a href="{{ adventure.url }}" class="btn btn--light-outline">
-                    More info about
-                    <i>{{ adventure.title }}</i>
+                <a href="{{ adventure.url }}" class="btn btn--small btn--primary">
+                    <i class="fas fa-info-circle"></i>
+                    {{ adventure.title }}
                 </a>
+                {%- if data.crawl -%}
+                    <a href="{{ data.crawl }}" class="btn btn--small btn--success" target="_blank">
+                        <i class="fas fa-play"></i>
+                        &nbsp;Crawl
+                    </a>
+                {%- endif -%}
+
             </footer>
         {%- endif -%}
     {% endfor %}

@@ -17,7 +17,7 @@ rulesandgamecontent: # Rules menu (left)
             url: /rules/ranks-and-rewards/
     - title: 'Game Content'
       children:
-          - title: Content and Crawls
+          - title: Other Game Content
             url: /game-content/
           - title: NPCs
             url: /game-content/npcs/
