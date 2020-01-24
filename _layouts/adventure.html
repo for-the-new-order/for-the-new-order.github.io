@@ -1,0 +1,44 @@
+--- 
+layout: single 
+title: Adventure
+excerpt: "EMPTY!"
+---
+{% assign data = site.data.adventures[page.key] %}
+
+<section class="adventure-details">
+    {%- if data and data.isVisible -%}
+        <header>
+            {%- if data.crawl -%}
+                <a href="{{ data.crawl }}" class="btn btn--small btn--success" style="float: right;" target="_blank">
+                    <i class="fas fa-play"></i>
+                    &nbsp;Play Crawl
+                </a>
+            {%- endif -%}
+            <h2>{{ page.title }}</h2>
+        </header>
+        <section class="content">
+            {%- if data.description -%}
+                {%- for d in data.description -%}
+                    {{- d | markdownify -}}
+                {%- endfor -%}
+            {%- endif -%}
+        </section>
+        {%- if data.chapters -%}
+            <section class="chapters">
+                <header><h2>Chapters</h2></header>
+                {%- for c in data.chapters -%}
+                    {%- if c.isVisible -%}
+                        <div class="info-item">
+                            <h3>{{ c.name }}</h3>
+                            {%- for d in c.description -%}
+                                {{- d | markdownify -}}
+                            {%- endfor -%}
+                        </div>
+                    {%- endif -%}
+                {%- endfor -%}
+            </section>
+        {%- endif -%}
+    {%- else -%}
+        NO DATA FOUND for {{ page.title }} (key: {{ page.key }})!
+    {%- endif -%}
+</section>

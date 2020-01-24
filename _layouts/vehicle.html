@@ -17,6 +17,12 @@ display-weapons: true
 {%- else -%}
 {%- assign data = site.data.vehicles[page.title] -%}
 {%- endif -%}
+{%- if page.is-gm -%}
+    {%- assign baseUrl = '/gm' -%}
+{%- else -%}
+    {%- assign baseUrl = '/game-content' -%}
+{%- endif -%}
+
 <section class="vehicle-details">
     {%- if data -%}
         <header>
@@ -151,6 +157,51 @@ display-weapons: true
                     {% include text-with-symbols.html content=w.specs %}
                 </div>
             {%- endfor -%}
+        </section>
+        {%- endif -%}
+
+        {%- if page.display-campaign-info and data.campaign_info -%}
+        <section class="campaign-info">
+            <header>Campaign Information</header>
+            {%- if page.display-captain and data.campaign_info.captain -%}
+                {%- assign captain = site.data.npcs[data.campaign_info.captain] -%}
+                {%- if captain -%}
+                    <div class="captain-info">
+                        <h2>Captain Information</h2>
+                        <img src="{{ captain.image_path }}" alt="{{ data.campaign_info.captain }}" />
+                        <strong>{{ data.campaign_info.captain }}{% if captain.rank %}, {{captain.rank}}{% endif %}</strong>
+                        <small>({{ captain.clan }}) | {{ captain.type }}</small>
+                        {% for d in captain.description %}
+                            {{- d | markdownify -}}
+                        {% endfor %}
+                        <a href="{{baseUrl}}/npcs/{{ data.campaign_info.captain | slugify }}" class="btn btn--small btn--success" target="_blank">
+                            <i class="fas fa-info-circle"></i>
+                            &nbsp;More info about {{captain.rank}} {{data.campaign_info.captain}}
+                        </a>
+                    </div>
+                {%- endif -%}
+            {%- endif -%}
+            {%- if page.display-encounters and data.campaign_info.encounters -%}
+                <div class="encounters">
+                    {%- for e in data.campaign_info.encounters -%}
+                        <div class="encounter">
+                            {%- assign episode = site.data.adventures[e.episode] -%}
+                            {%- if episode -%}
+                                <a href="/game-content/adventures/{{e.episode}}" class="btn btn--small btn--success" style="float: right;" target="_blank">
+                                    <i class="fas fa-info-circle"></i>
+                                    &nbsp;Adventure info
+                                </a>
+                                <h2>{{ episode.name }}</h2>
+                            {%- else -%}
+                                <h2>{{ e.episode }}</h2>
+                            {%- endif -%}
+                            {%- for d in e.description -%}
+                                {{- d | markdownify -}}
+                            {%- endfor -%}
+                        </div>
+                    {%- endfor -%}
+                </div>
+            {%- endif -%}
         </section>
         {%- endif -%}
 

@@ -1,61 +1,63 @@
 main: # Main menu (top)
-  - title: Setting, rules and player content
-    url: /rules/
-  - title: About
-    url: /about/
+    - title: Setting, rules and player content
+      url: /rules/
+    - title: About
+      url: /about/
 
 rulesandgamecontent: # Rules menu (left)
-  - title: "General"
-    children:
-      - title: Setting and rules
-        url: /rules/
-      - title: Talents database
-        url: /rules/talents/
-      - title: Symbols and dices
-        url: /rules/symbols-and-dices/
-      - title: Ranks & Rewards
-        url: /rules/ranks-and-rewards/
-  - title: "Game Content"
-    children:
-      - title: Content and Crawls
-        url: /game-content/
-      - title: NPCs
-        url: /game-content/npcs/
-      - title: NPCs (by folder)
-        url: /game-content/npcs/by-folders
-      - title: Vehicles
-        url: /game-content/vehicles/
-  - title: "House rules"
-    children:
-      - title: Strain recovery
-        url: /rules/strain-recovery/
-      - title: <del>Imperial Troops Deployment</del>
-        url: /rules/imperial-troops-deployment-rules/
-      - title: <del>Team presence talents</del>
-        url: /rules/team-presence-talents/
-  - title: Imperial Sourcebook
-    children:
-      - title: Organization of the Empire
-        url: /imperial-sourcebook/organization-of-the-empire/
-      - title: COMPNOR
-        url: /imperial-sourcebook/compnor/
-      - title: Imperial Intelligence
-        url: /imperial-sourcebook/imperial-intelligence/
-  - title: "Game master"
-    children:
-      - title: Mass combat (War)
-        url: /rules/mass-combat/
-      - title: Ugly's starfighters
-        url: /game-content/uglys/
+    - title: 'General'
+      children:
+          - title: Setting and rules
+            url: /rules/
+          - title: Talents database
+            url: /rules/talents/
+          - title: Symbols and dices
+            url: /rules/symbols-and-dices/
+          - title: Ranks & Rewards
+            url: /rules/ranks-and-rewards/
+    - title: 'Game Content'
+      children:
+          - title: Content and Crawls
+            url: /game-content/
+          - title: NPCs
+            url: /game-content/npcs/
+          - title: NPCs (by folder)
+            url: /game-content/npcs/by-folders
+          - title: Vehicles
+            url: /game-content/vehicles/
+          - title: Adventures
+            url: /game-content/adventures/
+    - title: 'House rules'
+      children:
+          - title: Strain recovery
+            url: /rules/strain-recovery/
+          - title: <del>Imperial Troops Deployment</del>
+            url: /rules/imperial-troops-deployment-rules/
+          - title: <del>Team presence talents</del>
+            url: /rules/team-presence-talents/
+    - title: Imperial Sourcebook
+      children:
+          - title: Organization of the Empire
+            url: /imperial-sourcebook/organization-of-the-empire/
+          - title: COMPNOR
+            url: /imperial-sourcebook/compnor/
+          - title: Imperial Intelligence
+            url: /imperial-sourcebook/imperial-intelligence/
+    - title: 'Game master'
+      children:
+          - title: Mass combat (War)
+            url: /rules/mass-combat/
+          - title: Ugly's starfighters
+            url: /game-content/uglys/
 
 gamemaster: # Game master menu
-  - title: "Game Master Content"
-    children:
-      - title: Game Master Home
-        url: /gm/
-      - title: NPCs
-        url: /gm/npcs/
-      - title: NPCs (by folder)
-        url: /gm/npcs/by-folders
-      - title: Vehicles
-        url: /gm/vehicles/
+    - title: 'Game Master Content'
+      children:
+          - title: Game Master Home
+            url: /gm/
+          - title: NPCs
+            url: /gm/npcs/
+          - title: NPCs (by folder)
+            url: /gm/npcs/by-folders
+          - title: Vehicles
+            url: /gm/vehicles/

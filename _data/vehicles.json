@@ -8,15 +8,16 @@
             }
         },
         "campaign_info": {
+            "captain": "Justen Baltzell",
             "encounters": [
                 {
-                    "episode": "intro",
+                    "episode": "episode000",
                     "description": [
                         "The players investigated the ship as internal affair ISB agents to make sure that no traitor or uncataloged alien technologies were onboard."
                     ]
                 },
                 {
-                    "episode": "episode1",
+                    "episode": "episode001",
                     "description": [
                         "The players arrived on board of the Destiny.",
                         "The Destiny's gravitational well was disabled by the infamous rebels of the B-Wings _Phantom Squadron_ during the battle."

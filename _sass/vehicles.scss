@@ -1,4 +1,4 @@
-@import "_mixins";
+@import '_mixins';
 
 .vehicles {
     .vehicle-list-item,
@@ -30,6 +30,23 @@
 
         .general-info {
             width: 40%;
+        }
+
+        .campaign-info {
+            .captain-info {
+                @include clearfix();
+
+                & > img {
+                    border-radius: 4px;
+                    width: auto;
+                    float: right;
+                }
+                a.btn.btn--success {
+                    float: right;
+                }
+            }
+            .encounters {
+            }
         }
     }
 }

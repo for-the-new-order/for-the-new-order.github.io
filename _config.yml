@@ -416,7 +416,9 @@ defaults:
           display-general-info: false
           display-cost: false
           display-weapons: false
+          display-campaign-info: true
           display-captain: true
+          display-encounters: true
 
     - scope:
           path: '_gm-vehicles'
@@ -440,7 +442,9 @@ defaults:
           display-general-info: true
           display-cost: true
           display-weapons: true
+          display-campaign-info: true
           display-captain: true
+          display-encounters: true
 
     - scope:
           path: '_ugly'
@@ -466,6 +470,21 @@ defaults:
           display-cost: true
           display-weapons: true
 
+    - scope:
+          path: '_adventures'
+          type: adventures
+      values:
+          layout: adventure
+          excerpt: ''
+          sidebar:
+              nav: 'rulesandgamecontent'
+          classes:
+              - adventures
+              - genesys-theme
+              - wide
+          toc: false
+          is-gm: false
+
 collections:
     npcs:
         output: true
@@ -482,3 +501,6 @@ collections:
     ugly:
         output: true
         permalink: /game-content/uglys/:name
+    adventures:
+        output: true
+        permalink: /game-content/adventures/:name

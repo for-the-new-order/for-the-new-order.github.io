@@ -1,32 +1,138 @@
 {
-    "intro": {
+    "episode000": {
         "name": "Introduction",
-        "playersDescription": "An introductory mission, allowing the PCs to get the feel of their character and of the setting.",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
-        "isVisibleToPlayer": true,
+        "isVisible": true,
+        "description": ["An introductory mission, allowing the PCs to get the feel of their character and of the setting."],
         "chapters": [
             {
-                "isVisibleToPlayer": false,
                 "name": "The simulator",
-                "playersDescription": ""
+                "isVisible": true,
+                "description": ["..."]
             },
             {
-                "isVisibleToPlayer": false,
                 "name": "The secret code generator",
-                "playersDescription": ""
+                "isVisible": true,
+                "description": ["..."]
             }
         ]
     },
-    "episode1": {
+    "episode001": {
         "name": "Episode 1: The Imperial War Machine",
-        "playersDescription": "This adventure displays the full power of the imperial armada and how weak are the rebels!",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/6gGIibqnFUtcHIBHnUJ7",
-        "isVisibleToPlayer": false,
+        "isVisible": true,
+        "description": [
+            "This adventure displays the power of the imperial armada during the battle of the Niyrius system, while the PCs help Commander Foxwell to destroy a rebel base."
+        ],
         "chapters": [
             {
-                "isVisibleToPlayer": false,
                 "name": "...",
-                "playersDescription": ""
+                "isVisible": false,
+                "description": ["..."]
+            }
+        ]
+    },
+    "episode002": {
+        "name": "Episode 2: The Communication Logs",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/yxO7Y6wv6DhmuAi9sXEb",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode003": {
+        "name": "Episode 3: Coercive Diplomacy",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/MAPuC0DkNeaNDPghf09V",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode004": {
+        "name": "Episode 4: Elusive maneuvers",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/FwyNHyCqSJmndMMRdkHI",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode005": {
+        "name": "Episode 5: The Cryptic Text",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/Rsj6jNlgdW8aOZt0eKzI",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode006": {
+        "name": "Episode 6: The Cortosis Shipment",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/hosulUHpW2YOLOAalzCI",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode007": {
+        "name": "Episode 7: Deputy Director Kataz",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/eGS9SBL99Ccgcq0M3Kbz",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode008": {
+        "name": "Episode 8: The Galactic Race",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/AILcWpnDofmCuukOXzVW",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "episode009": {
+        "name": "Episode 9: Phantom Operation",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/OkodotlxomYRgFnMw9qX",
+        "isVisible": false,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
             }
         ]
     }
