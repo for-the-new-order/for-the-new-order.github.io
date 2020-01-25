@@ -16,8 +16,8 @@
 # In VSCode: Reopen as "Windows 1252" then Save as "UTF-8"
 #
 
-theme: 'minimal-mistakes-jekyll'
-#remote_theme: 'mmistakes/minimal-mistakes'
+#theme: 'minimal-mistakes-jekyll'
+remote_theme: 'mmistakes/minimal-mistakes'
 minimal_mistakes_skin: 'dark' # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
