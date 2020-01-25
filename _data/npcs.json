@@ -2134,5 +2134,63 @@
                 "description": "Your character lacks a basic knowledge base or understanding of a society’s norms. This may be due to your character’s upbringing or their recent travel to another area of the world. This could be more than just being “uneducated”; at some level, your character may be willfully ignorant."
             }
         }
+    },
+    "Derek Faweetley": {
+        "folder": "",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "description": [
+            "Derek Faweetley discovered so many planets that he just gave them his last name and a number incremented each time he found new planets. Many of the planets that he dis-covered has been renamed but many less important ones still hold their discovery order in their name, making them hard to remember; which is a good thing for scoundrels!"
+        ],
+        "gender": "Male",
+        "clan": "Generic",
+        "corp": "Explorer",
+        "personality": "",
+        "motivation": {
+            "strength": {
+                "name": "",
+                "description": ""
+            },
+            "flaw": {
+                "name": "",
+                "description": ""
+            }
+        }
+    },
+    "Xreq'is": {
+        "folder": "",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "species": {
+            "name": "Bardottan"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Rebels",
+        "corp": "Navy"
+    },
+    "Dorin Millavec": {
+        "folder": "Empire/Navy",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Commander",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "description": [
+            "Dorin Millavec was a commander on the Imperial-class Star Destroyer Crucible during the Galactic Civil War. Personally ordered by Darth Vader to oversee and help Nas Ghent in forming the Black Eight Squadron, Millavec, viewing the entire situation as a plot against his promotion prospects, tried to sabotage Ghent's progress."
+        ],
+        "reference": {
+            "links": [
+                {
+                    "text": "Wookieepedia",
+                    "url": "https://starwars.fandom.com/wiki/Dorin_Millavec"
+                }
+            ]
+        }
     }
 }

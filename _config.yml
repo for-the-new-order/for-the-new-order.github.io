@@ -418,7 +418,7 @@ defaults:
           display-cost: false
           display-weapons: false
           display-campaign-info: true
-          display-captain: true
+          display-flight_officer: true
           display-encounters: true
 
     - scope:
@@ -444,7 +444,7 @@ defaults:
           display-cost: true
           display-weapons: true
           display-campaign-info: true
-          display-captain: true
+          display-flight_officer: true
           display-encounters: true
 
     - scope:

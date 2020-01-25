@@ -1,7 +1,7 @@
 {
     "SHIP_NAME": {
         "image_path": "/assets/images/vehicles/250x250-generic.png",
-        "captain": "",
+        "flight_officer": "",
         "description": [""],
         "characteristics": {
             "silhouette": 0,
@@ -46,7 +46,7 @@
             }
         },
         "image_path": "/assets/images/vehicles/250x250-generic.png",
-        "captain": "",
+        "flight_officer": "",
         "description": [""],
         "characteristics": {
             "silhouette": 0,
@@ -85,7 +85,7 @@
 
     "SHIP_NAME_NO_STATS": {
         "image_path": "/assets/images/vehicles/250x250-generic.png",
-        "captain": "",
+        "flight_officer": "",
         "description": [""]
     },
 

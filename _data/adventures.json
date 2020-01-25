@@ -1,20 +1,26 @@
 {
-    "episode0000": {
-        "name": "Episode 0: Introduction",
+    "episode0001": {
+        "name": "Introduction: The simulator",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
         "isVisible": true,
-        "description": ["An introductory mission, allowing the PCs to get the feel of their character and of the setting."],
-        "chapters": [
-            {
-                "name": "The simulator",
-                "isVisible": true,
-                "description": ["..."]
-            },
-            {
-                "name": "The secret code generator",
-                "isVisible": true,
-                "description": ["..."]
-            }
+        "description": [
+            "An introductory mission, allowing the PCs to get the feel of their character and of the setting where the PCs attacked pirate captain Naarlok's crew, in an impossible simulator mission.",
+            "The PCs started in pursuit of the **Scalvenker**, a *VCX-820 Corellian Escort Freighter*. The pirate ship stole goods from the Empire, is heavily armed, and manned by an experienced crew.",
+            "After a fierce fight, an heavily modified _Nebulon-B frigate_, with a skull carved in the front, exited hyperspace to meet the **Scalvenker**. The **Raazial**, flagship of the infamous pirate captain **Naarlock**, opened fire on the PC, to protect the **Scalvenker**.",
+            "The PCs then boarded the **Raazial**, following the **Scalvenker** in the hangar. THey then deployed L33T that blasted the hell out of the pirates, helped by the other member of the Overwatch division.",
+            "After numerous hit and countless pirate casualties, Undrake called Commodore Carbonneau to the rescue. Luckily, he was in a system close by and was able to come on board the ISD Falsifier to finish up the **Raazial**; what a good timing!"
+        ]
+    },
+    "episode0002": {
+        "name": "Introduction: The secret code generator",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/3NypMPQHcARdXuTIS44s",
+        "isVisible": true,
+        "description": [
+            "**Foxwell** sent the PCs to the _Assimilator-class Interdictor Star Destroyer_ **Destiny** that was patrolling the **Naalthor** sector.",
+            "Their primary objective was to escort a team of crypto-engineers that needed to install a new secret code generator. Their secondary objective was an internal affaire investigation to assess the threat level of on-board officers and see if all protocols are respected. Unofficially, the Destiny was the PCs temporary base of operation because the **Naalthor** sector was close enough to be called on some secret operation.",
+            "As expected for an internal affair investigation, the welcome committee was limited to Corry Stocks escorted by two Stormtroopers.",
+            "The ship just got out of a long journey, the **Siege of Frilp**, troops are tired, pilots are exhausted; both the navy and the army are welcoming new members as replacement for their dead, creating a not that happy atmosphere. The **Siege of Frilp** lasted for months against **The Voiceless Ones**, a remote empire that span multiple sector on the border of the known galaxy.",
+            "After a long and thorough inspection of the ship, including scans made by Undrake, the **Destiny** got called to assist **Foxwell** in the **Niyrius** system."
         ]
     },
     "episode0010": {
@@ -22,21 +28,25 @@
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/6gGIibqnFUtcHIBHnUJ7",
         "isVisible": true,
         "description": [
-            "This adventure displays the power of the imperial armada during the battle of the Niyrius system, while the PCs help Commander Foxwell to destroy a rebel base."
-        ],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": ["..."]
-            }
+            "This adventure displays the power of the imperial armada during the battle of the **Niyrius** system, while the PCs help **Commander Foxwell** to destroy a rebel base.",
+            "The first sight of the PCs when exiting hyperspace is the ISD **Judgment**, two _Nebulon-B Frigates_, the **Kryptoria** and the **Sparta**, and _Ties_ are swarming the place. The rebels were literally getting blasted out of the sky, and they arrived just in time to witness an old rebel's _Dreadnought-class Heavy Cruiser_ get cut in half by the _Imperial Star Destroyer_ **Judgment**'s turbolasers. The rebels had a few _X-Wings_, a few _A-Wings_, a few _Z95 Headhunters_, the infamous _B-Wings_ **Phantom Squadron**, and another, heavily damaged, _Dreadnought-class Heavy Cruiser_. Not long after, the _Mon Calamari Cruiser_ **Gladiator**, commanded by **Commander Fitz Gorr** jumped out of hyperspace, positioning himself to cover the rebel escape, in a very unusual way.",
+            "Arriving on the planet, manning the laser turret, L33T took down some minor base defences, 2 aces, and a few more fighters! After landing, Dargon converted a native to the Empire to help the PCs, while Undrake was capturing a transport ship, full of ready-to-be-interrogated-rebels, where he also extracted a part of the hyperspace coordinate, leading to their destination.",
+            "Then the PCs fought a few rebels, found a huge reinforced blast door that they tried to blow up, but they were lacking a few explosive charges to do so. Luckily, the explosion opened a side path, underground, which lead to fight an invisible beast. **Jenssar** also learn and saved data about a traitor, **Undrake** got a datapad containing information about the curious beast and gathered a few mushroom samples, that lead to an interesting conclusion.",
+            "Heading back to space, **Jenssar** face **Juno Eclipse** for the first time since she left the Empire and killed her two wingman. Meanwhile, the Ion Cannon disabled the _Nebulon-B Frigate_ **Kryptoria**, the _Nebulon-B Frigate_ **Sparta* was disabled and rendered unusable by the **Gladiator**, **Phantom Squadron** disabled the gravity-well-projector of the **Destiny** after a _saboteur_ from the inside diverted the power from the shield to the hyperspace modulator, creating an overload that disabled the primary power modulator, in a big laser-ball. The **Gladiator** blocked the **Destiny**’s line of sight so many transport ships jumped to hyperspace.",
+            "Finally, **Grand Admiral Barret Marr** and **Grand Moff Leeadra Leonis** arrived on board of the _Executor-class Star Dreadnought_ **Liberator**, blasting the remaining transports out of the sky and launching a ton a Ties! The Gladiator was heavily damaged before jumping into hyperspace.",
+            "Imperial Intelligence **Commander Rostock** blamed the ISB for their botched investigation on board of the Destiny. She also bragged about all of the data gathered by the Imperial Intelligence, and pointed out how the Overwatch Division failed to destroyed the Ion Canon and how they terminated multiple hostages that could have withheld critical information."
         ]
     },
     "episode0020": {
         "name": "Episode 2: The Communication Logs",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/yxO7Y6wv6DhmuAi9sXEb",
         "isVisible": true,
-        "description": ["TBD"],
+        "description": [
+            "In an old abandoned Rebel Propaganda Broadcast Facility used as a relay, deep into the Outer Rim, close to the unknown regions, the PCs had to acquire the tower transmissions logs to help triangulate the hyperspace coordinate stolen by **Undrake**. Moreover, **Undrake** received a coded message from the **Chiss initiative** telling him to look for a file, in the Jakuta III base, hashed _65c336faac23467b9ef0dbb80781434e_.",
+            "During the download of the communication logs, the pirates assaulted the base, and without **L33T** you were overpowered; getting captured seemed the best idea. Having noticed the abnormal seismic activity, the **Overwatch** decided not to waste too much time in that cell and killed the only _guard_.",
+            "The PCs geared themselves up temporarily using pirate stuff until the found their own things. **Dargon** learnt about the **Alchemists**, which could have made the poison that killed his wife. The **Alchemists** seems linked to a violent crime syndicate named the **EdG**, that operate deep in the _Outer Rim_. The PCs also meet **Raymond Fremder**, converted by **Dargon** _charm_ (and money). **Raymond**, also known as _Raymond L'impitoyable_, helped the PCs to get to their objective and to escape; he is working for **Starlight Industries** since then.",
+            "**Undrake** did not find what he expected, but found a message in an old language that had to be deciphered; he brought it back to the Chiss initiative. After a few intense firefights, the PCs downloaded the data and escaped before the volcano hosting the base erupted!"
+        ],
         "chapters": [
             {
                 "name": "...",
@@ -49,13 +59,15 @@
         "name": "Episode 3: Coercive Diplomacy",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/MAPuC0DkNeaNDPghf09V",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
+        "description": [
+            "Officially, the Overwatch had to convince the CEO and the Board of Directors of **Silver Sun Mining Company** to allow the empire to secure their facilities due to an increase in rebel activity. Unofficially, the Empire suspected the **Silver Sun Mining Company** of letting the rebels steal starfighter-grade durasteel to help the rebellion against the **New Order**.",
+            "The PCs had to convince Tom Krenik, the CEO, and his board of director, composed of Phoebe Gray, Peggy Komarov, and Douglas Fujiwara, but they were very busy and unreachable. ",
+            "Guided by their liaison agent, **Inspector Salvatore Rautenbach** of the ISB, the PCs walked around the space station trying to get an audience, but without success.",
+            "**Undrake** digged some dirt, from _**Peggy Komarov** got arrested for stealing a candy from a baby_ to the fact that _**Tom Krenic**'s uncle is his real father_. During that time, **Dargon** learnt that **Silver Sun Mining Company** needed of some high-tech equipment to do prospecting on the radioactive moon of **Vorta-on-aachor**. **Starlight Industries** was able to break the tie between the two other companies, bidding on that project, leaving the high-executive less busy.",
+            "At some point, the PCs realise that 4L-FR3D is missing. They find it deactivated on a table with a young technician connected into it digging for information. As they cross the door an holo-recording starts, it is Casandre talking to 4L-FR3D. That message should not get out of there! The technician finally told the PCs that he was hired by Phoebe Gray.",
+            "During all of that _coercive diplomacy_, a few rebel transports docked the station using stolen clearance code; then the rebels of **Fitz Gorr** attack, helped by captain **Xreq'is** of the _Dreadnought-class Heavy Cruiser_ **Poseidon**, and assisted once again by the B-Wings **Phantom Squadron** and a few more X-Wings.",
+            "After multiple firefights between the rebels, the station guards, and the Overwatch, the Imperial Star Destroyers **Crucible** and the **Judgment** jumped out of hyperspace, making the rebels flee like cockroaches, and saving the day! The clean up mission was lead by **Darth Vader** himself, seeding fear into enemies crossing path with him! **Jenssar** was energized by the presence of the **Crucible**, his old operational base.",
+            "In the end, all point out toward **Vader** orchestrating that little operation; but no matter, at this point, the board had no choice but to agree with the Empire, the station is already swarming with Stormtroopers..."
         ]
     },
     "episode0040": {
@@ -74,26 +86,23 @@
     "episode0045": {
         "name": "Episode 4.5: The Newcomer",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
+        "description": [
+            "**Dargon StarLight** has been dispatched to lead some special forces for a secret mission and left **Raymond** to infiltrate the EdG criminal syndicate. **L33T** is being used on the frontline of the war raging in the system _Sevaren_. Meanwhile, **Commander Foxwell** calls **Undrake** and **Jensar** to the bridge of his ISD, then travelling to the _Kuat Drive Yard_.",
+            "**Commander Foxwell** then show a new Vigil-class Corvette to the PCs; the ship is named the **Kaki Usyk**. During the inspection, the PCs meet **Aristokra Akara** and **Lieutenant Vraak Nirr** leader of the **Phantom Reapers**; sole survivers of the battle of _Tretk III_.",
+            "Finally, agent **Kaine** becomes the newest member of the Overwatch Division."
         ]
     },
     "episode0050": {
         "name": "Episode 5: The Cryptic Text",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/Rsj6jNlgdW8aOZt0eKzI",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
+        "description": [
+            "The **Chiss Initiatives** deciphered the file found by **Undrake**. The document contains ancient **Jedi** symbols. A piece of a **Jedi-Sith War** era-old *translator device* could be located under an old supply depot base of a remote jungle planet. **Raymond**, infiltrated in the **EdG** criminal syndicate, discovered that the station was a base serving the infamous **Brew Wilfinger** aka **“Brewinger”**.",
+            "The PCs paid 1800 credits to get information on the whereabout of a rebel agent that could lead them to a secret base.",
+            "The PCs also meet multiple people, including **Gannon Malchy**, their *liaison agent* to **Brewinger** as well ass two beast traders, named **Nollie Bonesack** and **Elwood Nettwin**.",
+            "The PCs gave 2 military-grade blaster rifle crates to **Brewinger** to gain access to some information about the rebels (that ended up with nothing, see below, and it became running gag inside **Brewinger**'s organization).",
+            "**Kaine** found a drunk that allowed him access to the basement, giving the PCs a chance to search for the artifact, but after taking a wrong turn, their turbolift opened right in the command center, where **Jenssar** recklessly attacked **Brewinger** and his man.",
+            "That ended up with the **Kaki Usyk** attacking the base and getting highly damaged; **Foxwell** was furious!"
         ]
     },
     "episode0060": {

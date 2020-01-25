@@ -1,0 +1,77 @@
+{
+    "events": [
+        {
+            "name": "Siege of Frilp",
+            "description": ["The **Siege of Frilp** lasted for months against **The Voiceless Ones**."],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }]
+            }
+        },
+        {
+            "name": "Brewinger's Revenge",
+            "description": [
+                "After blowing up the location of one important facility, he hired bounty hunters to kill the PCs, ISB or not!"
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0050" }, { "episode": "episode0070" }]
+            }
+        }
+    ],
+    "races": [
+        {
+            "name": "The Voiceless Ones",
+            "description": [
+                "**The Voiceless Ones** represent a remote empire that span multiple sectors on the border of the known galaxy."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }]
+            }
+        }
+    ],
+    "storylines": [
+        {
+            "name": "Naarlock's pirates",
+            "description": ["Evil pirates with a skull in front of a Nebulon-B Frigate, what can go wrong?"],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }]
+            }
+        },
+        {
+            "name": "The Rebels",
+            "description": ["The empire are against a dangerous cell of rebels"],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0002" }]
+            }
+        },
+        {
+            "name": "The Alchemists",
+            "description": ["This could be the guy that made the poison that killed Dargon's wife!"],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0020" }]
+            }
+        },
+        {
+            "name": "The Invisible Beast",
+            "description": ["Rebels wants and are studying invisible beast and their habitat."],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0050" }]
+            }
+        },
+        {
+            "name": "The Cryptic text",
+            "description": [
+                "After investigating a file that turned out to be a cryptic message, Undrake and the Chiss Initiative are looking into the possibility of finding a legendary artifact or a mythical temple."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0020" }, { "episode": "episode0050" }]
+            }
+        },
+        {
+            "name": "The Dark Character",
+            "description": ["A Dark Imperial Character seems to give force power from time to time to **Jenssar**..."],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0050" }, { "episode": "episode0080" }]
+            }
+        }
+    ]
+}

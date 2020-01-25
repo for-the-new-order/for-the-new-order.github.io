@@ -1,0 +1,49 @@
+{
+    "Faweetley-859": {
+        "type": "planet",
+        "description": [
+            "The planet was named after the explorer that discovered it: Derek Faweetley.",
+            "The planet is primarily made of jungle. There is no known inhabitant beside animals and plants.",
+            "An old supply depot was used by Brewinger, a loyal member of the EdG criminal syndicate."
+        ],
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0050",
+                    "description": [
+                        "After the encounter with the PCs, Brewinger had to move his operation somewhere else as the site became too hot."
+                    ]
+                }
+            ]
+        }
+    },
+    "Jakuta III": {
+        "type": "planet",
+        "description": [
+            "Jakuta III is in the system Jakuta and is the host of a lot of volcanos.",
+            "An old abandoned Rebel Propaganda Broadcast Facility was present on the planet and was taken over by pirates."
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0020" }]
+        }
+    },
+    "Niyrius": {
+        "type": "system",
+        "description": ["System where a battle happened between the Empire and the Rebels, over a rebel base."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0010" }]
+        }
+    },
+    "Naalthor": {
+        "type": "sector",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0001" }]
+        }
+    },
+    "Vorta-on-aachor": {
+        "type": "moon",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0030" }]
+        }
+    }
+}

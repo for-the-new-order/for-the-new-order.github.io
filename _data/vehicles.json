@@ -4,7 +4,7 @@
             "name": "Assimilator-class Interdictor Star Destroyer"
         },
         "campaign_info": {
-            "captain": "Justen Baltzell",
+            "flight_officer": "Justen Baltzell",
             "encounters": [
                 {
                     "episode": "episode0000",
@@ -27,7 +27,7 @@
             "name": "Nebulon-B Frigate"
         },
         "campaign_info": {
-            "captain": "Naarlok",
+            "flight_officer": "Naarlok",
             "encounters": [
                 {
                     "episode": "episode0000",
@@ -273,7 +273,106 @@
             "The Kaki Usyk is mainly controlled by the PCs, and has been modified to allow the docking of their transport ship."
         ],
         "campaign_info": {
-            "captain": "Salomon Fauls",
+            "flight_officer": "Salomon Fauls",
+            "encounters": [{ "episode": "episode0045" }, { "episode": "episode0050" }]
+        }
+    },
+    "Judgment": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Carter Foxwell"
+        }
+    },
+    "Armorer": {
+        "model": {
+            "name": "Vindicator-class Heavy Cruiser"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Benjy Lazzo"
+        }
+    },
+    "Kryptoria": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Travus Karns"
+        }
+    },
+    "Alienator": {
+        "model": {
+            "name": "Gladiator-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Helen Hartwich"
+        }
+    },
+    "Glory": {
+        "model": {
+            "name": "Raider II-class Corvette"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Dillon Poke"
+        }
+    },
+    "Liberator": {
+        "model": {
+            "name": "Executor-class Star Dreadnought"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Barret Marh"
+        }
+    },
+    "Herald of Sorrow": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Ashton Mccausland"
+        }
+    },
+    "Avalanche": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Bevin Stefanski"
+        }
+    },
+    "Lullaby": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Kellina Niemiec"
+        }
+    },
+    "Bastion": {
+        "model": {
+            "name": "Victory II-class Star Destroyer"
+        },
+        "description": [""],
+        "campaign_info": {
+            "flight_officer": "Jerrold Penagonzalez"
+        }
+    },
+    "Falsifier": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "campaign_info": {
+            "flight_officer": "Garold Carbonneau",
             "encounters": [
                 {
                     "episode": "episode0000",
@@ -285,108 +384,26 @@
             ]
         }
     },
-    "Judgment": {
-        "model": {
-            "name": "Imperial I-class Star Destroyer"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Carter Foxwell"
-        }
+    "Dreadnought-class heavy cruiser Poseidon ": {
+        "flight_officer": "Xreq'is",
+        "encounters": [
+            {
+                "episode": "episode0030"
+            }
+        ]
     },
-    "Armorer": {
-        "model": {
-            "name": "Vindicator-class Heavy Cruiser"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Benjy Lazzo"
-        }
-    },
-    "Kryptoria": {
-        "model": {
-            "name": "Nebulon-B Frigate"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Travus Karns"
-        }
-    },
-    "Alienator": {
-        "model": {
-            "name": "Gladiator-class Star Destroyer"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Helen Hartwich"
-        }
-    },
-    "Glory": {
-        "model": {
-            "name": "Raider II-class Corvette"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Dillon Poke"
-        }
-    },
-    "Liberator": {
-        "model": {
-            "name": "Executor-class Star Dreadnought"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Barret Marh"
-        }
-    },
-    "Herald of Sorrow": {
-        "model": {
-            "name": "Imperial I-class Star Destroyer"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Ashton Mccausland"
-        }
-    },
-    "Avalanche": {
-        "model": {
-            "name": "Imperial I-class Star Destroyer"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Bevin Stefanski"
-        }
-    },
-    "Lullaby": {
-        "model": {
-            "name": "Nebulon-B Frigate"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Kellina Niemiec"
-        }
-    },
-    "Bastion": {
-        "model": {
-            "name": "Victory II-class Star Destroyer"
-        },
-        "description": [""],
-        "campaign_info": {
-            "captain": "Jerrold Penagonzalez"
-        }
-    },
-    "Falsifier": {
+    "Crucible": {
         "model": {
             "name": "Imperial I-class Star Destroyer"
         },
         "campaign_info": {
-            "captain": "Garold Carbonneau",
+            "flight_officer": "Dorin Millavec",
             "encounters": [
                 {
-                    "episode": "episode0000",
+                    "episode": "episode0030",
                     "description": [
-                        "Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlok threat themselves.",
-                        "Commodore Carbonneau came to rescue the PCs from pirate captain Naarlok on board of the Imperial Star Destroyer Falsifier."
+                        "The **Crucible** was the old base of operation of **Jenssar**, before he was recruited by the ISB to join the Overwatch Division.",
+                        "The **Crucible** was an _Imperial-class Star Destroyer_ that served as home to **Nas Ghent** and his elite **Black Eight Squadron** during the Galactic Civil War."
                     ]
                 }
             ]
