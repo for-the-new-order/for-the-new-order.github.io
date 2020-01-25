@@ -26,7 +26,7 @@ title: 'For the New Order'
 title_separator: '-'
 name: 'Carl-Hugo Marcotte'
 description: 'A Star Wars Genesys Imperial Setting.'
-url: 'https://for-the-new-order.github.io'
+url: 'https://fortheneworder.rpg.solutions/'
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: 'for-the-new-order/for-the-new-order.github.io'
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -108,33 +108,49 @@ author:
     name: 'Carl-Hugo'
     avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
     bio: 'GM'
-    location:
+    location: 'Ottawa'
     email:
-    uri: 'http://www.forevolve.com'
-    home: # null (default), "absolute or relative url to link to author home"
-    bitbucket:
-    codepen:
-    dribbble:
-    flickr:
-    facebook:
-    foursquare:
-    github:
-    gitlab:
-    google_plus:
-    keybase:
-    instagram:
-    lastfm:
-    linkedin: # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-    pinterest:
-    soundcloud:
-    stackoverflow: # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-    steam: # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-    tumblr:
-    twitter:
-    vine:
-    weibo:
-    xing:
-    youtube: # "https://youtube.com/c/MichaelRoseDesign"
+    links:
+        - label: 'Email'
+          icon: 'fas fa-fw fa-envelope-square'
+          # url: mailto:your.name@email.com
+        - label: 'Website'
+          icon: 'fas fa-fw fa-link'
+          url: 'http://www.forevolve.com'
+        - label: 'Twitter'
+          icon: 'fab fa-fw fa-twitter-square'
+          # url: "https://twitter.com/"
+        - label: 'Facebook'
+          icon: 'fab fa-fw fa-facebook-square'
+          # url: "https://facebook.com/"
+        - label: 'GitHub'
+          icon: 'fab fa-fw fa-github'
+          url: 'https://github.com/Carl-Hugo'
+        - label: 'Instagram'
+          icon: 'fab fa-fw fa-instagram'
+          # url: "https://instagram.com/"
+
+# Site Footer
+footer:
+    links:
+        - label: 'Twitter'
+          icon: 'fab fa-fw fa-twitter-square'
+          # url:
+        - label: 'Facebook'
+          icon: 'fab fa-fw fa-facebook-square'
+          # url:
+        - label: 'GitHub'
+          icon: 'fab fa-fw fa-github'
+          url: 'https://github.com/for-the-new-order/for-the-new-order.github.io'
+        - label: 'GitLab'
+          icon: 'fab fa-fw fa-gitlab'
+          # url:
+        - label: 'Bitbucket'
+          icon: 'fab fa-fw fa-bitbucket'
+          # url:
+        - label: 'Instagram'
+          icon: 'fab fa-fw fa-instagram'
+          # url:
 
 # Reading Files
 include:
@@ -262,6 +278,7 @@ defaults:
     - scope:
           path: ''
       values:
+          share: true
           header:
               overlay_image: 'http://cdn.forevolve.com/for-the-new-order/images/headers/default.jpg'
 
@@ -274,7 +291,6 @@ defaults:
           author_profile: true
           read_time: true
           comments: true
-          share: true
           related: true
           sidebar: true
           toc: true
@@ -292,7 +308,6 @@ defaults:
           author_profile: false
           read_time: false
           comments: true
-          share: true
           related: false
           sidebar:
               nav: 'rulesandgamecontent'
