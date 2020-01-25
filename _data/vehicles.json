@@ -7,7 +7,7 @@
             "flight_officer": "Justen Baltzell",
             "encounters": [
                 {
-                    "episode": "episode0000",
+                    "episode": "episode0001",
                     "description": [
                         "The players investigated the ship as internal affair ISB agents to make sure that no traitor or uncataloged alien technologies were onboard."
                     ]
@@ -30,7 +30,7 @@
             "flight_officer": "Naarlok",
             "encounters": [
                 {
-                    "episode": "episode0000",
+                    "episode": "episode0001",
                     "description": ["..."]
                 }
             ]
@@ -375,7 +375,7 @@
             "flight_officer": "Garold Carbonneau",
             "encounters": [
                 {
-                    "episode": "episode0000",
+                    "episode": "episode0001",
                     "description": [
                         "Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlok threat themselves.",
                         "Commodore Carbonneau came to rescue the PCs from pirate captain Naarlok on board of the Imperial Star Destroyer Falsifier."
