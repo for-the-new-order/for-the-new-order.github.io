@@ -45,5 +45,37 @@
         "campaign_info": {
             "encounters": [{ "episode": "episode0030" }]
         }
+    },
+    "Endium": {
+        "type": "system",
+        "description": ["The **Endium system** is the home of the the **Silver Sun Mining Company**'s headquarter."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0030" }, { "episode": "episode0040" }]
+        }
+    },
+    "Traer-4": {
+        "type": "planet",
+        "description": [
+            "Traer-4 is an oceanic planet, a sort of paradise, where only the richer can buy homes there.",
+            "Due to frequent hurricanes, all islands have protective deflector shields to reduce natural disaster damages.",
+            "Phoebe Gray's family has an estate there."
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0040" }]
+        }
+    },
+    "Manistas": {
+        "type": "planet",
+        "description": ["A planet where to be enrolled with the **Fireflies** mercenary group."],
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0060",
+                    "description": [
+                        "**Captain Ardis** of the **Fireflies**, during the worms invasion of the mining colony, told the PCs to get enrolled into the **Fireflies** on the planet **Manistas** because they were fighting like professionals (the PCs were disguised as miners at the time)."
+                    ]
+                }
+            ]
+        }
     }
 }

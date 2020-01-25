@@ -67,13 +67,11 @@
         "name": "Episode 4: Elusive maneuvers",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/FwyNHyCqSJmndMMRdkHI",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
+        "description": [
+            "**Phoebe Gray** has gone missing and **Tom Krenik** was still defending her. In fact, **Tom** decided to get rid of her by sinking her family’s mansion by coercing with one of **Phoebe**’s best friend: **Gallagher Linton**.",
+            "The PCs traveled to Traer-4 and arrived at the Gray's family-owned island. While Jenssar was playing the diplomat, charming **Grace Gray** the *repulse-o-ski* athlete in the process; Undrake was exploring, military style, entering by the dock's garage door.",
+            "During the talks with the **Gray sisters** and **Gallagher**, **Phoebe** tells the PCs that she had nothing to do with all of this, and that **Tom** sent her here for her protection. Then the hurricane alarm started, the shield was sabotaged!",
+            "The PCs found out that **Gallagher** was a traitor, was able to repair the shield generator, save both sisters, and send a message to the Empire about **Tom Krenik**, leading to his arrest."
         ]
     },
     "episode0045": {
@@ -102,12 +100,39 @@
         "name": "Episode 6: The Cortosis Shipment",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/hosulUHpW2YOLOAalzCI",
         "isVisible": true,
-        "description": ["TBD"],
+        "description": [
+            "While the **Kaki Usyk** was under repair, after a memorable out-burst of intense rage by **Commander Foxwell**, **Undrake** was pulling all of the string that he could to find the one mission, that could lead to acquiring *Cortosis*.",
+            "The PCs headed to **Utopia**, the underground party and business neutral space station, to meat with **Administrator Blinn**. With no underground reputation, the PCs landed in the lower-docks and had to reach the richer side of the complex on foot. **Administrator Blinn** then presented them to **Jeffry Coley**, the explorer that found the possible deal.",
+            "Once everyone agreed on the terms, they started a series of secret hyperspace jumps, on board the **Alpoca**, to reach an _asteroid mining colony_ in the **Unknown Regions**. The **Alpoca** was scheduled to deliver a shipment of supplies to the nearby (only) town, opening a window of ±5 days to land, steal the _Cortosis_, and leave. The most apparent problem is that the mines are heavily guarded by a Mercenary Group named the **Dragonflies**. The second problem, less apparent at the time, was the alignment of the three suns with a moon-like asteroid.",
+            "Everything started with the PCs making some friends at a local miners bar, where **Paolina Bjurstrom**, **Humphrey Haray**, and **Kendrick Willburn** started to talk to Kaine. **Willburn** became very friendly and explained many security aspect of the mine, including patrols routes. During that first day, they (Undrake?) also found a very old building, primarily ruins, that seemed to be dating from an old civilization.",
+            "On the second day, **Coley** and **Akara**, investigated that old intriging building. Meanwhile the PCs disguised themselves as miners, jumped into the miner transport and entered the mines. They travelled to the secure depot, killed two guard, but got spotted by a merc posted in a mirador; he sounded the alarm started and blaster shots began to fly! Worms were starting to invade the perimeter, so the guards decided to shot at the worms that were between them and the PCs!",
+            "At this point, **Coley** and **Akara** research lead them to belive that the old structure was built by and old civilization that seems to have been wiped out by some creatures. At this point, there was also an increase in worm activity in town. People were starting to panic, especially due to Dargon's droid running around with a worm, creating more chaos! From there, the PCs stole a speeder-lift from the secure storage, they filled it with explosives and tools, and they welded a dura-steel plate as a protection on one side. They used that protection to move around without getting shot at too much. Dargon hacked an anti-air laser-canon turret, while they were fighting more worms, creating **Versmic'el**, the elite worm!",
+            "The PCs then fought along **Captain Ardis** of the **Fireflies** and his squad of crazies, composed of **Sergent Haray**, **Lorme**, **Archer**, **Virginie** (a.k.a. **Virgin**), and **Walden**. **Lorme** and **Walden** died, while **Archer** was injured. The PCs encountered **Versmic'el** again, but killed it this time! **Ardis** and the PCs parted way close to the landing plateform, where the PCs noticed the involvment of yet again **Juno Eclipse**, leaving on board of her X-Wing.",
+            "With most anti-air defences disabled, **Coley** is willing to come and pick the PCs up, as well as the Cortosis shipment. They reached Utopia in one piece, got their share of the deal, and both sides parted ways."
+        ],
         "chapters": [
             {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
+                "name": "The first sun",
+                "isVisible": true,
+                "description": [
+                    "When arriving, one of the suns is beginning to align with an asteroid, gravitationally behaving like a moon, and flowers are booming red (which is weird on a dead rock).",
+                    "An old crazy woman repeats the following: When the three suns align|Followed by the red blooming;|The terror within,|Will rise above!",
+                    "French version: Lorsque les trois soleils s'aligneront|Suivi de la rouge floraison;|La terreur intérieure,|S’élèvera!"
+                ]
+            },
+            {
+                "name": "The second sun",
+                "isVisible": true,
+                "description": [
+                    "When the second sun begins to align itself with the other, the inhabitant starts to experience the first signs of the invasion; unknown worms starts to emerge to the surface, attacking, paralyzing, and eating people."
+                ]
+            },
+            {
+                "name": "The third sun",
+                "isVisible": true,
+                "description": [
+                    "The more the third sun gets aligned, the more worms that emerge, and the bigger they become. Their numbers grow exponentially leading to an uncontrollable situation. Finally, the Worm Queen show up to wipe out the colony!"
+                ]
             }
         ]
     },
