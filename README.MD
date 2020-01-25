@@ -26,6 +26,16 @@ bundle exec jekyll serve
 bundle exec jekyll serve --incremental --safe
 ```
 
+or (using local configs/gems)
+
+```bash
+bundle install --gemfile Gemfile.local
+bundle update --gemfile Gemfile.local
+bundle exec --gemfile Gemfile.local jekyll s --config _config.yml,_config.local.yml
+# or
+bundle exec --gemfile Gemfile.local jekyll s --config _config.yml,_config.local.yml -I
+```
+
 ## Jekyll Install Bug
 
 BUG: An error occurred while installing nokogiri (1.8.2), and Bundler cannot continue. (zlib is missing; necessary for building libxml2)
