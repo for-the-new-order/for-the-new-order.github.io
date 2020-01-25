@@ -384,8 +384,11 @@
             ]
         }
     },
-    "Dreadnought-class heavy cruiser Poseidon ": {
+    "Poseidon": {
         "flight_officer": "Xreq'is",
+        "model": {
+            "name": "Dreadnought-class Heavy Cruiser"
+        },
         "encounters": [
             {
                 "episode": "episode0030"

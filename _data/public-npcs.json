@@ -177,7 +177,10 @@
                 "display-motivation-strength: true",
                 "display-motivation-flaw: false"
             ]
-        }
+        },
+        { "name": "Derek Faweetley" },
+        { "name": "Xreq'is" },
+        { "name": "Dorin Millavec" }
     ],
     "vehicles": [
         { "name": "The Raazial" },
@@ -313,6 +316,26 @@
         },
         {
             "name": "Falsifier",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Poseidon",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Crucible",
             "frontMatter": [
                 "display-characteristics: true",
                 "display-current-thresholds: true",

@@ -584,5 +584,69 @@
                 "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
             }
         ]
+    },
+    "Dreadnought-class Heavy Cruiser": {
+        "image_path": "/assets/images/vehicles/dreadnought-class-heavy-cruiser.jpg",
+        "characteristics": {
+            "silhouette": 7,
+            "max_speed": 2,
+            "handling": -2,
+            "hull_trauma": {
+                "threshold": 100,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 40,
+                "current": 0
+            },
+            "protection": {
+                "defense": "1,1,1,1",
+                "armor": 7
+            },
+            "massive": 1
+        },
+        "skill": "Operating",
+        "consumables": "1 year",
+        "encumbrance_capacity": 7500,
+        "manufacturer": "Rendili StarDrive",
+        "hyperdrive": {
+            "primary": "Class 4",
+            "backup": "Class 18",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "9,000 to 16,000 officers, pilots, and enlisted crew, depending on configuration",
+            "starfighters": "12 starfighters",
+            "troops": "3000 troops"
+        },
+        "customization": {
+            "hard_points": 4
+        },
+        "sensor": {
+            "range": "medium"
+        },
+        "cost": {
+            "price": 7200000,
+            "rarity": 6,
+            "restricted": false
+        },
+        "weapons": [
+            {
+                "name": "5 forward and 5 aft medium Dreadnought turbolaser batteries",
+                "specs": "Fire Arc Forward, Port, and Starboard or Aft; Damage 10; Critical 3; Range [Long]; Breach 3, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "10 port and 10 starboard light Dreadnought quad turbolasers",
+                "specs": "Fire Arc Port or Starboard; Damage 9; Critical 3; Range [Medium]; Breach 2, Linked 3, Slow-Firing 2"
+            },
+            {
+                "name": "5 port and 5 starboard heavy laser cannons",
+                "specs": "Fire Arc Port or Starboard; Damage 6; Critical 3; Range [Short]"
+            }
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": 279
+        }
     }
 }

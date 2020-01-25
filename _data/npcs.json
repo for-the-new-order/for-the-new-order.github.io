@@ -2136,7 +2136,6 @@
         }
     },
     "Derek Faweetley": {
-        "folder": "",
         "image_path": "/assets/images/npcs/250x250-generic.png",
         "type": "rival",
         "species": {
@@ -2147,21 +2146,9 @@
         ],
         "gender": "Male",
         "clan": "Generic",
-        "corp": "Explorer",
-        "personality": "",
-        "motivation": {
-            "strength": {
-                "name": "",
-                "description": ""
-            },
-            "flaw": {
-                "name": "",
-                "description": ""
-            }
-        }
+        "corp": "Explorer"
     },
     "Xreq'is": {
-        "folder": "",
         "image_path": "/assets/images/npcs/250x250-rebels.png",
         "species": {
             "name": "Bardottan"
