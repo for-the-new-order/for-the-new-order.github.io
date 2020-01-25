@@ -66,7 +66,12 @@
 {% comment %} BEGIN use NPC image {% endcomment %}
 {%- if page.layout == 'npc' or page.layout == 'vehicle' -%}
   {%- if data and data.image_path -%}
-    {%- assign page_large_image = data.image_path | absolute_url -%}    
+    {%- assign page_large_image = data.image_path | absolute_url -%}   
+  {%- elsif data and data.model and data.model.name -%} 
+    {%- assign model = site.data.vehicle-models[data.model.name] -%}
+    {%- if model and model.image_path -%}
+      {%- assign page_large_image = model.image_path | absolute_url -%}   
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 {%- assign page_large_image = page_large_image | escape -%}
