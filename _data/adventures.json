@@ -46,13 +46,6 @@
             "During the download of the communication logs, the pirates assaulted the base, and without **L33T** you were overpowered; getting captured seemed the best idea. Having noticed the abnormal seismic activity, the **Overwatch** decided not to waste too much time in that cell and killed the only _guard_.",
             "The PCs geared themselves up temporarily using pirate stuff until the found their own things. **Dargon** learnt about the **Alchemists**, which could have made the poison that killed his wife. The **Alchemists** seems linked to a violent crime syndicate named the **EdG**, that operate deep in the _Outer Rim_. The PCs also meet **Raymond Fremder**, converted by **Dargon** _charm_ (and money). **Raymond**, also known as _Raymond L'impitoyable_, helped the PCs to get to their objective and to escape; he is working for **Starlight Industries** since then.",
             "**Undrake** did not find what he expected, but found a message in an old language that had to be deciphered; he brought it back to the Chiss initiative. After a few intense firefights, the PCs downloaded the data and escaped before the volcano hosting the base erupted!"
-        ],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
         ]
     },
     "episode0030": {
@@ -147,6 +140,19 @@
     "episode0090": {
         "name": "Episode 9: Phantom Operation",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/OkodotlxomYRgFnMw9qX",
+        "isVisible": false,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
+    "template": {
+        "name": "Episode X: ",
+        "crawl": "",
         "isVisible": false,
         "description": ["TBD"],
         "chapters": [
