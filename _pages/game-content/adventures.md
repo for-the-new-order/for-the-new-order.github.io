@@ -15,7 +15,7 @@ permalink: /game-content/adventures/
                 </header>
                 <section class="content">
                     {%- if data.description and data.description.size > 0 -%}
-                        <p>{{ data.description[0] }}</p>
+                        {{ data.description[0] | markdownify }}
                     {%- endif -%}
                 </section>
             </section>
