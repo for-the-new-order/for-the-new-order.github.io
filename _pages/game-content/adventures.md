@@ -1,6 +1,7 @@
 ---
 title: Adventures
 permalink: /game-content/adventures/
+regenerate: true
 ---
 
 {%- assign adventures = site.adventures -%}
