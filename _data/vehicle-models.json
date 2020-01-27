@@ -648,5 +648,237 @@
             "source": "ACRB",
             "page": 279
         }
+    },
+    "GTS-A2 Long-range Strike Starfighter": {
+        "alias": "H-Wing",
+        "image_path": "/assets/images/vehicles/h-wing.jpg",
+        "description": [
+            "A follow-up to Koensayr's wildly successful Y-wing starfighter, the BTS-A2 H-wing is a heavily armed and armored, three-man fighter designed for long-range strike and interdiction missions."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 3,
+            "handling": -2,
+            "hull_trauma": {
+                "threshold": 15,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 12,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,-,-,1",
+                "armor": 4
+            }
+        },
+        "hyperdrive": {
+            "primary": "Class 1",
+            "navicomputer": "Yes"
+        },
+        "customization": {
+            "hard_points": 1
+        },
+        "sensor": {
+            "range": "short"
+        },
+        "manufacturer": "Koensayr Manufacturing",
+        "skill": "Piloting",
+        "complement": "1 pilot, 2 systems operators",
+        "passenger_capacity": "1",
+        "consumables": "1 month",
+        "encumbrance_capacity": 15,
+        "cost": {
+            "price": 225000,
+            "rarity": 6
+        },
+        "weapons": [
+            {
+                "name": "Turret-mounted medium laser cannon",
+                "specs": "Fire Arc All; Damage 6; Critical 5; Range [Close]"
+            },
+            {
+                "name": "Forward-mounted twin light ion cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range [Close]; Ion, Linked 1"
+            },
+            {
+                "name": "Forward-mounted proton torpedo launchers",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range [Short]; Blast 6, Breach 6, Guided 2, Limited Ammo 12, Linked 1, Slow-Firing 1"
+            }
+        ]
+    },
+    "RZ-1 Light Interceptor": {
+        "alias": "A-Wing",
+        "image_path": "/assets/images/vehicles/a-wing.jpg",
+        "description": [
+            "The A-wing light interceptor is the fastest and the rarest fighter in the Alliance arsenal. The RZ-1 is an evolution of the R-22 Spearhead and the Clone Warsera Delta-7 light interceptor. It is a lightweight, lightlyarmed fighter capable of incredible straight-line speed as well as superior maneuverability. The A-wing is deployed to engage Imperial fast movers with its laser cannons and to harry smaller capital ships with concussion missiles."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 6,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": "1,-,-,0",
+                "armor": 2
+            }
+        },
+        "hyperdrive": {
+            "primary": "Class 1",
+            "navicomputer": "Yes"
+        },
+        "customization": {
+            "hard_points": 1
+        },
+        "sensor": {
+            "range": "medium"
+        },
+        "manufacturer": "Incom/Alliance Underground Engineering",
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": 0,
+        "consumables": "1 week",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 150000,
+            "rarity": 6
+        },
+        "weapons": [
+            {
+                "name": "Forward-mounted light laser cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range [Close]; Linked 1"
+            },
+            {
+                "name": "Forward-mounted concussion missile launchers",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Short]; Blast 4; Breach 4, Guided 3, Limited Ammo 6, Linked 1, Slow-Firing 1"
+            },
+            {
+                "name": "Special Equipment",
+                "specs": "Miradyne Ltd. 4X-Phantom Sensor Jammer. Blocks all sensors within range, counting its ship or vehicle's silhouette as one smaller when being fired at. Immediately notifies all ships in a star system, or within one hundred kilometers if planetside, to the ship or vehicle's existence."
+            }
+        ]
+    },
+    "T-65B Multi-Role Starfighter": {
+        "alias": "X-Wing",
+        "image_path": "/assets/images/vehicles/x-wing.jpg",
+        "description": [
+            "Incom's T-65B X-wing is the Rebel Alliance's primary force projection starfighter. A powerful, capable, easy to fly starfighter, the X-wing combines speed and hitting power into a potent package. X-wings are a true multi-role fighter, extremely effective in numerous missions from reconnaissance to attack to ship-to-ship dogfighting."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 5,
+            "handling": 1,
+            "hull_trauma": {
+                "threshold": 10,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
+            "protection": {
+                "defense": "1,-,-,1",
+                "armor": 3
+            }
+        },
+        "hyperdrive": {
+            "primary": "Class 1",
+            "navicomputer": "No - Astromech droid socket"
+        },
+        "customization": {
+            "hard_points": 1
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Incom Corporation",
+        "skill": "Piloting",
+        "complement": "1 pilot, 1 astromech droid",
+        "passenger_capacity": 0,
+        "consumables": "1 week",
+        "encumbrance_capacity": 10,
+        "cost": {
+            "price": 120000,
+            "rarity": 5
+        },
+        "weapons": [
+            {
+                "name": "S-foil-mounted medium laser cannons",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
+            },
+            {
+                "name": "Forward-mounted proton torpedo launchers",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range [Short]; Blast 6, Breach 6, Guided 2, Limited Ammo 6, Linked 1, Slow-Firing 1"
+            }
+        ]
+    },
+    "A/SF-01 Heavy Fast Attack Starfighter": {
+        "alias": "B-Wing",
+        "image_path": "/assets/images/vehicles/b-wing.jpg",
+        "description": [
+            "The B-wing is the largest, most heavily armed fighter in the Alliance arsenal. B-wings are dedicated attack fighters designed to destroy capital ships and orbital installations using ion weaponry and heavy ordnance such as proton torpedoes and proton bombs. They are heavily armored and shielded, and can reach an incredible straight-line speed."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 4,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 15,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 6,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,-,-,1",
+                "armor": 3
+            }
+        },
+        "hyperdrive": {
+            "primary": "Class 2",
+            "navicomputer": "Yes"
+        },
+        "customization": {
+            "hard_points": 1
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Slayn & Korpil",
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": 0,
+        "consumables": "1 week",
+        "encumbrance_capacity": 15,
+        "cost": {
+            "price": 150000,
+            "rarity": 6
+        },
+        "weapons": [
+            {
+                "name": "Hardpoint-mounted light ion cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range [Close]; Ion, Linked 2"
+            },
+            {
+                "name": "Hardpoint-mounted heavy laser canon",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Short]"
+            },
+            {
+                "name": "Forward-mounted proton torpedo launchers",
+                "specs": "Fire Arc Forward; Damage 8; Critical 2; Range [Short]; Blast 6, Breach 6, Guided 2, Limited Ammo 8; Linked 1, Slow Firing 1"
+            },
+            {
+                "name": "Cockpit hardpoint-mounted autoblasters",
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range [Close]; Auto-fire"
+            }
+        ]
     }
 }

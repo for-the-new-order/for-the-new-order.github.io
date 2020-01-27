@@ -72,6 +72,44 @@
             "campaign_info": {
                 "encounters": [{ "episode": "episode0050" }, { "episode": "episode0080" }]
             }
+        },
+        {
+            "name": "Grace Gray",
+            "description": [
+                "Grace Gray is the sister of Phobe Gray of the Silver Sun Mining Co. She's the one that invited Jenssar to race in the galactic semi-pro race. Jenssar, in his free time, spend time with her helping her and her Repulse-o-ski team."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0040" }, { "episode": "episode0080" }]
+            }
+        }
+    ],
+    "squadrons": [
+        {
+            "name": "Phantom",
+            "clan": "Rebels",
+            "description": ["Infamous rebel heavy fast attack starfighter squadron lead by **Bonkers**."],
+            "campaign_info": {
+                "flight_officer": "Bonkers",
+                "encounters": [{ "episode": "episode0010" }, { "episode": "episode0080" }]
+            }
+        },
+        {
+            "name": "Banshee",
+            "clan": "Rebels",
+            "description": ["The newest rebel squadron, lead by **Juno Eclipse**, that made a name for themselves in the past few months."],
+            "campaign_info": {
+                "flight_officer": "Juno Eclipse",
+                "encounters": [{ "episode": "episode0080" }]
+            }
+        },
+        {
+            "name": "A-cers",
+            "clan": "Rebels",
+            "description": ["The legendary interceptor rebel squadron lead by **Rush**."],
+            "campaign_info": {
+                "flight_officer": "Rush",
+                "encounters": [{ "episode": "episode0080" }, { "episode": "episode0090" }]
+            }
         }
     ]
 }

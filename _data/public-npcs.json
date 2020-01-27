@@ -343,6 +343,45 @@
                 "display-cost: true",
                 "display-weapons: true"
             ]
+        },
+        {
+            "name": "H-Wing"
+        },
+        {
+            "name": "A-Wing",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "X-Wing",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "B-Wing",
+            "frontMatter": [
+                "display-characteristics: true",
+                "display-current-thresholds: true",
+                "display-general-info: true",
+                "display-cost: true",
+                "display-weapons: true"
+            ]
+        },
+        {
+            "name": "Rush's A-Wing"
+        },
+        {
+            "name": "Juno's X-Wing"
         }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],

@@ -411,5 +411,42 @@
                 }
             ]
         }
+    },
+    "H-Wing": {
+        "model": {
+            "name": "GTS-A2 Long-range Strike Starfighter"
+        }
+    },
+    "A-Wing": {
+        "model": {
+            "name": "RZ-1 Light Interceptor"
+        }
+    },
+    "X-Wing": {
+        "model": {
+            "name": "T-65B Multi-Role Starfighter"
+        }
+    },
+    "B-Wing": {
+        "model": {
+            "name": "A/SF-01 Heavy Fast Attack Starfighter"
+        }
+    },
+    "Rush's A-Wing": {
+        "image_path": "/assets/images/vehicles/rush-a-wing.jpg",
+        "model": {
+            "name": "RZ-1 Light Interceptor"
+        },
+        "characteristics": {
+            "protection": {
+                "armor": 3
+            }
+        }
+    },
+    "Juno's X-Wing": {
+        "image_path": "/assets/images/vehicles/juno-x-wing.jpg",
+        "model": {
+            "name": "T-65B Multi-Role Starfighter"
+        }
     }
 }
