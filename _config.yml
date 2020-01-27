@@ -427,11 +427,11 @@ defaults:
           display-description: true
           display-gm-description: false
           display-exerpt: false
-          display-characteristics: false
+          display-characteristics: true
           display-current-thresholds: false
-          display-general-info: false
-          display-cost: false
-          display-weapons: false
+          display-general-info: true
+          display-cost: true
+          display-weapons: true
           display-campaign-info: true
           display-flight_officer: true
           display-encounters: true

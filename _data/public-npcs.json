@@ -183,205 +183,37 @@
         { "name": "Dorin Millavec" }
     ],
     "vehicles": [
-        { "name": "The Raazial" },
-        { "name": "The Scalvenker" },
-        {
-            "name": "Destiny",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Nssis-class Clawcraft",
-            "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
-        },
-        {
-            "name": "Old leftover Hover Bike",
-            "frontMatter": ["display-characteristics: true", "display-general-info: true", "display-weapons: true"]
-        },
+        { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
+        { "name": "The Scalvenker", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
+        { "name": "Destiny" },
+        { "name": "Nssis-class Clawcraft" },
+        { "name": "Old leftover Hover Bike" },
         { "name": "Utopia" },
+        { "name": "Kaki Usyk" },
+        { "name": "Judgment" },
+        { "name": "Armorer" },
+        { "name": "Kryptoria" },
+        { "name": "Alienator" },
+        { "name": "Glory" },
+        { "name": "Liberator" },
+        { "name": "Herald of Sorrow" },
+        { "name": "Avalanche" },
+        { "name": "Lullaby" },
+        { "name": "Bastion" },
+        { "name": "Falsifier" },
+        { "name": "Poseidon" },
+        { "name": "Crucible" },
+        { "name": "H-Wing" },
+        { "name": "A-Wing" },
+        { "name": "X-Wing" },
+        { "name": "B-Wing" },
         {
-            "name": "Kaki Usyk",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
+            "name": "Rush's A-Wing",
+            "frontMatter": ["display-characteristics: false", "display-weapons: false"]
         },
         {
-            "name": "Judgment",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Armorer",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Kryptoria",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Alienator",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Glory",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Liberator",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Herald of Sorrow",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Avalanche",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Lullaby",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Bastion",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Falsifier",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Poseidon",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Crucible",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "H-Wing"
-        },
-        {
-            "name": "A-Wing",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "X-Wing",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "B-Wing",
-            "frontMatter": [
-                "display-characteristics: true",
-                "display-current-thresholds: true",
-                "display-general-info: true",
-                "display-cost: true",
-                "display-weapons: true"
-            ]
-        },
-        {
-            "name": "Rush's A-Wing"
-        },
-        {
-            "name": "Juno's X-Wing"
+            "name": "Juno's X-Wing",
+            "frontMatter": ["display-characteristics: false", "display-weapons: false"]
         }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
