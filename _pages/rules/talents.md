@@ -70,6 +70,10 @@ Here are the few differences with this list and the Genesys Talents Expanded v5.
 {%- assign tiers = site.data.talents | map: 'Tier' | uniq | sort -%}
 
 # Squadron Leader talents
+<small>
+This is a work in progress; don't purchase those until further notice.
+Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) instead.
+</small>
 <hr>
 
 {%- assign talentsSquadronLeader = site.data.talents-squadron-leader | sort: 'Name' | sort: 'Tier' -%}

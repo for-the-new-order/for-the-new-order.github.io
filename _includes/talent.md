@@ -10,6 +10,22 @@
 **Ranked:** {{ talent.Ranked }}
 
 {% if talent.Prerequisite and talent.Prerequisite != "" %}**Prerequisite:** {{ talent.Prerequisite }}{% endif %}
+{%- if talent.Prerequisites -%}
+**Prerequisites:** 
+<ul class="prerequisites">
+    {%- for prerequisite in talent.Prerequisites -%}
+        <li>{{ prerequisite }}</li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}
+{%- if talent.Specials -%}
+**Specials:** 
+<ul class="specials">
+    {%- for special in talent.Specials -%}
+        <li>{{ special }}</li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}
 </header>
 
 {% include text-with-symbols.html content=talent.Text %}

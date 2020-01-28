@@ -27,6 +27,14 @@ $bg-color: #252a34;
         }
 
         transition: background-color 0.5s, border-color 1s;
+
+        ul.prerequisites,
+        ul.specials {
+            margin: 0;
+            li {
+                margin: 0;
+            }
+        }
     }
 
     &.two-columns {
@@ -35,6 +43,7 @@ $bg-color: #252a34;
         }
     }
 
+    & > h1,
     & > h2,
     & > h3 {
         flex-basis: 100%;
