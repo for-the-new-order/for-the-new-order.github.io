@@ -6,6 +6,7 @@
       - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
       - Rank 3
       - Leadership 1
+      - Knowledge (Warfare) 1
   Specials:
       - Cost 1 Contribution Rank
   Text: |-
@@ -30,7 +31,6 @@
   Prerequisites:
       - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
       - Rank 4
-      - Leadership 1
       - Squadron Leader I
   Text: |-
       To activate Squadron Leader II, the character must make an medium (??) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy. 
@@ -51,6 +51,7 @@
       - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
       - Rank 5
       - Leadership 2
+      - Knowledge (Warfare) 2
       - Squadron Leader II
   Specials:
       - Cost 1 Contribution Rank
@@ -74,7 +75,6 @@
   Prerequisites:
       - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
       - Rank 6
-      - Leadership 2
       - Squadron Leader III
   Text: |-
       To activate Squadron Leader IV, the character must make an very hard (????) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy.
