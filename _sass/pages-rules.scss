@@ -2,3 +2,41 @@
 .genesys-symbol {
     cursor: help;
 }
+
+$talent-box-margin: 0.5%;
+$bg-color: #252a34;
+
+.talents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+
+    .talent {
+        flex-basis: 100% - $talent-box-margin * 2;
+        border: 1px solid darken($bg-color, 2%);
+        border-radius: 5px;
+        padding: 0 25px 10px;
+        margin: $talent-box-margin;
+        background-color: darken($bg-color, 1%);
+
+        &:hover {
+            border-color: darken($bg-color, 5%);
+            background-color: darken($bg-color, 2.5%);
+        }
+
+        transition: background-color 0.5s, border-color 1s;
+    }
+
+    &.two-columns {
+        .talent {
+            flex-basis: 50% - $talent-box-margin * 2;
+        }
+    }
+
+    & > h2,
+    & > h3 {
+        flex-basis: 100%;
+    }
+}
