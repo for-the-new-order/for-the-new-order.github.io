@@ -1,5 +1,5 @@
 ---
-title: Stormtrooper
+title: Stormtrooper Sergent
 display-attributes: true
 display-characteristics: true
 display-skills: true

@@ -1,0 +1,3 @@
+---
+title: Imperial Navy Trooper
+---

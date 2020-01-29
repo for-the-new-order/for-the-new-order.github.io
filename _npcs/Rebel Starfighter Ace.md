@@ -1,5 +1,5 @@
 ---
-title: Stormtrooper
+title: Rebel Starfighter Ace
 display-attributes: true
 display-characteristics: true
 display-skills: true

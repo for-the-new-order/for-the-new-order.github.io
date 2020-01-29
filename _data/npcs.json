@@ -1,6 +1,8 @@
 {
     "Stormtrooper": {
+        "folder": "Generic/NPCs",
         "clan": "Empire",
+        "corp": "Stormtrooper",
         "type": "MINION",
         "image_path": "/assets/images/npcs/stormtrooper.jpg",
         "attributes": {
@@ -2178,6 +2180,243 @@
                     "url": "https://starwars.fandom.com/wiki/Dorin_Millavec"
                 }
             ]
+        }
+    },
+    "Rebel Starfighter Pilot": {
+        "folder": "Generic/NPCs",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "type": "MINION",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Cool, Gunnery, Piloting (Space)",
+        "equipment": ["Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)", "Flight suit"],
+        "description": [
+            "Prior to the Battle of Yavin, starfighter pilots were already a celebrated group among the ranks of the Alliance. Pilots are often considered arrogant and coddled by High Command. Whether this perception is true or not, most Alliance pilots are extremely confident to the point of being cocky."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "415"
+        }
+    },
+    "Rebel Starfighter Ace": {
+        "folder": "Generic/NPCs",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Cool 3", "Gunnery 2", "Piloting (Space) 3"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Astromech droid"
+        ],
+        "description": [
+            "Many pilots who achieve the distinction of ace are hopelessly arrogant and utterly convinced of their own superiority, lending credence to such beliefs. Starfighter aces are the darlings of the Alliance, a tremendous asset in the Galactic Civil War, and all too often, a tremendous annoyance to other members of the Rebellion."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "415"
+        }
+    },
+    "Imperial Navy Trooper": {
+        "folder": "Generic/NPCs",
+        "clan": "Empire",
+        "corp": "Navy",
+        "type": "MINION",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Perception, Ranged (Light)",
+        "equipment": [
+            "Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "Blast vest and helmet (+1 soak)"
+        ],
+        "description": [
+            "Often confused with the rank-and-file of the Imperial Army, much to the consternation of both groups, Naval troopers fulfill essentially the same purpose for the Imperial Navy. Standard duties for naval troopers include the supervision of any and all prisoners aboard a vessel, simple guard duty, escort details for important guests, and boarding actions against enemy vessels."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "419"
+        }
+    },
+    "Tie Pilot": {
+        "folder": "Generic/NPCs",
+        "clan": "Empire",
+        "corp": "Navy",
+        "type": "MINION",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Gunnery, Piloting (Space)",
+        "equipment": ["Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)", "Flight suit"],
+        "description": [
+            "The pilots produced by the Empire's starfighter training programs are head-and-shoulders above any other equivalent force in the galaxy."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "423"
+        }
+    },
+    "Tie Ace": {
+        "folder": "Generic/NPCs",
+        "clan": "Empire",
+        "corp": "Navy",
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Gunnery 2", "Piloting (Space) 2"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Sensory augmentation package (add [AD] to any Perception checks made by the character)."
+        ],
+        "description": [
+            "The pilots produced by the Empire's starfighter training programs are head-and-shoulders above any other equivalent force in the galaxy."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "423"
+        }
+    },
+    "Stormtrooper Sergent": {
+        "folder": "Generic/NPCs",
+        "clan": "Empire",
+        "corp": "Stormtrooper",
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 3,
+            "presence": 1
+        },
+        "skills": [
+            "Athletics 2",
+            "Discipline 2",
+            "Leadership 3",
+            "Melee 2",
+            "Ranged (Heavy) 2",
+            "Ranged (Light) 2",
+            "Resilience 2",
+            "Vigilance 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Tactical Direction",
+                "effect": "May perform a maneuver to direct one stormtrooper minion group within medium range. The group may perform an immediate free maneuver or add [BO] to its next check."
+            }
+        ],
+        "equipment": [
+            "Heavy blaster rifle (Ranged (Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Cumbersome 3)",
+            "Vibroknife (Melee; Damage 4; Critical 2; Engaged; Pierce 2, Vicious 1)",
+            "2 Frag Grenades (Ranged [Light]; Damage 8; Critical 4; Range [Short]; Blast 6, Limited Ammo 1)",
+            "Stormtrooper armor (+2 soak)",
+            "Utility belt",
+            "Extra reloads"
+        ],
+        "description": [
+            "Stormtroopers who survive engagements with high marks are promoted to the position of sergeant. Typically this involves command of a single squadron."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "420"
         }
     }
 }

@@ -1,5 +1,5 @@
 ---
-title: Stormtrooper
+title: Imperial Navy Trooper
 display-attributes: true
 display-characteristics: true
 display-skills: true
