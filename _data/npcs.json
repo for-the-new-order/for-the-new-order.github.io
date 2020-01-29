@@ -2187,7 +2187,7 @@
         "clan": "Rebels",
         "corp": "Navy",
         "type": "MINION",
-        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2220,7 +2220,7 @@
         "clan": "Rebels",
         "corp": "Navy",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -2257,7 +2257,7 @@
         "clan": "Empire",
         "corp": "Navy",
         "type": "MINION",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/imperial-army-trooper.jpg",
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2293,7 +2293,7 @@
         "clan": "Empire",
         "corp": "Navy",
         "type": "MINION",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/tie-pilot.jpg",
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2326,7 +2326,7 @@
         "clan": "Empire",
         "corp": "Navy",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/tie-pilot-ace.jpg",
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -2363,7 +2363,7 @@
         "clan": "Empire",
         "corp": "Stormtrooper",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "image_path": "/assets/images/npcs/stormtrooper.jpg",
         "attributes": {
             "wounds": 12,
             "defense": {
