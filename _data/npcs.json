@@ -2351,7 +2351,8 @@
             "Sensory augmentation package (add [AD] to any Perception checks made by the character)."
         ],
         "description": [
-            "The pilots produced by the Empire's starfighter training programs are head-and-shoulders above any other equivalent force in the galaxy."
+            "The pilots produced by the Empire's starfighter training programs are head-and-shoulders above any other equivalent force in the galaxy.",
+            "The aces, typically squad leaders and seasoned combat veterans, are a match for even the most arrogant Alliance starhghter pilot."
         ],
         "reference": {
             "source": "ACRB",
