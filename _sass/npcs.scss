@@ -1,4 +1,4 @@
-@import "_mixins";
+@import '_mixins';
 
 .npcs {
     .npc-list-item,
@@ -85,21 +85,21 @@
         // }
     }
 
-    section.npc-categories {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    // section.npc-categories {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     justify-content: space-between;
 
-        .npc-category {
-            flex-basis: 32%;
-            ul.npc-category-items {
-                list-style-type: none;
-                padding-left: 0;
-                // li {
-                // }
-            }
-        }
-    }
+    //     // .npc-category {
+    //     //     flex-basis: 32%;
+    //     //     ul.npc-category-items {
+    //     //         list-style-type: none;
+    //     //         padding-left: 0;
+    //     //         // li {
+    //     //         // }
+    //     //     }
+    //     // }
+    // }
 
     .related-npcs {
         & > h2 {

@@ -41,7 +41,7 @@
 {%- comment -%} List categories > npcs {%- endcomment -%}
 {%- for category in categories -%}
     
-    <div class="npc-category"><h2>{{ category }}</h2><ul class="npc-category-items">
+    <div class="npc-category"><h2 id="{{ category | slugify }}">{{ category }}</h2><ul class="npc-category-items">
 
     {%- for name in names -%}
         {%- assign data = site.data.npcs[name] -%}
