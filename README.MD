@@ -1,3 +1,9 @@
+# For the New Order
+
+Uri: https://fortheneworder.rpg.solutions/
+
+# My notepad
+
 Mount removable media: (e.g. D:)
 
 ```bash
@@ -45,3 +51,9 @@ Fix:
 ```
 sudo apt-get install zlib1g-dev
 ```
+
+## Install Powershell on Ubuntu
+
+To run the ps1 scripts:
+
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7#ubuntu-1804

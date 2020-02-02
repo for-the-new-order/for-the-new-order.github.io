@@ -122,7 +122,6 @@
             "starfighters": "24 starfighters",
             "troops": "75 troops"
         },
-
         "customization": {
             "hard_points": 2
         },
@@ -568,7 +567,6 @@
             "primary": "Class 1.5",
             "navicomputer": "No"
         },
-
         "skill": "Piloting",
         "complement": "1 pilot",
         "passenger_capacity": "None",
@@ -904,7 +902,7 @@
         "description": [
             "The TS-800 Max is fully automated high-security prison ships made by Sienar Fleet Systems. It is also used to transfer high-value prisoners from one detention center to another.",
             "Each detention level is composed of 160 cells, guarded by six security droids, with a single entry point at its center. Four security droids are guarding the central turbolift while the two others are patrolling the wings. Additional security droids are available in case of an emergency but could take a minute or two to reach any point in the ship. There is 30 cell block in the ship, for a total of 4800 prisoners.",
-            "![Detention Level Plan](/assets/images/vehicles/deck-plans/TS-800-Max-Prison-Freighter.png)"
+            "[![Detention Level Plan](/assets/images/vehicles/deck-plans/TS-800-Max-Prison-Freighter.png)](/assets/images/vehicles/deck-plans/TS-800-Max-Prison-Freighter.png)"
         ],
         "skill": "Operating",
         "consumables": "5 years",
@@ -917,7 +915,7 @@
         },
         "complements": {
             "crew": "Multiple droids that maintain and operate the ship",
-            "starfighters": "12 starfighters",
+            "starfighters": "12 TIE Interceptor or automated starfighters",
             "troops": "250 security droids"
         },
         "passenger_capacity": "Up to 60 imperial personnel member",

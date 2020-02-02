@@ -277,7 +277,8 @@
         {
             "name": "Juno's X-Wing",
             "frontMatter": ["display-characteristics: false", "display-weapons: false"]
-        }
+        },
+        { "name": "Gaoler" }
     ],
     "to-be-revealed-soon": [{ "name": "TBD" }],
     "other-npcs": {
