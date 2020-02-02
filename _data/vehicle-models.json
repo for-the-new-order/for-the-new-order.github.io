@@ -880,5 +880,79 @@
                 "specs": "Fire Arc Forward; Damage 3; Critical 5; Range [Close]; Auto-fire"
             }
         ]
+    },
+    "TS-800 Max Prison Freighter": {
+        "image_path": "/assets/images/vehicles/TS-800-Max-Prison-Freighter.jpg",
+        "characteristics": {
+            "silhouette": 7,
+            "max_speed": 3,
+            "handling": -1,
+            "hull_trauma": {
+                "threshold": 85,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 55,
+                "current": 0
+            },
+            "protection": {
+                "defense": "2,2,2,2",
+                "armor": 6
+            },
+            "massive": 1
+        },
+        "description": [
+            "The TS-800 Max is fully automated high-security prison ships made by Sienar Fleet Systems. It is also used to transfer high-value prisoners from one detention center to another.",
+            "Each detention level is composed of 160 cells, guarded by six security droids, with a single entry point at its center. Four security droids are guarding the central turbolift while the two others are patrolling the wings. Additional security droids are available in case of an emergency but could take a minute or two to reach any point in the ship. There is 30 cell block in the ship, for a total of 4800 prisoners.",
+            "![Detention Level Plan](/assets/images/vehicles/deck-plans/TS-800-Max-Prison-Freighter.png)"
+        ],
+        "skill": "Operating",
+        "consumables": "5 years",
+        "encumbrance_capacity": 7500,
+        "manufacturer": "Sienar Fleet Systems",
+        "hyperdrive": {
+            "primary": "Class 3",
+            "backup": "Class 15",
+            "navicomputer": "No - limited to 2 or 4 preprogrammed jumps"
+        },
+        "complements": {
+            "crew": "Multiple droids that maintain and operate the ship",
+            "starfighters": "12 starfighters",
+            "troops": "250 security droids"
+        },
+        "passenger_capacity": "Up to 60 imperial personnel member",
+        "customization": {
+            "hard_points": 4
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 15000000,
+            "rarity": 8,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "5 dorsal, 5 port, and 5 starboard medium turbolasers",
+                "specs": "Fire Arc Forward, Port, and Starboard, or Forward and Port, or Forward and Starboard; Damage 10; Critical 3; Range [Long]; Breach 3, Slow-Firing 1"
+            },
+            {
+                "name": "5 port and 5 starboard quad light turbolaser batteries",
+                "specs": "Fire Arc Forward and Port or Forward and Starboard; Damage 9; Critical 3; Range [Medium]; Breach 2, Linked 3, Slow-Firing 1"
+            },
+            {
+                "name": "5 forward, 5 port, 5 starboard, and 5 aft point defense laser cannons",
+                "specs": "Fire Arc Forward or Port or Starboard or Aft; Damage 5; Critical 3; Range [Close]; Accurate 1"
+            },
+            {
+                "name": "1 forward, 1 port, and 1 starboard heavy tractor beam emitters",
+                "specs": "Fire Arc Forward or Starboard or Port; Damage -; Critical Hit -; Range [Short]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "FTNO",
+            "based_on": ["Vindicator-class Heavy Cruiser"]
+        }
     }
 }

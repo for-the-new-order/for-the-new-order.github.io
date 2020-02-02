@@ -448,5 +448,18 @@
         "model": {
             "name": "T-65B Multi-Role Starfighter"
         }
+    },
+    "Gaoler": {
+        "model": {
+            "name": "TS-800 Max Prison Freighter"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["The Gaoler is the ship used by the Empire to lure the rebels."]
+                }
+            ]
+        }
     }
 }
