@@ -17,8 +17,8 @@
 @mixin npcs-vehicles-content() {
     .content {
         img {
-            max-width: 500px;
-            max-height: 500px;
+            // max-width: 500px;
+            // max-height: 500px;
             float: right;
             margin-left: 1em;
             margin-bottom: 1em;
@@ -57,6 +57,7 @@
 
     & > section {
         margin: 1.5em 0;
+        width: 100%;
 
         header {
             // font-size: 1.25rem;
@@ -138,4 +139,36 @@
         transform: translate(-50%, -50%);
         flex: unset;
     }
+}
+
+@mixin two-column-container() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+@mixin two-column-item($box-margin: 0.5%, $bg-color: #252a34) {
+    flex-basis: 50% - $box-margin * 2;
+    @include n-column-item($box-margin, $bg-color);
+}
+@mixin one-column-item($box-margin: 0.5%, $bg-color: #252a34) {
+    flex-basis: 100% - $box-margin * 2;
+    @include n-column-item($box-margin, $bg-color);
+}
+
+@mixin n-column-item($box-margin: 0.5%, $bg-color: #252a34) {
+    border: 1px solid darken($bg-color, 2%);
+    border-radius: 5px;
+    padding: 0 25px 10px;
+    margin: $box-margin;
+    background-color: darken($bg-color, 1%);
+
+    &:hover {
+        border-color: darken($bg-color, 5%);
+        background-color: darken($bg-color, 2.5%);
+    }
+
+    transition: background-color 0.5s, border-color 1s;
 }

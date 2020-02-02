@@ -1,32 +1,15 @@
+@import '_mixins';
+
 .talent-source-tooltip,
 .genesys-symbol {
     cursor: help;
 }
 
-$talent-box-margin: 0.5%;
-$bg-color: #252a34;
-
 .talents {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: flex-start;
+    @include two-column-container();
 
     .talent {
-        flex-basis: 100% - $talent-box-margin * 2;
-        border: 1px solid darken($bg-color, 2%);
-        border-radius: 5px;
-        padding: 0 25px 10px;
-        margin: $talent-box-margin;
-        background-color: darken($bg-color, 1%);
-
-        &:hover {
-            border-color: darken($bg-color, 5%);
-            background-color: darken($bg-color, 2.5%);
-        }
-
-        transition: background-color 0.5s, border-color 1s;
+        @include one-column-item();
 
         ul.prerequisites,
         ul.specials {
@@ -39,7 +22,7 @@ $bg-color: #252a34;
 
     &.two-columns {
         .talent {
-            flex-basis: 50% - $talent-box-margin * 2;
+            @include two-column-item();
         }
     }
 

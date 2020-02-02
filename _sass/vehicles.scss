@@ -1,16 +1,32 @@
 @import '_mixins';
 
-.vehicles {
-    .vehicle-list-item,
-    .vehicle-details {
-        @include npcs-vehicles-content();
-    }
+div.vehicles {
+    @include two-column-container();
 
+    .vehicle-list-item {
+        @include two-column-item();
+
+        h2 {
+            margin-top: 1em;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+
+            border: 2px solid #51555d;
+            border-radius: 10px;
+        }
+    }
+}
+
+.vehicles {
     .vehicle-list-item {
         @include npcs-vehicles-item-footer();
     }
 
     .vehicle-details {
+        @include npcs-vehicles-content();
         @include npcs-vehicles-details-base();
 
         display: flex;
