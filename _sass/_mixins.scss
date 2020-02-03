@@ -150,6 +150,10 @@
     align-content: flex-start;
 }
 
+@mixin three-column-item($box-margin: 0.5%, $bg-color: #252a34) {
+    flex-basis: 1/3 * 100 - $box-margin * 3;
+    @include n-column-item($box-margin, $bg-color);
+}
 @mixin two-column-item($box-margin: 0.5%, $bg-color: #252a34) {
     flex-basis: 50% - $box-margin * 2;
     @include n-column-item($box-margin, $bg-color);

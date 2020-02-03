@@ -62,46 +62,60 @@
                     width: 50%;
                 }
             }
+
+            &.talents,
+            &.abilities,
+            &.equipment-list,
+            &.skills {
+                @include two-column-container();
+
+                header {
+                    width: 100%;
+                }
+                .talent,
+                .ability,
+                .equipment {
+                    @include two-column-item();
+                    padding: 0 25px;
+
+                    & > strong {
+                        margin: 1em 0 0.5em;
+                        display: block;
+                    }
+                }
+                .skill {
+                    @include three-column-item();
+                }
+            }
         }
-
-        // .skills {
-        //     .skill {
-        //     }
-        // }
-
-        // .talents {
-        //     .talent{
-        //     }
-        // }
-
-        // .abilities {
-        //     .ability {
-        //     }
-        // }
-
-        // .equipment-list {
-        //     .equipment{
-        //     }
-        // }
     }
 
-    // section.npc-categories {
-    //     display: flex;
-    //     flex-wrap: wrap;
-    //     justify-content: space-between;
-
-    //     // .npc-category {
-    //     //     flex-basis: 32%;
-    //     //     ul.npc-category-items {
-    //     //         list-style-type: none;
-    //     //         padding-left: 0;
-    //     //         // li {
-    //     //         // }
-    //     //     }
-    //     // }
-    // }
+    section.npc-categories {
+        .npc-category {
+            h2 {
+                width: 100%;
+            }
+            ul.npc-category-items {
+                @include two-column-container();
+                list-style-type: none;
+                padding-left: 0;
+                li {
+                    @include two-column-item();
+                }
+            }
+        }
+    }
 
     .related-npcs {
+        section.npc-categories {
+            .npc-category {
+                ul.npc-category-items {
+                    li {
+                        @include three-column-item();
+                    }
+                }
+            }
+        }
         & > h2 {
             font-size: 1.5em;
         }
