@@ -2481,5 +2481,403 @@
                 }
             ]
         }
+    },
+    "Erl Jandro": {
+        "folder": "Empire/Gaoler",
+        "initialSeed": 408463,
+        "image_path": "/assets/images/npcs/tie-pilot-ace.jpg",
+        "type": "rival",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["Lieutenant Jandro is the second in command in Jenssar's squadron."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Conniving",
+        "motivation": {
+            "strength": {
+                "name": "Witty",
+                "description": "Your character is extremely clever, with the right joke for a friend and the perfect insult for a foe. Some may love their company, while others loathe their cutting remarks, but none can deny that your character has the sharpest tongue around."
+            },
+            "flaw": {
+                "name": "Anger",
+                "description": "Your character lashes out at themself or others with undue cause or with extreme force. They are quick to resort to physical force to solve their problems."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 3,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+
+        "skills": ["Gunnery 3", "Piloting (Space) 3", "Leadership 1", "Knowledge (Warfare) 1", "Charm 2"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Sensory augmentation package (add [AD] to any Perception checks made by the character)."
+        ],
+        "description": ["Erl Jandro is the second in command of an imperial TIE squadron, working to become a squad leader himself."],
+        "abilities": [
+            {
+                "name": "Squadron Leader II",
+                "effect": "Can control a minion group and use up to two of them, upgrading a skill check twice (once per turn)."
+            },
+            {
+                "name": "Moral Booster",
+                "effect": "Once per encounter, after making a joke, can flip a story point, roll a simple (-) Charm check and heal his wingmans. Each [SU] heals 1 hull threshold, each [AD] heals 1 system strain, and each [TR] can “respawn” a defeated wingman."
+            }
+        ]
+    },
+    "Emlyn Macmorran": {
+        "folder": "Empire/Gaoler",
+        "initialSeed": 342736,
+        "image_path": "/assets/images/npcs/tie-pilot-ace.jpg",
+        "type": "rival",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["Second Lieutenant Macmorran is the third in command in Jenssar's squadron."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Second Lieutenant",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Bad odor",
+        "motivation": {
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 3,
+            "presence": 1
+        },
+        "skills": ["Gunnery 3", "Piloting (Space) 3", "Leadership 1", "Knowledge (Warfare) 1"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Sensory augmentation package (add [AD] to any Perception checks made by the character)."
+        ],
+        "description": ["Emlyn Macmorran is a talented imperial TIE pilot, flying in Erl Jandro's squadron."],
+        "abilities": [
+            {
+                "name": "Squadron Leader II",
+                "effect": "Can control a minion group and use up to two of them, upgrading a skill check twice (once per turn)."
+            },
+            {
+                "name": "Coordinated Assignations",
+                "effect": "Upon a successful attack, may spend [AD][AD] or [TR] to apply effects on the target. See [Coordinated Assignations](Coordinated Assignations) for more info."
+            }
+        ]
+    },
+    "Teodorico Vittorini": {
+        "folder": "Rebels/A-Cers",
+        "initialSeed": 19166,
+        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "type": "rival",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["Major Vittorini is the second in command in the A-Cers squadron, confronting Jenssar's forces."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Major",
+        "gender": "Male",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Allergic",
+        "motivation": {
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, your character has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Cool 3", "Gunnery 4", "Piloting (Space) 4"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Astromech droid"
+        ],
+        "description": ["Teodorico Vittorini is the second in command in the A-Cers squadron."],
+        "talents": [
+            {
+                "name": "Offensive Driving",
+                "effect": "Make an opposed Piloting check (max medium range). If successful, roll two criticals and apply on to Vittorini's vehicle and the other to the target's. [TR] can add +20 to one critical result, while [DE] can add +20 to both."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Squadron Leader III",
+                "effect": "Can control a minion group and use up to three of them, upgrading a skill check three times (once per turn)."
+            }
+        ]
+    },
+    "Patricia Butschek": {
+        "folder": "Rebels/A-Cers",
+        "initialSeed": 230018,
+        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": [
+                        "Lieutenant Butschek is the leader of the X-Wing filling up for the missing A-Wing in the A-Cers squadron, confronting Jenssar's forces."
+                    ]
+                }
+            ]
+        },
+        "rank": "Lieutenant",
+        "gender": "Female",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Obsequious",
+        "motivation": {
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 4,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Cool 3", "Gunnery 4", "Piloting (Space) 4"],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Astromech droid"
+        ],
+        "description": ["Lieutenant Butschek leads 4 X-Wing, and aspire to make it to the A-Cers squadron."],
+        "talents": [
+            {
+                "name": "Fine Tuning 2",
+                "effect": "When reducing the amount of system strain a starship or vehicle suffers, reduce it by 2 additional strain."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Squadron Leader III",
+                "effect": "Can control a minion group and use up to three of them, upgrading a skill check three times (once per turn)."
+            }
+        ]
+    },
+    "Alyssa Rush Esterly": {
+        "folder": "Rebels/A-Cers",
+        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": [
+                        "Commander Esterly, a.k.a. _Rush_, is the leader of the A-Cers, the notorious A-Wing rebel squadron, confronting Jenssar's forces."
+                    ]
+                }
+            ]
+        },
+        "rank": "Commander",
+        "gender": "Female",
+        "clan": "Rebels",
+        "corp": "Navy",
+        "personality": "Snooty",
+        "motivation": {
+            "desires": {
+                "name": "Vengeance",
+                "description": "Someone or something wronged your character in the past, and the character has sworn to exact revenge against the aggrieving party."
+            },
+            "fear": {
+                "name": "Humiliation",
+                "description": "Characters who are especially concerned with how others view them are particularly sensitive to potential humiliation. They go out of their way to avoid ever appearing wrong or foolish, even if that means missing out on exciting opportunities and experiences."
+            },
+            "strength": {
+                "name": "Independent",
+                "description": "When everyone else has failed or fallen, your character knows they can still count on themself. Your character may get along with others just fine but makes sure not to rely on others. That way, when things go wrong, your character is always prepared to deal with the situation and isn’t waiting for someone else to help."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 5,
+            "intellect": 3,
+            "cunning": 4,
+            "willpower": 4,
+            "presence": 4
+        },
+        "skills": [
+            "Cool 4",
+            "Gunnery 4",
+            "Piloting (Space) 5",
+            "Vigilance 2",
+            "Perception 3",
+            "Knowledge (Warfare) 3",
+            "Leadership 3",
+            "Ranged (Heavy) 3",
+            "Ranged (Light) 3"
+        ],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Flight suit",
+            "Astromech droid"
+        ],
+        "description": [
+            "Many pilots who achieve the distinction of ace are hopelessly arrogant and utterly convinced of their own superiority, lending credence to such beliefs. Starfighter aces are the darlings of the Alliance, a tremendous asset in the Galactic Civil War, and all too often, a tremendous annoyance to other members of the Rebellion."
+        ],
+        "talents": [
+            {
+                "name": "Barrel Roll",
+                "effect": "When your vehicle suffers a hit, suffer 3 system strain to reduce the damage by Piloting."
+            },
+            {
+                "name": "Master Pilot",
+                "effect": "Once per round, may suffer 2 strain to perform any action as a maneuver."
+            },
+            {
+                "name": "Tricky Target",
+                "effect": "Count starship as having a silhouette 1 lower when being attacked."
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Signature Vehicle",
+                "effect": "..."
+            },
+            {
+                "name": "Customized Cooling Unit 2",
+                "effect": "+4 system strain threshold"
+            },
+            {
+                "name": "Fortified StructurePermalink 2",
+                "effect": "+2 hull trauma threshold"
+            },
+            {
+                "name": "Tuned Maneuvering Thrusters 1",
+                "effect": "+1 handling"
+            },
+            {
+                "name": "Bolstered Armor 1",
+                "effect": "+1 armor"
+            },
+            {
+                "name": "Reinforced Frame",
+                "effect": "Add Massive 1"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Squadron Leader III",
+                "effect": "Can control a minion group and use up to three of them, upgrading a skill check three times (once per turn)."
+            },
+            {
+                "name": "Superhuman Reflexes",
+                "effect": "After generating [DE] on a Piloting check, flip a story point to cancel the [DE] and add [AD] equal to ranks in Cool."
+            }
+        ]
     }
 }

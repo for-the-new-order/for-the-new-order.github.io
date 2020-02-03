@@ -8,5 +8,5 @@ classes:
     - genesys-theme
     - wide
 ---
-    
+
 {% include vehicles-list.html vehicles=site.vehicles %}

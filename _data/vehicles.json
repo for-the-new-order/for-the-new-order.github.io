@@ -437,10 +437,47 @@
         "model": {
             "name": "RZ-1 Light Interceptor"
         },
+        "campaign_info": {
+            "flight_officer": "Alyssa Rush Esterly",
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["Rush pilots this A-Wing when trying to liberate Fitz Gorr from the Gaoler."]
+                }
+            ]
+        },
+        "description": [
+            "Physical Countermeasures: Add [SE] to all Gunnery checks made using missiles, rockets, or torpedoes targeting the ship. At GM discretion, an attacker may spend [AD][AD] or [TR] to deplete the flares, chaff, or anti-warhead missiles until the end of the encounter."
+        ],
+        "customization": {
+            "hard_points": 1,
+            "modifications": [
+                {
+                    "cost": 1,
+                    "name": "Physical Countermeasures",
+                    "effects": "Add [SE] to all Gunnery checks made using missiles, rockets, or torpedoes targeting the ship.",
+                    "description": [
+                        "At GM discretion, an attacker may spend [AD][AD] or [TR] to deplete the flares, chaff, or anti-warhead missiles until the end of the encounter."
+                    ]
+                }
+            ]
+        },
         "characteristics": {
+            "silhouette": "3/2",
+            "handling": 4,
+            "hull_trauma": {
+                "threshold": 8,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
             "protection": {
+                "defense": "1,-,-,0",
                 "armor": 3
-            }
+            },
+            "massive": 1
         }
     },
     "Juno's X-Wing": {

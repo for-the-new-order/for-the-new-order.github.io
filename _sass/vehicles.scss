@@ -39,13 +39,44 @@ div.vehicles {
         }
 
         .info-item {
+            @include two-column-item();
+            padding: 0 25px;
+
             strong {
                 text-transform: capitalize;
+            }
+
+            &.massive {
+                margin-top: 1em;
+            }
+
+            &.two-lines {
+                strong {
+                    display: block;
+                }
+            }
+            &.wide {
+                width: 100%;
+                flex-basis: 100%;
             }
         }
 
         .general-info {
-            width: 40%;
+            @include two-column-container();
+
+            header {
+                width: 100%;
+            }
+            // .info-item {
+            //     @include two-column-item();
+            //     padding: 0 25px;
+            // }
+        }
+
+        .complements-info {
+            .info-item {
+                background-color: unset;
+            }
         }
 
         .campaign-info {
@@ -62,6 +93,37 @@ div.vehicles {
                 }
             }
             .encounters {
+            }
+        }
+
+        .customization {
+            .hard-points {
+                margin-bottom: 1em;
+            }
+            .modifications {
+                @include two-column-container();
+
+                .modification {
+                    @include two-column-item();
+                }
+            }
+        }
+
+        .weapons-list {
+            @include two-column-container();
+
+            header {
+                width: 100%;
+                font-weight: bold;
+            }
+
+            .weapons {
+                @include two-column-item();
+
+                header {
+                    display: block;
+                    margin-top: 0.5em;
+                }
             }
         }
     }

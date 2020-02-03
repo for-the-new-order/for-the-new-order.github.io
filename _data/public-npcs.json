@@ -254,7 +254,31 @@
                 "display-abilities: true",
                 "display-equipment: true"
             ]
-        }
+        },
+        {
+            "name": "Emlyn Macmorran",
+            "frontMatter": [
+                "display-attributes: true",
+                "display-characteristics: true",
+                "display-skills: true",
+                "display-talents: true",
+                "display-abilities: true",
+                "display-equipment: true"
+            ]
+        },
+        {
+            "name": "Erl Jandro",
+            "frontMatter": [
+                "display-attributes: true",
+                "display-characteristics: true",
+                "display-skills: true",
+                "display-talents: true",
+                "display-abilities: true",
+                "display-equipment: true"
+            ]
+        },
+        { "name": "Teodorico Vittorini" },
+        { "name": "Patricia Butschek" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },

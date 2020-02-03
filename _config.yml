@@ -435,6 +435,7 @@ defaults:
           display-campaign-info: true
           display-flight_officer: true
           display-encounters: true
+          display-customization: true
 
     - scope:
           path: '_gm-vehicles'
@@ -461,6 +462,7 @@ defaults:
           display-campaign-info: true
           display-flight_officer: true
           display-encounters: true
+          display-customization: true
 
     - scope:
           path: '_ugly'

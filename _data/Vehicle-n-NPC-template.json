@@ -142,5 +142,25 @@
                 "description": ""
             }
         }
+    },
+    "NPC-talents": {
+        "talents": [
+            {
+                "name": "...",
+                "effect": "..."
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "...",
+                "effect": "..."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "...",
+                "effect": "..."
+            }
+        ]
     }
 }

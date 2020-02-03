@@ -37,93 +37,98 @@ display-weapons: true
         <h2>
             {{ page.title }}
             {%- if data.model and data.model.name and page.title <> data.model.name -%}
-            <small class="model">{{data.model.name}}</small>
+                <small class="model">{{data.model.name}}</small>
             {%- endif -%}
         </h2>
     </header>
     <section class="content">
         {%- if data.image_path -%}
-        <img src="{{ data.image_path }}" alt="{{ page.title }}" />
+            <img src="{{ data.image_path }}" alt="{{ page.title }}" />
         {%- elsif model and model.image_path -%}
-        <img src="{{ model.image_path }}" alt="{{ page.title }}" />
+            <img src="{{ model.image_path }}" alt="{{ page.title }}" />
         {%- endif -%}
         {%- if  page.content -%}
-        {{ page.content }}
+            {{ page.content }}
         {%- endif -%}
         {%- if page.display-exerpt -%}
-        <p>{{ page.exerpt }}</p>
+            <p>{{ page.exerpt }}</p>
         {%- endif -%}
         {%- if model and model.description -%}
-        {%- for d in model.description -%}
-        {{- d | markdownify -}}
-        {%- endfor -%}
+            {%- for d in model.description -%}
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+            {%- endfor -%}
         {%- endif -%}
         {%- if page.display-description and data.description -%}
-        {%- for d in data.description -%}
-        {{- d | markdownify -}}
-        {%- endfor -%}
+            {%- for d in data.description -%}
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+            {%- endfor -%}
         {%- endif -%}
         {%- if page.display-gm-description and data.gm-description -%}
-        <h3>(GM)</h3>
-        {%- for d in data.gm-description -%}
-        {{- d | markdownify -}}
-        {%- endfor -%}
+            <h3>(GM)</h3>
+            {%- for d in data.gm-description -%}
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+            {%- endfor -%}
         {%- endif -%}
     </section>
 
     {%- if model -%}
-    {%- include vehicle-stats.html stats=model overrides=data -%}
+        {%- include vehicle-stats.html stats=model overrides=data -%}
     {%- else -%}
-    {%- include vehicle-stats.html stats=data -%}
+        {%- include vehicle-stats.html stats=data -%}
     {%- endif -%}
 
     {%- if page.display-campaign-info and data.campaign_info -%}
     <section class="campaign-info">
         <header>Campaign Information</header>
         {%- if page.display-flight_officer and data.campaign_info.flight_officer -%}
-        {%- assign flight_officer = site.data.npcs[data.campaign_info.flight_officer] -%}
-        {%- if flight_officer -%}
-        <div class="flight-officer-info">
-            <a href="{{baseUrl}}/npcs/{{ data.campaign_info.flight_officer | slugify }}"
-                class="btn btn--small btn--success" target="_blank">
-                <i class="fas fa-info-circle"></i>
-                &nbsp;More info about {{flight_officer.rank}} {{data.campaign_info.flight_officer}}
-            </a>
-            <h2>Captain Information</h2>
-            <img src="{{ flight_officer.image_path }}" alt="{{ data.campaign_info.flight_officer }}" />
-            <strong>{{ data.campaign_info.flight_officer }}{% if flight_officer.rank %},
-                {{flight_officer.rank}}{% endif %}</strong>
-            <small>({{ flight_officer.clan }}) | {{ flight_officer.type }}</small>
-            {% for d in flight_officer.description %}
-            {{- d | markdownify -}}
-            {% endfor %}
-        </div>
-        {%- endif -%}
+            {%- assign flight_officer = site.data.npcs[data.campaign_info.flight_officer] -%}
+            {%- if flight_officer -%}
+                <div class="flight-officer-info">
+                    <a href="{{baseUrl}}/npcs/{{ data.campaign_info.flight_officer | slugify }}"
+                        class="btn btn--small btn--success" target="_blank">
+                        <i class="fas fa-info-circle"></i>
+                        &nbsp;More info about {{flight_officer.rank}} {{data.campaign_info.flight_officer}}
+                    </a>
+                    <h2>Flight officer</h2>
+                    <img src="{{ flight_officer.image_path }}" alt="{{ data.campaign_info.flight_officer }}" />
+                    <strong>{{ data.campaign_info.flight_officer }}{% if flight_officer.rank %},
+                        {{flight_officer.rank}}{% endif %}</strong>
+                    <small>({{ flight_officer.clan }}) | {{ flight_officer.type }}</small>
+                    {% for d in flight_officer.description %}
+                    {{- d | markdownify -}}
+                    {% endfor %}
+                </div>
+            {%- endif -%}
         {%- endif -%}
         {%- if page.display-encounters and data.campaign_info.encounters -%}
-        <div class="encounters">
-            {%- for e in data.campaign_info.encounters -%}
-            <div class="encounter">
-                {%- assign episode = site.data.adventures[e.episode] -%}
-                {%- if episode -%}
-                <a href="/game-content/adventures/{{e.episode}}" class="btn btn--small btn--success"
-                    style="float: right;" target="_blank">
-                    <i class="fas fa-info-circle"></i>
-                    &nbsp;Adventure info
-                </a>
-                <h2>{{ episode.name }}</h2>
-                {%- else -%}
-                <h2>{{ e.episode }}</h2>
-                {%- endif -%}
-                {%- for d in episode.description -%}
-                {{- d | markdownify -}}
-                {%- endfor -%}
-                {%- for d in e.description -%}
-                {{- d | markdownify -}}
+            <div class="encounters">
+                {%- for e in data.campaign_info.encounters -%}
+                <div class="encounter">
+                    {%- assign episode = site.data.adventures[e.episode] -%}
+                    {%- if episode -%}
+                        <a href="/game-content/adventures/{{e.episode}}" class="btn btn--small btn--success"
+                            style="float: right;" target="_blank">
+                            <i class="fas fa-info-circle"></i>
+                            &nbsp;Adventure info
+                        </a>
+                        <h2>{{ episode.name }}</h2>
+                    {%- else -%}
+                        <h2>{{ e.episode }}</h2>
+                    {%- endif -%}
+                    {%- for d in episode.description -%}
+                        {%- assign markdownifiedDesc = d | markdownify -%}
+                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                    {%- endfor -%}
+                    {%- for d in e.description -%}
+                        {%- assign markdownifiedDesc = d | markdownify -%}
+                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                    {%- endfor -%}
+                </div>
                 {%- endfor -%}
             </div>
-            {%- endfor -%}
-        </div>
         {%- endif -%}
     </section>
     {%- endif -%}

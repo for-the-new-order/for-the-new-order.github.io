@@ -2,84 +2,186 @@
 {%- assign overrides = include.overrides -%}
 
 {%- if page.display-general-info -%}
-{%- if stats.skill or stats.complement or stats.passenger_capacity or stats.consumables or stats.encumbrance_capacity or stats.cost or overrides.skill or overrides.complement or overrides.passenger_capacity or overrides.consumables or overrides.encumbrance_capacity or overrides.cost -%}
-<section class="general-info">
-    <header>general information</header>
-    
-    {%- if overrides and overrides.skill -%}
-        <div class="info-item">
-            <strong>skill: </strong>
-            {{ overrides.skill }}
-        </div>
-    {%- elsif stats.skill -%}
-        <div class="info-item">
-            <strong>skill: </strong>
-            {{ stats.skill }}
-        </div>
+    {%- if stats.skill or stats.complement or stats.passenger_capacity or stats.consumables or stats.encumbrance_capacity or stats.cost or overrides.skill or overrides.complement or overrides.passenger_capacity or overrides.consumables or overrides.encumbrance_capacity or overrides.cost -%}
+        <section class="general-info">
+            <header>general information</header>
+            
+            {%- if overrides and overrides.manufacturer -%}
+                {%- assign manufacturer = overrides.manufacturer -%}
+            {%- elsif stats.manufacturer -%}
+                {%- assign manufacturer = stats.manufacturer -%}
+            {%- endif -%}
+            {%- if manufacturer -%}
+                <div class="info-item two-lines wide">
+                    <strong>manufacturer: </strong>
+                    {{ manufacturer }}
+                </div>
+            {%- endif -%}
+
+            {%- if overrides and overrides.hyperdrive -%}
+                {%- assign hyperdrive = overrides.hyperdrive -%}
+            {%- elsif stats.hyperdrive -%}
+                {%- assign hyperdrive = stats.hyperdrive -%}
+            {%- endif -%}
+            {%- if hyperdrive -%}
+                <div class="info-item wide">
+                    <strong>hyperdrive: </strong>
+                    <ul>
+                        {%- if hyperdrive.primary -%}
+                            <li>
+                                <strong>primary: </strong>
+                                {{ hyperdrive.primary }}
+                            </li>
+                        {%- endif -%}
+                        {%- if hyperdrive.navicomputer -%}
+                            <li>
+                                <strong>navicomputer: </strong>
+                                {{ hyperdrive.navicomputer }}
+                            </li>
+                        {%- endif -%}
+                        {%- if hyperdrive.backup -%}
+                            <li>
+                                <strong>backup: </strong>
+                                {{ hyperdrive.backup }}
+                            </li>
+                        {%- endif -%}
+                    </ul>
+                </div>
+            {%- endif -%}
+
+            {%- if overrides and overrides.skill -%}
+                <div class="info-item">
+                    <strong>skill: </strong>
+                    {{ overrides.skill }}
+                </div>
+            {%- elsif stats.skill -%}
+                <div class="info-item">
+                    <strong>skill: </strong>
+                    {{ stats.skill }}
+                </div>
+            {%- endif -%}
+
+            {%- if overrides and overrides.sensor and overrides.sensor.range -%}
+                {%- assign sensorRange = overrides.sensor.range -%}
+            {%- elsif stats.sensor and stats.sensor.range -%}
+                {%- assign sensorRange = stats.sensor.range -%}
+            {%- else -%}
+                {%- assign sensorRange = false -%}
+            {%- endif -%}
+            {%- if sensorRange -%}
+                <div class="info-item">
+                    <strong>sensor range: </strong>
+                    {{ sensorRange }}
+                </div>
+            {%- endif -%}
+
+            {%- if overrides and overrides.complement -%}
+                <div class="info-item">
+                    <strong>complement: </strong>
+                    {{ overrides.complement }}
+                </div>
+            {%- elsif stats.complement -%}
+                <div class="info-item">
+                    <strong>complement: </strong>
+                    {{ stats.complement }}
+                </div>
+            {%- endif -%}    
+
+            {%- if overrides and overrides.passenger_capacity -%}
+                <div class="info-item">
+                    <strong>passenger capacity: </strong>
+                    {{ overrides.passenger_capacity }}
+                </div>
+            {%- elsif stats.passenger_capacity -%}
+                <div class="info-item">
+                    <strong>passenger capacity: </strong>
+                    {{ stats.passenger_capacity }}
+                </div>
+            {%- endif -%}
+            
+            {%- if overrides and overrides.consumables -%}
+                <div class="info-item">
+                    <strong>consumables: </strong>
+                    {{ overrides.consumables }}
+                </div>
+            {%- elsif stats.consumables -%}
+                <div class="info-item">
+                    <strong>consumables: </strong>
+                    {{ stats.consumables }}
+                </div>
+            {%- endif -%}
+            
+            {%- if overrides and overrides.encumbrance_capacity -%}
+                <div class="info-item">
+                    <strong>encumbrance capacity: </strong>
+                    {{ overrides.encumbrance_capacity }}
+                </div>
+            {%-elsif stats.encumbrance_capacity -%}
+                <div class="info-item">
+                    <strong>encumbrance capacity: </strong>
+                    {{ stats.encumbrance_capacity }}
+                </div>
+            {%- endif -%}
+
+
+            {%- if page.display-cost -%}
+                {%- if overrides and overrides.cost -%}
+                    {%- assign price=overrides.cost.price -%}
+                    {%- assign rarity=overrides.cost.rarity -%}
+                    {%- assign restricted=overrides.cost.restricted -%}
+                {%- elsif stats.cost -%}
+                    {%- assign price=stats.cost.price -%}
+                    {%- assign rarity=stats.cost.rarity -%}
+                    {%- assign restricted=stats.cost.restricted -%}
+                {%- endif -%}
+                <div class="info-item">
+                    <strong>cost: </strong>
+                    {%- include numberWithCommas.html number=price -%}{%- if restricted -%}(R){%- endif -%}/{{ rarity }}
+                </div>
+            {% endif %}
+        </section>
     {%- endif -%}
 
-    {%- if overrides and overrides.complement -%}
-        <div class="info-item">
-            <strong>complement: </strong>
-            {{ overrides.complement }}
-        </div>
-    {%- elsif stats.complement -%}
-        <div class="info-item">
-            <strong>complement: </strong>
-            {{ stats.complement }}
-        </div>
+    {%- if overrides and overrides.complements -%}
+        {%- assign complements = overrides.complements -%}
+    {%- elsif stats.complements -%}
+        {%- assign complements = stats.complements -%}
+    {%- else -%}
+        {%- assign complements = false -%}
     {%- endif -%}
 
-    {%- if overrides and overrides.passenger_capacity -%}
-        <div class="info-item">
-            <strong>passenger capacity: </strong>
-            {{ overrides.passenger_capacity }}
-        </div>
-    {%- elsif stats.passenger_capacity -%}
-        <div class="info-item">
-            <strong>passenger capacity: </strong>
-            {{ stats.passenger_capacity }}
-        </div>
+    {%- if complements -%}
+        <section class="complements-info">
+            <header>Complements</header>
+            {%- if complements.crew -%}
+                <div class="info-item two-lines">
+                    <strong>crew: </strong>
+                    {{ complements.crew }}
+                </div>
+            {%- endif -%}
+            {%- if complements.starfighters -%}
+                <div class="info-item two-lines">
+                    <strong>starfighters: </strong>
+                    {{ complements.starfighters }}
+                </div>
+            {%- endif -%}
+            {%- if complements.vehicles -%}
+                <div class="info-item two-lines">
+                    <strong>vehicles: </strong>
+                    {{ complements.vehicles }}
+                </div>
+            {%- endif -%}
+            {%- if complements.troops -%}
+                <div class="info-item two-lines">
+                    <strong>troops: </strong>
+                    {{ complements.troops }}
+                </div>
+            {%- endif -%}
+        </section>
     {%- endif -%}
-    
-    {%- if overrides and overrides.consumables -%}
-        <div class="info-item">
-            <strong>consumables: </strong>
-            {{ overrides.consumables }}
-        </div>
-    {%- elsif stats.consumables -%}
-        <div class="info-item">
-            <strong>consumables: </strong>
-            {{ stats.consumables }}
-        </div>
-    {%- endif -%}
-    
-    {%- if overrides and overrides.encumbrance_capacity -%}
-        <div class="info-item">
-            <strong>encumbrance capacity: </strong>
-            {{ overrides.encumbrance_capacity }}
-        </div>
-    {%-elsif stats.encumbrance_capacity -%}
-        <div class="info-item">
-            <strong>encumbrance capacity: </strong>
-            {{ stats.encumbrance_capacity }}
-        </div>
-    {%- endif -%}
-
-    {% if overrides and overrides.cost and page.display-cost %}
-        <div class="info-item">
-            <strong>cost: </strong>
-            {%- include numberWithCommas.html number=overrides.cost.price -%}/{{ overrides.cost.rarity }}
-        </div>
-    {% elsif stats.cost and page.display-cost %}
-        <div class="info-item">
-            <strong>cost: </strong>
-            {%- include numberWithCommas.html number=stats.cost.price -%}/{{ stats.cost.rarity }}
-        </div>
-    {% endif %}
-</section>
 {%- endif -%}
-{%- endif -%}
+
+
 
 {%- if page.display-characteristics -%}
     {%- if stats.characteristics or overrides.characteristics -%}
@@ -89,6 +191,8 @@
         {%- if overrides and overrides.characteristics and overrides.characteristics.protection -%}{%- assign protection = overrides.characteristics.protection -%}{%- else -%}{%- assign protection = stats.characteristics.protection -%}{%- endif -%}
         {%- if overrides and overrides.characteristics and overrides.characteristics.hull_trauma -%}{%- assign hull_trauma = overrides.characteristics.hull_trauma -%}{%- else -%}{%- assign hull_trauma = stats.characteristics.hull_trauma -%}{%- endif -%}
         {%- if overrides and overrides.characteristics and overrides.characteristics.system_strain -%}{%- assign system_strain = overrides.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = stats.characteristics.system_strain -%}{%- endif -%}
+        {%- if overrides and overrides.characteristics and overrides.characteristics.massive -%}{%- assign massive = overrides.characteristics.massive -%}{%- else -%}{%- assign massive = stats.characteristics.massive -%}{%- endif -%}
+
 
         <section class="characteristics">
             <header>characteristics</header>
@@ -141,6 +245,13 @@
                     </div>
                 </div>
             </div>
+
+            {%- if massive -%}
+                <div class="massive info-item">
+                    <strong>massive {{ massive }}: </strong>
+                    <p>When making an attack targeting this starship, the critical rating of any weapons used counts as {{ massive }} higher.</p>
+                </div>
+            {%- endif -%}
         </section>
     {%- endif -%}
 {%- endif -%}
@@ -156,10 +267,62 @@
             <header>weapons</header>
             {%- for w in weapons -%}
                 <div class="weapons">
-                    <strong>{{ w.name }}: </strong>
+                    <header>{{ w.name }}</header>
                     {% include text-with-symbols.html content=w.specs %}
                 </div>
             {%- endfor -%}
+        </section>
+    {%- endif -%}
+{%- endif -%}
+
+{%- if true or page.display-customization -%}
+    {%- if overrides and overrides.customization -%}
+        {%- assign customization = overrides.customization -%}
+    {%- else -%}
+        {%- assign customization = stats.customization -%}
+    {%- endif -%}
+    {%- if customization -%}
+        <section class="customization">
+            <header>customization</header>
+            <div class="hard-points info-item">
+                <strong>hard points: </strong>
+                {{ customization.hard_points }}
+            </div>
+
+            {%- if overrides and overrides.customization and overrides.customization.modifications -%}
+                {%- assign modifications = overrides.customization.modifications -%}
+            {%- else -%}
+                {%- assign modifications = stats.customization.modifications -%}
+            {%- endif -%}
+            {%- if modifications -%}
+                <section class="modifications">
+                    {%- for m in modifications -%}
+                        <section class="modification">
+                            <header>{{ m.name }}</header>
+                            {%- if m.cost -%}
+                                <div class="cost info-item">
+                                    <strong>cost: </strong>
+                                    {{ m.cost }}
+                                </div>
+                            {%- endif -%}
+                            {%- if m.effects -%}
+                                <div class="effects info-item">
+                                    <strong>effects: </strong>
+                                    {% include text-with-symbols.html content=m.effects %}
+                                </div>
+                            {%- endif -%}
+                            {%- if m.description -%}
+                                <div class="description info-item">
+                                    {%- for d in m.description -%}
+                                        {%- assign markdownifiedDesc = d | markdownify -%}
+                                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                    {%- endfor -%}
+                                </div>
+                            {%- endif -%}
+                        </section>
+                    {%- endfor -%}
+                </section>
+            {%- endif -%}
         </section>
     {%- endif -%}
 {%- endif -%}
