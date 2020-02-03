@@ -952,5 +952,57 @@
             "source": "FTNO",
             "based_on": ["Vindicator-class Heavy Cruiser"]
         }
+    },
+    "TIE/in": {
+        "alias": "TIE Interceptor",
+        "image_path": "/assets/images/vehicles/tie-interceptor.jpg",
+        "description": [
+            "The Imperial Navy's TIE/in light interceptor is one of the most feared fighter craft in the Empire's arsenal. These fighters are reserved for the finest pilots in the Imperial Navy.",
+            "TIE/in squadrons are typically reserved for front-line battle where they are used as shock troops, screaming in on enemy fighters and destroying them with their powerful quad-linked heavy blaster cannons before their unfortunate targets know what's hit them."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 6,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 10,
+                "current": 0
+            },
+            "protection": {
+                "defense": "0",
+                "armor": 2
+            }
+        },
+        "hyperdrive": {
+            "primary": "None",
+            "navicomputer": "None"
+        },
+        "customization": {
+            "hard_points": 0
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Sienar Fleet Systems",
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": 0,
+        "consumables": "2 days",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 75000,
+            "rarity": 5,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "Wingtip-mounted medium laser cannons",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
+            }
+        ]
     }
 }

@@ -461,5 +461,18 @@
                 }
             ]
         }
+    },
+    "TIE Interceptor": {
+        "model": {
+            "name": "TIE/in"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["TIE/in are deployed from the Gaoler to defend the the ship against the rebels."]
+                }
+            ]
+        }
     }
 }
