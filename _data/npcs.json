@@ -2419,5 +2419,67 @@
             "source": "ACRB",
             "page": "420"
         }
+    },
+    "K4-S Jailor Droid": {
+        "folder": "Empire/Gaoler",
+        "clan": "Empire",
+        "corp": "Stormtrooper",
+        "type": "RIVAL",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["K4-S Jailor Droid are the main guards on board of the Gaoler."]
+                }
+            ]
+        },
+        "image_path": "/assets/images/npcs/k4-security-droid.jpg",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 2,
+                "ranged": 1
+            },
+            "soak": 3,
+            "strain": 0
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Melee 2", "Ranged (Light) 3", "Vigilance 2"],
+        "talents": [
+            {
+                "name": "Heightened Awareness",
+                "effect": "Allies within short range of the character add [BO] to their Perception and Vigilance checks. Allies engaged with him add [BO][BO] instead."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Droid",
+                "effect": " Droids do not need to eat, sleep, or breathe, and are unaffected by toxins and poisons."
+            }
+        ],
+        "equipment": [
+            "Armored Plating (+1 soak; +1 defense)",
+            "Built-in blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range (Medium); Stun Setting)",
+            "Security Staff (Melee; Damage 4; Critical 2; Range (Engaged); Defensive 1, Disorient 2, Pierce 2)",
+            "Snare Launcher (Ranged [Light]; Damage 0; Critical -; Range (Short); Ensnare 5, Limited Ammo 1)"
+        ],
+        "description": ["K4-S Jailor Droid are a specialized version of the K4 Security Droid aiming at containing prisoneers."],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "K4 Security Droid",
+                    "source": "JOY",
+                    "page": "90"
+                }
+            ]
+        }
     }
 }

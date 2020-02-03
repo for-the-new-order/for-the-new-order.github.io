@@ -950,7 +950,7 @@
         ],
         "reference": {
             "source": "FTNO",
-            "based_on": ["Vindicator-class Heavy Cruiser"]
+            "based_on": [{ "model": "Vindicator-class Heavy Cruiser" }]
         }
     },
     "TIE/in": {
