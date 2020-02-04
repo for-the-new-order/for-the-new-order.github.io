@@ -61,3 +61,5 @@ gamemaster: # Game master menu
             url: /gm/npcs/by-folders
           - title: Vehicles
             url: /gm/vehicles/
+          - title: Adventures
+            url: /gm/adventures/

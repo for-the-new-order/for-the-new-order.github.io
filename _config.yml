@@ -503,6 +503,21 @@ defaults:
           toc: false
           is-gm: false
 
+    - scope:
+          path: '_gm-adventures'
+          type: gm-adventures
+      values:
+          layout: adventure
+          excerpt: ''
+          sidebar:
+              nav: 'rulesandgamecontent'
+          classes:
+              - adventures
+              - genesys-theme
+              - wide
+          toc: false
+          is-gm: true
+
 collections:
     npcs:
         output: true
@@ -522,3 +537,6 @@ collections:
     adventures:
         output: true
         permalink: /game-content/adventures/:name
+    gm-adventures:
+        output: true
+        permalink: /gm/adventures/:name

@@ -1,6 +1,6 @@
 ---
-title: Adventures
-permalink: /game-content/adventures/
+title: Game Master Vehicles
+permalink: /gm/adventures/
 regenerate: true
 ---
 

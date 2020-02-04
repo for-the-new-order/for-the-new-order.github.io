@@ -5,21 +5,18 @@ param (
 $adventures = (Get-Content _data/adventures.json) | ConvertFrom-Json
 
 function Main {
-    Set-Players-Adventures
+    Set-Players-Adventures '_adventures'
+    Set-Players-Adventures '_gm-adventures'
 }
 
-function Set-Players-Adventures {
+function Set-Players-Adventures($baseDirectory) {
     Write-Host "=======================" -ForegroundColor Cyan
-    Write-Host "Handling PCs adventures" -ForegroundColor Cyan
+    Write-Host "Handling $baseDirectory adventures" -ForegroundColor Cyan
     Write-Host "=======================" -ForegroundColor Cyan
-
-    Write-Host "================" -ForegroundColor Cyan
-    Write-Host "Handling GM NPCs" -ForegroundColor Cyan
-    Write-Host "================" -ForegroundColor Cyan
     $adventures.PsObject.Properties | ForEach-Object {
         $name = $_.Name
         $title = $_.Value.name
-        $path = "_adventures/$name.md"
+        $path = "$baseDirectory/$name.md"
         $content = @"
 ---
 title: '$title'
