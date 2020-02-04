@@ -4,10 +4,11 @@ permalink: /rules/talents/
 toc_sticky: false
 regenerate: true
 toc: false
-classes: 
-  - pages-rules
-  - genesys-theme
-  - wide
+classes:
+    - pages-rules
+    - genesys-theme
+    - talents-database
+    - wide
 ---
 
 ## Imperial campaign
@@ -65,11 +66,13 @@ Here are the few differences with this list and the Genesys Talents Expanded v5.
 <hr>
 
 {::options parse_block_html="true" /}
+
 <section class="talents">
 
 {%- assign tiers = site.data.talents | map: 'Tier' | uniq | sort -%}
 
 # Squadron Leader talents
+
 <small>
 This is a work in progress; don't purchase those until further notice.
 Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) instead.
@@ -83,16 +86,16 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 ## Tier {{ tier }}
 
 {% for talent in talentsSquadronLeader %}
-    {%- if talent.Tier == tier -%}
-        {%- assign sources = talent.Source | split: ", " -%}
-        {%- for sourceAbbr in sources -%}
-            {%- assign trimmedAbbr = sourceAbbr | strip -%}
-            {%- if trimmedAbbr contains "CCC-" -%}
-                {%- assign isCCC = true -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {% include talent.md talent=talent %}
-    {%- endif -%}
+{%- if talent.Tier == tier -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- for sourceAbbr in sources -%}
+{%- assign trimmedAbbr = sourceAbbr | strip -%}
+{%- if trimmedAbbr contains "CCC-" -%}
+{%- assign isCCC = true -%}
+{%- endif -%}
+{%- endfor -%}
+{% include talent.md talent=talent %}
+{%- endif -%}
 {% endfor %}
 
 {% endfor %}
@@ -101,6 +104,7 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 <section class="talents two-columns">
 
 # Regular Talents
+
 <hr>
 
 {%- assign talents = site.data.talents | sort: 'Name' | sort: 'Tier' -%}
@@ -109,35 +113,37 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 ## Tier {{ tier }}
 
 {% for talent in talents %}
-    {%- if talent.Tier == tier and talent.Depreciated == "" -%}
-        {%- assign sources = talent.Source | split: ", " -%}
-        {%- unless sources contains 'ROT' or sources contains 'SOTB' -%}
-            {%- assign isCCC = false -%}
-            {%- for sourceAbbr in sources -%}{%- assign trimmedAbbr = sourceAbbr | strip -%}{%- if trimmedAbbr contains "CCC-" -%}{%- assign isCCC = true -%}{%- endif -%}{%- endfor -%}
-            {%- unless isCCC -%}
-                {%- include talent.md talent=talent -%}
-            {%- endunless -%}
-        {%- endunless -%}
-    {%- endif -%}
+{%- if talent.Tier == tier and talent.Depreciated == "" -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- unless sources contains 'ROT' or sources contains 'SOTB' -%}
+{%- assign isCCC = false -%}
+{%- for sourceAbbr in sources -%}{%- assign trimmedAbbr = sourceAbbr | strip -%}{%- if trimmedAbbr contains "CCC-" -%}{%- assign isCCC = true -%}{%- endif -%}{%- endfor -%}
+{%- unless isCCC -%}
+{%- include talent.md talent=talent -%}
+{%- endunless -%}
+{%- endunless -%}
+{%- endif -%}
 {% endfor %}
 
 {% endfor %}
 
 ## Community Created Content
+
 <hr>
 
 {% for talent in talents %}
-    {%- assign sources = talent.Source | split: ", " -%}
-    {%- unless sources contains 'ROT' -%}
-        {%- assign isCCC = false -%}
-        {%- for sourceAbbr in sources -%}{%- assign trimmedAbbr = sourceAbbr | strip -%}{%- if trimmedAbbr contains "CCC-" -%}{%- assign isCCC = true -%}{%- endif -%}{%- endfor -%}
-        {%- if isCCC -%}
-            {%- include talent.md talent=talent -%}
-        {%- endif -%}
-    {%- endunless -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- unless sources contains 'ROT' -%}
+{%- assign isCCC = false -%}
+{%- for sourceAbbr in sources -%}{%- assign trimmedAbbr = sourceAbbr | strip -%}{%- if trimmedAbbr contains "CCC-" -%}{%- assign isCCC = true -%}{%- endif -%}{%- endfor -%}
+{%- if isCCC -%}
+{%- include talent.md talent=talent -%}
+{%- endif -%}
+{%- endunless -%}
 {% endfor %}
 
 ## Shadow of the Beanstalk
+
 <hr>
 
 {% for tier in tiers %}
@@ -146,17 +152,18 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 
 {%- assign talents = site.data.talents | sort: 'Tier' -%}
 {% for talent in talents %}
-    {%- if talent.Tier == tier -%}
-        {%- assign sources = talent.Source | split: ", " -%}
-        {%- if sources contains 'SOTB' -%}
-            {%- include talent.md talent=talent -%}
-        {%- endif -%}
-    {%- endif -%}
+{%- if talent.Tier == tier -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- if sources contains 'SOTB' -%}
+{%- include talent.md talent=talent -%}
+{%- endif -%}
+{%- endif -%}
 {% endfor %}
 
 {% endfor %}
 
 ## Realms of Terrinoth
+
 <hr>
 
 {% for tier in tiers %}
@@ -165,23 +172,24 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 
 {%- assign talents = site.data.talents | sort: 'Tier' -%}
 {% for talent in talents %}
-    {%- if talent.Tier == tier -%}
-        {%- assign sources = talent.Source | split: ", " -%}
-        {%- if sources contains 'ROT' -%}
-            {%- include talent.md talent=talent -%}
-        {%- endif -%}
-    {%- endif -%}
+{%- if talent.Tier == tier -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- if sources contains 'ROT' -%}
+{%- include talent.md talent=talent -%}
+{%- endif -%}
+{%- endif -%}
 {% endfor %}
 
 {% endfor %}
 
 ## Depreciated
+
 <hr>
 
 {% for talent in talents %}
-    {%- if talent.Depreciated != "" -%}
-        {%- include talent.md talent=talent -%}
-    {%- endif -%}
+{%- if talent.Depreciated != "" -%}
+{%- include talent.md talent=talent -%}
+{%- endif -%}
 {% endfor %}
 
 </section>

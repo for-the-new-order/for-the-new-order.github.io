@@ -5,6 +5,14 @@
         "corp": "Stormtrooper",
         "type": "MINION",
         "image_path": "/assets/images/npcs/stormtrooper.jpg",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": "There is no greater symbol of the Emperor's New Order than the elite stormtroopers legions!"
+                }
+            ]
+        },
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2775,6 +2783,7 @@
         "clan": "Rebels",
         "corp": "Navy",
         "personality": "Snooty",
+        "personality_description": "Showing disapproval or contempt toward others, especially those considered to belong to a lower social class.",
         "motivation": {
             "desires": {
                 "name": "Vengeance",

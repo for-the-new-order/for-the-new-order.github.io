@@ -4,31 +4,32 @@
 .genesys-symbol {
     cursor: help;
 }
+.talents-database {
+    .talents {
+        @include two-column-container();
 
-.talents {
-    @include two-column-container();
+        .talent {
+            @include one-column-item();
 
-    .talent {
-        @include one-column-item();
-
-        ul.prerequisites,
-        ul.specials {
-            margin: 0;
-            li {
+            ul.prerequisites,
+            ul.specials {
                 margin: 0;
+                li {
+                    margin: 0;
+                }
             }
         }
-    }
 
-    &.two-columns {
-        .talent {
-            @include two-column-item();
+        &.two-columns {
+            .talent {
+                @include two-column-item();
+            }
         }
-    }
 
-    & > h1,
-    & > h2,
-    & > h3 {
-        flex-basis: 100%;
+        & > h1,
+        & > h2,
+        & > h3 {
+            flex-basis: 100%;
+        }
     }
 }

@@ -125,11 +125,38 @@
     }
 }
 
-$dark-bg-color: #252a34;
-$bg-color: lighten($dark-bg-color, 10%);
-$border-color: lighten($dark-bg-color, 20%);
+$base-bg-color: #000; //252a34
+$dark-bg-color: rgba($base-bg-color, 0.3);
+$bg-color: rgba(lighten($base-bg-color, 10%), 0.33);
+$border-color: rgba(lighten(#252a34, 20%), 0.5);
+$box-text-color: darken(#fff, 20%);
 $gutter: 3px;
 $border-radius: 3px;
+
+.adventures {
+    .related-npc {
+        color: $box-text-color;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+
+        .description {
+            font-size: 0.7em;
+            height: 5em;
+            overflow: auto;
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            padding: $gutter;
+            background-color: $bg-color;
+
+            & > p:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
 .npc-stats-card {
     .characteristics {
         display: flex;
@@ -138,6 +165,7 @@ $border-radius: 3px;
         justify-content: space-between;
         align-items: stretch;
         align-content: flex-start;
+        margin-top: $gutter;
 
         .characteristic {
             border: 1px solid $border-color;
@@ -159,7 +187,7 @@ $border-radius: 3px;
                 background-color: $dark-bg-color;
             }
             .name {
-                font-size: 0.5em;
+                font-size: 0.6em;
                 text-align: center;
             }
         }
@@ -196,7 +224,7 @@ $border-radius: 3px;
             }
 
             .name {
-                font-size: 0.5em;
+                font-size: 0.6em;
                 text-align: center;
                 order: 1;
             }
@@ -216,6 +244,84 @@ $border-radius: 3px;
                     flex-grow: 1;
                     flex-shrink: 1;
                 }
+            }
+        }
+    }
+
+    .text-section {
+        font-size: 0.75em;
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: flex-start;
+        // flex-wrap: wrap;
+
+        header {
+            font-weight: bold;
+            margin-right: 0.25em;
+            display: inline;
+        }
+        span {
+            font-size: 0.9em;
+
+            &:not(:last-child) {
+                &:after {
+                    content: ', ';
+                    white-space: pre;
+                }
+            }
+        }
+    }
+    .group-skills {
+    }
+    .skills {
+    }
+    .talents {
+    }
+    .abilities {
+    }
+    .equipment {
+        span {
+            &:hover {
+                border: 1px solid $box-text-color;
+                padding: 0 3px;
+            }
+        }
+    }
+    .motivations {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: flex-start;
+        margin-top: $gutter;
+
+        .personality,
+        .motivation {
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            padding: $gutter;
+            // background-color: $bg-color;
+        }
+        .personality {
+            width: 100%;
+            margin-bottom: $gutter;
+            text-align: center;
+        }
+
+        .motivation {
+            width: calc(25% - 2px);
+            strong {
+                text-transform: uppercase;
+                display: block;
+                text-align: center;
+            }
+            a {
+                display: block;
+                text-align: center;
             }
         }
     }
