@@ -46,179 +46,206 @@ regenerate: true
             </section>
         {%- endif -%}
 
-        <section class="related-npcs">
-            <header><h2>Related NPCs</h2></header>
-            {%- assign npcs = site.data.npcs -%}
-            {%- for npcArr in npcs-%}
-                {%- assign npc = npcArr[1] -%}
-                {%- assign npcName = npcArr[0] -%}
-                {%- if npc.campaign_info and npc.campaign_info.encounters -%}
-                    {%- assign episodeDataObj = npc.campaign_info.encounters | where: "episode", page.key -%}
-                    {%- if episodeDataObj -%}
-                        {%- assign episodeData = episodeDataObj[0] -%}
-                        {%- if episodeData -%}
-                            <div class="related-npc" style="background-image: url({{ npc.image_path }});">
-                                <strong>
-                                    <a href="{{baseUrl}}/npcs/{{ npcName | slugify }}" target="_blank">
-                                        {{ npc.rank }}
-                                        {{ npcName }}
-                                        {%- if npc.clan -%}
-                                            <small>
-                                                {{ npc.clan }}, {{ npc.corp }}
-                                                {%- if npc.type -%}
-                                                    &nbsp;({{ npc.type | upcase }})
-                                                {%- endif -%}
-                                            </small>
-                                        {%- endif -%}
-                                    </a>
-                                </strong>
 
-                                <section class="description">
-                                    {%- if episodeData.description -%}
-                                        {%- for d in episodeData.description -%}
-                                            {%- assign markdownifiedDesc = d | markdownify -%}
-                                            {%- include text-with-symbols.html content=markdownifiedDesc -%}
-                                        {%- endfor -%}
-                                    {%- elsif npc.description -%}
-                                        {%- assign markdownifiedDesc = npc.description[0] | markdownify -%}
-                                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
-                                    {%- endif -%}
-                                </section>
+        {%- if page.is-gm -%}
+            {%- assign names = site.gm-npcs | map: "title" -%}
+        {%- else -%}
+            {%- assign names = site.npcs | map: "title" -%}
+        {%- endif -%}
 
-                                {%- if page.is-gm -%}
-                                <section class="npc-stats-card">
-                                    <section class="characteristics">
-                                        <div class="characteristic">
-                                            <div class="value">1</div>
-                                            <div class="name">Brawn</div>
-                                        </div>
-                                        <div class="characteristic">
-                                            <div class="value">2</div>
-                                            <div class="name">Agility</div>
-                                        </div>
-                                        <div class="characteristic">
-                                            <div class="value">3</div>
-                                            <div class="name">Intellect</div>
-                                        </div>
-                                        <div class="characteristic">
-                                            <div class="value">4</div>
-                                            <div class="name">Cunning</div>
-                                        </div>
-                                        <div class="characteristic">
-                                            <div class="value">5</div>
-                                            <div class="name">Willpower</div>
-                                        </div>
-                                        <div class="characteristic">
-                                            <div class="value">6</div>
-                                            <div class="name">Presence</div>
-                                        </div>
-                                    </section>
-                                    <section class="attributes">
-                                        <div class="attribute">
-                                            <div class="value">1</div>
-                                            <div class="name">Soak</div>
-                                        </div>
-                                        <div class="attribute">
-                                            <div class="value">2</div>
-                                            <div class="name">Wound</div>
-                                        </div>
-                                        <div class="attribute">
-                                            <div class="value">3</div>
-                                            <div class="name">Strain</div>
-                                        </div>
-                                        <div class="attribute">
-                                            <div class="name">Defence</div>
-                                            <div class="split-value">
-                                                <div class="defence-value">
-                                                    <div class="value">4</div>
-                                                    <div class="name">M</div>
-                                                </div>
-                                                <div class="defence-value">
-                                                    <div class="value">5</div>
-                                                    <div class="name">R</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    {%- if npc.minion_skills -%}
-                                        <section class="group-skills text-section">
-                                            <header>Skills (group only): </header>
-                                            <span>{{ npc.minion_skills }}</span>
-                                        </section>
-                                    {%- endif -%}
-                                    {%- if npc.skills -%}
-                                        <section class="skills text-section">
-                                            <header>Skills: </header>
-                                            {%- for skill in npc.skills -%}
-                                                <span>{{ skill }}</span>
-                                            {%- endfor -%}
-                                        </section>
-                                    {%- endif -%}
-                                    {%- if npc.talents -%}
-                                        <section class="talents text-section">
-                                            <header>Talents: </header>
-                                            {%- for talent in npc.talents -%}
-                                                <span><a href="javascript:;" title="{{ talent.effect }}">{{ talent.name }}</a></span>
-                                            {%- endfor -%}
-                                        </section>
-                                    {%- endif -%}
-                                    {%- if npc.abilities -%}
-                                        <section class="abilities text-section">
-                                            <header>Abilities: </header>
-                                            {%- for ability in npc.abilities -%}
-                                                <span><a href="javascript:;" title="{{ ability.effect }}">{{ ability.name }}</a></span>
-                                            {%- endfor -%}
-                                        </section>
-                                    {%- endif -%}
-                                    {%- if npc.equipment -%}
-                                        <section class="equipment text-section">
-                                            <header>Equipment: </header>
-                                            {%- for piece in npc.equipment -%}
-                                                <span>{{ piece }}</span>
-                                            {%- endfor -%}
-                                        </section>
-                                    {%- endif -%}
-                                    {%- if npc.personality or npc.motivation -%}
-                                        <section class="motivations text-section">
-                                            {%- if npc.personality -%}
-                                                <header class="personality"><a href="javascript:;" title="{{ npc.personality_description }}">{{ npc.personality }}</a></header>
-                                            {%- endif -%}
-                                            {%- if npc.motivation -%}
-                                                {%- if npc.motivation.desires -%}
-                                                    <section class="motivation">
-                                                        <strong>desires</strong>
-                                                        <a href="javascript:;" title="{{ npc.motivation.desires.description }}">{{ npc.motivation.desires.name }}</a>
-                                                    </section>
-                                                {%- endif -%}
-                                                {%- if npc.motivation.fear -%}
-                                                    <section class="motivation">
-                                                        <strong>fear</strong>
-                                                        <a href="javascript:;" title="{{ npc.motivation.fear.description }}">{{ npc.motivation.fear.name }}</a>
-                                                    </section>
-                                                {%- endif -%}
-                                                {%- if npc.motivation.strength -%}
-                                                    <section class="motivation">
-                                                        <strong>strength</strong>
-                                                        <a href="javascript:;" title="{{ npc.motivation.strength.description }}">{{ npc.motivation.strength.name }}</a>
-                                                    </section>
-                                                {%- endif -%}
-                                                {%- if npc.motivation.flaw -%}
-                                                    <section class="motivation">
-                                                        <strong>flaw</strong>
-                                                        <a href="javascript:;" title="{{ npc.motivation.flaw.description }}">{{ npc.motivation.flaw.name }}</a>
-                                                    </section>
-                                                {%- endif -%}
-                                            {%- endif -%}
-                                        </section>
-                                    {%- endif -%}
-                                </section>
-                                {%- endif -%}
-                            </div>
+        {%- capture npcClans -%}
+            {%- for name in names -%}
+                {%- assign data = site.data.npcs[name] -%}
+                {%- if data.clan -%}
+                    {%- if data.campaign_info and data.campaign_info.encounters -%}
+                        {%- assign episodeDataObj = data.campaign_info.encounters | where: "episode", page.key -%}
+                        {%- if episodeDataObj -%}
+                            {{ data.clan | downcase }},
                         {%- endif -%}
                     {%- endif -%}
                 {%- endif -%}
             {%- endfor -%}
-        </section>
+        {%- endcapture -%}
+        {%- assign npcClans = npcClans | split: ',' | uniq | sort -%}
+
+        {%- assign npcs = site.data.npcs | sort -%}
+        {%- for npcClan in npcClans -%}
+            <section class="related-npcs">
+                <header><h2>Related NPCs ({{ npcClan }})</h2></header>
+                {%- for npcArr in npcs -%}
+                    {%- assign npc = npcArr[1] -%}
+                    {%- assign npcName = npcArr[0] -%}
+                    {%- assign currentNpcClan = npc.clan | downcase -%}
+                    {%- if currentNpcClan == npcClan -%}
+                        {%- if npc.campaign_info and npc.campaign_info.encounters -%}
+                            {%- assign episodeDataObj = npc.campaign_info.encounters | where: "episode", page.key -%}
+                            {%- if episodeDataObj -%}
+                                {%- assign episodeData = episodeDataObj[0] -%}
+                                {%- if episodeData -%}
+                                    <div class="related-npc" style="background-image: url({{ npc.image_path }});">
+                                        <strong>
+                                            <a href="{{baseUrl}}/npcs/{{ npcName | slugify }}" target="_blank">
+                                                {{ npc.rank }}
+                                                {{ npcName }}
+                                                {%- if npc.clan -%}
+                                                    <small>
+                                                        {{ npc.clan }}, {{ npc.corp }}
+                                                        {%- if npc.type -%}
+                                                            &nbsp;({{ npc.type | upcase }})
+                                                        {%- endif -%}
+                                                    </small>
+                                                {%- endif -%}
+                                            </a>
+                                        </strong>
+
+                                        <section class="description">
+                                            {%- if episodeData.description -%}
+                                                {%- for d in episodeData.description -%}
+                                                    {%- assign markdownifiedDesc = d | markdownify -%}
+                                                    {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                                {%- endfor -%}
+                                            {%- elsif npc.description -%}
+                                                {%- assign markdownifiedDesc = npc.description[0] | markdownify -%}
+                                                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                            {%- endif -%}
+                                        </section>
+
+                                        {%- if page.is-gm -%}
+                                        <section class="npc-stats-card">
+                                            <section class="characteristics">
+                                                <div class="characteristic">
+                                                    <div class="value">1</div>
+                                                    <div class="name">Brawn</div>
+                                                </div>
+                                                <div class="characteristic">
+                                                    <div class="value">2</div>
+                                                    <div class="name">Agility</div>
+                                                </div>
+                                                <div class="characteristic">
+                                                    <div class="value">3</div>
+                                                    <div class="name">Intellect</div>
+                                                </div>
+                                                <div class="characteristic">
+                                                    <div class="value">4</div>
+                                                    <div class="name">Cunning</div>
+                                                </div>
+                                                <div class="characteristic">
+                                                    <div class="value">5</div>
+                                                    <div class="name">Willpower</div>
+                                                </div>
+                                                <div class="characteristic">
+                                                    <div class="value">6</div>
+                                                    <div class="name">Presence</div>
+                                                </div>
+                                            </section>
+                                            <section class="attributes">
+                                                <div class="attribute">
+                                                    <div class="value">1</div>
+                                                    <div class="name">Soak</div>
+                                                </div>
+                                                <div class="attribute">
+                                                    <div class="value">2</div>
+                                                    <div class="name">Wound</div>
+                                                </div>
+                                                <div class="attribute">
+                                                    <div class="value">3</div>
+                                                    <div class="name">Strain</div>
+                                                </div>
+                                                <div class="attribute">
+                                                    <div class="name">Defence</div>
+                                                    <div class="split-value">
+                                                        <div class="defence-value">
+                                                            <div class="value">4</div>
+                                                            <div class="name">M</div>
+                                                        </div>
+                                                        <div class="defence-value">
+                                                            <div class="value">5</div>
+                                                            <div class="name">R</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            {%- if npc.minion_skills -%}
+                                                <section class="group-skills text-section">
+                                                    <header>Skills (group only): </header>
+                                                    <span>{{ npc.minion_skills }}</span>
+                                                </section>
+                                            {%- endif -%}
+                                            {%- if npc.skills -%}
+                                                <section class="skills text-section">
+                                                    <header>Skills: </header>
+                                                    {%- for skill in npc.skills -%}
+                                                        <span>{{ skill }}</span>
+                                                    {%- endfor -%}
+                                                </section>
+                                            {%- endif -%}
+                                            {%- if npc.talents -%}
+                                                <section class="talents text-section">
+                                                    <header>Talents: </header>
+                                                    {%- for talent in npc.talents -%}
+                                                        <span><a href="javascript:;" title="{{ talent.effect }}">{{ talent.name }}</a></span>
+                                                    {%- endfor -%}
+                                                </section>
+                                            {%- endif -%}
+                                            {%- if npc.abilities -%}
+                                                <section class="abilities text-section">
+                                                    <header>Abilities: </header>
+                                                    {%- for ability in npc.abilities -%}
+                                                        <span><a href="javascript:;" title="{{ ability.effect }}">{{ ability.name }}</a></span>
+                                                    {%- endfor -%}
+                                                </section>
+                                            {%- endif -%}
+                                            {%- if npc.equipment -%}
+                                                <section class="equipment text-section">
+                                                    <header>Equipment: </header>
+                                                    {%- for piece in npc.equipment -%}
+                                                        <span>{{ piece }}</span>
+                                                    {%- endfor -%}
+                                                </section>
+                                            {%- endif -%}
+                                            {%- if page.is-gm and npc.personality or npc.motivation -%}
+                                                <section class="motivations text-section">
+                                                    {%- if npc.personality -%}
+                                                        <header class="personality"><a href="javascript:;" title="{{ npc.personality_description }}">{{ npc.personality }}</a></header>
+                                                    {%- endif -%}
+                                                    {%- if npc.motivation -%}
+                                                        {%- if npc.motivation.desires -%}
+                                                            <section class="motivation">
+                                                                <strong>desires</strong>
+                                                                <a href="javascript:;" title="{{ npc.motivation.desires.description }}">{{ npc.motivation.desires.name }}</a>
+                                                            </section>
+                                                        {%- endif -%}
+                                                        {%- if npc.motivation.fear -%}
+                                                            <section class="motivation">
+                                                                <strong>fear</strong>
+                                                                <a href="javascript:;" title="{{ npc.motivation.fear.description }}">{{ npc.motivation.fear.name }}</a>
+                                                            </section>
+                                                        {%- endif -%}
+                                                        {%- if npc.motivation.strength -%}
+                                                            <section class="motivation">
+                                                                <strong>strength</strong>
+                                                                <a href="javascript:;" title="{{ npc.motivation.strength.description }}">{{ npc.motivation.strength.name }}</a>
+                                                            </section>
+                                                        {%- endif -%}
+                                                        {%- if npc.motivation.flaw -%}
+                                                            <section class="motivation">
+                                                                <strong>flaw</strong>
+                                                                <a href="javascript:;" title="{{ npc.motivation.flaw.description }}">{{ npc.motivation.flaw.name }}</a>
+                                                            </section>
+                                                        {%- endif -%}
+                                                    {%- endif -%}
+                                                </section>
+                                            {%- endif -%}
+                                        </section>
+                                        {%- endif -%}
+                                    </div>
+                                {%- endif -%}
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endfor -%}
+            </section>
+        {%- endfor -%}
 
         <section class="related-vehicles">
             <header><h2>Related Vehicles</h2></header>
