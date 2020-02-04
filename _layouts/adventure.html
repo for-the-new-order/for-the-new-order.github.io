@@ -3,6 +3,13 @@ layout: single
 title: Adventure
 regenerate: true
 ---
+
+{%- if page.is-gm -%}
+    {%- assign baseUrl = '/gm' -%}
+{%- else -%}
+    {%- assign baseUrl = '/game-content' -%}
+{%- endif -%}
+
 {% assign data = site.data.adventures[page.key] %}
 
 <section class="adventure-details">
@@ -38,6 +45,79 @@ regenerate: true
                 {%- endfor -%}
             </section>
         {%- endif -%}
+
+        <section class="related-npcs">
+            <header><h2>Related NPCs</h2></header>
+            {%- assign npcs = site.data.npcs -%}
+            {%- for npcArr in npcs-%}
+                {%- assign npc = npcArr[1] -%}
+                {%- assign npcName = npcArr[0] -%}
+                {%- comment -%} <div><code>{{ npc.campaign_info | json }}</code></div> {%- endcomment -%}
+                {%- if npc.campaign_info and npc.campaign_info.encounters -%}
+                    {%- assign episodeDataObj = npc.campaign_info.encounters | where: "episode", page.key -%}
+                    {%- if episodeDataObj -%}
+                        {%- assign episodeData = episodeDataObj[0] -%}
+                        {%- if episodeData -%}
+                            <div class="related-npc">
+                                <strong>
+                                    <a href="{{baseUrl}}/npcs/{{ npcName | slugify }}" target="_blank">
+                                        {{ npc.rank }}
+                                        {{ npcName }}
+                                        {%- if npc.clan -%}
+                                            <small>
+                                                {{ npc.clan }}, {{ npc.corp }}
+                                                {%- if npc.type -%}
+                                                    &nbsp;({{ npc.type | upcase }})
+                                                {%- endif -%}
+                                            </small>
+                                        {%- endif -%}
+                                    </a>
+                                </strong>
+                                {%- if episodeData.description -%}
+                                    {%- for d in episodeData.description -%}
+                                        {%- assign markdownifiedDesc = d | markdownify -%}
+                                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                    {%- endfor -%}
+                                {%- endif -%}
+                            </div>
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endif -%}
+            {%- endfor -%}
+        </section>
+
+        <section class="related-vehicles">
+            <header><h2>Related Vehicles</h2></header>
+            {%- assign vehicles = site.data.vehicles -%}
+            {%- for vehicleArr in vehicles-%}
+                {%- assign vehicle = vehicleArr[1] -%}
+                {%- assign vehicleName = vehicleArr[0] -%}
+                {%- if vehicle.campaign_info and vehicle.campaign_info.encounters -%}
+                    {%- assign episodeDataObj = vehicle.campaign_info.encounters | where: "episode", page.key -%}
+                    {%- if episodeDataObj -%}
+                        {%- assign episodeData = episodeDataObj[0] -%}
+                        {%- if episodeData -%}
+                            <div class="related-vehicle">
+                                <strong>
+                                    <a href="{{baseUrl}}/vehicles/{{ vehicleName | slugify }}" target="_blank">
+                                        {{ vehicleName }}
+                                        {%- if vehicle.model -%}
+                                            <small>{{ vehicle.model.name }}</small>
+                                        {%- endif -%}
+                                    </a>
+                                </strong>
+                                {%- if episodeData.description -%}
+                                    {%- for d in episodeData.description -%}
+                                        {%- assign markdownifiedDesc = d | markdownify -%}
+                                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                    {%- endfor -%}
+                                {%- endif -%}
+                            </div>
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endif -%}
+            {%- endfor -%}
+        </section>
     {%- else -%}
         NO DATA FOUND for {{ page.title }} (key: {{ page.key }})!
     {%- endif -%}

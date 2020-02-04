@@ -165,7 +165,7 @@
     "episode0090": {
         "name": "Episode 9: Phantom Operation",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/OkodotlxomYRgFnMw9qX",
-        "isVisible": false,
+        "isVisible": true,
         "description": ["TBD"],
         "chapters": [
             {

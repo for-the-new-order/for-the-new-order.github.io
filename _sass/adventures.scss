@@ -1,7 +1,31 @@
+@import '_mixins';
+
 .adventures {
     & > footer {
         .btn:not(:first-child) {
             margin-left: 5px;
+        }
+    }
+
+    .related-npcs,
+    .related-vehicles {
+        @include two-column-container();
+
+        & > header {
+            width: 100%;
+        }
+
+        .related-npc,
+        .related-vehicle {
+            @include two-column-item();
+
+            & > strong {
+                a {
+                    small {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }
