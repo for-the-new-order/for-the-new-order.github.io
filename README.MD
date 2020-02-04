@@ -57,3 +57,9 @@ sudo apt-get install zlib1g-dev
 To run the ps1 scripts:
 
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7#ubuntu-1804
+
+### Run PowerShell
+
+```bash
+pwsh
+```
