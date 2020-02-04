@@ -124,3 +124,99 @@
         }
     }
 }
+
+$dark-bg-color: #252a34;
+$bg-color: lighten($dark-bg-color, 10%);
+$border-color: lighten($dark-bg-color, 20%);
+$gutter: 3px;
+$border-radius: 3px;
+.npc-stats-card {
+    .characteristics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: flex-start;
+
+        .characteristic {
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            width: calc(100% / 6 - 2px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: $gutter;
+            background-color: $bg-color;
+
+            .value {
+                text-align: center;
+                line-height: 1.8em;
+                width: 2em;
+                height: 2em;
+                border: 1px solid $border-color;
+                border-radius: 2em;
+                background-color: $dark-bg-color;
+            }
+            .name {
+                font-size: 0.5em;
+                text-align: center;
+            }
+        }
+    }
+    .attributes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: flex-start;
+        margin-top: $gutter;
+
+        .attribute {
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            width: calc(25% - 2px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: $gutter;
+            background-color: $bg-color;
+
+            .value {
+                text-align: center;
+                line-height: 1.8em;
+                width: 2em;
+                height: 2em;
+                border: 1px solid $border-color;
+                border-radius: $border-radius;
+                order: 2;
+                width: 100%;
+                background-color: $dark-bg-color;
+            }
+
+            .name {
+                font-size: 0.5em;
+                text-align: center;
+                order: 1;
+            }
+
+            .split-value {
+                order: 2;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: stretch;
+                align-content: flex-start;
+                width: 100%;
+                // margin-top: $gutter;
+
+                .defence-value {
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                }
+            }
+        }
+    }
+}

@@ -510,7 +510,7 @@ defaults:
           layout: adventure
           excerpt: ''
           sidebar:
-              nav: 'rulesandgamecontent'
+              nav: 'gamemaster'
           classes:
               - adventures
               - genesys-theme
