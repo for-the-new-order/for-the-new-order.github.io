@@ -1,7 +1,9 @@
 {
-    "cSpell.words": [
-        "Blinn",
-        "Blinn’s",
-        "Chiss"
-    ]
+    "cSpell.words": ["Blinn", "Blinn’s", "Chiss"],
+    "html.format.enable": true,
+    "files.associations": {
+        "*.md": "jekyll",
+        "*.html": "jekyll",
+        "Gemfile.*": "ruby"
+    }
 }
