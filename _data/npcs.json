@@ -55,6 +55,9 @@
         "type": "NEMESIS",
         "rank": "Grand Moff",
         "image_path": "/assets/images/npcs/grand-moff-leeadra-leonis.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "motivation": {
             "desires": {
                 "name": "Fame",
@@ -133,6 +136,9 @@
         "type": "NEMESIS",
         "rank": "Grand Admiral",
         "image_path": "/assets/images/npcs/grand-admiral-barret-marh.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 13,
             "defense": {
@@ -218,6 +224,9 @@
         "type": "NEMESIS",
         "rank": "Commander",
         "image_path": "/assets/images/npcs/commander-carter-foxwell.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 16,
             "defense": {
@@ -297,6 +306,9 @@
     "Lance Sleater": {
         "folder": "Empire/Main",
         "image_path": "/assets/images/npcs/lance-sleater.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "type": "NEMESIS",
         "species": {
             "name": "Human"
@@ -1375,6 +1387,9 @@
     "Fitz Gorr": {
         "folder": "Rebels/Calamari-Cruiser-Gladiator",
         "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0080" }, { "episode": "episode0090" }]
+        },
         "type": "nemesis",
         "species": {
             "name": "Human"
@@ -1521,6 +1536,9 @@
     "Lindsey Rostock": {
         "initialSeed": 255051,
         "image_path": "/assets/images/npcs/Lindsey-Rostock.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "type": "nemesis",
         "species": {
             "name": "Human"
@@ -1768,6 +1786,9 @@
     "Ephrem Frystak": {
         "initialSeed": 422225,
         "image_path": "/assets/images/npcs/Ephrem-Frystak.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0080" }]
+        },
         "folder": "Allies",
         "description": [
             "Ephrem Frystak was an imperial cadet that got kicked out of the academy for being Absent-minded. He then joined the Ancillary corp and became a notorious Waiter, attending important events and serving important people, like Grand Moff Leonis and Cie during the Episode 8: The Galactic Race.",
@@ -1798,6 +1819,9 @@
         "folder": "Rebels/Calamari-Cruiser-Gladiator",
         "initialSeed": 498823,
         "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0080" }]
+        },
         "type": "nemesis",
         "species": {
             "name": "Human"
@@ -1897,6 +1921,9 @@
         "folder": "Rebels/Calamari-Cruiser-Gladiator",
         "initialSeed": 388171,
         "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0080" }]
+        },
         "type": "nemesis",
         "species": {
             "name": "Human"
@@ -2196,6 +2223,9 @@
         "corp": "Navy",
         "type": "MINION",
         "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2229,6 +2259,9 @@
         "corp": "Navy",
         "type": "RIVAL",
         "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -2266,6 +2299,9 @@
         "corp": "Navy",
         "type": "MINION",
         "image_path": "/assets/images/npcs/imperial-army-trooper.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2302,6 +2338,9 @@
         "corp": "Navy",
         "type": "MINION",
         "image_path": "/assets/images/npcs/tie-pilot.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 5,
             "defense": {
@@ -2335,6 +2374,9 @@
         "corp": "Navy",
         "type": "RIVAL",
         "image_path": "/assets/images/npcs/tie-pilot-ace.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 12,
             "defense": {
@@ -2373,6 +2415,9 @@
         "corp": "Stormtrooper",
         "type": "RIVAL",
         "image_path": "/assets/images/npcs/stormtrooper.jpg",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "attributes": {
             "wounds": 12,
             "defense": {
