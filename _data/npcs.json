@@ -2755,7 +2755,7 @@
     },
     "Alyssa Rush Esterly": {
         "folder": "Rebels/A-Cers",
-        "image_path": "/assets/images/npcs/rebel-pilots.jpg",
+        "image_path": "/assets/images/npcs/Alyssa-Rush-Esterly.jpg",
         "type": "NEMESIS",
         "species": {
             "name": "Human"
