@@ -415,16 +415,25 @@
     "H-Wing": {
         "model": {
             "name": "GTS-A2 Long-range Strike Starfighter"
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
         }
     },
     "A-Wing": {
         "model": {
             "name": "RZ-1 Light Interceptor"
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
         }
     },
     "X-Wing": {
         "model": {
             "name": "T-65B Multi-Role Starfighter"
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
         }
     },
     "B-Wing": {
