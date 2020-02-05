@@ -193,11 +193,7 @@ $card-bg-color: #252a34;
             .motivation {
                 border: 1px solid $border-color;
                 border-radius: $border-radius;
-                // display: flex;
-                // flex-direction: column;
-                // align-items: center;
                 padding: $gutter;
-                // background-color: $bg-color;
             }
             .personality {
                 width: 100%;
@@ -284,6 +280,26 @@ $card-bg-color: #252a34;
 
                 .attribute-system-strain {
                     align-self: flex-end;
+                }
+            }
+        }
+
+        .weapons {
+            font-size: 0.6em;
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            margin-top: $gutter;
+            width: 100%;
+
+            .weapon {
+                padding: $gutter $gutter * 3;
+
+                &:not(:first-child) {
+                    border-top: 1px solid $border-color;
+                }
+
+                header {
+                    font-weight: bold;
                 }
             }
         }

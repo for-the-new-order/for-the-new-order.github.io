@@ -100,6 +100,23 @@
                     </div>
                 </div>
             </section>
+
+            {%- if model.weapons -%}
+                {%- assign weapons = model.weapons -%}
+            {%- else -%}
+                {%- assign weapons = vehicle.weapons -%}
+            {%- endif -%}
+            {%- if weapons -%}
+                <section class="weapons">
+                    {%- for w in weapons -%}
+                        <div class="weapon">
+                            <header>{{ w.name }}</header>
+                            {% include text-with-symbols.html content=w.specs %}
+                        </div>
+                    {%- endfor -%}
+                </section>
+            {%- endif -%}
+
         </section>
 
     {%- endif -%} 
