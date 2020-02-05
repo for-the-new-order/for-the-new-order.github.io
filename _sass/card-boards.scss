@@ -1,0 +1,12 @@
+@import '_mixins';
+
+.card-board {
+    .card-board-row {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .card {
+            width: 25%;
+        }
+    }
+}

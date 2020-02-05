@@ -3,3 +3,24 @@ layout: single
 title: Card Boards
 regenerate: true
 ---
+
+{%- assign board = site.data.card-boards | where: "adventure", page.adventure | where: "name", page.name | first -%}
+{%- assign adventure = site.data.adventures[page.adventure] -%}
+
+<h2>{{ adventure.name }} - {{ page.name }}</h2>
+
+<div class="card-board">
+    {%- for row in board.cards -%}
+        <div class="card-board-row">
+            {%- for card in row -%}
+                <div class="card">
+                {%- if card.type == "npc" -%}
+                    {%- include npc-card.html name=card.name -%}
+                {%- else -%}
+                    {%- include vehicle-card.html name=card.name -%}
+                {%- endif -%}
+                </div>
+            {%- endfor -%}
+        </div>
+    {%- endfor -%}
+</div>

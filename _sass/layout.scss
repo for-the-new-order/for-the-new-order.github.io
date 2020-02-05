@@ -11,3 +11,12 @@
 .clearfix {
     @include clearfix();
 }
+
+.fluid {
+    #main {
+        max-width: unset;
+        .page {
+            padding-right: 0;
+        }
+    }
+}
