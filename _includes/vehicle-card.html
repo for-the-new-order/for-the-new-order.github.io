@@ -54,17 +54,27 @@
             {%- if model.characteristics and model.characteristics.system_strain -%}{%- assign system_strain = model.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = vehicle.characteristics.system_strain -%}{%- endif -%}
             {%- if model.characteristics and model.characteristics.massive -%}{%- assign massive = model.characteristics.massive -%}{%- else -%}{%- assign massive = vehicle.characteristics.massive -%}{%- endif -%}
             <section class="characteristics">
-                <div class="characteristic">
-                    <div class="value">{{ silhouette }}</div>
-                    <div class="name">silhouette</div>
-                </div>
-                <div class="characteristic">
-                    <div class="value">{{ max_speed }}</div>
-                    <div class="name">speed</div>
-                </div>
-                <div class="characteristic">
-                    <div class="value">{{ handling }}</div>
-                    <div class="name">handling</div>
+                <div class="characteristics-container">
+                    <div class="characteristics-inner-container">
+                        <div class="characteristic">
+                            <div class="value">{{ silhouette }}</div>
+                            <div class="name">silhouette</div>
+                        </div>
+                        <div class="characteristic">
+                            <div class="value">{{ max_speed }}</div>
+                            <div class="name">speed</div>
+                        </div>
+                        <div class="characteristic">
+                            <div class="value">{{ handling }}</div>
+                            <div class="name">handling</div>
+                        </div>
+                    </div>
+                    {%- if massive -%}
+                        <div class="characteristic massive">
+                            <div class="value">{{ massive }}</div>
+                            <div class="name" title="When making an attack targeting this starship, the critical rating of any weapons used counts as {{ massive }} higher.">massive</div>
+                        </div>
+                    {%- endif -%}
                 </div>
                 <div class="attributes attributes-protection">
                     <div class="attribute attribute-defense">
@@ -93,5 +103,6 @@
                 </div>
             </section>
         </section>
+
     {%- endif -%} 
 </div>

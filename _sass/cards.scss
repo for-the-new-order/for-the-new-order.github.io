@@ -223,11 +223,33 @@ $card-bg-color: #252a34;
     .vehicle-stats {
         @include two-column-container();
 
+        .name[title] {
+            cursor: help;
+            text-decoration: underline;
+        }
+
         .characteristics {
             width: 100%;
 
+            .characteristics-container {
+                width: calc(50% - 2px);
+                @include two-column-container();
+                align-content: stretch;
+
+                .characteristics-inner-container {
+                    width: 100%;
+                    margin-bottom: $gutter;
+                    @include two-column-container();
+                    align-content: unset;
+                }
+
+                .massive {
+                    flex-grow: 2;
+                }
+            }
+
             .characteristic {
-                width: calc(100% / 6 - 2px);
+                width: calc(100% / 3 - 2px);
             }
             .attributes {
                 @include two-column-container();
