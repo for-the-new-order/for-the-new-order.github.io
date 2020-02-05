@@ -162,5 +162,23 @@
                 "effect": "..."
             }
         ]
+    },
+    "NPC-permissions-campaign-info": {
+        "players_permissions": {
+            "stats": false,
+            "motivations": {
+                "personality": false,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0000" }]
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0000", "description": ["..."] }]
+        }
     }
 }

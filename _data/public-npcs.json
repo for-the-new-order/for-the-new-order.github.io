@@ -47,6 +47,7 @@
         { "name": "Elanor Bones" },
         { "name": "Pirate Swarm" },
         { "name": "Pirate Commando" },
+        { "name": "Briggs The Ghost Hatzenbuhler" },
         {
             "name": "Winne Squires",
             "frontMatter": [
@@ -278,8 +279,7 @@
             ]
         },
         { "name": "Teodorico Vittorini" },
-        { "name": "Patricia Butschek" },
-        { "name": "Alyssa Rush Esterly" }
+        { "name": "Patricia Butschek" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
@@ -316,27 +316,5 @@
         },
         { "name": "Gaoler" },
         { "name": "TIE Interceptor" }
-    ],
-    "to-be-revealed-soon": [{ "name": "TBD" }],
-    "other-npcs": {
-        "empire": [
-            { "name": "Karly Cop" },
-            { "name": "Briggs The Ghost Hatzenbuhler" },
-            { "name": "Federico Taliento" },
-            { "name": "Steven Winterrowd" },
-            { "name": "Joseph Mcvaney" },
-            {
-                "name": "Sylvia Pellissier",
-                "frontMatter": ["display-motivation-flaw: true"]
-            },
-            { "name": "Jeannette Shotts" },
-            { "name": "Marve Stathas" },
-            { "name": "Husein Bluma" },
-            { "name": "Barclay Camu" }
-        ],
-        "compnor": [
-            { "name": "Prescott Oleksyn", "rank": "Agent" },
-            { "name": "Ambros Walty", "rank": "Deputy Director" }
-        ]
-    }
+    ]
 }

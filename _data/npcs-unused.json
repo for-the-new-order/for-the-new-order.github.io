@@ -1,0 +1,493 @@
+{
+    "Bordie Claeson": {
+        "initialSeed": 164408,
+        "rank": "Captain",
+        "clan": "Empire",
+        "personality": "Amorous",
+        "motivation": {
+            "desires": {
+                "name": "Knowledge",
+                "description": "Your character wishes to uncover knowledge that may have been lost, forgotten, or locked away. This information could pertain to the world, or it could pertain to your character’s past or origins."
+            },
+            "fear": {
+                "name": "Nemesis",
+                "description": "Your character has a deadly foe, someone they fear (even if they don’t admit it). The nature of this enemy is up to you, but we suggest you consult with your GM. After all, your GM surely wants to bring this up in the game!"
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Compulsion",
+                "description": "This could be addiction, fascination, obsession, or another automatic behavior that is self-destructive or otherwise impedes your character’s ability to function and be healthy."
+            }
+        }
+    },
+    "Tlauhath": {
+        "initialSeed": 32968,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "rank": "Ensign",
+        "clan": "Empire",
+        "personality": "Angry",
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Your character values peace and comfort above all else. Perhaps they seek shelter, a steady source of food, or other material necessities, or they might seek emotional security in a place free from oppression and abuse."
+            },
+            "fear": {
+                "name": "Poverty",
+                "description": "For your character, it’s all about wealth and security. They fear being without, and they work hard to amass money, supplies, and other valuable items to ensure their status."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    },
+    "Karly Cop": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": ["Officers Row", "Command Section"]
+                }
+            }
+        ],
+        "initialSeed": 56602,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Female",
+        "rank": "Chief of Department",
+        "clan": "Empire",
+        "personality": "Clueless",
+        "description": ["Karly looks like the perfect Imperial officer: no hair misplaced, uniform ironed out, shiny boots and no makeup."],
+        "gm-description": [
+            "Karly will do anything to delay internal affairs (the PCs), even if she has nothing against them. She really is \"the perfect officer\", with a bright career in front of her."
+        ],
+        "motivation": {
+            "desires": {
+                "name": "Ambition",
+                "description": "Your character craves power and authority over others. The character may pursue privilege, social status, or rank to achieve this goal."
+            },
+            "fear": {
+                "name": "Expression",
+                "description": "Karly likes to be girly in private and off-duty; which is the total opposite of her day to day look."
+            },
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Intolerance",
+                "description": "Karly hates internal affairs, after her brother got himself wrongly imprisoned; she will reject most requests or reroute the agent to another higher ranked officer for approval (most of the time the agent will need to come back to her [and she knows it; she only want to delay them and piss them off a little])."
+            }
+        }
+    },
+    "Casandra Bucceri": {
+        "initialSeed": 56611,
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant-General",
+        "clan": "Generic",
+        "personality": "Raspy voice",
+        "motivation": {
+            "desires": {
+                "name": "Love",
+                "description": "Your character seeks romantic affection and intimacy from another character. Your character might already have a true love or may strive to find someone to love and be loved by."
+            },
+            "fear": {
+                "name": "Poverty",
+                "description": "For your character, it’s all about wealth and security. They fear being without, and they work hard to amass money, supplies, and other valuable items to ensure their status."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
+    },
+    "Thacher Sigfrid": {
+        "initialSeed": 37445,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "RIVAL",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant Commander",
+        "clan": "Empire",
+        "personality": "Jovial",
+        "motivation": {
+            "desires": {
+                "name": "Safety",
+                "description": "Your character values peace and comfort above all else. Perhaps they seek shelter, a steady source of food, or other material necessities, or they might seek emotional security in a place free from oppression and abuse."
+            },
+            "fear": {
+                "name": "Isolation",
+                "description": "Your character fears being isolated from other people and being doomed to live and die alone. Maybe this drives them to seek out relationships with anyone and everyone, even when a relationship is unpleasant or unhealthy."
+            },
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    },
+    "Federico Taliento": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Vehicle Maintenance"
+                }
+            }
+        ],
+        "initialSeed": 467658,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Unusual voice",
+        "motivation": {
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        }
+    },
+    "Steven Winterrowd": {
+        "players_permissions": {
+            "stats": false,
+            "motivations": {
+                "personality": false,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0002" }]
+        },
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Officers row"
+                }
+            }
+        ],
+        "gm-description": [
+            "Winterrowd, hates newcomers to the point that he his xenophobic. All of that mixed with his flaw can lead to him telling lies about day to day operations. He believes that he is doing the good thing because the ship was not ready for an inspection.",
+            "The commodore will defend him is the PCs press too much. Winterrowd is a 100% dedicated to the empire!"
+        ],
+        "initialSeed": 78276,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Xenophobic",
+        "motivation": {
+            "strength": {
+                "name": "Spiritual",
+                "description": "The Destiny is his home and the empire is his family!"
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "If something is not 100% right during the inspection, Winterrowd will try to hide the truth to make things right."
+            }
+        }
+    },
+    "Joseph Mcvaney": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Crew living section"
+                }
+            }
+        ],
+        "initialSeed": 302132,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Second Lieutenant",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Hates droids",
+        "motivation": {
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, your character has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        }
+    },
+    "Sylvia Pellissier": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Hangar Bays"
+                }
+            }
+        ],
+        "description": [
+            "Captain Pellissier is the best Tie Interceptor squad leader on board of the Destiny.",
+            "She looks a little odd with her missing eye, nevertheless, she never wanted a cyber-replacement; she's still the best pilot of that sectors (and still reckless)."
+        ],
+        "initialSeed": 208139,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Appointments",
+        "personality": "Missing eye",
+        "motivation": {
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, your character has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Recklessness",
+                "description": "Your character shows little regard for how their actions may affect themself or others, due either to low selfesteem or lack of forethought. They are especially prone to dangerous or inconsiderate actions."
+            }
+        }
+    },
+    "Jeannette Shotts": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Crew living section"
+                }
+            }
+        ],
+        "initialSeed": 330585,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Commander",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Appointments",
+        "personality": "Raspy voice",
+        "motivation": {
+            "strength": {
+                "name": "Patient",
+                "description": "Your character is always willing to wait and knows the power of being calm. By waiting for the right opportunity, your character avoids all manner of unpleasant and dangerous situations. However, when such an opportunity presents itself, your character acts swiftly and decisively."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        }
+    },
+    "Marve Stathas": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Vehicle Storage"
+                }
+            }
+        ],
+        "initialSeed": 497219,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Supervisor",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Appointments",
+        "personality": "Missing limb",
+        "motivation": {
+            "strength": {
+                "name": "Wise",
+                "description": "Through years of experience and countless events, your character has developed that rare quality: wisdom. The wise understand the truths of how their world works. Just as importantly, they know that sometimes, with the right effort, those truths can be overcome."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    },
+    "Husein Bluma": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Bridge"
+                }
+            }
+        ],
+        "initialSeed": 336060,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Communication",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Appointments",
+        "personality": "Brash",
+        "motivation": {
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Timid",
+                "description": "Your character is extremely risk averse, opting instead to take more thorough or tried-and-true approaches. They may take too long to act or may be unable to act at all in the face of new or intimidating challenges."
+            }
+        }
+    },
+    "Barclay Camu": {
+        "folder": "Empire/Assimilator-Destiny",
+        "locations": [
+            {
+                "name": "Episode 0",
+                "information": {
+                    "ship": "Assimilator-Class Interdictor Star Destroyer Destiny",
+                    "area": "Bridge"
+                }
+            }
+        ],
+        "initialSeed": 477733,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Navigator",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Appointments",
+        "personality": "Dry-humored",
+        "motivation": {
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Pride does not always have to be a Flaw, but it can easily become one. Your character is arrogant, vain, or self-absorbed, or thinks highly of themself at the expense of others."
+            }
+        }
+    },
+    "Ambros Walty": {
+        "initialSeed": 104594,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Deputy Director",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Compnor",
+        "personality": "Morose",
+        "motivation": {
+            "desires": {
+                "name": "Belonging",
+                "description": "Your character seeks to be liked by others and goes out of the way to make a good impression. Your character seeks to be accepted by a community or faction."
+            },
+            "fear": {
+                "name": "Expression",
+                "description": "Your character has some behavior or means of expressing themself privately that they do not want the world to know about. The nature of that behavior is up to you. Keep the setting in mind when you come up with it, though."
+            },
+            "strength": {
+                "name": "Courageous",
+                "description": "Fear has no place in your character’s heart. They laugh at danger and gladly push themself to confront what others flee from. Note that your character probably still has a Fear Motivation. It’s up to you whether that Fear is the one thing that can undo your character’s courage, or if this Strength pushes them to confront the source of their Fear no matter what."
+            },
+            "flaw": {
+                "name": "Laziness",
+                "description": "Your character always seeks the path of least resistance and becomes intimidated by difficult or complex tasks."
+            }
+        }
+    },
+    "Prescott Oleksyn": {
+        "initialSeed": 193637,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Agent",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Compnor",
+        "personality": "Raspy voice",
+        "motivation": {
+            "strength": {
+                "name": "Spiritual",
+                "description": "It doesn’t matter so much what your character believes in: that depends a lot on your game’s setting. What’s important is that your character believes. Their belief gives them a solid mental bedrock they can always rely on."
+            },
+            "flaw": {
+                "name": "Greed",
+                "description": "Your character is never satisfied with what they have, always wanting more. They are willing to flout the law or infringe upon others’ rights in order to get what they want."
+            }
+        }
+    }
+}
