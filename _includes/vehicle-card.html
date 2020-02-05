@@ -55,19 +55,17 @@
             {%- if model.characteristics and model.characteristics.massive -%}{%- assign massive = model.characteristics.massive -%}{%- else -%}{%- assign massive = vehicle.characteristics.massive -%}{%- endif -%}
             <section class="characteristics">
                 <div class="characteristics-container">
-                    <div class="characteristics-inner-container">
-                        <div class="characteristic">
-                            <div class="value">{{ silhouette }}</div>
-                            <div class="name">silhouette</div>
-                        </div>
-                        <div class="characteristic">
-                            <div class="value">{{ max_speed }}</div>
-                            <div class="name">speed</div>
-                        </div>
-                        <div class="characteristic">
-                            <div class="value">{{ handling }}</div>
-                            <div class="name">handling</div>
-                        </div>
+                    <div class="characteristic">
+                        <div class="value">{{ silhouette }}</div>
+                        <div class="name">silhouette</div>
+                    </div>
+                    <div class="characteristic">
+                        <div class="value">{{ max_speed }}</div>
+                        <div class="name">speed</div>
+                    </div>
+                    <div class="characteristic">
+                        <div class="value">{{ handling }}</div>
+                        <div class="name">handling</div>
                     </div>
                     {%- if massive -%}
                         <div class="characteristic massive">

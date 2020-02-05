@@ -236,21 +236,16 @@ $card-bg-color: #252a34;
                 @include two-column-container();
                 align-content: stretch;
 
-                .characteristics-inner-container {
-                    width: 100%;
-                    margin-bottom: $gutter;
-                    @include two-column-container();
-                    align-content: unset;
+                .characteristic {
+                    width: calc(100% / 3 - 2px);
                 }
 
                 .massive {
                     flex-grow: 2;
+                    margin-top: $gutter;
                 }
             }
 
-            .characteristic {
-                width: calc(100% / 3 - 2px);
-            }
             .attributes {
                 @include two-column-container();
                 flex-direction: column;
