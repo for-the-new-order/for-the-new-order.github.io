@@ -1,8 +1,6 @@
 {%- if page.is-gm -%}
-    {%- comment -%} {%- assign baseUrl = '/gm' -%} {%- endcomment -%}
     {%- assign adventures = site.gm-adventures -%}
 {%- else -%}
-    {%- comment -%} {%- assign baseUrl = '/game-content' -%} {%- endcomment -%}
     {%- assign adventures = site.adventures -%}
 {%- endif -%}
 <h2>Adventures</h2>

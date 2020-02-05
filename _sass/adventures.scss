@@ -15,7 +15,6 @@
             width: 100%;
         }
 
-        .related-npc,
         .related-vehicle {
             @include two-column-item();
 
@@ -26,6 +25,12 @@
                     }
                 }
             }
+        }
+    }
+
+    .related-npcs {
+        .npc-card {
+            @include two-column-basis();
         }
     }
 }

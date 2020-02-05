@@ -155,8 +155,11 @@
     @include n-column-item($box-margin, $bg-color);
 }
 @mixin two-column-item($box-margin: 0.5%, $bg-color: #252a34) {
-    flex-basis: 50% - $box-margin * 2;
+    @include two-column-basis($box-margin);
     @include n-column-item($box-margin, $bg-color);
+}
+@mixin two-column-basis($box-margin: 0.5%) {
+    flex-basis: 50% - $box-margin * 2;
 }
 @mixin one-column-item($box-margin: 0.5%, $bg-color: #252a34) {
     flex-basis: 100% - $box-margin * 2;
