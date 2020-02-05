@@ -1,0 +1,97 @@
+{% assign vehicle = include.vehicle %}
+{% assign model = include.model %}
+{% assign vehicleName = include.name %}
+{% assign additionalData = include.additionalData %}
+
+{%- unless vehicle -%}
+    {%- assign vehicle = site.data.vehicles[vehicleName] -%}
+{%- endunless -%}
+
+{%- unless model -%}
+    {%- assign model = site.data.vehicle-models[vehicle.model.name] -%}
+{%- endunless -%}
+
+{%- if page.is-gm -%}
+    {%- assign baseUrl = '/gm' -%}
+{%- else -%}
+    {%- assign baseUrl = '/game-content' -%}
+{%- endif -%}
+
+{%- assign imgSrc = vehicle.image_path -%}
+{%- unless imgSrc -%}
+    {%- assign imgSrc = model.image_path -%}
+{%- endunless -%}
+
+<div class="vehicle-card" style="background-image: url({{imgSrc}});">
+    <strong>
+        <a href="{{baseUrl}}/vehicles/{{ vehicleName | slugify }}" target="_blank">
+            {{ vehicleName }}
+            {%- if vehicle.model -%}
+                <small>{{ vehicle.model.name }}</small>
+            {%- endif -%}
+        </a>
+    </strong>
+
+    <section class="description">
+        {%- if additionalData.description -%}
+            {%- for d in additionalData.description -%}
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+            {%- endfor -%}
+        {%- elsif npc.description -%}
+            {%- assign markdownifiedDesc = npc.description[0] | markdownify -%}
+            {%- include text-with-symbols.html content=markdownifiedDesc -%}
+        {%- endif -%}
+    </section>
+
+    {%- if vehicle.characteristics or model.characteristics -%}
+        <section class="vehicle-stats">
+            {%- if model.characteristics and model.characteristics.silhouette -%}{%- assign silhouette = model.characteristics.silhouette -%}{%- else -%}{%- assign silhouette = vehicle.characteristics.silhouette -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.max_speed -%}{%- assign max_speed = model.characteristics.max_speed -%}{%- else -%}{%- assign max_speed = vehicle.characteristics.max_speed -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.handling -%}{%- assign handling = model.characteristics.handling -%}{%- else -%}{%- assign handling = vehicle.characteristics.handling -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.protection -%}{%- assign protection = model.characteristics.protection -%}{%- else -%}{%- assign protection = vehicle.characteristics.protection -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.hull_trauma -%}{%- assign hull_trauma = model.characteristics.hull_trauma -%}{%- else -%}{%- assign hull_trauma = vehicle.characteristics.hull_trauma -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.system_strain -%}{%- assign system_strain = model.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = vehicle.characteristics.system_strain -%}{%- endif -%}
+            {%- if model.characteristics and model.characteristics.massive -%}{%- assign massive = model.characteristics.massive -%}{%- else -%}{%- assign massive = vehicle.characteristics.massive -%}{%- endif -%}
+            <section class="characteristics">
+                <div class="characteristic">
+                    <div class="value">{{ silhouette }}</div>
+                    <div class="name">silhouette</div>
+                </div>
+                <div class="characteristic">
+                    <div class="value">{{ max_speed }}</div>
+                    <div class="name">speed</div>
+                </div>
+                <div class="characteristic">
+                    <div class="value">{{ handling }}</div>
+                    <div class="name">handling</div>
+                </div>
+                <div class="attributes attributes-protection">
+                    <div class="attribute attribute-defense">
+                        <div class="name">Defense</div>
+                        <div class="split-value">
+                            <div class="defence-value">
+                                <div class="value">{{ protection.defense }}</div>
+                                <div class="name">Fore/Port/Starboard/Aft</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attribute attribute-hull">
+                        <div class="value">{{ hull_trauma.threshold }}</div>
+                        <div class="name">Hull</div>
+                    </div>
+                </div>
+                <div class="attributes attributes-durability">
+                    <div class="attribute attribute-armor">
+                        <div class="value">{{ protection.armor }}</div>
+                        <div class="name">Armor</div>
+                    </div>
+                    <div class="attribute attribute-system-strain">
+                        <div class="value">{{ system_strain.threshold }}</div>
+                        <div class="name">Strain</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    {%- endif -%} 
+</div>

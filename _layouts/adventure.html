@@ -102,22 +102,7 @@ regenerate: true
                     {%- if episodeDataObj -%}
                         {%- assign episodeData = episodeDataObj[0] -%}
                         {%- if episodeData -%}
-                            <div class="related-vehicle">
-                                <strong>
-                                    <a href="{{baseUrl}}/vehicles/{{ vehicleName | slugify }}" target="_blank">
-                                        {{ vehicleName }}
-                                        {%- if vehicle.model -%}
-                                            <small>{{ vehicle.model.name }}</small>
-                                        {%- endif -%}
-                                    </a>
-                                </strong>
-                                {%- if episodeData.description -%}
-                                    {%- for d in episodeData.description -%}
-                                        {%- assign markdownifiedDesc = d | markdownify -%}
-                                        {%- include text-with-symbols.html content=markdownifiedDesc -%}
-                                    {%- endfor -%}
-                                {%- endif -%}
-                            </div>
+                            {%- include vehicle-card.html name=vehicleName additionalData=episodeData -%}
                         {%- endif -%}
                     {%- endif -%}
                 {%- endif -%}

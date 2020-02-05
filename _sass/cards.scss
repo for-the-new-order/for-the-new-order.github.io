@@ -8,6 +8,7 @@ $border-radius: 3px;
 $box-margin: 0.5%;
 $card-bg-color: #252a34;
 
+.vehicle-card,
 .npc-card {
     border: 1px solid darken($card-bg-color, 2%);
     border-radius: 5px;
@@ -49,7 +50,8 @@ $card-bg-color: #252a34;
         }
     }
 
-    .npc-stats-card {
+    .npc-stats-card,
+    .vehicle-stats {
         .characteristics {
             display: flex;
             flex-direction: row;
@@ -213,6 +215,58 @@ $card-bg-color: #252a34;
                 a {
                     display: block;
                     text-align: center;
+                }
+            }
+        }
+    }
+
+    .vehicle-stats {
+        @include two-column-container();
+
+        .characteristics {
+            width: 100%;
+
+            .characteristic {
+                width: calc(100% / 6 - 2px);
+            }
+            .attributes {
+                @include two-column-container();
+                flex-direction: column;
+                .attribute {
+                    width: 100%;
+                }
+            }
+            .attributes-protection {
+                width: calc(100% / 6 * 2 - 2px);
+                margin-top: 0;
+
+                .attribute-defense {
+                    margin-bottom: $gutter;
+
+                    .defence-value {
+                        .name {
+                            font-size: 0.5em;
+                        }
+                    }
+                }
+
+                .attribute-hull {
+                    .value {
+                        width: 50%;
+                    }
+                }
+            }
+            .attributes-durability {
+                width: calc(100% / 6 - 2px);
+                margin-top: 0;
+
+                .attribute-armor {
+                    margin-bottom: $gutter;
+                    flex-grow: 2;
+                }
+
+                .attribute-system-strain {
+                    align-self: flex-end;
                 }
             }
         }

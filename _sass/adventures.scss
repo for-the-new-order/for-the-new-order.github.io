@@ -15,21 +15,8 @@
             width: 100%;
         }
 
-        .related-vehicle {
-            @include two-column-item();
-
-            & > strong {
-                a {
-                    small {
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
-
-    .related-npcs {
-        .npc-card {
+        .npc-card,
+        .vehicle-card {
             @include two-column-basis();
         }
     }
