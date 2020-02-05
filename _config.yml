@@ -518,6 +518,21 @@ defaults:
           toc: false
           is-gm: true
 
+    - scope:
+          path: '_gm-card-boards'
+          type: gm-card-boards
+      values:
+          layout: card-boards
+          excerpt: ''
+          sidebar:
+              nav: 'gamemaster'
+          classes:
+              - card-boards
+              - genesys-theme
+              - fluid
+          toc: false
+          is-gm: true
+
 collections:
     npcs:
         output: true
@@ -540,3 +555,6 @@ collections:
     gm-adventures:
         output: true
         permalink: /gm/adventures/:name
+    gm-card-boards:
+        output: true
+        permalink: /gm/card-boards/:name

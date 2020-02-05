@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Space Board",
+        "adventure": "episode0090",
+        "cards": [
+            [
+                {
+                    "type": "npc",
+                    "name": "Alyssa Rush Esterly"
+                },
+                {
+                    "type": "vehicle",
+                    "name": "Rush's A-Wing"
+                },
+                {
+                    "type": "npc",
+                    "name": "Rebel Starfighter Pilot"
+                },
+                {
+                    "type": "vehicle",
+                    "name": "A-Wing"
+                }
+            ],
+            [
+                {
+                    "type": "npc",
+                    "name": "Teodorico Vittorini"
+                },
+                {
+                    "type": "vehicle",
+                    "name": "A-Wing"
+                },
+                {
+                    "type": "npc",
+                    "name": "Rebel Starfighter Pilot"
+                }
+            ],
+            [
+                {
+                    "type": "npc",
+                    "name": "Patricia Butschek"
+                },
+                {
+                    "type": "vehicle",
+                    "name": "X-Wing"
+                },
+                {
+                    "type": "npc",
+                    "name": "Rebel Starfighter Pilot"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "TEMPLATE",
+        "adventure": "episode0000",
+        "cards": [
+            [
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                }
+            ],
+            [
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                },
+                {
+                    "type": "npc|vehicle",
+                    "name": ""
+                }
+            ]
+        ]
+    }
+]

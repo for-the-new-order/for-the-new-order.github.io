@@ -63,3 +63,5 @@ gamemaster: # Game master menu
             url: /gm/vehicles/
           - title: Adventures
             url: /gm/adventures/
+          - title: Card Boards
+            url: /gm/card-boards/
