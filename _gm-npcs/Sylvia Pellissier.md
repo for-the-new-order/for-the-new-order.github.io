@@ -1,3 +1,0 @@
----
-title: Sylvia Pellissier
----

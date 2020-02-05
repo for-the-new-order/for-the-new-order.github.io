@@ -1,3 +1,0 @@
----
-title: Casandra Bucceri
----

@@ -1,3 +1,0 @@
----
-title: Alyssa Rush Esterly
----
