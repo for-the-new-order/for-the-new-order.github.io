@@ -46,13 +46,13 @@
 
     {%- if vehicle.characteristics or model.characteristics -%}
         <section class="vehicle-stats">
-            {%- if model.characteristics and model.characteristics.silhouette -%}{%- assign silhouette = model.characteristics.silhouette -%}{%- else -%}{%- assign silhouette = vehicle.characteristics.silhouette -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.max_speed -%}{%- assign max_speed = model.characteristics.max_speed -%}{%- else -%}{%- assign max_speed = vehicle.characteristics.max_speed -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.handling -%}{%- assign handling = model.characteristics.handling -%}{%- else -%}{%- assign handling = vehicle.characteristics.handling -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.protection -%}{%- assign protection = model.characteristics.protection -%}{%- else -%}{%- assign protection = vehicle.characteristics.protection -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.hull_trauma -%}{%- assign hull_trauma = model.characteristics.hull_trauma -%}{%- else -%}{%- assign hull_trauma = vehicle.characteristics.hull_trauma -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.system_strain -%}{%- assign system_strain = model.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = vehicle.characteristics.system_strain -%}{%- endif -%}
-            {%- if model.characteristics and model.characteristics.massive -%}{%- assign massive = model.characteristics.massive -%}{%- else -%}{%- assign massive = vehicle.characteristics.massive -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.silhouette -%}{%- assign silhouette = vehicle.characteristics.silhouette -%}{%- else -%}{%- assign silhouette = model.characteristics.silhouette -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.max_speed -%}{%- assign max_speed = vehicle.characteristics.max_speed -%}{%- else -%}{%- assign max_speed = model.characteristics.max_speed -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.handling -%}{%- assign handling = vehicle.characteristics.handling -%}{%- else -%}{%- assign handling = model.characteristics.handling -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.protection -%}{%- assign protection = vehicle.characteristics.protection -%}{%- else -%}{%- assign protection = model.characteristics.protection -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.hull_trauma -%}{%- assign hull_trauma = vehicle.characteristics.hull_trauma -%}{%- else -%}{%- assign hull_trauma = model.characteristics.hull_trauma -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.system_strain -%}{%- assign system_strain = vehicle.characteristics.system_strain -%}{%- else -%}{%- assign system_strain = model.characteristics.system_strain -%}{%- endif -%}
+            {%- if vehicle.characteristics and vehicle.characteristics.massive -%}{%- assign massive = vehicle.characteristics.massive -%}{%- else -%}{%- assign massive = model.characteristics.massive -%}{%- endif -%}
             <section class="characteristics">
                 <div class="characteristics-container">
                     <div class="characteristic">
