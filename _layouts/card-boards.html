@@ -12,7 +12,10 @@ regenerate: true
 <div class="card-board">
     {%- for row in board.cards -%}
         <div class="card-board-row">
-            {%- for card in row -%}
+            {%- if row.title -%}
+                <header>{{ row.title }}</header>
+            {%- endif -%}
+            {%- for card in row.cards -%}
                 <div class="card">
                 {%- if card.type == "npc" -%}
                     {%- include npc-card.html name=card.name -%}

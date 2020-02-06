@@ -3,94 +3,224 @@
         "name": "Space Board",
         "adventure": "episode0090",
         "cards": [
-            [
-                {
-                    "type": "npc",
-                    "name": "Alyssa Rush Esterly"
-                },
-                {
-                    "type": "vehicle",
-                    "name": "Rush's A-Wing"
-                },
-                {
-                    "type": "npc",
-                    "name": "Rebel Starfighter Pilot"
-                },
-                {
-                    "type": "vehicle",
-                    "name": "A-Wing"
-                }
-            ],
-            [
-                {
-                    "type": "npc",
-                    "name": "Teodorico Vittorini"
-                },
-                {
-                    "type": "vehicle",
-                    "name": "A-Wing"
-                },
-                {
-                    "type": "npc",
-                    "name": "Rebel Starfighter Pilot"
-                }
-            ],
-            [
-                {
-                    "type": "npc",
-                    "name": "Patricia Butschek"
-                },
-                {
-                    "type": "vehicle",
-                    "name": "X-Wing"
-                },
-                {
-                    "type": "npc",
-                    "name": "Rebel Starfighter Pilot"
-                }
-            ]
+            {
+                "title": "Rush (Rebels)",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Alyssa Rush Esterly"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "Rush's A-Wing"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Rebel Starfighter Pilot"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "A-Wing"
+                    }
+                ]
+            },
+            {
+                "title": "Vittorini (Rebels)",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Teodorico Vittorini"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "A-Wing"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Rebel Starfighter Pilot"
+                    }
+                ]
+            },
+            {
+                "title": "Butschek (Rebels)",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Patricia Butschek"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "X-Wing"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Rebel Starfighter Pilot"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "H-Wing"
+                    }
+                ]
+            },
+            {
+                "title": "Jenssar's Squadron",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Emlyn Macmorran"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Erl Jandro"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Tie Pilot"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "TIE Interceptor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gaoler Board",
+        "adventure": "episode0090",
+        "cards": [
+            {
+                "title": " (Rebels)",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "K4-S Jailor Droid"
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "Stormtroopers",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper Sergent"
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "optional",
+                "cards": [
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "optional",
+                "cards": [
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            }
         ]
     },
     {
         "name": "TEMPLATE",
         "adventure": "episode0000",
         "cards": [
-            [
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                }
-            ],
-            [
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                },
-                {
-                    "type": "npc|vehicle",
-                    "name": ""
-                }
-            ]
+            {
+                "title": "optional",
+                "cards": [
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "optional",
+                "cards": [
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            }
         ]
     }
 ]

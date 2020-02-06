@@ -280,7 +280,8 @@
         },
         { "name": "Teodorico Vittorini" },
         { "name": "Patricia Butschek" },
-        { "name": "Alyssa Rush Esterly" }
+        { "name": "Alyssa Rush Esterly" },
+        { "name": "Reeda the Chasse-Soeurs" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },

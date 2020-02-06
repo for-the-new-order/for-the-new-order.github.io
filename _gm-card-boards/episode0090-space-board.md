@@ -1,5 +1,5 @@
 ---
-title: episode0090-space-board
+title: Space Board - episode0090
 name: "Space Board"
 adventure: "episode0090"
 ---
