@@ -2,8 +2,19 @@
 
 .card-board {
     .card-board-row {
+        & > header {
+            width: 100%;
+            @include genesys-heading();
+            border-bottom: 1px solid #1abeef; // rgb(81, 85, 93);
+            padding-bottom: 0.5em;
+            margin-bottom: 0.5em;
+            // margin-right: 60%;
+            text-align: center;
+            font-size: 1.5em;
+            font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+        }
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
 
         .card {
             width: 25%;
