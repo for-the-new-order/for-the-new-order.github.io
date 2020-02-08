@@ -58,8 +58,10 @@ regenerate: true
                 {%- assign data = site.data.npcs[name] -%}
                 {%- if data.clan -%}
                     {%- if data.campaign_info and data.campaign_info.encounters -%}
-                        {%- assign episodeDataObj = data.campaign_info.encounters | where: "episode", page.key -%}
-                        {%- if episodeDataObj -%}
+                        {%- assign whereExp = 'item.episode == "' | append: page.key | append: '"' -%}
+                        {%- assign episodeDataObj = data.campaign_info.encounters | where_exp: "item", whereExp -%}
+                        {%- assign dataCount = episodeDataObj | size -%}
+                        {%- if dataCount > 0 -%}
                             {{ data.clan | downcase }},
                         {%- endif -%}
                     {%- endif -%}

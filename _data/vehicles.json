@@ -148,7 +148,10 @@
                 "name": "Refurbished Light Repeating Blaster on a tripod",
                 "specs": "Fire Arc All; Damage 11; Critical 3; Range [Long]; Auto-Fire, Pierce 1, Inaccurate 1; Skill Gunnery"
             }
-        ]
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0070" }]
+        }
     },
     "Rebels Hover Bike": {
         "image_path": "/assets/images/vehicles/250x250-generic.png",
@@ -178,6 +181,9 @@
         "cost": {
             "price": 10000,
             "rarity": 3
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0070" }]
         }
     },
     "Old leftover Hover Bike": {
@@ -208,6 +214,9 @@
         "cost": {
             "price": 8000,
             "rarity": 4
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0070" }]
         }
     },
     "Utopia": {
@@ -263,7 +272,10 @@
                 "name": "Unknown",
                 "specs": "Unknown"
             }
-        ]
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0060" }, { "episode": "episode0070" }]
+        }
     },
     "Kaki Usyk": {
         "model": {

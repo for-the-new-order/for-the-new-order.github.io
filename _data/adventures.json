@@ -140,13 +140,19 @@
         "name": "Episode 7: Deputy Director Kataz",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/eGS9SBL99Ccgcq0M3Kbz",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
+        "description": [
+            "The Overwatch had to extract Deputy Director Kataz. He was kidnapped by rebel insurgents. Then they had to assess the damage done. To finally eliminate the threat if necessary, making it looks like the rebels did it, which is good for the New Order image.",
+            "The PCs traveled to the remote planet of Statoko to meet Senior Agent Joshua Jett, an ISB legend in the Outer Rim. In Gofftown, the city hosting the Imperial-class Spaceport, they explored a bit, split into two groups of two, to avoid detection. One of them, located Juno Eclipse, got spotted, and she escaped using her hovercraft. The others made sure that the rendezvous point was safe.",
+            "After a quick meeting after Senior Agent Jett, the PCs headed to a bar in town got hired by a small company, as cleaners. They took the job that was scheduled to be done in the rebels area that day. Heading to a mansion along the river hosting the rebels, they bullshitted their way in, got accessed to the main power controls and shut it down after using the security system to locate Deputy Director Kataz.",
+            "The PCs outside ran to the back of the mansion, where Juno and a few more rebels where taking Kataz. Juno jumped into her hovercraft with a few rebels, while 2 pairs of rebels jumped on a Hover Bike. Jenssar and Undrake jumped on an Old Hover Bike, chased, and gunned down both Rebel Hover Bike, before being stopped by Eclipse’s Refurbished Light Repeating Blaster.",
+            "Meanwhile, the other PCs were tracking her signal from the ground. Both teams converged on a second rebel mansion where a firefight took place. The mansion was well guarded, and a rebel was even using personal stealth technologies! The PCs had a hard time securing the VIP but succeeded. Just before leaving, Undrake was able to acquire a piece of the stealth armor and noticed the similarities with The Voiceless One’s technologies.",
+            "The PCs then took the VIP a bit further. They interrogated Kataz, to know what information he revealed to the rebels. The PCs got the following out of him:",
+            "- The rebels want information about stealth research.\n- Starlight and the Empire are still working on _The Voiceless Ones_ technologies, trying to decipher how they do things.\n- They are making a lot of progress, especially in the stealth technology field.\n- With the new experimental way of recycling energy, they should be able to create an energy generator that could power future advanced stealth technology. It should be smaller and harder to detect.\n- The general area where the Starlight research facilities that work on those projects are located.\n- The location of several minor research stations, but don't remember exactly which one he gave away. He assures the PCs that the information is useless, which might not be exact).",
+            "After that, Juno called Undrake and told him that she captured his wife, Aristocra Akara and that she is willing to make an exchange in Utopia, a neutral ground. They agreed, without much choice.",
+            "Back to the spaceport, when arriving at their hangar bay, a little girl shows up to delivers a message to the PCs. She is crying and seems forced to be there. She then plays a message from a data-recorder. The clear sound of a woman resonates, saying: _Brewinger sends his regards!_. Out of a sudden, the PCs notice that all guards and personnel have vanished, most likely bribed. Agent Kaine then sees the two Tarascii plasma charges attached to the little girl and uses a counter-measure to stop the signal from blowing them up; he most likely didn't care about the girl.",
+            "A few tugs shoed up to cut the PCs to retreat, and Dargon's droid was hacked by the Bounty Hunteress, opening fire on his master! From there, an intense fight begun, no reinforcement was available, but the Mando squad of Undrake; they showed up a few minutes later. The PCs have been able to flee the scene, but many were gravely injured.",
+            "Following the treacherous attack made by a bounty hunter against agents of the New Order, Undrake submitted an official Imperial bounty on the head of Brewinger for _Conspiracy against the empire and assassination attempt on imperial agents_. The bounty is still pending approval.",
+            "To limit the chances of Kataz revealing any more secrets, Undrake burnt the eyes, fingers, and vocal cords. Afterward, they made the exchange at Utopia."
         ]
     },
     "episode0080": {

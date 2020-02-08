@@ -19,17 +19,20 @@ excerpt: "EMPTY!"
                 {{ page.content }}
             {% endif %}
             {% if page.display-exerpt %}
-                <p>{{ page.exerpt }}</p>
+                {%- assign markdownifiedDesc = page.exerpt | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
             {% endif %}
             {% if page.display-description and data.description %}
             {% for d in data.description %}
-                <p>{{d}}</p>
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
             {% endfor %}
             {% endif %}
             {%- if page.display-gm-description and data.gm-description -%}
             <h3>(GM)</h3>
             {% for d in data.gm-description %}
-                <p>{{d}}</p>
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
             {% endfor %}
             {%- endif -%}
         </section>

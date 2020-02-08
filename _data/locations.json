@@ -77,5 +77,34 @@
                 }
             ]
         }
+    },
+    "Statoko": {
+        "type": "planet",
+        "description": [
+            "A remote planet, in the outer rim, where rebels have many sympathizers. The people living there are very poor or extremely rich. The planet has a lot of rivers and navigable water areas, which lead many rich people to build mansions near their shore.",
+            "A town containing an Imperial Spaceport is named Gofftown."
+        ],
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0070",
+                    "description": []
+                }
+            ]
+        },
+        "related": { "locations": [{ "name": "Gofftown" }] }
+    },
+    "Gofftown": {
+        "type": "town",
+        "description": [
+            "Gofftown harbor an Imperial Spaceport and is located on the planet Statoko. The town is widespread with a tight downtown and excessively huge mansions along the rivers."
+        ],
+        "campaign_info": { "encounters": [{ "episode": "episode0070" }] },
+        "related": { "locations": [{ "name": "Gofftown Spaceport" }] }
+    },
+    "Gofftown Spaceport": {
+        "type": "spaceport",
+        "description": ["Gofftown Spaceport is a highly corrupted Imperial-class Spaceport on the planet Statoko."],
+        "campaign_info": { "encounters": [{ "episode": "episode0070" }] }
     }
 }

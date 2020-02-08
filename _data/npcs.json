@@ -2998,6 +2998,35 @@
             }
         ]
     },
+    "Brewinger": {
+        "players_permissions": {
+            "stats": false,
+            "motivations": {
+                "personality": false,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "description": ["**Brew Wilfinger**, aka _Brewinger_, is a crimelord associated to the EdG criminal syndicate."],
+        "folder": "Brewinger",
+        "image_path": "/assets/images/npcs/Brewinger.jpg",
+        "type": "NEMESIS",
+        "species": {
+            "name": "Human"
+        },
+        "gender": "Male",
+        "clan": "EdG",
+        "corp": "Crime Lord",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0050"
+                }
+            ]
+        }
+    },
     "Reeda the Chasse-Soeurs": {
         "players_permissions": {
             "stats": false,
@@ -3009,17 +3038,85 @@
                 "flaw": false
             }
         },
-        "xfolder": "Brewinger",
-        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "folder": "Brewinger",
+        "image_path": "/assets/images/npcs/reeda.jpg",
         "type": "NEMESIS",
         "species": {
             "name": "Rodian"
         },
-        "rank": "Captain",
         "gender": "Female",
-        "clan": "Unknown",
-        "xclan": "EdG",
+        "clan": "EdG",
         "corp": "Bounty Hunter",
-        "description": ["Bass ass Bounty Hunteress!"]
+        "description": ["Bass ass Bounty Hunteress!"],
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0070",
+                    "description": ["Reeda ambushed the PCs in a Goffstown Spaceport hangar bay, leading them to flee."]
+                }
+            ]
+        }
+    },
+    "Ky Kataz": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "xfolder": "Empire",
+        "clan": "Empire",
+        "type": "NEMESIS",
+        "rank": "Deputy Director",
+        "corp": "Intelligence",
+        "image_path": "/assets/images/npcs/deputy-diector-kataz.jpg",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0070",
+                    "description": ["During his last mission, he made a very bad call which lead to his capture by the rebel alliance."]
+                }
+            ]
+        },
+        "description": [
+            "Director Kataz was the director that sent Undrake to his death before he got recruited by the ISB. Following that incident, Kataz has then been reeducated and demoted to the rank of Deputy Director in charge of second-grade researchers. During his time there, he managed to get some solid research going on toward pioneering subjects, including bending the hyperspace continuum, stealth technologies, and high-end energy recycling for small devices."
+        ]
+    },
+    "Joshua Jett": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "xfolder": "Empire",
+        "clan": "Empire",
+        "type": "NEMESIS",
+        "rank": "Senior Agent",
+        "corp": "Compnor",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0070" }]
+        },
+        "description": [
+            "Jett loves infiltration and is very good at it; this is one of the main reasons why he is still doing those kinds of missions with his rank. He is one of the best Overwatch infiltrators of the outer rim.",
+            "He is warmhearted and friendly, serene of spirit, and always happy and smiling, but constantly overindulges in alcohol."
+        ],
+        "gm-description": [
+            "**Alignment:** Lightside",
+            "**Attitude:** Conscientious",
+            "He is often an individualist who works for the law and the good of the greatest number of people, but who may dis-trust higher authority, living and working \"outside the law.\" Includes vigilantes and \"Robin Hood\" type characters.",
+            "Traits:\n\n- Kindly (Average); warmhearted and friendly.\n- Peaceful (Obsessive); serene of spirit.\n- Cheerful (Strong); always happy and smiling.\n- Drunkard (Obsessive); constantly overindulges in alcohol."
+        ],
+        "personality": "Conscientious",
+        "personality_description": "\"Each man knows his own 'good' and defends it.\" sums up the conscientious character's beliefs. He lives according to a strict personal code of ethics."
     }
 }

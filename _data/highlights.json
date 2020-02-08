@@ -15,6 +15,27 @@
             "campaign_info": {
                 "encounters": [{ "episode": "episode0050" }, { "episode": "episode0070" }]
             }
+        },
+        {
+            "name": "Brewinger's Bounty",
+            "description": [
+                "After the attack on them by Reeda, Undrake put a bounty on Brewinger, which was last seen as _pending approval_."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0070" }]
+            }
+        }
+    ],
+    "organizations": [
+        {
+            "name": "EdG",
+            "alias": "Enfants du Grabuge",
+            "description": [
+                "_Les Enfants du Grabuge_ (a.k.a. EdG), which means _Children of Mayhem_, is a powerful criminal syndicate that operate primarily in the Outer Rim. They are affiliated with the Hutts."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0050" }]
+            }
         }
     ],
     "races": [
@@ -24,7 +45,7 @@
                 "**The Voiceless Ones** represent a remote empire that span multiple sectors on the border of the known galaxy."
             ],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0001" }]
+                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0070" }]
             }
         }
     ],
@@ -54,7 +75,14 @@
             "name": "The Invisible Beast",
             "description": ["Rebels wants and are studying invisible beast and their habitat."],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0050" }]
+                "encounters": [
+                    { "episode": "episode0001" },
+                    { "episode": "episode0050" },
+                    {
+                        "episode": "episode0070",
+                        "gm-notes": ["The piece of armor acquired by Undrake that he identified as some Voiceless Ones technology."]
+                    }
+                ]
             }
         },
         {

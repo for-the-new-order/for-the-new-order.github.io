@@ -281,7 +281,10 @@
         { "name": "Teodorico Vittorini" },
         { "name": "Patricia Butschek" },
         { "name": "Alyssa Rush Esterly" },
-        { "name": "Reeda the Chasse-Soeurs" }
+        { "name": "Reeda the Chasse-Soeurs" },
+        { "name": "Ky Kataz" },
+        { "name": "Joshua Jett" },
+        { "name": "Brewinger" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
@@ -289,6 +292,8 @@
         { "name": "Destiny" },
         { "name": "Nssis-class Clawcraft" },
         { "name": "Old leftover Hover Bike" },
+        { "name": "Rebels Hovercraft" },
+        { "name": "Rebels Hover Bike" },
         { "name": "Utopia" },
         { "name": "Kaki Usyk" },
         { "name": "Judgment" },
