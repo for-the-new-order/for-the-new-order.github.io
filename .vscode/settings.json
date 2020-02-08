@@ -1,5 +1,11 @@
 {
-    "cSpell.words": ["Blinn", "Blinn’s", "Chiss"],
+    "cSpell.words": [
+        "Blinn",
+        "Blinn’s",
+        "Chiss",
+        "NPCs",
+        "starships"
+    ],
     "html.format.enable": true,
     "files.associations": {
         "*.md": "jekyll",

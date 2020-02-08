@@ -20,3 +20,13 @@
         }
     }
 }
+
+@media (min-width: 0) {
+    #main {
+        .sidebar {
+            &.sticky {
+                overflow-y: visible;
+            }
+        }
+    }
+}

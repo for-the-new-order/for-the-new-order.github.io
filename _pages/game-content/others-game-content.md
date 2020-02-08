@@ -1,9 +1,7 @@
 ---
 title: Player game content
-permalink: /game-content/
+permalink: /game-content/others
 ---
-
-{% include campaign-theme.html %}
 
 ## Other info
 

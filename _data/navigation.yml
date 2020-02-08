@@ -7,34 +7,42 @@ main: # Main menu (top)
 rulesandgamecontent: # Rules menu (left)
     - title: 'General'
       children:
-          - title: Setting and rules
+          - title: Setting & Rules
             url: /rules/
           - title: Talents database
             url: /rules/talents/
           - title: Symbols and dices
             url: /rules/symbols-and-dices/
-          - title: Ranks & Rewards
+    - title: 'Ranks & Rewards'
+      children:
+          - title: Ranks
             url: /rules/ranks-and-rewards/
+          - title: Rewards (NPCs)
+            url: /rules/ranks-and-rewards/npcs
+          - title: Rewards (Starships)
+            url: /rules/ranks-and-rewards/starships
+          - title: Rewards (Others)
+            url: /rules/ranks-and-rewards/others
     - title: 'Game Content'
       children:
-          - title: Other Game Content
-            url: /game-content/
+          - title: Adventures
+            url: /game-content/adventures/
           - title: NPCs
             url: /game-content/npcs/
           - title: NPCs (by folder)
             url: /game-content/npcs/by-folders
           - title: Vehicles
             url: /game-content/vehicles/
-          - title: Adventures
-            url: /game-content/adventures/
+          - title: Other Game Content
+            url: /game-content/others
     - title: 'House rules'
       children:
           - title: Strain recovery
             url: /rules/strain-recovery/
-          - title: <del>Imperial Troops Deployment</del>
-            url: /rules/imperial-troops-deployment-rules/
-          - title: <del>Team presence talents</del>
-            url: /rules/team-presence-talents/
+          - title: Small Vehicle Combat
+            url: /rules/small-vehicle-combat/
+          - title: Racing
+            url: /rules/racing/
     - title: Imperial Sourcebook
       children:
           - title: Organization of the Empire
@@ -49,6 +57,12 @@ rulesandgamecontent: # Rules menu (left)
             url: /rules/mass-combat/
           - title: Ugly's starfighters
             url: /game-content/uglys/
+    - title: 'House rules (obsolete)'
+      children:
+          - title: <del>Imperial Troops Deployment</del>
+            url: /rules/imperial-troops-deployment-rules/
+          - title: <del>Team presence talents</del>
+            url: /rules/team-presence-talents/
 
 gamemaster: # Game master menu
     - title: 'Game Master Content'
