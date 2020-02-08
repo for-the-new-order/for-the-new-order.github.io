@@ -11,6 +11,11 @@
         .talent {
             @include one-column-item();
 
+            .talent-name {
+                @include genesys-heading();
+                font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+            }
+
             ul.prerequisites,
             ul.specials {
                 margin: 0;
@@ -23,6 +28,12 @@
         &.two-columns {
             .talent {
                 @include two-column-item();
+            }
+        }
+
+        &.three-columns {
+            .talent {
+                @include three-column-item();
             }
         }
 

@@ -4,7 +4,8 @@
         "Blinn’s",
         "Chiss",
         "NPCs",
-        "starships"
+        "starships",
+        "wingmans"
     ],
     "html.format.enable": true,
     "files.associations": {

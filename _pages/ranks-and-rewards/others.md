@@ -3,7 +3,7 @@ title: Rewards (Others)
 permalink: /rules/ranks-and-rewards/others
 toc: false
 classes:
-    - game-content
+    - pages-rules
     - genesys-theme
     - wide
 ---

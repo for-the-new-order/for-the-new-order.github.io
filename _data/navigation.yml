@@ -1,6 +1,8 @@
 main: # Main menu (top)
     - title: Setting, rules and player content
       url: /rules/
+    - title: Talents database
+      url: /rules/talents/
     - title: About
       url: /about/
 
@@ -19,6 +21,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /rules/ranks-and-rewards/
           - title: Rewards (NPCs)
             url: /rules/ranks-and-rewards/npcs
+          - title: Rewards (Talents)
+            url: /rules/ranks-and-rewards/talents
           - title: Rewards (Starships)
             url: /rules/ranks-and-rewards/starships
           - title: Rewards (Others)

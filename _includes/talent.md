@@ -1,7 +1,12 @@
 {::options parse_block_html="true" /}
 <section class="talent">
 <header>
-### {{ talent.Name }}{% if talent.Depreciated and talent.Depreciated != "" %} (depreciated on: {{ talent.Depreciated }}){% endif %}
+<strong class="talent-name">
+    {{ talent.Name }}
+    {%- if talent.Depreciated and talent.Depreciated != "" -%}
+        &nbsp;(depreciated on: {{ talent.Depreciated }})
+    {%- endif -%}
+</strong>
 
 **Tier:** {{ talent.Tier }}
 

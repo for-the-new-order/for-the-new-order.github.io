@@ -3,7 +3,7 @@ title: Rewards (NPCs)
 permalink: /rules/ranks-and-rewards/npcs
 toc: false
 classes:
-    - game-content
+    - pages-rules
     - genesys-theme
     - wide
 ---

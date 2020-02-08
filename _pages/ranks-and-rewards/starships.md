@@ -3,7 +3,7 @@ title: Rewards (Starships)
 permalink: /rules/ranks-and-rewards/starships
 toc: false
 classes:
-    - game-content
+    - pages-rules
     - genesys-theme
     - wide
 ---

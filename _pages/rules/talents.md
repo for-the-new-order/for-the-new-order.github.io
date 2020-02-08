@@ -1,14 +1,14 @@
 ---
 title: Talents database
 permalink: /rules/talents/
-toc_sticky: false
-regenerate: true
-toc: false
+toc_sticky: true
+toc: true
 classes:
     - pages-rules
     - genesys-theme
     - talents-database
-    - wide
+    - fluid
+    - fluid-toc
 ---
 
 ## Imperial campaign
@@ -71,46 +71,16 @@ Here are the few differences with this list and the Genesys Talents Expanded v5.
 
 {%- assign tiers = site.data.talents | map: 'Tier' | uniq | sort -%}
 
-# Squadron Leader talents
+<section class="talents three-columns">
 
-<small>
-This is a work in progress; don't purchase those until further notice.
-Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) instead.
-</small>
-<hr>
-
-{%- assign talentsSquadronLeader = site.data.talents-squadron-leader | sort: 'Name' | sort: 'Tier' -%}
-
-{% for tier in tiers %}
-
-## Tier {{ tier }}
-
-{% for talent in talentsSquadronLeader %}
-{%- if talent.Tier == tier -%}
-{%- assign sources = talent.Source | split: ", " -%}
-{%- for sourceAbbr in sources -%}
-{%- assign trimmedAbbr = sourceAbbr | strip -%}
-{%- if trimmedAbbr contains "CCC-" -%}
-{%- assign isCCC = true -%}
-{%- endif -%}
-{%- endfor -%}
-{% include talent.md talent=talent %}
-{%- endif -%}
-{% endfor %}
-
-{% endfor %}
-
-</section>
-<section class="talents two-columns">
-
-# Regular Talents
+## Regular Talents
 
 <hr>
 
 {%- assign talents = site.data.talents | sort: 'Name' | sort: 'Tier' -%}
 {% for tier in tiers %}
 
-## Tier {{ tier }}
+### Tier {{ tier }}
 
 {% for talent in talents %}
 {%- if talent.Tier == tier and talent.Depreciated == "" -%}
@@ -148,7 +118,7 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 
 {% for tier in tiers %}
 
-## Tier {{ tier }}
+### Tier {{ tier }}
 
 {%- assign talents = site.data.talents | sort: 'Tier' -%}
 {% for talent in talents %}
@@ -168,7 +138,7 @@ Jump to [Regular Talents](http://localhost:4000/rules/talents/#regular-talents) 
 
 {% for tier in tiers %}
 
-## Tier {{ tier }}
+### Tier {{ tier }}
 
 {%- assign talents = site.data.talents | sort: 'Tier' -%}
 {% for talent in talents %}

@@ -3,7 +3,7 @@ title: Ranks
 permalink: /rules/ranks-and-rewards/
 toc: false
 classes:
-    - game-content
+    - pages-rules
     - genesys-theme
     - wide
 redirect_from:
