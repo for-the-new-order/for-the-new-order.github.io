@@ -38,8 +38,11 @@
                 {%- assign markdownifiedDesc = d | markdownify -%}
                 {%- include text-with-symbols.html content=markdownifiedDesc -%}
             {%- endfor -%}
-        {%- elsif npc.description -%}
-            {%- assign markdownifiedDesc = npc.description[0] | markdownify -%}
+        {%- elsif vehicle.description -%}
+            {%- assign markdownifiedDesc = vehicle.description[0] | markdownify -%}
+            {%- include text-with-symbols.html content=markdownifiedDesc -%}
+        {%- elsif model.description -%}
+            {%- assign markdownifiedDesc = model.description[0] | markdownify -%}
             {%- include text-with-symbols.html content=markdownifiedDesc -%}
         {%- endif -%}
     </section>
