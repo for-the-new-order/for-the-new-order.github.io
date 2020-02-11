@@ -132,18 +132,18 @@
                 ]
             },
             {
-                "title": "optional",
+                "title": "Brewinger's Crew",
                 "cards": [
                     {
-                        "type": "npc|vehicle",
+                        "type": "npc",
+                        "name": "Reeda the Chasse-Soeurs"
+                    },
+                    {
+                        "type": "npc",
                         "name": ""
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
+                        "type": "npc",
                         "name": ""
                     },
                     {
@@ -153,23 +153,19 @@
                 ]
             },
             {
-                "title": "optional",
+                "title": "Naarlock's Pirates",
                 "cards": [
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Briggs The Ghost Hatzenbuhler"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Pirate Commando"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Pirate Swarm"
                     }
                 ]
             }
