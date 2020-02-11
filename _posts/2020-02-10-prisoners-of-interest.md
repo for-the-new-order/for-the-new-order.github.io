@@ -13,7 +13,7 @@ Nevertheless, to know their affiliation and motivation, Kaine must roll a simple
 Any other character involved by Kaine that possess at least one rank in Underground or that has Underground as a career skill, can roll as well.
 Combine all of the symbols and resolve them as a single outcome.
 
-Use the tables below to resolve the symbols, starting with the bad symbols.
+Use the tables below to resolve the symbols, starting with the bad symbols (in another case; i.e., non-simple check).
 Locked information is not possible to learn.
 Cannot learn any information about locked prisoners, before unlocking them first.
 
