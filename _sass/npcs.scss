@@ -97,10 +97,11 @@
             }
             ul.npc-category-items {
                 @include two-column-container();
+                justify-content: flex-start;
                 list-style-type: none;
                 padding-left: 0;
                 li {
-                    @include two-column-item();
+                    @include three-column-item();
                 }
             }
         }
