@@ -159,7 +159,6 @@ $card-bg-color: #252a34;
                 &:not(:last-child) {
                     &:after {
                         content: ', ';
-                        white-space: pre;
                     }
                 }
             }
@@ -174,9 +173,12 @@ $card-bg-color: #252a34;
         }
         .equipment {
             span {
+                border: 1px solid transparent;
+                padding: 0 1px;
                 &:hover {
-                    border: 1px solid $box-text-color;
-                    padding: 0 3px;
+                    border: 1px solid darken($color: $box-text-color, $amount: 50);
+                    background-color: darken($color: $box-text-color, $amount: 70);
+                    cursor: default;
                 }
             }
         }
