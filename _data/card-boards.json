@@ -90,44 +90,32 @@
         "adventure": "episode0090",
         "cards": [
             {
-                "title": " (Rebels)",
+                "title": "Rebels",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "SpecForce Infiltrator"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "SpecForce Grunt"
+                    }
+                ]
+            },
+            {
+                "title": "New Order",
                 "cards": [
                     {
                         "type": "npc",
                         "name": "K4-S Jailor Droid"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    }
-                ]
-            },
-            {
-                "title": "Stormtroopers",
-                "cards": [
-                    {
-                        "type": "npc",
-                        "name": "Stormtrooper"
-                    },
-                    {
                         "type": "npc",
                         "name": "Stormtrooper Sergent"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Stormtrooper"
                     }
                 ]
             },
@@ -140,15 +128,11 @@
                     },
                     {
                         "type": "npc",
-                        "name": ""
+                        "name": "Brewinger's Hunter"
                     },
                     {
                         "type": "npc",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "name": "Apprentice Hunter"
                     }
                 ]
             },
@@ -162,6 +146,10 @@
                     {
                         "type": "npc",
                         "name": "Pirate Commando"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Pirate Incinerator"
                     },
                     {
                         "type": "npc",

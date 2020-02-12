@@ -23,7 +23,7 @@
                 "ranged": 0
             },
             "soak": 5,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 3,
@@ -774,7 +774,7 @@
                 "ranged": 0
             },
             "soak": 4,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -784,10 +784,9 @@
             "willpower": 1,
             "presence": 2
         },
-        "minion_skills": "Cool, Ranged (Heavy) or Ranged (Light)",
+        "minion_skills": "Cool, Ranged (Heavy)",
         "equipment": [
-            "Heavy Blaster Pistol (Ranged [Light], Damage: 7; Critical: 3; Range [Medium]; Stun Setting)",
-            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Blaster Rifle (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Long]; Stun Setting)",
             "Vibroknife (Melee; Damage 3; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
             "Padded Armor (+2 soak)"
         ],
@@ -819,7 +818,7 @@
                 "ranged": 1
             },
             "soak": 4,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -829,7 +828,7 @@
             "willpower": 2,
             "presence": 2
         },
-        "skills": ["Cool 2", "Melee 1", "Ranged (Light) 2", "Ranged (Heavy) 2", "Perception 2", "Stealth 1", "Streewise 2", "Survival 2"],
+        "skills": ["Cool 2", "Melee 1", "Ranged (Light) 2", "Ranged (Heavy) 2", "Perception 2", "Stealth 1", "Streetwise 2", "Survival 2"],
         "talents": [
             {
                 "name": "Quick Draw",
@@ -841,13 +840,64 @@
             }
         ],
         "equipment": [
-            "Disruptor Pistol (Ranged [Light]; Damage 10; Critical 2; Range [Short]; Vicious 4)",
-            "TODO: add a rifle (Ranged [Heavy])",
-            "2x Stun Grenade (Ranged [Light]; Damage 8; Critical 4; Range [Short]; Blast 8; Disorient 3; Limited Ammo 1; Stun Damage)",
+            "DX-2 Disruptor* Pistol (Ranged [Light]; Damage 10; Critical 2; Range [Short]; Vicious 4)",
+            "Vibroknife (Melee; Damage 3; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Pirate Commando Armor (+2 soak, +1 defense)",
+            "Utility belt",
+            "**Disruptor**: Whenever a victim is hit by a disruptor, any Critical Hit results in a \"Crippled\" effect unless the roll would result in an even more grievous injury."
+        ],
+        "description": ["Captain Naarlock's pirates commandos!"]
+    },
+    "Pirate Incinerator": {
+        "players_permissions": {
+            "stats": false,
+            "motivations": {
+                "personality": false,
+                "desires": false,
+                "fear": false,
+                "strength": false,
+                "flaw": false
+            }
+        },
+        "xfolder": "Pirates/Naarlock",
+        "image_path": "/assets/images/npcs/Pirate-Commando.jpg",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Pirates",
+        "corp": "Naarlock",
+        "attributes": {
+            "wounds": 14,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 6,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Athletics 2", "Brawl 2", "Coercion 2", "Cool 2", "Gunnery 2", "Ranged (Heavy) 2", "Perception 2", "Streetwise 2"],
+        "abilities": [
+            {
+                "name": "Coercive Dissuasion",
+                "effect": "Once per encounter, roll an hard (???) Coercion (BR) check. If successful, have the enemies of the Incinerator, with a line of sight, roll an average (??) fear check. Use [AD] to add a [SE], use [TH] to add a [BO], use [AD][AD][AD] to upgrade the difficulty once, use [TH][TH][TH] to downgrade the difficulty once, [TR] to upgrade the difficulty twice, or [DE] to downgrade difficulty twice."
+            }
+        ],
+        "equipment": [
+            "CZ-28 Flamestrike (Gunnery; Damage 9; Critical 2; Range [Short]; Burn 3; Blast 9; Cumbersome 3; Vicious 2; Two-Handed)",
+            "Vibroknife (Melee; Damage 5; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
             "Pirate Commando Armor (+2 soak, +1 defense)",
             "Utility belt"
         ],
-        "description": ["Captain Naarlock's pirates commandos!"]
+        "description": ["A big guy with a frightening flamethrower!"]
     },
     "Briggs The Ghost Hatzenbuhler": {
         "players_permissions": {
@@ -959,6 +1009,10 @@
             {
                 "name": "Ghosting",
                 "effect": "The Ghost can use a story point to become engaged with an enemy, consuming a maneuver. Ghost 'speed move' toward his enemy to then 'appear' right next to it, ready to attack! Must be narratively possible to execute, must see his target or know his exact position."
+            },
+            {
+                "name": "Swipe 1",
+                "effect": "Spend [AD] during melee combat to cause an engaged opponent to suffer 1 strain"
             }
         ],
         "equipment": [
@@ -969,7 +1023,7 @@
             "Sunder: [AD] to activate, can be triggered even if the attack missed; see Genesys Core p.88-89"
         ],
         "description": [
-            "Briggs Hatzenbuhler also known as « The Ghost », is one of the high ranking members of the Naarlock's pirate crew.",
+            "Briggs Hatzenbuhler also known as « The Ghost », is one of the high ranking members of the Naarlock's pirate crew. He is reknown to pack a punch!",
             "He got his nickname due to his stealthy nature, or because he doesn't speak much, or both. Nevertheless, he is not someone to reckon with."
         ]
     },
@@ -1580,7 +1634,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2259,7 +2313,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2298,7 +2352,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2341,7 +2395,7 @@
                 "ranged": 0
             },
             "soak": 3,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2383,7 +2437,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2422,7 +2476,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2466,7 +2520,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 3,
@@ -2538,7 +2592,7 @@
                 "ranged": 1
             },
             "soak": 3,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2627,7 +2681,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2704,7 +2758,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2780,7 +2834,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2860,7 +2914,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -2948,7 +3002,7 @@
                 "ranged": 0
             },
             "soak": 2,
-            "strain": 0
+            "strain": "-"
         },
         "characteristics": {
             "brawn": 2,
@@ -3077,7 +3131,7 @@
         "gender": "Female",
         "clan": "EdG",
         "corp": "Bounty Hunter",
-        "description": ["Bass ass Bounty Hunteress!"],
+        "description": ["Bad ass Bounty Hunteress!"],
         "campaign_info": {
             "encounters": [
                 {
@@ -3148,5 +3202,307 @@
         ],
         "personality": "Conscientious",
         "personality_description": "\"Each man knows his own 'good' and defends it.\" sums up the conscientious character's beliefs. He lives according to a strict personal code of ethics."
+    },
+    "SpecForce Infiltrator": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "rival",
+        "clan": "Rebels",
+        "corp": "Specforce",
+        "attributes": {
+            "wounds": 13,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Melee 2", "Perception 1", "Ranged (Light) 2", "Skulduggery 2", "Stealth 3"],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Stalker 2",
+                "effect": "Add [BO][BO] to all Coordination and Stealth checks"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Shadowed",
+                "effect": "When in darkness or deep shadow, add [BO][BO] to all Stealth checks"
+            },
+            {
+                "name": "Swipe 1",
+                "effect": "Spend [AD] during melee combat to cause an engaged opponent to suffer 1 strain"
+            }
+        ],
+        "equipment": [
+            "Light blaster pistol (Ranged [Light]; Damage 5; Critical 4; Range [Medium]; Stun setting)",
+            "Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Reinforced Blast Vest (+2 soak)",
+            "Encrypted Comlink"
+        ],
+        "description": [
+            "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "414"
+        }
+    },
+    "SpecForce Grunt": {
+        "players_permissions": {
+            "stats": true
+        },
+        "xfolder": "",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "minion",
+        "clan": "Rebels",
+        "corp": "Specforce",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Melee, Ranged (Heavy), Vigilance",
+        "abilities": [
+            {
+                "name": "Quick Positioning",
+                "effect": "The first attack made during an encounter gains [BO][BO]",
+                "source": "FTNO"
+            }
+        ],
+        "equipment": [
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged]))",
+            "Blast Vest (+1 Soak)"
+        ],
+        "description": [
+            "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers."
+        ],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Alliance Infantry",
+                    "source": "ACRB",
+                    "page": "411"
+                }
+            ]
+        }
+    },
+    "Alliance Infantry": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "minion",
+        "clan": "Rebels",
+        "corp": "Specforce",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Melee, Ranged (Heavy), Vigilance",
+        "abilities": [
+            {
+                "name": "Covering Fire",
+                "effect": "May spend a maneuver to add +1 ranged defense to up to three allied characters or minion groups within short range until the end of the next round; this does not stack with multiple uses"
+            }
+        ],
+        "equipment": [
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged]))",
+            "Blast Vest (+1 Soak)"
+        ],
+        "description": [
+            "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "411"
+        }
+    },
+    "Apprentice Hunter": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "minion",
+        "clan": "Neutral",
+        "corp": "Bounty Hunter",
+        "attributes": {
+            "wounds": 6,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Perception, Ranged (Light)",
+        "equipment": ["Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)", "Heavy Clothing (+1 soak)"],
+        "description": [
+            "The number of certified and licensed bounty hunters in the galaxy is utterly dwarfed by the number of those who seek to become certified and licensed."
+        ],
+        "reference": {
+            "source": "ECRB",
+            "page": "399"
+        }
+    },
+    "Brewinger's Hunter": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "rival",
+        "clan": "EdG",
+        "corp": "Bounty Hunter",
+        "attributes": {
+            "wounds": 15,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Cool 1", "Brawl 1", "Coercion 1", "Coordination 1", "Ranged (Heavy) 2", "Survival 2", "Vigilance 1"],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Heavy Plinker",
+                "effect": "After failing an Auto-Fire attack, can spend [AD] to apply 1 strain damage to its target per [AD].",
+                "source": "FTNO"
+            }
+        ],
+        "equipment": [
+            "Heavy Blaster Rifle (Ranged (Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Cumbersome 3)",
+            "Laminate Armor (+2 soak)"
+        ],
+        "description": ["TODO: describe the NPC here..."],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Journeyman Hunter",
+                    "source": "ACRB",
+                    "page": "400"
+                }
+            ]
+        }
+    },
+    "Journeyman Hunter": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "rival",
+        "clan": "Neutral",
+        "corp": "Bounty Hunter",
+        "attributes": {
+            "wounds": 15,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Brawl 1", "Coercion 1", "Coordination 1", "Ranged (Heavy) 1", "Ranged (Light) 1", "Survival 2", "Vigilance 1"],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Lethal Blows 1",
+                "effect": "+10% to any Critical Injury rolls made against opponents"
+            }
+        ],
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light]; Damage 7; Critical 3; Ranged [Medium]; Stun Setting)",
+            "Disruptor Rifle (Ranged [Heavy]; Damage 10; Critical 2; Range [Long]; Cumbersome 2, Vicious 5)",
+            "Laminate Armore (+2 soak)"
+        ],
+        "description": [
+            "Journeyman hunters have been accepted into the ranks of an existing guild and are fully accredited and licensed to pursue authorized bounties."
+        ],
+        "reference": {
+            "source": "ACRB",
+            "page": "400"
+        }
     }
 }

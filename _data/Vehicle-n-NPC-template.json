@@ -143,6 +143,36 @@
             }
         }
     },
+    "MINION_NAME": {
+        "folder": "",
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "minion",
+        "species": {
+            "name": "Human"
+        },
+        "clan": "Empire|Generic|Rebels|Pirates|Starlight Industries|Utopia",
+        "corp": "",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 12
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Skill1, Skill2, ...",
+        "equipment": [],
+        "description": ["TODO: describe the NPC here..."]
+    },
     "NPC-talents": {
         "talents": [
             {
@@ -174,11 +204,36 @@
                 "flaw": false
             }
         },
+        "players_permissions": {
+            "stats": true
+        },
         "campaign_info": {
             "encounters": [{ "episode": "episode0000" }]
         },
         "campaign_info": {
             "encounters": [{ "episode": "episode0000", "description": ["..."] }]
         }
-    }
+    },
+    "BOOK-REFERENCE": {
+        "reference": {
+            "source": "ACRB",
+            "page": "420"
+        },
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "NPC_NAME",
+                    "source": "ACRB",
+                    "page": "411"
+                }
+            ]
+        }
+    },
+    "TALENT-ABILITY": [
+        {
+            "name": "talent_name",
+            "effect": "talent_effect"
+        }
+    ]
 }
