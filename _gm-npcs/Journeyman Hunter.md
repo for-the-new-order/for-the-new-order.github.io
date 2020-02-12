@@ -1,0 +1,3 @@
+---
+title: Journeyman Hunter
+---

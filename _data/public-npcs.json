@@ -285,7 +285,13 @@
         { "name": "Reeda the Chasse-Soeurs" },
         { "name": "Ky Kataz" },
         { "name": "Joshua Jett" },
-        { "name": "Brewinger" }
+        { "name": "Brewinger" },
+        { "name": "SpecForce Infiltrator" },
+        { "name": "SpecForce Grunt" },
+        { "name": "Alliance Infantry" },
+        { "name": "Apprentice Hunter" },
+        { "name": "Brewinger's Hunter" },
+        { "name": "Journeyman Hunter" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
