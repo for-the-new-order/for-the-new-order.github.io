@@ -3264,7 +3264,7 @@
             "page": "414"
         }
     },
-    "SpecForce Grunt": {
+    "SpecForce Trooper": {
         "players_permissions": {
             "stats": true
         },
@@ -3325,7 +3325,7 @@
         "image_path": "/assets/images/npcs/250x250-rebels.png",
         "type": "minion",
         "clan": "Rebels",
-        "corp": "Specforce",
+        "corp": "Army",
         "attributes": {
             "wounds": 5,
             "defense": {

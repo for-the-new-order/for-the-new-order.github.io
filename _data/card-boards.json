@@ -90,19 +90,6 @@
         "adventure": "episode0090",
         "cards": [
             {
-                "title": "Rebels",
-                "cards": [
-                    {
-                        "type": "npc",
-                        "name": "SpecForce Infiltrator"
-                    },
-                    {
-                        "type": "npc",
-                        "name": "SpecForce Grunt"
-                    }
-                ]
-            },
-            {
                 "title": "New Order",
                 "cards": [
                     {
@@ -116,6 +103,19 @@
                     {
                         "type": "npc",
                         "name": "Stormtrooper"
+                    }
+                ]
+            },
+            {
+                "title": "Rebels",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "SpecForce Infiltrator"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "SpecForce Trooper"
                     }
                 ]
             },
