@@ -3443,7 +3443,7 @@
             "Heavy Blaster Rifle (Ranged (Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Cumbersome 3)",
             "Laminate Armor (+2 soak)"
         ],
-        "description": ["TODO: describe the NPC here..."],
+        "description": ["Bounty Hunters that survived their rookie phase and that are now employed by Brewinger."],
         "reference": {
             "source": "FTNO",
             "based_on": [
