@@ -27,7 +27,7 @@
             "name": "Nebulon-B Frigate"
         },
         "campaign_info": {
-            "flight_officer": "Naarlok",
+            "flight_officer": "Naarlock",
             "encounters": [
                 {
                     "episode": "episode0001",
@@ -37,7 +37,7 @@
         },
         "image_path": "/assets/images/vehicles/The-Raazial.png",
         "description": [
-            "The Raazial is a highly modified Nebulon-B Frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it.",
+            "The Raazial is a highly modified Nebulon-B Frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlock. Not that many people who saw the ship survived to talk about it.",
             "[![The Raazial](/assets/images/vehicles/deck-plans/Raazial-full.jpg)](/assets/images/vehicles/deck-plans/Raazial-full.jpg)"
         ],
         "characteristics": {
@@ -390,8 +390,8 @@
                 {
                     "episode": "episode0001",
                     "description": [
-                        "Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlok threat themselves.",
-                        "Commodore Carbonneau came to rescue the PCs from pirate captain Naarlok on board of the Imperial Star Destroyer Falsifier."
+                        "Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlock threat themselves.",
+                        "Commodore Carbonneau came to rescue the PCs from pirate captain Naarlock on board of the Imperial Star Destroyer Falsifier."
                     ]
                 }
             ]

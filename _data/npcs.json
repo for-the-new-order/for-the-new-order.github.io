@@ -708,7 +708,7 @@
         "motivation": {
             "strength": {
                 "name": "Spiritual",
-                "description": "Hugo the Hatless believes in Naarlok. His belief gives him a solid mental bedrock he can always rely on."
+                "description": "Hugo the Hatless believes in Naarlock. His belief gives him a solid mental bedrock he can always rely on."
             },
             "flaw": {
                 "name": "Pride",
@@ -1064,7 +1064,7 @@
             }
         },
         "description": [
-            "Commodore Carbonneau is the officer in charge of the ISD Falsifier, coming to rescue the PCs from pirate captain Naarlok! Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlok threat themselves."
+            "Commodore Carbonneau is the officer in charge of the ISD Falsifier, coming to rescue the PCs from pirate captain Naarlock! Agent Undrake called Commodore Carbonneau following their incapacity to contain the Naarlock threat themselves."
         ]
     },
     "Derrek Guthrie": {
@@ -1522,7 +1522,7 @@
             "name": "Human"
         },
         "description": [
-            "Raymond, also known as Raymond L'impitoyable, was a pirate smuggler in the Captain Naarlok organization; he deserted when Dargon Starlight recruited him. He is now an employee of Starlight Industries, doing Dargon's biddings.",
+            "Raymond, also known as Raymond L'impitoyable, was a pirate smuggler in the Captain Naarlock organization; he deserted when Dargon Starlight recruited him. He is now an employee of Starlight Industries, doing Dargon's biddings.",
             "More TBD..."
         ],
         "clan": "Starlight Industries",
