@@ -37,7 +37,8 @@
         },
         "image_path": "/assets/images/vehicles/The-Raazial.png",
         "description": [
-            "The Raazial is a highly modified Nebulon-B Frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it."
+            "The Raazial is a highly modified Nebulon-B Frigate, exhibiting an enormous undead skull at the front. This is the infamous pirate shit of captain Naarlok. Not that many people who saw the ship survived to talk about it.",
+            "![The Raazial](/assets/images/vehicles/deck-plans/Raazial-full.jpg)"
         ],
         "characteristics": {
             "max_speed": 5,
