@@ -533,5 +533,19 @@
                 }
             ]
         }
+    },
+    "Zenith": {
+        "model": {
+            "name": "Imperial I-class Star Destroyer"
+        },
+        "campaign_info": {
+            "flight_officer": "Lindsey Rostock",
+            "encounters": [
+                {
+                    "episode": "episode0090",
+                    "description": ["The **Zenith** was waiting for the Gaoler on the other end of the Bancroft Nebula."]
+                }
+            ]
+        }
     }
 }
