@@ -2797,7 +2797,7 @@
                 "flaw": true
             }
         },
-        "folder": "Rebels/A-Cers",
+        "folder": "Rebels/Acers",
         "initialSeed": 19166,
         "image_path": "/assets/images/npcs/rebel-pilots.jpg",
         "type": "rival",
@@ -2805,7 +2805,7 @@
             "encounters": [
                 {
                     "episode": "episode0090",
-                    "description": ["Major Vittorini is the second in command in the A-Cers squadron, confronting Jenssar's forces."]
+                    "description": ["Major Vittorini is the second in command in the Acers squadron, confronting Jenssar's forces."]
                 }
             ]
         },
@@ -2850,7 +2850,7 @@
             "Flight suit",
             "Astromech droid"
         ],
-        "description": ["Teodorico Vittorini is the second in command in the A-Cers squadron."],
+        "description": ["Teodorico Vittorini is the second in command in the Acers squadron."],
         "talents": [
             {
                 "name": "Offensive Driving",
@@ -2875,7 +2875,7 @@
                 "flaw": false
             }
         },
-        "folder": "Rebels/A-Cers",
+        "folder": "Rebels/Acers",
         "initialSeed": 230018,
         "image_path": "/assets/images/npcs/rebel-pilots.jpg",
         "type": "rival",
@@ -2887,7 +2887,7 @@
                 {
                     "episode": "episode0090",
                     "description": [
-                        "Lieutenant Butschek is the leader of the X-Wing filling up for the missing A-Wing in the A-Cers squadron, confronting Jenssar's forces."
+                        "Lieutenant Butschek is the leader of the X-Wing filling up for the missing A-Wing in the Acers squadron, confronting Jenssar's forces."
                     ]
                 }
             ]
@@ -2930,7 +2930,7 @@
             "Flight suit",
             "Astromech droid"
         ],
-        "description": ["Lieutenant Butschek leads 4 X-Wing, and aspire to make it to the A-Cers squadron."],
+        "description": ["Lieutenant Butschek leads 4 X-Wing, and aspire to make it to the Acers squadron."],
         "talents": [
             {
                 "name": "Fine Tuning 2",
@@ -2955,7 +2955,7 @@
                 "flaw": true
             }
         },
-        "folder": "Rebels/A-Cers",
+        "folder": "Rebels/Acers",
         "image_path": "/assets/images/npcs/Alyssa-Rush-Esterly.jpg",
         "type": "NEMESIS",
         "species": {
@@ -2966,7 +2966,7 @@
                 {
                     "episode": "episode0090",
                     "description": [
-                        "Commander Esterly, a.k.a. _Rush_, is the leader of the A-Cers, the notorious A-Wing rebel squadron, confronting Jenssar's forces."
+                        "Commander Esterly, a.k.a. _Rush_, is the leader of the Acers, the notorious A-Wing rebel squadron, confronting Jenssar's forces."
                     ]
                 }
             ]

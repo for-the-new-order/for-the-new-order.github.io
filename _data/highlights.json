@@ -30,11 +30,60 @@
         {
             "name": "EdG",
             "alias": "Enfants du Grabuge",
+            "type": "Criminal Syndicate",
             "description": [
                 "_Les Enfants du Grabuge_ (a.k.a. EdG), which means _Children of Mayhem_, is a powerful criminal syndicate that operate primarily in the Outer Rim. They are affiliated with the Hutts."
             ],
             "campaign_info": {
                 "encounters": [{ "episode": "episode0050" }]
+            }
+        },
+        {
+            "name": "Naarlock's pirates",
+            "type": "Pirates",
+            "description": ["Evil pirates with a skull in front of a highly-modified Nebulon-B Frigate, what can go wrong?"],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0090" }]
+            }
+        },
+        {
+            "name": "Silver Sun Mining Company",
+            "type": "Company",
+            "description": [
+                "The company was founded 195 years ago by Daniel Jones. At the time, its main business was mining blaster gas extract, with 30 employees headquartered in a well-maintained office.",
+                "The company's first main breakthrough was figuring out a method to produce durasteel 25% faster than the competition."
+            ],
+            "metadata": {
+                "CEO": "Phoebe Gray",
+                "Board of Directors": ["(To be Nominated)", "Peggy Komarov", "Douglas Fujiwara"],
+                "Logo Features": "An ivory planet and a silver sun",
+                "Slogan": "Hopes for a longer-lasting Galaxy",
+                "Major Subdivisions": ["Mining", "Construction", "Prisons"],
+                "Owned Subsidiaries": [
+                    "Intergalactic Durasteel Mining Ltd.",
+                    "Gogunov Planetary Mining",
+                    "Sunbeam Defence",
+                    "Highstellar Construction Partnership"
+                ],
+                "Headquarter": {
+                    "name": "Space Station SSMC-1",
+                    "description": ["The Space Station is orbiting the Gas Mines of Endium in the corporate sectors"]
+                },
+                "Cash": "473 Billon Cr.",
+                "Assets": "356 Trillion Cr.",
+                "Liabilities": "157 Billion Cr."
+            },
+            "campaign_info": {
+                "encounters": [
+                    { "episode": "episode0030" },
+                    {
+                        "episode": "episode0040",
+                        "description": [
+                            "The CEO Tom Krenik was removed from office after the PCs found that he was conspiring with the Rebel Alliance."
+                        ]
+                    },
+                    { "episode": "episode0100", "description": ["The rebel base is built inside an old Silver Sun Mining Company's mine."] }
+                ]
             }
         }
     ],
@@ -52,9 +101,16 @@
     "storylines": [
         {
             "name": "Naarlock's pirates",
-            "description": ["Evil pirates with a skull in front of a Nebulon-B Frigate, what can go wrong?"],
+            "description": [
+                "They like to pillage, steal, and blow things up! The New Order wants to stop them from terrorizing the outer rim."
+            ],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0001" }]
+                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0090" }]
+            },
+            "related": {
+                "organizations": [{ "name": "Naarlock's pirates" }],
+                "vehicles": [{ "name": "The Raazial" }],
+                "npcs": [{ "clan": "Pirates", "corp": "Naarlock" }]
             }
         },
         {
@@ -98,7 +154,7 @@
             "name": "The Dark Character",
             "description": ["A Dark Imperial Character seems to give force power from time to time to **Jenssar**..."],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0050" }, { "episode": "episode0080" }]
+                "encounters": [{ "episode": "episode0050" }, { "episode": "episode0080" }, { "episode": "episode0090" }]
             }
         },
         {
@@ -131,12 +187,20 @@
             }
         },
         {
-            "name": "A-cers",
+            "name": "Acers",
             "clan": "Rebels",
             "description": ["The legendary interceptor rebel squadron lead by **Rush**."],
             "campaign_info": {
                 "flight_officer": "Rush",
-                "encounters": [{ "episode": "episode0080" }, { "episode": "episode0090" }]
+                "encounters": [
+                    { "episode": "episode0080" },
+                    {
+                        "episode": "episode0090",
+                        "description": [
+                            "The Acers escorted the boarding ships, and Rush's A-Wing was disabled by Jenssar during the fight, making her and her modified ship disappear in the Bancroft Nebula."
+                        ]
+                    }
+                ]
             }
         }
     ]

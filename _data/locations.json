@@ -106,5 +106,30 @@
         "type": "spaceport",
         "description": ["Gofftown Spaceport is a highly corrupted Imperial-class Spaceport on the planet Statoko."],
         "campaign_info": { "encounters": [{ "episode": "episode0070" }] }
+    },
+    "Thorndike": {
+        "type": "system",
+        "description": ["A system were a passageway in the Bancroft Nebula starts."],
+        "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
+        "related": { "locations": [{ "name": "Bancroft" }] }
+    },
+    "Miinko": {
+        "type": "system",
+        "description": ["A system were a passageway in the Bancroft Nebula ends."],
+        "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
+        "related": { "locations": [{ "name": "Bancroft" }] }
+    },
+    "Bancroft": {
+        "type": "nebula",
+        "description": ["A Nebula, with a high anomaly level, that host a passageway between the system Thorndike and Miinko."],
+        "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
+        "related": { "locations": [{ "name": "Thorndike" }, { "name": "Miinko" }] }
+    },
+    "Phantom Penitentiary": {
+        "type": "prison",
+        "description": [
+            "The Phantom Penitentiary is a maximum-security prison where no one gets out of. Its location is secret, and the travel is almost impossible to do without the right set of coordinates."
+        ],
+        "campaign_info": { "encounters": [{ "episode": "episode0090" }] }
     }
 }
