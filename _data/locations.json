@@ -131,5 +131,17 @@
             "The Phantom Penitentiary is a maximum-security prison where no one gets out of. Its location is secret, and the travel is almost impossible to do without the right set of coordinates."
         ],
         "campaign_info": { "encounters": [{ "episode": "episode0090" }] }
+    },
+    "Lanexa-Bunn": {
+        "type": "system",
+        "description": [
+            "Lanexa-Bunn is a system with, at its center, a pulsar that emits ultra-high-energy cosmic rays.",
+            "Lanexa-Bunn II is a planet that hosted a Carbonite and Tibanna mine, exploited by the Silver Sun Mining Company about 150 years before Episode 10."
+        ],
+        "campaign_info": { "encounters": [{ "episode": "episode0100" }] },
+        "related": {
+            "npcs": [{ "name": "Carbonite Dragon" }],
+            "organizations": [{ "name": "Silver Sun Mining Company" }, { "name": "Rebel Alliance" }]
+        }
     }
 }

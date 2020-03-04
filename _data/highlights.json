@@ -85,6 +85,25 @@
                     { "episode": "episode0100", "description": ["The rebel base is built inside an old Silver Sun Mining Company's mine."] }
                 ]
             }
+        },
+        {
+            "name": "Rebel Alliance",
+            "type": "Rebels",
+            "description": [
+                "The Rebel Alliance is a stateless interstellar coalition of republican dissidents, revolutionary factions and anti-imperialist clandestine cell systems in a resistance movement against the imperialist Galactic Empire. The Alliance's goal is to restore the Galactic Republic."
+            ],
+            "campaign_info": {
+                "encounters": [
+                    { "episode": "episode0010" },
+                    { "episode": "episode0020" },
+                    { "episode": "episode0030" },
+                    { "episode": "episode0050" },
+                    { "episode": "episode0070" },
+                    { "episode": "episode0080" },
+                    { "episode": "episode0090" },
+                    { "episode": "episode0100" }
+                ]
+            }
         }
     ],
     "races": [

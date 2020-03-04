@@ -3504,5 +3504,199 @@
             "source": "ACRB",
             "page": "400"
         }
+    },
+    "Carbonite Dragon": {
+        "players_permissions": {
+            "stats": false
+        },
+        "folder": "Beasts",
+        "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
+        "type": "rivals",
+        "species": {
+            "name": "Carbonite Dragon"
+        },
+        "silhouette": 3,
+        "attributes": {
+            "wounds": 55,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 12,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 9,
+            "agility": 2,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Athletics 2", "Brawl 3", "Coercion 2", "Resilience 3", "Perception 2", "Stealth 2", "Survival 2"],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Durable 2",
+                "effect": "Your character reduces any Critical Injury result they suffer by 20, to a minimum of 1."
+            },
+            {
+                "name": "Intimidating 3",
+                "effect": "May suffer up to 3 strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number."
+            },
+            {
+                "name": "Knockdown",
+                "effect": "Can spend [TR] to knock a target prone after a successful attack"
+            },
+            {
+                "name": "Lethal Blows 2",
+                "effect": "+20% to any Critical Injury rolls made against opponents"
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Feral Strength 3",
+                "effect": "+3 damage on all Brawl and Melee attacks."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Camouflage",
+                "effect": "Add [BO][BO] to any Stealth checks made"
+            },
+            {
+                "name": "Devour",
+                "effect": "Can spend [TR] to begin to devour a target after a successful attack. The target is ensnared and automatically takes damage at the beginning of the Carbonite Dragon’s turn. A creature that is killed is completely devoured and digested"
+            },
+            {
+                "name": "Tremorsense",
+                "effect": "A Carbonite Dragon is able to automatically sense the location of anything that is in contact with the ground within 30 meters"
+            }
+        ],
+        "equipment": [
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 13; Critical 3; Range [Engaged]; Concussive, Disorient 3, Pierce 3)"
+        ],
+        "description": [
+            "The Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. Their stomachs contain the same Tibanna Crystals, a crytalized type of Carbonite. Those crystals are worth a lot of credits. The only thing the Carbonite Dragon fears is a Greater Carbonite Dragon, and they sometimes clash in titanic struggles when they stray too far into each other’s territory."
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0100" }]
+        },
+        "reference": {
+            "based_on": [
+                {
+                    "name": "Canyon Krayt Dragon [Henchman]",
+                    "source": "CCC-cyril2"
+                }
+            ],
+            "links": [
+                {
+                    "text": "community.fantasyflightgames.com",
+                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720237"
+                }
+            ]
+        }
+    },
+    "Greater Carbonite Dragon": {
+        "players_permissions": {
+            "stats": false
+        },
+        "folder": "Beasts",
+        "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
+        "type": "nemesis",
+        "species": {
+            "name": "Carbonite Dragon"
+        },
+        "silhouette": 4,
+        "attributes": {
+            "wounds": 60,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 15,
+            "strain": 50
+        },
+        "characteristics": {
+            "brawn": 10,
+            "agility": 1,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Athletics 3", "Brawl 3", "Coercion 2", "Resilience 4", "Perception 2", "Stealth 1", "Survival 2"],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Massive 1",
+                "effect": "When making an attack targeting this creature, the critical rating of any weapons used counts as 1 higher."
+            },
+            {
+                "name": "Durable 3",
+                "effect": "Your character reduces any Critical Injury result they suffer by 30, to a minimum of 1."
+            },
+            {
+                "name": "Intimidating 4",
+                "effect": "May suffer up to 4 strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number."
+            },
+            {
+                "name": "Knockdown",
+                "effect": "Can spend [TR] to knock a target prone after a successful attack"
+            },
+            {
+                "name": "Lethal Blows 3",
+                "effect": "+30% to any Critical Injury rolls made against opponents"
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Feral Strength 4",
+                "effect": "+4 damage on all Brawl and Melee attacks."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Camouflage",
+                "effect": "Add [BO][BO] to any Stealth checks made"
+            },
+            {
+                "name": "Devour",
+                "effect": "Can spend [TR] to begin to devour a target after a successful attack. The target is ensnared and automatically takes damage at the beginning of the Carbonite Dragon’s turn. A creature that is killed is completely devoured and digested"
+            },
+            {
+                "name": "Tremorsense",
+                "effect": "A Carbonite Dragon is able to automatically sense the location of anything that is in contact with the ground within 30 meters"
+            }
+        ],
+        "equipment": [
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 15; Critical 3; Range [Engaged]; Concussive, Disorient 3, Pierce 5)"
+        ],
+        "description": [
+            "At least 100 meters in length, the Greater Carbonite Dragon is titanic underground creature. They looks like cave rocks, making them very hard to spot. They are able to dig tunels very fast, allowing them to move through rocks. They are rarely seen, but their bones dot the landscape."
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0100" }]
+        },
+        "reference": {
+            "based_on": [
+                {
+                    "name": "Greater Krayt Dragon [Nemesis]",
+                    "source": "CCC-cyril2"
+                }
+            ],
+            "links": [
+                {
+                    "text": "community.fantasyflightgames.com",
+                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720235"
+                }
+            ]
+        }
     }
 }

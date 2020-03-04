@@ -1,0 +1,3 @@
+---
+title: Greater Carbonite Dragon
+---

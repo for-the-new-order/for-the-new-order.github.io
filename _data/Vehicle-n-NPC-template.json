@@ -228,6 +228,14 @@
                     "page": "411"
                 }
             ]
+        },
+        "reference": {
+            "links": [
+                {
+                    "text": "link name",
+                    "url": "..."
+                }
+            ]
         }
     },
     "TALENT-ABILITY": [

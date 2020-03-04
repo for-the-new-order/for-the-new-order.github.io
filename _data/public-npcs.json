@@ -329,6 +329,7 @@
             "frontMatter": ["display-characteristics: false", "display-weapons: false"]
         },
         { "name": "Gaoler" },
-        { "name": "TIE Interceptor" }
+        { "name": "TIE Interceptor" },
+        { "name": "Zenith" }
     ]
 }
