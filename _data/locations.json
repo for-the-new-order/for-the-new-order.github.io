@@ -136,12 +136,25 @@
         "type": "system",
         "description": [
             "Lanexa-Bunn is a system with, at its center, a pulsar that emits ultra-high-energy cosmic rays.",
-            "Lanexa-Bunn II is a planet that hosted a Carbonite and Tibanna mine, exploited by the Silver Sun Mining Company about 150 years before Episode 10."
+            "Sensors are not really good in that system due to the ultra-high-energy cosmic ray. This is good for hiding, but bad at seeing enemies approach as well."
+        ],
+        "campaign_info": { "encounters": [{ "episode": "episode0100" }] },
+        "related": {
+            "locations": [{ "name": "Lanexa-Bunn II" }]
+        }
+    },
+    "Lanexa-Bunn II": {
+        "type": "planet",
+        "description": [
+            "Lanexa-Bunn II is a Carbon-based planet (barrens) that hosted a Carbonite and Tibanna mine, exploited by the Silver Sun Mining Company about 150 years before Episode 10.",
+            "It has an underground layer of water, deep under its surface, sustaining life deep under its dead surface.",
+            "A Rebel base is constructed inside the old mine. The Rebel Alliance repurposed the huge underground spaceports that allowed gigantic transport ships to dock, offering parking space for the rebel fleet, out of sight."
         ],
         "campaign_info": { "encounters": [{ "episode": "episode0100" }] },
         "related": {
             "npcs": [{ "name": "Carbonite Dragon" }],
-            "organizations": [{ "name": "Silver Sun Mining Company" }, { "name": "Rebel Alliance" }]
+            "organizations": [{ "name": "Silver Sun Mining Company" }, { "name": "Rebel Alliance" }],
+            "locations": [{ "name": "Lanexa-Bunn" }]
         }
     }
 }

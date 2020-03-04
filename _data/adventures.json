@@ -181,6 +181,19 @@
             }
         ]
     },
+    "episode0100": {
+        "name": "Episode 10: The Lanexa-Bunn Base",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/RuIHBUb1GNDHB1bM6EzJ",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": [
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
+    },
     "template": {
         "name": "Episode X: ",
         "crawl": "",
