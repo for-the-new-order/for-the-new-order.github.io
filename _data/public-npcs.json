@@ -291,7 +291,8 @@
         { "name": "Alliance Infantry" },
         { "name": "Apprentice Hunter" },
         { "name": "Brewinger's Hunter" },
-        { "name": "Journeyman Hunter" }
+        { "name": "Journeyman Hunter" },
+        { "name": "Prinz Futch" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },

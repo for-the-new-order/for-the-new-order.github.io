@@ -3698,5 +3698,65 @@
                 }
             ]
         }
+    },
+    "Prinz Futch": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "strength": true,
+                "flaw": true
+            }
+        },
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Agent",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Compnor",
+        "xattributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 12
+        },
+        "characteristics": {
+            "xbrawn": 2,
+            "xagility": 2,
+            "xintellect": 2,
+            "xcunning": 2,
+            "willpower": 2,
+            "xpresence": 2
+        },
+        "skills": ["Discipline 1"],
+        "xtalents": [],
+        "xabilities": [],
+        "xequipment": [],
+        "description": ["Agent Futch is a member of the Overwatch division. His team are best know as the Gadgeteers."],
+        "personality": "Jovial",
+        "motivation": {
+            "strength": {
+                "name": "Witty",
+                "description": "Your character is extremely clever, with the right joke for a friend and the perfect insult for a foe. Some may love their company, while others loathe their cutting remarks, but none can deny that your character has the sharpest tongue around."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Pride does not always have to be a Flaw, but it can easily become one. Your character is arrogant, vain, or self-absorbed, or thinks highly of themself at the expense of others."
+            }
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0100",
+                    "description": ["Undrake went to him to aquire 3 Shield Remotes.", "Kaine own him a few credit for a lost Sabaac game."]
+                }
+            ]
+        }
     }
 }
