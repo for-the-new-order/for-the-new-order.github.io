@@ -3698,5 +3698,96 @@
                 }
             ]
         }
+    },
+    "Minor Carbonite Dragon": {
+        "players_permissions": {
+            "stats": false
+        },
+        "folder": "Beasts",
+        "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
+        "type": "rivals",
+        "species": {
+            "name": "Carbonite Dragon"
+        },
+        "silhouette": 2,
+        "attributes": {
+            "wounds": 25,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 8,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 5,
+            "agility": 2,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Athletics 1", "Brawl 2", "Coercion 1", "Resilience 1", "Perception 1", "Stealth 3", "Survival 2"],
+        "talents": [
+            {
+                "name": "Durable 1",
+                "effect": "Your character reduces any Critical Injury result they suffer by 10, to a minimum of 1."
+            },
+            {
+                "name": "Intimidating 1",
+                "effect": "May suffer up to 1 strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number."
+            },
+            {
+                "name": "Knockdown",
+                "effect": "Can spend [TR] to knock a target prone after a successful attack"
+            },
+            {
+                "name": "Lethal Blows 1",
+                "effect": "+10% to any Critical Injury rolls made against opponents"
+            }
+        ],
+        "passiveTalents": [
+            {
+                "name": "Feral Strength 2",
+                "effect": "+2 damage on all Brawl and Melee attacks."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Camouflage",
+                "effect": "Add [BO][BO] to any Stealth checks made"
+            },
+            {
+                "name": "Devour",
+                "effect": "Can spend [TR] to begin to devour a target after a successful attack. The target is ensnared and automatically takes damage at the beginning of the Carbonite Dragon’s turn. A creature that is killed is completely devoured and digested"
+            },
+            {
+                "name": "Tremorsense",
+                "effect": "A Carbonite Dragon is able to automatically sense the location of anything that is in contact with the ground within 30 meters"
+            }
+        ],
+        "equipment": [
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 8; Critical 3; Range [Engaged]; Concussive, Disorient 1, Pierce 3)"
+        ],
+        "description": [
+            "The Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. Their stomachs contain the same Tibanna Crystals, a crytalized type of Carbonite. Those crystals are worth a lot of credits. The only thing the Carbonite Dragon fears is a Greater Carbonite Dragon, and they sometimes clash in titanic struggles when they stray too far into each other’s territory."
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0100" }]
+        },
+        "reference": {
+            "based_on": [
+                {
+                    "name": "Canyon Krayt Dragon [Henchman]",
+                    "source": "CCC-cyril2"
+                }
+            ],
+            "links": [
+                {
+                    "text": "community.fantasyflightgames.com",
+                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720237"
+                }
+            ]
+        }
     }
 }

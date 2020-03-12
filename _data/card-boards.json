@@ -173,6 +173,10 @@
                     {
                         "type": "npc",
                         "name": "Greater Carbonite Dragon"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Minor Carbonite Dragon"
                     }
                 ]
             }
