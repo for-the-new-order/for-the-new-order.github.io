@@ -168,15 +168,15 @@
                 "cards": [
                     {
                         "type": "npc",
+                        "name": "Minor Carbonite Dragon"
+                    },
+                    {
+                        "type": "npc",
                         "name": "Carbonite Dragon"
                     },
                     {
                         "type": "npc",
                         "name": "Greater Carbonite Dragon"
-                    },
-                    {
-                        "type": "npc",
-                        "name": "Minor Carbonite Dragon"
                     }
                 ]
             }
