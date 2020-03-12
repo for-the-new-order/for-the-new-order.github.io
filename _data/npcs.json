@@ -3577,10 +3577,10 @@
             }
         ],
         "equipment": [
-            "Massive claws, teeth, and smashing tail (Brawl; Damage 13; Critical 3; Range [Engaged]; Concussive, Disorient 3, Pierce 3)"
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 13; Critical 3; Range [Engaged]; Concussive 2, Disorient 2, Pierce 3)"
         ],
         "description": [
-            "The Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. Their stomachs contain the same Tibanna Crystals, a crytalized type of Carbonite. Those crystals are worth a lot of credits. The only thing the Carbonite Dragon fears is a Greater Carbonite Dragon, and they sometimes clash in titanic struggles when they stray too far into each other’s territory."
+            "At least 50 meters in length, the Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunnels of the Lanexa-Bunn II abandoned mines. Their stomachs contain the same Tibanna Crystals, a crystallized type of Carbonite. Those crystals are worth a lot of credits. The only thing the Carbonite Dragon fears is a Greater Carbonite Dragon, and they sometimes clash in titanic struggles when they stray too far into each other’s territory."
         ],
         "campaign_info": {
             "encounters": [{ "episode": "episode0100" }]
@@ -3628,7 +3628,7 @@
             "willpower": 1,
             "presence": 1
         },
-        "skills": ["Athletics 3", "Brawl 3", "Coercion 2", "Resilience 4", "Perception 2", "Stealth 1", "Survival 2"],
+        "skills": ["Athletics 3", "Brawl 4", "Coercion 2", "Resilience 4", "Perception 2", "Stealth 1", "Survival 2"],
         "talents": [
             {
                 "name": "Adversary 2",
@@ -3676,10 +3676,10 @@
             }
         ],
         "equipment": [
-            "Massive claws, teeth, and smashing tail (Brawl; Damage 15; Critical 3; Range [Engaged]; Concussive, Disorient 3, Pierce 5)"
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 15; Critical 3; Range [Engaged]; Concussive 3, Disorient 3, Pierce 4)"
         ],
         "description": [
-            "At least 100 meters in length, the Greater Carbonite Dragon is titanic underground creature. They looks like cave rocks, making them very hard to spot. They are able to dig tunels very fast, allowing them to move through rocks. They are rarely seen, but their bones dot the landscape."
+            "At least 100 meters in length, the Greater Carbonite Dragon is an enormous underground creature. They look like cave rocks, making them very hard to spot. They can dig tunnels very fast, allowing them to move through rocks. They are rarely seen, but their bones dot the landscape."
         ],
         "campaign_info": {
             "encounters": [{ "episode": "episode0100" }]
@@ -3762,8 +3762,8 @@
                 "effect": "Add [BO][BO] to any Stealth checks made"
             },
             {
-                "name": "Devour",
-                "effect": "Can spend [TR] to begin to devour a target after a successful attack. The target is ensnared and automatically takes damage at the beginning of the Carbonite Dragon’s turn. A creature that is killed is completely devoured and digested"
+                "name": "Call of the pack",
+                "effect": "As an incidental, the Minor Carbonite Dragon can call for help. Minor Carbonite Dragons are more likely to answers the call initially, while Carbonite Dragon can come later of the calls for help persist. Greater Carbonite Dragons are not likely to respond."
             },
             {
                 "name": "Tremorsense",
@@ -3771,10 +3771,10 @@
             }
         ],
         "equipment": [
-            "Massive claws, teeth, and smashing tail (Brawl; Damage 8; Critical 3; Range [Engaged]; Concussive, Disorient 1, Pierce 3)"
+            "Massive claws, teeth, and smashing tail (Brawl; Damage 8; Critical 3; Range [Engaged]; Concussive 1, Disorient 1, Pierce 3)"
         ],
         "description": [
-            "The Minor Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. ..."
+            "At about 20-25 meters in length, the Minor Carbonite Dragon is an dangerous foe, making its home in the carbon tunnels of the Lanexa-Bunn II abandoned mines. They tend to roam around the mine in small groups that stay inside a 30 meters perimeter of one another. Their stomachs contain the same Tibanna Crystals, a crystallized type of Carbonite, but in lesser quantity than their older counterparts."
         ],
         "campaign_info": {
             "encounters": [{ "episode": "episode0100" }]
@@ -3782,14 +3782,14 @@
         "reference": {
             "based_on": [
                 {
-                    "name": "Greater Krayt Dragon [Nemesis]",
+                    "name": "Canyon Krayt Dragon [Henchman]",
                     "source": "CCC-cyril2"
                 }
             ],
             "links": [
                 {
                     "text": "community.fantasyflightgames.com",
-                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720235"
+                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720237"
                 }
             ]
         }
