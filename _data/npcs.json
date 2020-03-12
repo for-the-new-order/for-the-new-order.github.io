@@ -3730,6 +3730,10 @@
         "skills": ["Athletics 1", "Brawl 2", "Coercion 1", "Resilience 1", "Perception 1", "Stealth 3", "Survival 2"],
         "talents": [
             {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
                 "name": "Durable 1",
                 "effect": "Your character reduces any Critical Injury result they suffer by 10, to a minimum of 1."
             },
