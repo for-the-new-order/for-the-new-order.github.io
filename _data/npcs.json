@@ -3770,7 +3770,7 @@
             "Massive claws, teeth, and smashing tail (Brawl; Damage 8; Critical 3; Range [Engaged]; Concussive, Disorient 1, Pierce 3)"
         ],
         "description": [
-            "The Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. Their stomachs contain the same Tibanna Crystals, a crytalized type of Carbonite. Those crystals are worth a lot of credits. The only thing the Carbonite Dragon fears is a Greater Carbonite Dragon, and they sometimes clash in titanic struggles when they stray too far into each other’s territory."
+            "The Minor Carbonite Dragon is an incredibly dangerous foe, making its home in the carbon tunels of the Lanexa-Bunn II abandoned mines. ..."
         ],
         "campaign_info": {
             "encounters": [{ "episode": "episode0100" }]
@@ -3778,14 +3778,74 @@
         "reference": {
             "based_on": [
                 {
-                    "name": "Canyon Krayt Dragon [Henchman]",
+                    "name": "Greater Krayt Dragon [Nemesis]",
                     "source": "CCC-cyril2"
                 }
             ],
             "links": [
                 {
                     "text": "community.fantasyflightgames.com",
-                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720237"
+                    "url": "https://community.fantasyflightgames.com/topic/73931-gm-resources-a-galaxy-full-of-beasts/?do=findComment&comment=720235"
+                }
+            ]
+        }
+    },
+    "Prinz Futch": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "strength": true,
+                "flaw": true
+            }
+        },
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Agent",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Compnor",
+        "xattributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": 12
+        },
+        "characteristics": {
+            "xbrawn": 2,
+            "xagility": 2,
+            "xintellect": 2,
+            "xcunning": 2,
+            "willpower": 2,
+            "xpresence": 2
+        },
+        "skills": ["Discipline 1"],
+        "xtalents": [],
+        "xabilities": [],
+        "xequipment": [],
+        "description": ["Agent Futch is a member of the Overwatch division. His team are best know as the Gadgeteers."],
+        "personality": "Jovial",
+        "motivation": {
+            "strength": {
+                "name": "Witty",
+                "description": "Your character is extremely clever, with the right joke for a friend and the perfect insult for a foe. Some may love their company, while others loathe their cutting remarks, but none can deny that your character has the sharpest tongue around."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Pride does not always have to be a Flaw, but it can easily become one. Your character is arrogant, vain, or self-absorbed, or thinks highly of themself at the expense of others."
+            }
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0100",
+                    "description": ["Undrake went to him to aquire 3 Shield Remotes.", "Kaine own him a few credit for a lost Sabaac game."]
                 }
             ]
         }
