@@ -3356,21 +3356,76 @@
             "Blast Vest (+1 Soak)"
         ],
         "description": [
-            "The special forces branch of the Alliance military is simply known as the SpecForce, and its troops are seen as the most dangerous and capable of all Rebel soldiers."
+            "The rank-and-file of the Rebel Alliance's Army and Naval troopers are trained in a number of different arenas and in various contingencies."
         ],
         "reference": {
             "source": "ACRB",
             "page": "411"
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }, { "episode": "episode0100" }]
+        }
+    },
+    "Alliance Infantry (alt)": {
+        "players_permissions": {
+            "stats": true
+        },
+        "folder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/250x250-rebels.png",
+        "type": "minion",
+        "clan": "Rebels",
+        "corp": "Army",
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 2
+        },
+        "minion_skills": "Cool, Ranged (Heavy) or Ranged (Light)",
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light]; Damage 7; Critical 3; Ranged [Medium]; Stun Setting)",
+            "Vibroknife (Melee; Damage 3; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Padded Armor (+2 soak)"
+        ],
+        "description": [
+            "The rank-and-file of the Rebel Alliance's Army and Naval troopers are trained in a number of different arenas and in various contingencies."
+        ],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Pirate Crew",
+                    "source": "ACRB",
+                    "page": "425"
+                }
+            ]
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0100" }]
         }
     },
     "Apprentice Hunter": {
         "players_permissions": {
             "stats": true
         },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "folder": "Generic/NPCs",
         "image_path": "/assets/images/npcs/250x250-generic.png",
         "type": "minion",
-        "clan": "Neutral",
+        "clan": "EdG",
         "corp": "Bounty Hunter",
         "attributes": {
             "wounds": 6,
@@ -3402,6 +3457,9 @@
     "Brewinger's Hunter": {
         "players_permissions": {
             "stats": true
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
         },
         "folder": "Generic/NPCs",
         "image_path": "/assets/images/npcs/250x250-generic.png",
@@ -3459,10 +3517,13 @@
         "players_permissions": {
             "stats": true
         },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0090" }]
+        },
         "folder": "Generic/NPCs",
         "image_path": "/assets/images/npcs/250x250-generic.png",
         "type": "rival",
-        "clan": "Neutral",
+        "clan": "EdG",
         "corp": "Bounty Hunter",
         "attributes": {
             "wounds": 15,
@@ -3507,9 +3568,9 @@
     },
     "Carbonite Dragon": {
         "players_permissions": {
-            "stats": false
+            "stats": true
         },
-        "folder": "Beasts",
+        "clan": "Beasts",
         "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
         "type": "rivals",
         "species": {
@@ -3602,9 +3663,9 @@
     },
     "Greater Carbonite Dragon": {
         "players_permissions": {
-            "stats": false
+            "stats": true
         },
-        "folder": "Beasts",
+        "clan": "Beasts",
         "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
         "type": "nemesis",
         "species": {
@@ -3701,9 +3762,9 @@
     },
     "Minor Carbonite Dragon": {
         "players_permissions": {
-            "stats": false
+            "stats": true
         },
-        "folder": "Beasts",
+        "clan": "Beasts",
         "image_path": "/assets/images/npcs/Carbonite-Dragon.jpg",
         "type": "rivals",
         "species": {

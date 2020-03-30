@@ -289,10 +289,14 @@
         { "name": "SpecForce Infiltrator" },
         { "name": "SpecForce Trooper" },
         { "name": "Alliance Infantry" },
+        { "name": "Alliance Infantry (alt)" },
         { "name": "Apprentice Hunter" },
         { "name": "Brewinger's Hunter" },
         { "name": "Journeyman Hunter" },
-        { "name": "Prinz Futch" }
+        { "name": "Prinz Futch" },
+        { "name": "Minor Carbonite Dragon" },
+        { "name": "Carbonite Dragon" },
+        { "name": "Greater Carbonite Dragon" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
