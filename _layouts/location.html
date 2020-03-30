@@ -1,0 +1,77 @@
+---
+layout: single
+title: Location
+regenerate: true
+---
+
+{% assign data = site.data.locations[page.title] %}
+{%- if data.isVisible -%}
+    <article class="location-details">
+        <header>
+            <h2>
+                {{ page.title }}
+                <small class="type">{{ data.type }}</small>
+            </h2>
+        </header>
+
+        <section class="content">
+            {% for d in data.description %}
+                {%- assign markdownifiedDesc = d | markdownify -%}
+                {%- include text-with-symbols.html content=markdownifiedDesc -%}
+            {% endfor %}
+        </section>
+
+        {%- if data.related -%}
+            <section class="related">
+                <header>Related Information</header>
+
+                <div id="location-output">Not found or not accessible or just loading...</div>
+                <script id="location-data" type="application/json">{{ data.related | jsonify  }}</script>
+                <script type="text/javascript">
+                    var json = document.getElementById('location-data').innerHTML;
+                    var data = JSON.parse(json);
+                    var output = document.getElementById('location-output');
+                    output.innerHTML = FTNO.browseObject(data);
+                </script>
+            </section>
+        {%- endif -%}
+
+        {%- if data.campaign_info -%}
+            <section class="campaign-info">
+                <header>Campaign Information</header>
+                {%- if data.campaign_info.encounters -%}
+                    <div class="encounters">
+                        {%- for e in data.campaign_info.encounters -%}
+                        <div class="encounter">
+                            {%- assign episode = site.data.adventures[e.episode] -%}
+                            {%- if episode -%}
+                                <a href="/game-content/adventures/{{e.episode}}" class="btn btn--small btn--success"
+                                    style="float: right;" target="_blank">
+                                    <i class="fas fa-info-circle"></i>
+                                    &nbsp;Adventure info
+                                </a>
+                                <h3>{{ episode.name }}</h3>
+                            {%- else -%}
+                                <h3>{{ e.episode }}</h3>
+                            {%- endif -%}
+
+                            {%- if e.description and e.description.size > 0 -%}
+                                {%- for d in e.description -%}
+                                    {%- assign markdownifiedDesc = d | markdownify -%}
+                                    {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                {%- endfor -%}
+                            {%- else -%}
+                                {%- if episode.description and episode.description.size > 0 -%}
+                                    {%- assign markdownifiedDesc = episode.description[0] | markdownify -%}
+                                    {%- include text-with-symbols.html content=markdownifiedDesc -%}
+                                {%- endif -%}
+                            {%- endif -%}
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                {%- endif -%}
+            </section>
+        {%- endif -%}
+
+    </article>
+{%- endif -%}

@@ -533,6 +533,21 @@ defaults:
           toc: false
           is-gm: true
 
+    - scope:
+          path: '_locations'
+          type: locations
+      values:
+          layout: location
+          excerpt: ''
+          sidebar:
+              nav: 'rulesandgamecontent'
+          classes:
+              - locations
+              - genesys-theme
+              - fluid
+          toc: false
+          is-gm: false
+
 collections:
     npcs:
         output: true
@@ -558,3 +573,6 @@ collections:
     gm-card-boards:
         output: true
         permalink: /gm/card-boards/:name
+    locations:
+        output: true
+        permalink: /game-content/:collection/:name

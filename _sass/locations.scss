@@ -1,0 +1,25 @@
+.locations {
+    .location-details {
+        & > header {
+            h2 {
+                margin-top: 0;
+            }
+            .type {
+                display: block;
+            }
+        }
+
+        & > section {
+            margin: 1.5em 0;
+            width: 100%;
+
+            & > header {
+                @include genesys-heading();
+                text-transform: uppercase;
+                border-bottom: 1px solid #1abeef;
+                margin-bottom: 1em;
+                clear: both;
+            }
+        }
+    }
+}

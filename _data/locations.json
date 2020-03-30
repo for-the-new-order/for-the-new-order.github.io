@@ -1,5 +1,6 @@
 {
     "Faweetley-859": {
+        "isVisible": true,
         "type": "planet",
         "description": [
             "The planet was named after the explorer that discovered it: Derek Faweetley.",
@@ -18,6 +19,7 @@
         }
     },
     "Jakuta III": {
+        "isVisible": true,
         "type": "planet",
         "description": [
             "Jakuta III is in the system Jakuta and is the host of a lot of volcanos.",
@@ -28,6 +30,7 @@
         }
     },
     "Niyrius": {
+        "isVisible": true,
         "type": "system",
         "description": ["System where a battle happened between the Empire and the Rebels, over a rebel base."],
         "campaign_info": {
@@ -35,18 +38,21 @@
         }
     },
     "Naalthor": {
+        "isVisible": true,
         "type": "sector",
         "campaign_info": {
             "encounters": [{ "episode": "episode0001" }]
         }
     },
     "Vorta-on-aachor": {
+        "isVisible": true,
         "type": "moon",
         "campaign_info": {
             "encounters": [{ "episode": "episode0030" }]
         }
     },
     "Endium": {
+        "isVisible": true,
         "type": "system",
         "description": ["The **Endium system** is the home of the the **Silver Sun Mining Company**'s headquarter."],
         "campaign_info": {
@@ -54,6 +60,7 @@
         }
     },
     "Traer-4": {
+        "isVisible": true,
         "type": "planet",
         "description": [
             "Traer-4 is an oceanic planet, a sort of paradise, where only the richer can buy homes there.",
@@ -65,6 +72,7 @@
         }
     },
     "Manistas": {
+        "isVisible": true,
         "type": "planet",
         "description": ["A planet where to be enrolled with the **Fireflies** mercenary group."],
         "campaign_info": {
@@ -79,6 +87,7 @@
         }
     },
     "Statoko": {
+        "isVisible": true,
         "type": "planet",
         "description": [
             "A remote planet, in the outer rim, where rebels have many sympathizers. The people living there are very poor or extremely rich. The planet has a lot of rivers and navigable water areas, which lead many rich people to build mansions near their shore.",
@@ -95,6 +104,7 @@
         "related": { "locations": [{ "name": "Gofftown" }] }
     },
     "Gofftown": {
+        "isVisible": true,
         "type": "town",
         "description": [
             "Gofftown harbor an Imperial Spaceport and is located on the planet Statoko. The town is widespread with a tight downtown and excessively huge mansions along the rivers."
@@ -103,29 +113,34 @@
         "related": { "locations": [{ "name": "Gofftown Spaceport" }] }
     },
     "Gofftown Spaceport": {
+        "isVisible": true,
         "type": "spaceport",
         "description": ["Gofftown Spaceport is a highly corrupted Imperial-class Spaceport on the planet Statoko."],
         "campaign_info": { "encounters": [{ "episode": "episode0070" }] }
     },
     "Thorndike": {
+        "isVisible": true,
         "type": "system",
         "description": ["A system were a passageway in the Bancroft Nebula starts."],
         "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
         "related": { "locations": [{ "name": "Bancroft" }] }
     },
     "Miinko": {
+        "isVisible": true,
         "type": "system",
         "description": ["A system were a passageway in the Bancroft Nebula ends."],
         "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
         "related": { "locations": [{ "name": "Bancroft" }] }
     },
     "Bancroft": {
+        "isVisible": true,
         "type": "nebula",
         "description": ["A Nebula, with a high anomaly level, that host a passageway between the system Thorndike and Miinko."],
         "campaign_info": { "encounters": [{ "episode": "episode0090" }] },
         "related": { "locations": [{ "name": "Thorndike" }, { "name": "Miinko" }] }
     },
     "Phantom Penitentiary": {
+        "isVisible": true,
         "type": "prison",
         "description": [
             "The Phantom Penitentiary is a maximum-security prison where no one gets out of. Its location is secret, and the travel is almost impossible to do without the right set of coordinates."
@@ -133,6 +148,7 @@
         "campaign_info": { "encounters": [{ "episode": "episode0090" }] }
     },
     "Lanexa-Bunn": {
+        "isVisible": true,
         "type": "system",
         "description": [
             "Lanexa-Bunn is a system with, at its center, a pulsar that emits ultra-high-energy cosmic rays.",
@@ -144,6 +160,7 @@
         }
     },
     "Lanexa-Bunn II": {
+        "isVisible": true,
         "type": "planet",
         "description": [
             "Lanexa-Bunn II is a Carbon-based planet (barrens) that hosted a Carbonite and Tibanna mine, exploited by the Silver Sun Mining Company about 150 years before Episode 10.",
@@ -152,7 +169,7 @@
         ],
         "campaign_info": { "encounters": [{ "episode": "episode0100" }] },
         "related": {
-            "npcs": [{ "name": "Carbonite Dragon" }],
+            "npcs": [{ "name": "Minor Carbonite Dragon" }, { "name": "Carbonite Dragon" }, { "name": "Greater Carbonite Dragon" }],
             "organizations": [{ "name": "Silver Sun Mining Company" }, { "name": "Rebel Alliance" }],
             "locations": [{ "name": "Lanexa-Bunn" }]
         }

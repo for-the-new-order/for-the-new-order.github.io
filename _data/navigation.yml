@@ -31,6 +31,8 @@ rulesandgamecontent: # Rules menu (left)
       children:
           - title: Adventures
             url: /game-content/adventures/
+          - title: Locations
+            url: /game-content/locations/
           - title: NPCs
             url: /game-content/npcs/
           - title: NPCs (by folder)
