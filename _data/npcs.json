@@ -255,10 +255,18 @@
         "folder": "Empire/Main",
         "clan": "Empire",
         "type": "NEMESIS",
-        "rank": "Commander",
+        "rank": "Colonel",
         "image_path": "/assets/images/npcs/commander-carter-foxwell.jpg",
         "campaign_info": {
-            "encounters": [{ "episode": "episode0090" }]
+            "encounters": [
+                { "episode": "episode0090" },
+                {
+                    "episode": "episode0010",
+                    "description": [
+                        "Foxwell ranked up from Commander to Colonel, after the destruction of the rebel base that was hidden in the Lanexa-Bunn Mine."
+                    ]
+                }
+            ]
         },
         "attributes": {
             "wounds": 16,
@@ -314,7 +322,7 @@
         ],
         "description": [
             "Carter Foxwell is a respected Imperial Security Bureau Commander. He is the PCs overseer.",
-            "Commander Foxwell has a missing leg that has been replaced by a cybernetic implant. This is due to some mission."
+            "Foxwell has a missing leg that has been replaced by a cybernetic implant. This is due to some mission."
         ],
         "personality": "Rude",
         "motivation": {
@@ -447,6 +455,7 @@
                 "flaw": false
             }
         },
+        "status": "dead",
         "folder": "Rebels/Main",
         "clan": "Rebels",
         "corp": "Navy",
@@ -475,6 +484,16 @@
                 "name": "Deception",
                 "description": "Zryv'yhx will become disloyal to those who do not adhere to his idealistic view of the galaxy, or anyone not agreeing with him for that matter. He does not fear to use coercion to help his cause; on both allies and enemies. Zryv'yhx is concerned with his wellbeing first and foremost, and he always presents himself in the best possible light even when that isn’t the case."
             }
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0010",
+                    "description": [
+                        "Zryv'yhx was killed at the battle of the the Lanexa-Bunn Mine. His Mon Calamari Cruiser, the Caterpillar, crashed on the planet after getting cut in half by the concentrated fire of both the Super Star Destroyer Liberator and the Imperial Star Destroyer Avalanche, leading to a magnificent meteor shower."
+                    ]
+                }
+            ]
         }
     },
     "Tarrance Favreau": {
@@ -1413,18 +1432,26 @@
         "initialSeed": 255051,
         "image_path": "/assets/images/npcs/Lindsey-Rostock.jpg",
         "campaign_info": {
-            "encounters": [{ "episode": "episode0090" }]
+            "encounters": [
+                { "episode": "episode0090" },
+                {
+                    "episode": "episode0010",
+                    "description": [
+                        "Rostock ranked up from Commander to Commodore, after the destruction of the rebel base that was hidden in the Lanexa-Bunn Mine."
+                    ]
+                }
+            ]
         },
         "type": "nemesis",
         "species": {
             "name": "Human"
         },
-        "rank": "Commander",
+        "rank": "Commodore",
         "gender": "Female",
         "clan": "Empire",
         "corp": "Intelligence",
         "description": [
-            "Commander Rostock is the Imperial Intelligence's equivalent to Commander Foxwell and she loves to make the ISB looks bad."
+            "Commodore Rostock is the Imperial Intelligence's equivalent to Colonel Foxwell and she loves to make the ISB looks bad."
         ],
         "personality": "Missing eye",
         "motivation": {
