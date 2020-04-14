@@ -5,7 +5,7 @@ permalink: /imperial-sourcebook/imperial-intelligence/
 
 ## Ubiqtorate
 
-![Imperial Intelligence diagram](/assets/images/imperial-sourcebook/compnor-diagram.jpg)
+![Imperial Intelligence diagram](/assets/images/imperial-sourcebook/Ubiqtorate.png)
 
 On many worlds, "Ubiqtorate" has come to be the name for the whole of Imperial Intelligence. The name came to light in several COMPNOR scandocs which were accidentally transmitted to a media beamcast in the Qeimat system. The scandocs themselves indicated that the authors were not aware of the real role of the Ubiqtorate, and Imperial Intelligence saw no reason to correct their error. From the beamcast the name caught on, as the Ubiqtorate sounded more mysterious, omnipresent and threatening than "Imperial Intelligence."
 
