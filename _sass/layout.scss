@@ -30,6 +30,11 @@
         .sidebar {
             &.sticky {
                 overflow-y: visible;
+
+                .nav__list {
+                    overflow-y: auto;
+                    height: 100%;
+                }
             }
         }
     }
