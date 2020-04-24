@@ -548,6 +548,21 @@ defaults:
           toc: false
           is-gm: false
 
+    - scope:
+          path: '_highlights'
+          type: highlights
+      values:
+          layout: highlights
+          excerpt: ''
+          sidebar:
+              nav: 'rulesandgamecontent'
+          classes:
+              - highlights
+              - genesys-theme
+              - fluid
+          toc: false
+          is-gm: false
+
 collections:
     npcs:
         output: true
@@ -576,3 +591,6 @@ collections:
     locations:
         output: true
         permalink: /game-content/:collection/:name
+    highlights:
+        output: true
+        permalink: /game-content/:collection/:path

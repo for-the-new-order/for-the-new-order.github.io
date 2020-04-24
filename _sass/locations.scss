@@ -23,3 +23,10 @@
         }
     }
 }
+
+.highlights {
+    @extend .locations;
+    .highlight-details {
+        @extend .location-details;
+    }
+}

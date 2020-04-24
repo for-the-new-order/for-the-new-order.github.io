@@ -33,6 +33,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /game-content/adventures/
           - title: Locations
             url: /game-content/locations/
+          - title: Highlights
+            url: /game-content/highlights/
           - title: NPCs
             url: /game-content/npcs/
           - title: NPCs (by folder)

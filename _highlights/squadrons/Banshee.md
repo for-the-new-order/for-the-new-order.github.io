@@ -1,0 +1,4 @@
+---
+title: Banshee
+type: squadrons
+---

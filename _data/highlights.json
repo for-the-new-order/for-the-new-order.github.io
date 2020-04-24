@@ -4,7 +4,7 @@
             "name": "Siege of Frilp",
             "description": ["The **Siege of Frilp** lasted for months against **The Voiceless Ones**."],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0001" }]
+                "encounters": [{ "episode": "episode0002" }]
             }
         },
         {
@@ -133,10 +133,19 @@
             }
         },
         {
-            "name": "The Rebels",
-            "description": ["The empire are against a dangerous cell of rebels"],
+            "name": "The Rebels of Admiral Zryv'yhx",
+            "description": ["The empire is against a dangerous cell of rebels."],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0001" }, { "episode": "episode0002" }]
+                "encounters": [
+                    { "episode": "episode0010" },
+                    { "episode": "episode0020" },
+                    { "episode": "episode0030" },
+                    { "episode": "episode0050" },
+                    { "episode": "episode0070" },
+                    { "episode": "episode0080" },
+                    { "episode": "episode0090" },
+                    { "episode": "episode0100", "description": ["The Overwatch destroyed their base and most of their fleet."] }
+                ]
             }
         },
         {
@@ -158,7 +167,8 @@
                         "gm-notes": ["The piece of armor acquired by Undrake that he identified as some Voiceless Ones technology."]
                     }
                 ]
-            }
+            },
+            "isVisible": false
         },
         {
             "name": "The Cryptic text",
@@ -166,14 +176,36 @@
                 "After investigating a file that turned out to be a cryptic message, Undrake and the Chiss Initiative are looking into the possibility of finding a legendary artifact or a mythical temple."
             ],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0020" }, { "episode": "episode0050" }]
+                "encounters": [
+                    { "episode": "episode0020" },
+                    { "episode": "episode0050" },
+                    {
+                        "episode": "episode0010",
+                        "gm-notes": [
+                            "The Dark Character landed on the base with shock troops to find another pieces of the old-jedi device."
+                        ]
+                    },
+                    {
+                        "episode": "episode0110",
+                        "description": [
+                            "Undrake and Daasir were tasked of bringing back an important artifact that Hublin was investigating. One of the slave was the former owner of the artifact."
+                        ]
+                    }
+                ]
             }
         },
         {
             "name": "The Dark Character",
-            "description": ["A Dark Imperial Character seems to give force power from time to time to **Jenssar**..."],
+            "description": [
+                "A Dark Imperial Character seems to give force power from time to time to **Jenssar**. He seems highly ranked and interact mostly with the Grand Moff, the Grand Admiral and the GRand General of the area."
+            ],
             "campaign_info": {
-                "encounters": [{ "episode": "episode0050" }, { "episode": "episode0080" }, { "episode": "episode0090" }]
+                "encounters": [
+                    { "episode": "episode0050" },
+                    { "episode": "episode0080" },
+                    { "episode": "episode0090" },
+                    { "episode": "episode0010" }
+                ]
             }
         },
         {

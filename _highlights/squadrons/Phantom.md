@@ -1,0 +1,4 @@
+---
+title: Phantom
+type: squadrons
+---
