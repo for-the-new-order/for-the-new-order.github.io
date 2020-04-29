@@ -201,13 +201,14 @@
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/VEmux4XH7kh6dOx38B4g",
         "isVisible": true,
         "description": ["TBD"],
-        "chapters": [
-            {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
-            }
-        ]
+        "chapters": []
+    },
+    "episode0120": {
+        "name": "Episode 12: Into the Smuggling ring",
+        "crawl": "",
+        "isVisible": false,
+        "description": ["TBD"],
+        "chapters": []
     },
     "template": {
         "name": "Episode X: ",

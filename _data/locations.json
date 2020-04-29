@@ -173,5 +173,13 @@
             "organizations": [{ "name": "Silver Sun Mining Company" }, { "name": "Rebel Alliance" }],
             "locations": [{ "name": "Lanexa-Bunn" }]
         }
+    },
+    "Naarmatis": {
+        "isVisible": true,
+        "type": "planet",
+        "description": ["The siege of Naarmatis is where Felecia Kralick got known for her fierce tactics."],
+        "related": {
+            "npcs": [{ "name": "Felecia Kralick" }]
+        }
     }
 }

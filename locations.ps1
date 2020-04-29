@@ -34,14 +34,14 @@ function Set-FileContent {
     if (!$fileExists -or $rewrite) {
         Set-Content -Value $content -Path $path
         if ($fileExists) {
-            Write-Host "File $name updated" -ForegroundColor DarkMagenta
+            Write-Host "File $path updated" -ForegroundColor DarkMagenta
         }
         else {
-            Write-Host "File $name created" -ForegroundColor DarkGreen
+            Write-Host "File $path created" -ForegroundColor DarkGreen
         }
     }
     else {
-        Write-Verbose "File exists $name"
+        Write-Verbose "File exists $path"
     }
 }
 

@@ -547,5 +547,29 @@
                 }
             ]
         }
+    },
+    "Deceptor": {
+        "model": {
+            "name": "Victory II-class Star Destroyer"
+        },
+        "description": ["The Deceptor is controlled by the PCs."],
+        "campaign_info": {
+            "flight_officer": "Felecia Kralick",
+            "army_officer": "Linoel Tatcher"
+        },
+        "customization": {
+            "hard_points": 4,
+            "modifications": [
+                {
+                    "cost": 0,
+                    "name": "Improved Medical Lab",
+                    "effects": "Grant tool of the trade ([BO]) to medicine checks.",
+                    "description": [
+                        "Kaine used his resources to create a high-tech medicine lab specializing in drug research, primarily to torture people.",
+                        "More TBD"
+                    ]
+                }
+            ]
+        }
     }
 }

@@ -296,7 +296,37 @@
         { "name": "Prinz Futch" },
         { "name": "Minor Carbonite Dragon" },
         { "name": "Carbonite Dragon" },
-        { "name": "Greater Carbonite Dragon" }
+        { "name": "Greater Carbonite Dragon" },
+        {
+            "name": "Felecia Kralick",
+            "frontMatter": [
+                "display-attributes: true",
+                "display-characteristics: true",
+                "display-skills: true",
+                "display-talents: true",
+                "display-abilities: true",
+                "display-equipment: true",
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: true"
+            ]
+        },
+        {
+            "name": "Linoel Tatcher",
+            "frontMatter": [
+                "display-attributes: true",
+                "display-characteristics: true",
+                "display-skills: true",
+                "display-talents: false",
+                "display-abilities: true",
+                "display-equipment: true",
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
+        }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
@@ -335,6 +365,7 @@
         },
         { "name": "Gaoler" },
         { "name": "TIE Interceptor" },
-        { "name": "Zenith" }
+        { "name": "Zenith" },
+        { "name": "Deceptor" }
     ]
 }

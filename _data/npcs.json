@@ -3941,5 +3941,153 @@
                 }
             ]
         }
+    },
+    "Felecia Kralick": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "strength": true,
+                "flaw": true
+            }
+        },
+        "description": [
+            "Flight officer of the Victory Class Star Destroyer Deceptor, Senior Captain Felecia Kralick, is a condescending, proud, and very analytical officer that got known for her fierce leadership and tactics at the blockade of Naarmatis. From that day forward, her knowledge of space superiority and warfare can hardly be questioned.",
+            "She is a highly educated woman who also learned how to maneuver capital ships to understands what is the reality of her crew, allowing her to improvise realistic tactics more efficiently."
+        ],
+        "image_path": "/assets/images/npcs/Felecia-Kralick.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Senior Captain",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Condescending",
+        "motivation": {
+            "strength": {
+                "name": "Analytical",
+                "description": "Your character’s mind is like a computer, able to absorb a barrage of information and come to a logical conclusion. Your solutions always have the inarguable weight of reason, and you know how to pick your battles and when to bide your time."
+            },
+            "flaw": {
+                "name": "Pride",
+                "description": "Pride does not always have to be a Flaw, but it can easily become one. Your character is arrogant, vain, or self-absorbed, or thinks highly of themself at the expense of others."
+            }
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 2,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 4,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 3
+        },
+        "skills": [
+            "Vigilance 2",
+            "Knowledge (Warfare) 3",
+            "Leadership 2",
+            "Perception 2",
+            "Operating 1",
+            "Gunnery 1",
+            "Ranged (Light) 1",
+            "Education 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Command 2",
+                "effect": "Add [BO][BO] to Leadership checks; affected targets add [BO][BO] to Discipline checks for the next 24 hours."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Deadly Blockade",
+                "effect": "If the current speed of a ship under Kralick's control is 0, when its crew aim ship-based weapons, they upgrade the ability of their combat check once instead of adding [BO] to the check."
+            }
+        ],
+        "equipment": ["Blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)", "Datapad"],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0110" }]
+        }
+    },
+    "Linoel Tatcher": {
+        "players_permissions": {
+            "stats": true,
+            "motivations": {
+                "personality": true,
+                "strength": true,
+                "flaw": false
+            }
+        },
+        "description": [
+            "Despite the amount of time that Tatcher's invest in how he looks, he can adapt his ground tactics quickly, leaving no chance to his enemies. Tatcher is the Army officer of the Victory Class Star Destroyer Deceptor."
+        ],
+        "image_path": "/assets/images/npcs/Linoel-Tatcher.png",
+        "type": "rival",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Captain",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Army",
+        "personality": "Vain",
+        "motivation": {
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        },
+        "attributes": {
+            "wounds": 17,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 4,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Knowledge (Warfare) 3", "Leadership 2", "Perception 2", "Vigilance 2", "Cool 2", "Ranged (Light) 3", "Deception 3"],
+        "talents": [],
+        "abilities": [
+            {
+                "name": "Army Leader",
+                "effect": "May spend a maneuver giving orders to other Imperial Army allies in medium range, granting them [BO] on their next check."
+            }
+        ],
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light]; Damage 7; Critical 3; Ranged [Medium]; Stun Setting)",
+            "Datapad",
+            "Padded Armor (+2 soak)",
+            "Comlink"
+        ],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0110" }]
+        }
     }
 }
