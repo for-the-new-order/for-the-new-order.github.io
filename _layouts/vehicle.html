@@ -103,6 +103,26 @@ display-weapons: true
                 </div>
             {%- endif -%}
         {%- endif -%}
+        {%- if page.display-army_officer and data.campaign_info.army_officer -%}
+            {%- assign army_officer = site.data.npcs[data.campaign_info.army_officer] -%}
+            {%- if army_officer -%}
+                <div class="flight-officer-info">
+                    <a href="{{baseUrl}}/npcs/{{ data.campaign_info.army_officer | slugify }}"
+                        class="btn btn--small btn--success" target="_blank">
+                        <i class="fas fa-info-circle"></i>
+                        &nbsp;More info about {{army_officer.rank}} {{data.campaign_info.army_officer}}
+                    </a>
+                    <h2>Army officer</h2>
+                    <img src="{{ army_officer.image_path }}" alt="{{ data.campaign_info.army_officer }}" />
+                    <strong>{{ data.campaign_info.army_officer }}{% if army_officer.rank %},
+                        {{army_officer.rank}}{% endif %}</strong>
+                    <small>({{ army_officer.clan }}) | {{ army_officer.type }}</small>
+                    {% for d in army_officer.description %}
+                    {{- d | markdownify -}}
+                    {% endfor %}
+                </div>
+            {%- endif -%}
+        {%- endif -%}
         {%- if page.display-encounters and data.campaign_info.encounters -%}
             <div class="encounters">
                 {%- for e in data.campaign_info.encounters -%}

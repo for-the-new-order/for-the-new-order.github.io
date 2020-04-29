@@ -434,6 +434,7 @@ defaults:
           display-weapons: true
           display-campaign-info: true
           display-flight_officer: true
+          display-army_officer: true
           display-encounters: true
           display-customization: true
 
