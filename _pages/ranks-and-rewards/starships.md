@@ -11,6 +11,8 @@ classes:
 ## Starships Rewards
 
 The PCs can use the following house rules to own ships and build a fleet as they rank up in the New Order.
+They use their Contribution Ranks (CR) as a currency.
+PCs can spend CR liberally; for example, PCs want to buy a corvette, PC1 spends 2 CR, PC2 spends 1 CR, while the others spend nothing.
 
 > One variant that we use is to charge 1 CR per player for smaller ships like a Corvette.
 > While you can use this, I think that sticking to a fixed cost would make it easier.
@@ -19,8 +21,8 @@ The PCs can use the following house rules to own ships and build a fleet as they
 
 -   `ISB Rank` is the name of the rank
 -   `Min CR` is the minimum Contribution Rank required to access that type of vessel
--   `Max Sil.` is the max size that can be obtained (based on the CR)
--   `Max cost` is the max cost (in credit) that can be obtained (based on the CR)
+-   `Max Sil.` is the max size that can be obtained (based on the Min CR)
+-   `Max cost` is the max cost (in credit) that can be obtained (based on the Min CR)
 -   `CR Cost` is the number of CR that must be spent to obtain the vessel
 
 ## Guidelines (lower ranks)
@@ -53,12 +55,12 @@ The following higher-level ranks need to be revised, but here is their actual st
 
 The following are individual ship cost, that has been discussed and agreed upon.
 
-| Name/Source                       | Min CR | Sil. | Cost       | CR Cost | PCs Ships   |
-| --------------------------------- | ------ | ---- | ---------- | ------- | ----------- |
-| [X-70B Phantom Covert Ops Craft]  | 1      | 4    | 325,000    | 1       |             |
-| [Vigil-Class Corvette]            | 6      | 5    | 3,500,000  | 3       | [Kaki Usyk] |
-| [Victory-Class Star Destroyer]    | 12     | 8    | 50,000,000 | 5       | [Deceptor]  |
-| [Imperial I-Class Star Destroyer] | 15     | 8    | 50,000,000 | 7       |             |
+| Name/Source                       | Min CR | Sil. | Cost        | CR Cost | PCs Ships   |
+| --------------------------------- | ------ | ---- | ----------- | ------- | ----------- |
+| [X-70B Phantom Covert Ops Craft]  | 1      | 4    | 325,000     | 1       |             |
+| [Vigil-Class Corvette]            | 6      | 5    | 3,500,000   | 3       | [Kaki Usyk] |
+| [Victory-Class Star Destroyer]    | 12     | 8    | 50,000,000  | 5       | [Deceptor]  |
+| [Imperial I-Class Star Destroyer] | 15     | 8    | 150,000,000 | ?       |             |
 
 [x-70b phantom covert ops craft]: http://www.d20radio.com/main/holonet-uplink-x-70b-phantom-covert-ops-craft/?fbclid=IwAR1d-nKFWXCdlW8gURUlOwzpbLOlx-ZgpbGFCU-SvwvKXdtbM-M4Ib-KRRU
 [vigil-class corvette]: https://theouterrim.co/starships/551044f4-4b0a-4e01-8b4b-c1884281524e/
@@ -66,3 +68,5 @@ The following are individual ship cost, that has been discussed and agreed upon.
 [imperial i-class star destroyer]: https://theouterrim.co/starships/86926ee7-cecf-4d9f-ae2e-47f70214d1c9/
 [kaki usyk]: https://fortheneworder.rpg.solutions/game-content/vehicles/kaki-usyk
 [deceptor]: https://fortheneworder.rpg.solutions/game-content/vehicles/deceptor
+
+_This page will be updated as we continue to play._
