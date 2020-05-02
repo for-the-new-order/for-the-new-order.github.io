@@ -8,6 +8,8 @@ classes:
     - wide
 ---
 
+## Starships Rewards
+
 The PCs can use the following house rules to own ships and build a fleet as they rank up in the New Order.
 
 > One variant that we use is to charge 1 CR per player for smaller ships like a Corvette.
