@@ -14,11 +14,12 @@ classes:
 ## Talents Rewards
 
 When ranking up, players can unlock unique talent trees using Contribution Ranks (CR).
-Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents, like signature abilities.
-Then, the talents of the unlocked tree can be purchased using standard talent rules.
+Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents, like signature abilities (or tier 6 talents).
+Then, the talents of the unlocked tree can be purchased using standard talent rules (tier 1 are tier 1, not tier 7).
 Some may have additional prerequisites.
 
-RP-wise, unlocking those trees requires the PC to take specialized training that not everybody can get in the New Order. Moreover, it requires a bit of time (between two adventures).
+RP-wise, unlocking those trees requires the PC to take specialized training that is given to only a selected few; not to everyone in the New Order. 
+Moreover, it requires a bit of time (between two adventures).
 
 Look at the _Table of Contents_, on the right, for the current talent trees.
 
@@ -29,6 +30,7 @@ Look at the _Table of Contents_, on the right, for the current talent trees.
 <small>
 <mark>This is a work in progress, getting tested</mark>; don't purchase those until further notice.
 Jump to [Regular Talents](/rules/talents/#regular-talents) instead.
+After field testing these, adjustements are needed (that I'll do when I find the time).
 </small>
 
 CoreTalents

@@ -10,9 +10,29 @@ classes:
 
 More info to come...
 
-## Rewards (tmp)
+## Spy Network
 
-These are guidelines to help with CR rewards. <mark>This is a work in progress.<mark>
+A PC could want to build a spy network, allowing him to access information that he could not otherwise, or send his spies on specific missions.
+Here are the initial rules.
+
+| Min Rank | CR Cost | Description           |
+| -------- | ------- | --------------------- |
+| 3        | 1       | Create a spy network  |
+| -        | 1       | Improve a spy network |
+
+### Spy network base mechanics
+
+TBD
+
+### Spy network improvements
+
+| Name | Effects |
+| ---- | ------- |
+| TBD  | TBD     |
+
+## Rewards (OLD/TEMP)
+
+<mark>These are old guidelines about CR rewards; stuff should be migrated elsewhere.<mark>
 
 | Required Rank | Rewards<sup>\*</sup>                                                                       | Cost                      |
 | ------------- | ------------------------------------------------------------------------------------------ | ------------------------- |
