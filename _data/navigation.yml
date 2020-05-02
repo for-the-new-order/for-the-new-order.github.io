@@ -43,6 +43,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /game-content/vehicles/
           - title: Other Game Content
             url: /game-content/others
+          - title: Ugly's starfighters
+            url: /game-content/uglys/
     - title: 'House rules'
       children:
           - title: Strain recovery
@@ -51,6 +53,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /rules/small-vehicle-combat/
           - title: Racing
             url: /rules/racing/
+          - title: Mass combat (War)
+            url: /rules/mass-combat/
     - title: Imperial Sourcebook
       children:
           - title: Organization of the Empire
@@ -59,12 +63,16 @@ rulesandgamecontent: # Rules menu (left)
             url: /imperial-sourcebook/compnor/
           - title: Imperial Intelligence
             url: /imperial-sourcebook/imperial-intelligence/
-    - title: 'Game master'
+    - title: 'Game Master Content'
       children:
-          - title: Mass combat (War)
-            url: /rules/mass-combat/
-          - title: Ugly's starfighters
-            url: /game-content/uglys/
+          - title: NPCs
+            url: /gm/npcs/by-folders
+          - title: Vehicles
+            url: /gm/vehicles/
+          - title: Adventures
+            url: /gm/adventures/
+          - title: Card Boards
+            url: /gm/card-boards/
     - title: 'House rules (obsolete)'
       children:
           - title: <del>Imperial Troops Deployment</del>
