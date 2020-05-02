@@ -27,7 +27,7 @@ PCs can spend CR liberally; for example, PCs want to buy a corvette, PC1 spends 
 
 ## Guidelines (lower ranks)
 
-Due to the fact that Star Wars starships are not logically organized by anything, it was very hard to create a formula to calculate the CR cost of a ship based on its size for credit cost. This is a guideline, but I think that GMs should adjust the cost based on each ship individually.
+Due to the fact that Star Wars starships are not logically organized by anything, it was very hard to create a formula to calculate the CR cost of a ship based on its size or credit cost. This is only a guideline and GMs should adjust the cost based on each ship individually (see below).
 
 | ISB Rank             | Min CR | Max Sil. | Max cost    | CR Cost | Examples                        |
 | -------------------- | ------ | -------- | ----------- | ------- | ------------------------------- |
@@ -40,7 +40,7 @@ Due to the fact that Star Wars starships are not logically organized by anything
 
 ## Guidelines (higher ranks)
 
-The following higher-level ranks need to be revised, but here is their actual state.
+The following higher-level ranks need to be revised, but here is their actual state, as reference/working-document.
 
 | ISB Rank                 | Min CR | Max Sil. | Max cost      | CR Cost | Examples                                                 |
 | ------------------------ | ------ | -------- | ------------- | ------- | -------------------------------------------------------- |
