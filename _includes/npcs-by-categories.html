@@ -36,31 +36,34 @@
     {%- assign categories = categories | split: ',' | uniq | sort -%}
 {%- endunless -%}
 
-<section class="npc-categories">
+<section class="card-board">
 
 {%- comment -%} List categories > npcs {%- endcomment -%}
 {%- for category in categories -%}
     
-    <div class="npc-category"><h2 id="{{ category | slugify }}">{{ category }}</h2><ul class="npc-category-items">
+    <div class="card-board-row">
+        <h2 id="{{ category | slugify }}">{{ category }}</h2>
 
-    {%- for name in names -%}
-        {%- assign data = site.data.npcs[name] -%}
-        {%- assign shouldBeDisplayed = false -%}
-        {%- if data.folder and data.folder == category -%}
-            {%- assign shouldBeDisplayed = true -%}
-        {%- endif -%}
-        {%- if data.clan and data.clan == category -%}
-            {%- assign shouldBeDisplayed = true -%}
-        {%- endif -%}
-        {%- assign currentClanCorp = data.clan | append: "/" | append: data.corp -%}
-        {%- if data.clan and data.corp and currentClanCorp == category -%}
-            {%- assign shouldBeDisplayed = true -%}
-        {%- endif -%}
-        {%- if shouldBeDisplayed -%}
-            <li><a href="{{ baseUrl }}/{{ name | slugify }}">{{ name }}</a></li>
-        {%- endif -%}
-    {%- endfor -%}
-    </ul></div>
+        {%- for name in names -%}
+            {%- assign data = site.data.npcs[name] -%}
+            {%- assign shouldBeDisplayed = false -%}
+            {%- if data.folder and data.folder == category -%}
+                {%- assign shouldBeDisplayed = true -%}
+            {%- endif -%}
+            {%- if data.clan and data.clan == category -%}
+                {%- assign shouldBeDisplayed = true -%}
+            {%- endif -%}
+            {%- assign currentClanCorp = data.clan | append: "/" | append: data.corp -%}
+            {%- if data.clan and data.corp and currentClanCorp == category -%}
+                {%- assign shouldBeDisplayed = true -%}
+            {%- endif -%}
+            {%- if shouldBeDisplayed -%}
+                <div class="card-3">
+                {%- include npc-card.html npc=data name=name -%}
+                </div>
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
 {%- endfor -%}
 
 </section>

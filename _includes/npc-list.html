@@ -1,44 +1,15 @@
 {% assign npcs = include.npcs %}
-<h2>NPCs</h2>
-<div class="npcs">
+<section class="card-board">
 
-  {% for npc in npcs %}
-    {% assign data = site.data.npcs[npc.title] %}
-    <section class="npc-list-item">
+  <div class="card-board-row">
+  {% for current in npcs %}
+    {% assign data = site.data.npcs[current.title] %}
     {% if data %}
-      {% if data.rank %}
-        {% assign rank = ', ' | append: data.rank %}
-      {% else %}
-        {% assign rank = '' %}
-      {% endif %}
-      {% assign npcName = npc.title | append: rank %}
-      <header>
-          <h2 id="{{ npcName | handleize }}">
-              {{ npcName }}
-              <small>({{ data.clan }})</small>
-          </h2>
-      </header>
-      <section class="content">
-          <img src="{{ data.image_path }}" alt="{{ npc.title }}" />
-          {%- if npc.exerpt -%}
-            <p>{{ npc.exerpt }}</p>
-          {%- elsif data.description and data.description.size > 0 -%}
-            <p>{{ data.description[0] }}</p>
-          {%- endif -%}
-      </section>
-    {% else %}
-      <h2 id="{{ npc.title | handleize }}">{{ npc.title }}</h2>
-      <section class="content">
-          {{ npc.exerpt }}
-      </section>
+      <div class="card-4">
+      {%- assign d = data -%}
+        {%- include npc-card.html npc=d name=current.title -%}
+      </div>
     {% endif %}
-      <footer>
-        <a href="{{ npc.url }}" class="btn btn--light-outline">
-          View 
-          <i>{{ npc.title }}</i>
-          details
-        </a>
-      </footer>
-    </section>
   {% endfor %}
-</div>
+  </div>
+</section>

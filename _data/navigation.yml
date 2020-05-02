@@ -37,7 +37,7 @@ rulesandgamecontent: # Rules menu (left)
             url: /game-content/highlights/
           - title: NPCs
             url: /game-content/npcs/
-          - title: NPCs (by folder)
+          - title: NPCs (categorized)
             url: /game-content/npcs/by-folders
           - title: Vehicles
             url: /game-content/vehicles/
@@ -66,6 +66,8 @@ rulesandgamecontent: # Rules menu (left)
     - title: 'Game Master Content'
       children:
           - title: NPCs
+            url: /gm/npcs/
+          - title: NPCs (categorized)
             url: /gm/npcs/by-folders
           - title: Vehicles
             url: /gm/vehicles/

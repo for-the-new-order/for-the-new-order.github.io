@@ -2,7 +2,11 @@
 
 .card-board {
     .card-board-row {
-        & > header {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > header,
+        & > h2 {
             width: 100%;
             @include genesys-heading();
             border-bottom: 1px solid #1abeef; // rgb(81, 85, 93);
@@ -13,8 +17,10 @@
             font-size: 1.5em;
             font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
         }
-        display: flex;
-        flex-wrap: wrap;
+
+        .npc-card {
+            height: 100%;
+        }
 
         .card-1 {
             width: 100%;
@@ -25,7 +31,7 @@
         }
 
         .card-3 {
-            width: 1/3;
+            width: percentage(1 / 3);
         }
 
         .card,
