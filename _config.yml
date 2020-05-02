@@ -280,7 +280,7 @@ defaults:
       values:
           share: true
           header:
-              overlay_image: 'http://cdn.forevolve.com/for-the-new-order/images/headers/default.jpg'
+              overlay_image: 'https://cdn.forevolve.com/for-the-new-order/images/headers/default.jpg'
 
     # _posts
     - scope:
