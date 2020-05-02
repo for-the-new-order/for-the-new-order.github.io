@@ -47,6 +47,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /game-content/uglys/
     - title: 'House rules'
       children:
+          - title: Squads & Squadrons
+            url: /rules/squads-and-squadrons/
           - title: Strain recovery
             url: /rules/strain-recovery/
           - title: Small Vehicle Combat

@@ -1,6 +1,8 @@
 - Name: Squadron Leader (Navy)
   Description: |-
       After an intensive training at the Imperial Naval Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming wingmans into an extension of the squad leader!
+
+      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
   Talents:
       - Name: Squadron Leader I
         IsCore: true
@@ -8,7 +10,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Navy or Imperial Security Bureau
             - Rank 3
             - Leadership 1
             - Knowledge (Warfare) 1
@@ -31,7 +33,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Navy or Imperial Security Bureau
             - Rank 4
             - Squadron Leader I
         Text: |-
@@ -51,7 +53,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Navy or Imperial Security Bureau
             - Rank 5
             - Leadership 2
             - Knowledge (Warfare) 2
@@ -73,7 +75,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Navy, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Navy or Imperial Security Bureau
             - Rank 6
             - Squadron Leader III
         Text: |-
@@ -209,6 +211,8 @@
 - Name: Stromtrooper Leader
   Description: |-
       After an intensive training at the Imperial Stormtrooper Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming Stormtroopers into an extension of the squad leader!
+
+      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
   Talents:
       - Name: Stromtrooper Leader I
         IsCore: true
@@ -216,7 +220,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Stromtrooper or Imperial Security Bureau
             - Rank 3
             - Leadership 1
             - Knowledge (Warfare) 1
@@ -239,7 +243,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Stromtrooper or Imperial Security Bureau
             - Rank 4
             - Stromtrooper Leader I
         Text: |-
@@ -259,7 +263,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Stromtrooper or Imperial Security Bureau
             - Rank 5
             - Leadership 2
             - Knowledge (Warfare) 2
@@ -281,7 +285,7 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper, Imperial Intelligence, or Imperial Security Bureau
+            - Imperial Stromtrooper or Imperial Security Bureau
             - Rank 6
             - Stromtrooper Leader III
         Text: |-
@@ -293,4 +297,24 @@
             The minions must possess the skill (group only) that the character wants to improve.
 
             For example, a character with Stromtrooper Leader IV, an attribute of 4, a skill of 5, that controls a group of 4 minions, would roll [PR][PR][PR][PR][PR][PR][AB] (skill: [PR][PR][PR][PR][AB], upgraded four time)
+        Source: FTNO
+
+- Name: Squad Leader
+  Description: |-
+      After an intensive training at the Imperial Army Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming Army troops into an extension of the squad leader!
+
+      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
+  Talents:
+      - Name: Squad Leader I
+        IsCore: true
+        Tier: 1
+        Activation: Active (Incidental)
+        Ranked: 'No'
+        Prerequisites:
+            - Imperial Army or Imperial Security Bureau
+            - Rank 3
+            - Leadership 1
+            - Knowledge (Warfare) 1
+        Text: |-
+            TBD...
         Source: FTNO

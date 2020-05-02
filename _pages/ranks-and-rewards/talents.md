@@ -11,29 +11,27 @@ classes:
     - fluid-toc
 ---
 
-## Talents Rewards
+# Talents Rewards
 
 When ranking up, players can unlock unique talent trees using Contribution Ranks (CR).
-Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents, like signature abilities (or tier 6 talents).
-Then, the talents of the unlocked tree can be purchased using standard talent rules (tier 1 are tier 1, not tier 7).
+Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents; a signature ability.
+Then, the talents of the unlocked tree can be purchased using standard talent rules, as long as prerequisites are satisfied.
 Some may have additional prerequisites.
 
-RP-wise, unlocking those trees requires the PC to take specialized training that is given to only a selected few; not to everyone in the New Order. 
-Moreover, it requires a bit of time (between two adventures).
+RP-wise, unlocking those trees requires the PC to take specialized training that is given to only a selected few; not to everyone in the New Order.
+Moreover, it requires a bit of time (between two adventures) to complete the training. The rarity justifies the CR cost, while acquiring the skills (the training itself) justifies the XP cost.
 
-Look at the _Table of Contents_, on the right, for the current talent trees.
-
-{::options parse_block_html="true" /}
-
-<section class="talents two-columns">
+Use the _Table of Contents_, on the right, to quickly navigate between trees.
 
 <small>
 <mark>This is a work in progress, getting tested</mark>; don't purchase those until further notice.
 Jump to [Regular Talents](/rules/talents/#regular-talents) instead.
-After field testing these, adjustements are needed (that I'll do when I find the time).
+After field testing the first tree, adjustments were needed; this is the first revision (<mark>v2.0</mark>).
 </small>
 
-CoreTalents
+{::options parse_block_html="true" /}
+
+<section class="talents two-columns" style="opacity: .25">
 
 {%- assign categories = site.data.talents-rewards | sort: 'Name' -%}
 
@@ -61,16 +59,16 @@ CoreTalents
 
 {% for talent in talents %}
 {%- unless talent.IsCore -%}
-    {%- if talent.Tier == tier -%}
-        {%- assign sources = talent.Source | split: ", " -%}
-        {%- for sourceAbbr in sources -%}
-            {%- assign trimmedAbbr = sourceAbbr | strip -%}
-            {%- if trimmedAbbr contains "CCC-" -%}
-                {%- assign isCCC = true -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {% include talent.md talent=talent %}
-    {%- endif -%}
+{%- if talent.Tier == tier -%}
+{%- assign sources = talent.Source | split: ", " -%}
+{%- for sourceAbbr in sources -%}
+{%- assign trimmedAbbr = sourceAbbr | strip -%}
+{%- if trimmedAbbr contains "CCC-" -%}
+{%- assign isCCC = true -%}
+{%- endif -%}
+{%- endfor -%}
+{% include talent.md talent=talent %}
+{%- endif -%}
 {%- endunless -%}
 {% endfor %}
 {% endfor %}
