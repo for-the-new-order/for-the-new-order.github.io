@@ -108,7 +108,7 @@ author:
     name: 'Carl-Hugo'
     avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
     bio: 'GM'
-    location: 'Ottawa'
+    location: 'Canada'
     email:
     links:
         - label: 'Email'
@@ -122,10 +122,10 @@ author:
           # url: "https://twitter.com/"
         - label: 'Facebook'
           icon: 'fab fa-fw fa-facebook-square'
-          # url: "https://facebook.com/"
+          # url: 'https://www.facebook.com/groups/fortheneworder'
         - label: 'GitHub'
           icon: 'fab fa-fw fa-github'
-          url: 'https://github.com/Carl-Hugo'
+          url: 'https://github.com/for-the-new-order/'
         - label: 'Instagram'
           icon: 'fab fa-fw fa-instagram'
           # url: "https://instagram.com/"
@@ -138,10 +138,10 @@ footer:
           # url:
         - label: 'Facebook'
           icon: 'fab fa-fw fa-facebook-square'
-          # url:
+          url: 'https://www.facebook.com/groups/fortheneworder'
         - label: 'GitHub'
           icon: 'fab fa-fw fa-github'
-          url: 'https://github.com/for-the-new-order/for-the-new-order.github.io'
+          url: 'https://github.com/for-the-new-order/'
         - label: 'GitLab'
           icon: 'fab fa-fw fa-gitlab'
           # url:
@@ -151,6 +151,12 @@ footer:
         - label: 'Instagram'
           icon: 'fab fa-fw fa-instagram'
           # url:
+
+# footer_scripts:
+#     - https://kit.fontawesome.com/4eee35f757.js
+# after_footer_scripts:
+#     - https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.12.0/js/OverlayScrollbars.min.js
+#     - assets/js/scrollbars.js
 
 # Reading Files
 include:
@@ -375,7 +381,7 @@ defaults:
               - game-master
               - genesys-theme
           sidebar:
-              nav: 'gamemaster'
+              nav: 'rulesandgamecontent'
           is-gm: true
 
     - scope:
@@ -385,7 +391,7 @@ defaults:
           layout: npc
           excerpt: ''
           sidebar:
-              nav: 'gamemaster'
+              nav: 'rulesandgamecontent'
           classes:
               - npcs
               - genesys-theme
@@ -445,7 +451,7 @@ defaults:
           layout: vehicle
           excerpt: ''
           sidebar:
-              nav: 'gamemaster'
+              nav: 'rulesandgamecontent'
           classes:
               - vehicles
               - genesys-theme
@@ -511,7 +517,7 @@ defaults:
           layout: adventure
           excerpt: ''
           sidebar:
-              nav: 'gamemaster'
+              nav: 'rulesandgamecontent'
           classes:
               - adventures
               - genesys-theme
@@ -526,7 +532,7 @@ defaults:
           layout: card-boards
           excerpt: ''
           sidebar:
-              nav: 'gamemaster'
+              nav: 'rulesandgamecontent'
           classes:
               - card-boards
               - genesys-theme
