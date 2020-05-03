@@ -11,7 +11,7 @@ classes:
     - fluid-toc
 ---
 
-# Talents Rewards 2.0
+# Talents Rewards 3.0
 
 When ranking up, players can unlock unique talent trees using Contribution Ranks (CR).
 Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents (like a signature ability) and grants the first Core talent (Tier 1) for "free".
@@ -28,8 +28,6 @@ The idea is for characters to use minions as an extension of themselves, boostin
 
 <mark>This is a work in progress, getting tested</mark>; don't purchase those until further notice.
 Jump to [Regular Talents](/rules/talents/#regular-talents) instead.
-
--   After field testing the first idea, adjustments were needed and were integrated with the existing Squads & Squadrons rules.
 
 > If you are a <mark>GM</mark> that want to try this out, please give me your feedback and ideas on [GitHub](https://github.com/for-the-new-order/for-the-new-order.github.io/issues/new).
 
