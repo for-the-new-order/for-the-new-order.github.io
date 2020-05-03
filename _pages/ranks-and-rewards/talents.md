@@ -11,7 +11,7 @@ classes:
     - fluid-toc
 ---
 
-# Talents Rewards
+# Talents Rewards 2.0
 
 When ranking up, players can unlock unique talent trees using Contribution Ranks (CR).
 Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents (like a signature ability) and grants the first Core talent (Tier 1) for "free".
@@ -26,13 +26,20 @@ The idea is for characters to use minions as an extension of themselves, boostin
 
 > When purchasing a talent that talks about `[type of units]`, you must choose one, like Tie Fighter pilots for the Navy, Stormtroopers, Army troopers, etc.
 
-<small>
 <mark>This is a work in progress, getting tested</mark>; don't purchase those until further notice.
 Jump to [Regular Talents](/rules/talents/#regular-talents) instead.
-After field testing the first tree, adjustments were needed; this is the first revision (<mark>v2.0</mark>).
-</small>
 
-> If you are a GM that want to try this out, please give me your feedback and ideas on [GitHub](https://github.com/for-the-new-order/for-the-new-order.github.io/issues/new).
+-   After field testing the first idea, adjustments were needed and were integrated with the existing Squads & Squadrons rules.
+
+> If you are a <mark>GM</mark> that want to try this out, please give me your feedback and ideas on [GitHub](https://github.com/for-the-new-order/for-the-new-order.github.io/issues/new).
+
+# Talent trees
+
+There are three "types" of talents:
+
+1. Core Talents, that improve the base bonuses
+2. Universal Talents, that improve the squads and squadrons in general
+3. Formation-specific Talents, that improves the benefits of its formation.
 
 {::options parse_block_html="true" /}
 

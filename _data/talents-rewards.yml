@@ -2,7 +2,7 @@
   Description: |-
       After an intensive training at the Imperial Naval Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming wingmans into an extension of the squad leader!
 
-      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
+      This talent tree upgrades the benefits provided by the [Squads & Squadrons](/rules/squads-and-squadrons/) rules.
   Talents:
       - Name: Squadron Leader I
         IsCore: true
@@ -29,6 +29,8 @@
             - Leadership 2
             - Knowledge (Warfare) 2
             - Squadron Leader I
+        Specials:
+            - Replace Squadron Leader I
         Text: |-
             Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 4 squadmates) or may spend 1 Story Point to perform a second action (requires 8 squadmates).
         Source: FTNO
@@ -44,6 +46,8 @@
             - Leadership 3
             - Knowledge (Warfare) 3
             - Squadron Leader II
+        Specials:
+            - Replace Squadron Leader II
         Text: |-
             Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 1 squadmates) or may spend 1 Story Point to perform a second action (requires 4 squadmates).
         Source: FTNO
@@ -453,7 +457,7 @@
   Description: |-
       After an intensive training at the Imperial Stormtrooper Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming Stormtroopers into an extension of the squad leader!
 
-      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
+      This talent tree upgrades the benefits provided by the [Squads & Squadrons](/rules/squads-and-squadrons/) rules.
   Talents:
       - Name: Stromtrooper Leader I
         IsCore: true
@@ -604,16 +608,280 @@
             Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
         Source: FTNO
 
-      - Name: NAME
+      - Name: Improved Stromtrooper Dug In I
         Tier: 1
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Squadron Leader I
+            - Stromtrooper Leader I
         Specials:
-            - 'Formation: NEXT'
+            - 'Formation: Dug In'
         Text: |-
-            TEXT
+            Add a second [SE] to any attack targeting the squad.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Dug In II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Dug In I
+        Specials:
+            - 'Formation: Dug In'
+            - Replace Improved Stromtrooper Dug In I
+        Text: |-
+            Instead of that second [SE], upgrade the difficulty once
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Dug In III
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Dug In II
+        Specials:
+            - 'Formation: Dug In'
+            - Replace Improved Stromtrooper Dug In II
+        Text: |-
+            Instead of that second [SE], upgrade the difficulty twice.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Skirmish I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Skirmish'
+        Text: |-
+            Add a second [BO] to any Vigilance checks made by the squad to determine initiative or to any Perception checks to detect enemies.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Skirmish Vigilance
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Skirmish'
+        Text: |-
+            Instead of that second [BO], upgrade any Vigilance checks made by the squad to determine initiative once.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Skirmish Perception
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Skirmish'
+        Text: |-
+            Instead of that second [BO], upgrade Perception checks to detect enemies once.
+        Source: FTNO
+
+      - Name: Hard to Hit (Skirmish)
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Skirmish'
+        Text: |-
+            Enemies must spend 2 more [AD] instead of 1 to activate Auto-fire or Blast weapon qualities.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Close I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Close'
+        Text: |-
+            Add a second [BO] to any attack made by the squad.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Close II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Close I
+        Specials:
+            - 'Formation: Close'
+            - Replace Improved Stromtrooper Close I
+        Text: |-
+            Instead of that second [BO], upgrade the check once.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Close III
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Close II
+        Specials:
+            - 'Formation: Close'
+            - Replace Improved Stromtrooper Close II
+        Text: |-
+            Instead of that second [BO], upgrade the check twice.
+        Source: FTNO
+
+      - Name: Stromtrooper Firing Squad
+        Tier: 4
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Close'
+            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+        Text: |-
+            Upgrade attack checks once for each 4 squadmates after the first 4.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Firing Squad
+        Tier: 5
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Stromtrooper Firing Squad
+        Specials:
+            - 'Formation: Close'
+            - Replace Stromtrooper Firing Squad
+            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+        Text: |-
+            Upgrade attack checks once for each 3 squadmates after the first 3.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Mission Specialist I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Mission Specialist'
+        Text: |-
+            Add [BO] to all “specialist checks”
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Mission Specialist II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Mission Specialist I
+        Specials:
+            - 'Formation: Mission Specialist'
+            - Replace Improved Stromtrooper Mission Specialist I
+        Text: |-
+            Add [BO][BO] to all “specialist checks”
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Mission Specialist III
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Mission Specialist II
+        Specials:
+            - 'Formation: Mission Specialist'
+            - Replace Improved Stromtrooper Mission Specialist II
+        Text: |-
+            Add [BO] to all “specialist checks” and upgrade the check once
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Comm Silence I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Comm Silence'
+        Text: |-
+            Add a second [BO] to all Stealth checks made by the unit.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Comm Silence II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Comm Silence I
+        Specials:
+            - 'Formation: Comm Silence'
+            - Replace Improved Stromtrooper Comm Silence I
+        Text: |-
+            Instead of that second [BO], upgrade the check once
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Comm Silence III
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Comm Silence II
+        Specials:
+            - 'Formation: Comm Silence'
+            - Replace Improved Stromtrooper Comm Silence II
+        Text: |-
+            Instead of that second [BO], upgrade the check twice
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Search Party I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Specials:
+            - 'Formation: Search Party'
+        Text: |-
+            Add a second [BO] to any Survival checks to track a target and to all Perception checks.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Search Party II
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Search Party I
+        Specials:
+            - 'Formation: Search Party'
+            - Replace Improved Stromtrooper Search Party I
+        Text: |-
+            Instead of that second [BO], upgrade the check once.
+        Source: FTNO
+
+      - Name: Improved Stromtrooper Search Party III
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Improved Stromtrooper Search Party II
+        Specials:
+            - 'Formation: Search Party'
+            - Replace Improved Stromtrooper Search Party II
+        Text: |-
+            Instead of that second [BO], upgrade the check twice.
         Source: FTNO
 # - Name: Army Squad Leader
 #   Description: |-
