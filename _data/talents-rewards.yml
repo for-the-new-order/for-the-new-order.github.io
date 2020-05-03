@@ -15,197 +15,438 @@
             - Leadership 1
             - Knowledge (Warfare) 1
         Text: |-
-            The character can use minions as an extension of himself, boosting his combat skills. This talent should be very useful at speeding up encounters with many NPCs, while using the number provided by the Empire.
-
-            To activate Squadron Leader I, the character must make an easy (?) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy. 
-            If he succeeds, Squadron Leader I is active until the end of the encounter.
-            If he fails, he cannot activate Squadron Leader I IV or above until the end of the encounter.
-
-            When Squadron Leader I is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 1.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Squadron Leader I, an attribute of 4, a skill of 5, that controls 1 minion, would roll [PR][PR][PR][PR][PR] (skill: [PR][PR][PR][PR][AB], upgraded once).
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 8 squadmates) or may spend 1 Story Point to perform a second action (requires 12 squadmates).
         Source: FTNO
 
       - Name: Squadron Leader II
         IsCore: true
-        Tier: 2
+        Tier: 3
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
             - Imperial Navy or Imperial Security Bureau
             - Rank 4
+            - Leadership 2
+            - Knowledge (Warfare) 2
             - Squadron Leader I
         Text: |-
-            To activate Squadron Leader II, the character must make an medium (??) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy. 
-            If he succeeds, Squadron Leader II is active until the end of the encounter.
-
-            When Squadron Leader II is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 2.
-            The minions must possess the skill (group only) that the character wants to improve.
-            If he fails, he cannot activate Squadron Leader II or above until the end of the encounter.
-
-            For example, a character with Squadron Leader II, an attribute of 4, a skill of 5, that controls a group of 2 minions, would roll [PR][PR][PR][PR][PR][AB] (skill: [PR][PR][PR][PR][AB], upgraded twice)
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 4 squadmates) or may spend 1 Story Point to perform a second action (requires 8 squadmates).
         Source: FTNO
 
       - Name: Squadron Leader III
         IsCore: true
-        Tier: 3
+        Tier: 5
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
             - Imperial Navy or Imperial Security Bureau
             - Rank 5
-            - Leadership 2
-            - Knowledge (Warfare) 2
+            - Leadership 3
+            - Knowledge (Warfare) 3
             - Squadron Leader II
         Text: |-
-            To activate Squadron Leader III, the character must make an hard (???) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy. 
-            If he succeeds, Squadron Leader III is active until the end of the encounter.
-            If he fails, he cannot activate Squadron Leader III or above until the end of the encounter.
-
-            When Squadron Leader III is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 3.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Squadron Leader III, an attribute of 4, a skill of 5, that controls a group of 3 minions, would roll [PR][PR][PR][PR][PR][PR] (skill: [PR][PR][PR][PR][AB], upgraded three time)
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 1 squadmates) or may spend 1 Story Point to perform a second action (requires 4 squadmates).
         Source: FTNO
 
-      - Name: Squadron Leader IV
-        IsCore: true
-        Tier: 4
-        Activation: Active (Incidental)
-        Ranked: 'No'
-        Prerequisites:
-            - Imperial Navy or Imperial Security Bureau
-            - Rank 6
-            - Squadron Leader III
-        Text: |-
-            To activate Squadron Leader IV, the character must make an very hard (????) Leadership check as an incidental to take control of a minion group that is part of the Imperial Navy.
-            If he succeeds, Squadron Leader IV is active until the end of the encounter.
-            If he fails, he cannot activate Squadron Leader IV until the end of the encounter.
-
-            When Squadron Leader IV is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 4.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Squadron Leader IV, an attribute of 4, a skill of 5, that controls a group of 4 minions, would roll [PR][PR][PR][PR][PR][PR][AB] (skill: [PR][PR][PR][PR][AB], upgraded four time)
-        Source: FTNO
-
-      - Name: Leading by Example (Navy)
+      - Name: Born Navy Leader
         Tier: 1
         Activation: Passive
-        Ranked: 'Yes'
+        Ranked: 'No'
         Prerequisites:
             - Squadron Leader I
-            - Any piloting skill rank 2 or more
         Text: |-
-            You are always the first to jump into a cockpit then into battle! Pilots love that about you and tend to follow you into battle easily for that.
-
-            Lower the Leadership difficulty to activate Squadron Leader by 1 per rank of Leading by Example (Navy).
+            Add [BO][BO] to Leadership checks targeting [type of units] and add [BO] to Leadership checks targeting [type of units] when not in formation.
         Source: FTNO
 
-      - Name: Impetuous Squaddies
+      - Name: Tight Navy Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Text: |-
+            Lower the squad silhouette by 1.
+        Source: FTNO
+
+      - Name: Voluntary Navy Sacrifice
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Text: |-
+            After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+        Source: FTNO
+
+      - Name: Unthreatable Squadron
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Text: |-
+            A squad cannot be disbanded (broken) using [TH][TH][TH].
+        Source: FTNO
+
+      - Name: Undespairable Squadron
         Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
             - Squadron Leader I
+            - Unthreatable
         Text: |-
-            You trained your squaddies well; so well that they are becoming as impetuous as you!
-
-            You add [BO] to all attack when Squadron Leader is activated and control at least 1 minion.
+            A squad cannot be disbanded (broken) using [DE] (still work with [DE][DE]).
         Source: FTNO
 
-      - Name: Tactical Assistance
-        Tier: 3
+      - Name: Fearless Squadron
+        Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Squadron Leader II
-        Specials:
-            - 'Balance: see if the advantage limitation is worth it or if it limits the Tier 3 talent too much.'
-            - Squadron Leader is activated and the character controls at least 1 minion
+            - Squadron Leader I
+            - Unthreatable
         Text: |-
-            Your squaddies are reacting so well to your commands that they seem to avoid certain death from time to time...
-
-            During combat, the character can spend [AD] to heal his wingman.
-            Each [AD] heals 1 point of damage from a wingman, up to a maximum of his hull threshold. You cannot "respawn" a wingman using [AD].
-            For example, if you control 2 minions with 6 hull threshold each (for a total of 12), and they have taken 10 damage, you could use up to [AD][AD][AD][AD] to heal the last minion to his maximum, leading to a hull threshold of 6/12. Healing more than 4 would mean that a "dead wingman" would come back from the grave.
-
-            You can also use a [TR] to "respawn" a defeated wingman; it must be narratively possible.
-            For example, if you control 2 minions with 6 hull threshold each (for a total of 12), and they have taken 10 damage, using a [TR] would allow you to add 6 to the pool, "spawning" a new starfighter; leading to a hull threshold of 4/12.
+            A squad cannot be disbanded after a failed fear check.
         Source: FTNO
 
-      - Name: Fast and Furious
-        Tier: 4
-        Activation: Active (Maneuver)
+      - Name: Unshakable Squadron
+        Tier: 1
+        Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Squadron Leader III
-            - Any piloting skill rank 3 or more
+            - Squadron Leader I
         Text: |-
-            When enemies sees how talented is the squad leader, that can't avoid focusing their fire on him!
-
-            When activated, no enemy can attack the controlled minions; they must attack the Squadron Leader instead.
-            The effect last until the character's next turn.
+            Minions cannot be forced out of position using [AD][AD][AD].
         Source: FTNO
 
-      - Name: Fast and Furious (Improved)
+      - Name: Easy Navy Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Text: |-
+            Downgrade leadership check required to create a formation to easy ([DI]).
+        Source: FTNO
+
+      - Name: Quick Navy Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Text: |-
+            Add [BO] when creating formation of [type of units].
+        Source: FTNO
+
+      - Name: Navy Formation Master
         Tier: 5
-        Activation: Active (Maneuver)
+        Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Fast and furious
-            - Any piloting skill rank 4 or more
-        Special:
-            - 'Balance: If Active (Maneuver) is too weak for a Tier 5, try Passive'
+            - Squadron Leader I
+            - Know at least 1 talent improving 3 different squadron formations
+        Specials:
+            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
         Text: |-
-            The squad is so tight, that the Squad Leader becomes untouchable!
-
-            When activated, all hits targeting the squad leader are forwarded to the controlled minions; once all minions are dead, the attacks hit the squad leader.
-            When activated, it also activate Fast and Furious.
-            The effect last until the character's next turn.
+            Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
         Source: FTNO
 
-      - Name: Coordinated Assignations
+      - Name: Improved Attack Formation I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Attack Formation'
+        Text: |-
+            Add a second [BO] to any attack made by the squadron.
+        Source: FTNO
+
+      - Name: Improved Attack Formation II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Attack Formation I
+        Specials:
+            - 'Formation: Attack Formation'
+        Text: |-
+            Instead of that second [BO], upgrade the check once
+        Source: FTNO
+
+      - Name: Improved Attack Formation III
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Attack Formation II
+        Specials:
+            - 'Formation: Attack Formation'
+        Text: |-
+            Instead of that second [BO], upgrade the check twice
+        Source: FTNO
+
+      - Name: Improved Evasive Maneuvers I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Requires 1 Ranks in Piloting
+        Specials:
+            - 'Formation: Evasive Maneuvers'
+        Text: |-
+            Add a second [BO] to all attempts to gain the advantage and add a second [SE] to enemy attempts to gain the advantage.
+        Source: FTNO
+
+      - Name: Improved Gain the Advantage
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Evasive Maneuvers I
+        Specials:
+            - 'Formation: Evasive Maneuvers'
+        Text: |-
+            Enemies must upgrade the difficulty once to gain the advantage.
+        Source: FTNO
+
+      - Name: Improved Evasive Maneuvers II
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Evasive Maneuvers I
+        Specials:
+            - 'Formation: Evasive Maneuvers'
+        Text: |-
+            You can upgrade your check once to gain the advantage.
+        Source: FTNO
+
+      - Name: Hard to Hit (Evasive Maneuvers)
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Evasive Maneuvers I
+            - Requires 2 Ranks in Piloting
+        Specials:
+            - 'Formation: Evasive Maneuvers'
+        Text: |-
+            Enemies must spend 2 more [AD] instead of 1 to activate Auto-fire or Blast weapon qualities.
+        Source: FTNO
+
+      - Name: Improved Running Dark I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Running Dark'
+        Text: |-
+            Instead of upgrading the difficulty of all Leadership checks, add [SE][SE][SE].
+        Source: FTNO
+
+      - Name: Improved Running Dark II
         Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
             - Squadron Leader I
         Specials:
-            - 'Balance: validate if Disable a weapon is overpower for a Tier 2'
-            - Squadron Leader is activated and the character controls at least 1 minion
+            - 'Formation: Running Dark'
         Text: |-
-            Upon a successful attack, may spend [AD][AD] or [TR] to apply one of the following effect on the target.
-            Each minion can apply only one effect.
-            Effects are not cumulative. 
-            The effect last until the end of the next round.
-
-            | Symbols | Effects |
-            |---|---|
-            | [AD][AD] or [TR] | Reduce current and max speed by 1 |
-            | [AD][AD] or [TR] | Reduce defence by 1 |
-            | [AD][AD] or [TR] | Reduce handling by 1 |
-            | [TR] | Disable a weapon |
+            Downgrade difficulty of Stealth checks made by the unit a second time.
         Source: FTNO
 
-      - Name: Coordinated Assignations (Improved)
-        Tier: 3
-        Activation: Active (Maneuver)
+      - Name: Improved Running Dark III
+        Tier: 1
+        Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Coordinated Assignations
-            - Squadron Leader II
+            - Squadron Leader I
         Specials:
-            - Squadron Leader is activated and the character controls at least 1 minion
+            - 'Formation: Running Dark'
         Text: |-
-            After activation, can send a minion 
+            Instead of upgrading the difficulty of all Leadership checks, add [SE][SE].
+        Source: FTNO
 
-            Before an attack, can send a minion to apply one of the Coordinated Assignations effect on the target.
-            The maneuver can be executed multiple time.
-            Each minion can apply only one effect.
-            Effects are not cumulative.
-            The effect last until the end of the next round.
-            Only the effects that need [AD][AD] can be applied.
+      - Name: Improved Running Dark IV
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Running Dark'
+        Text: |-
+            Instead of upgrading the difficulty of all Leadership checks, add [SE].
+        Source: FTNO
+
+      - Name: Improved Sensor Sweep I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Sensor Sweep'
+        Text: |-
+            Add a second [BO] to any Vigilance checks to determine initiative and to Computers and Perception checks to detect targets.
+        Source: FTNO
+
+      - Name: Improved Sensor Vigilance
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Sensor Sweep I
+        Specials:
+            - 'Formation: Sensor Sweep'
+        Text: |-
+            Instead of that second [BO], upgrade any Vigilance checks made by the squadron to determine initiative once.
+        Source: FTNO
+
+      - Name: Improved Sensor Detection
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Sensor Sweep I
+        Specials:
+            - 'Formation: Sensor Sweep'
+        Text: |-
+            Instead of that second [BO], upgrade Computers and Perception checks to detect targets once.
+        Source: FTNO
+
+      - Name: Skilled Navigator I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Skilled Navigator'
+        Text: |-
+            Add [BO] to all “skilled navigator”.
+        Source: FTNO
+
+      - Name: Skilled Navigator II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Skilled Navigator I
+        Specials:
+            - 'Formation: Skilled Navigator'
+            - Replace Skilled Navigator I
+        Text: |-
+            Add [BO][BO] to all “skilled navigator”.
+        Source: FTNO
+
+      - Name: Skilled Navigator III
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Skilled Navigator II
+        Specials:
+            - 'Formation: Skilled Navigator'
+            - Replace Skilled Navigator II
+        Text: |-
+            Add [BO] to all “skilled navigator” and upgrade the check once.
+        Source: FTNO
+
+      - Name: Improved Screen Formation I
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Screen Formation'
+        Text: |-
+            Add a second point of defense in all zones
+        Source: FTNO
+
+      - Name: Improved Screen Formation II
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Screen Formation I
+        Specials:
+            - 'Formation: Screen Formation'
+        Text: |-
+            Add a third point of defense in all zones
+        Source: FTNO
+
+      - Name: Improved Ship Hull I
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Screen Formation'
+        Text: |-
+            Add 1 point of hull to all ships in the squadron. 
+            This last only while in formation and are lost when breaking it, which mean -1 per ship, so a ship with 1 hull threshold left will explode.
+        Source: FTNO
+
+      - Name: Improved Ship Hull II
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Ship Hull I
+        Specials:
+            - 'Formation: Screen Formation'
+            - Replace Improved Ship Hull I
+        Text: |-
+            Add 2 points of hull to all ships in the squadron.
+            These last only while in formation and are lost when breaking it, which mean -2 per ship, so a ship with 2 or less hull threshold left will explode.
+        Source: FTNO
+
+      - Name: Improved Ship Armor I
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: Screen Formation'
+        Text: |-
+            Add 1 point of armor to the leader’s ship.
+        Source: FTNO
+
+      - Name: Improved Ship Armor II
+        Tier: 4
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Ship Armor II
+        Specials:
+            - 'Formation: Screen Formation'
+            - Replace Improved Ship Armor I
+        Text: |-
+            Add 2 points of armor to the leader’s ship
         Source: FTNO
 
 - Name: Stromtrooper Leader
@@ -220,101 +461,311 @@
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper or Imperial Security Bureau
+            - Imperial Stormtrooper Corp or Imperial Security Bureau
             - Rank 3
             - Leadership 1
             - Knowledge (Warfare) 1
         Text: |-
-            The character can use minions as an extension of himself, boosting his combat skills. This talent should be very useful at speeding up encounters with many NPCs, while using the number provided by the Empire.
-
-            To activate Stromtrooper Leader I, the character must make an easy (?) Leadership check as an incidental to take control of a minion group that is part of the Imperial Stromtrooper Corp. 
-            If he succeeds, Stromtrooper Leader I is active until the end of the encounter.
-            If he fails, he cannot activate Stromtrooper Leader I IV or above until the end of the encounter.
-
-            When Stromtrooper Leader I is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 1.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Stromtrooper Leader I, an attribute of 4, a skill of 5, that controls 1 minion, would roll [PR][PR][PR][PR][PR] (skill: [PR][PR][PR][PR][AB], upgraded once).
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 8 squadmates) or may spend 1 Story Point to perform a second action (requires 12 squadmates).
         Source: FTNO
 
       - Name: Stromtrooper Leader II
-        IsCore: true
-        Tier: 2
-        Activation: Active (Incidental)
-        Ranked: 'No'
-        Prerequisites:
-            - Imperial Stromtrooper or Imperial Security Bureau
-            - Rank 4
-            - Stromtrooper Leader I
-        Text: |-
-            To activate Stromtrooper Leader II, the character must make an medium (??) Leadership check as an incidental to take control of a minion group that is part of the Imperial Stromtrooper. 
-            If he succeeds, Stromtrooper Leader II is active until the end of the encounter.
-
-            When Stromtrooper Leader II is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 2.
-            The minions must possess the skill (group only) that the character wants to improve.
-            If he fails, he cannot activate Stromtrooper Leader II or above until the end of the encounter.
-
-            For example, a character with Stromtrooper Leader II, an attribute of 4, a skill of 5, that controls a group of 2 minions, would roll [PR][PR][PR][PR][PR][AB] (skill: [PR][PR][PR][PR][AB], upgraded twice)
-        Source: FTNO
-
-      - Name: Stromtrooper Leader III
         IsCore: true
         Tier: 3
         Activation: Active (Incidental)
         Ranked: 'No'
         Prerequisites:
-            - Imperial Stromtrooper or Imperial Security Bureau
-            - Rank 5
+            - Imperial Stormtrooper Corp or Imperial Security Bureau
+            - Rank 4
             - Leadership 2
             - Knowledge (Warfare) 2
+            - Stromtrooper Leader I
+        Text: |-
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 4 squadmates) or may spend 1 Story Point to perform a second action (requires 8 squadmates).
+        Source: FTNO
+
+      - Name: Stromtrooper Leader III
+        IsCore: true
+        Tier: 5
+        Activation: Active (Incidental)
+        Ranked: 'No'
+        Prerequisites:
+            - Imperial Stormtrooper Corp or Imperial Security Bureau
+            - Rank 5
+            - Leadership 3
+            - Knowledge (Warfare) 3
             - Stromtrooper Leader II
         Text: |-
-            To activate Stromtrooper Leader III, the character must make an hard (???) Leadership check as an incidental to take control of a minion group that is part of the Imperial Stromtrooper. 
-            If he succeeds, Stromtrooper Leader III is active until the end of the encounter.
-            If he fails, he cannot activate Stromtrooper Leader III or above until the end of the encounter.
-
-            When Stromtrooper Leader III is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 3.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Stromtrooper Leader III, an attribute of 4, a skill of 5, that controls a group of 3 minions, would roll [PR][PR][PR][PR][PR][PR] (skill: [PR][PR][PR][PR][AB], upgraded three time)
+            Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 1 squadmates) or may spend 1 Story Point to perform a second action (requires 4 squadmates).
         Source: FTNO
 
-      - Name: Stromtrooper Leader IV
-        IsCore: true
-        Tier: 4
-        Activation: Active (Incidental)
-        Ranked: 'No'
-        Prerequisites:
-            - Imperial Stromtrooper or Imperial Security Bureau
-            - Rank 6
-            - Stromtrooper Leader III
-        Text: |-
-            To activate Stromtrooper Leader IV, the character must make an very hard (????) Leadership check as an incidental to take control of a minion group that is part of the Imperial Stromtrooper.
-            If he succeeds, Stromtrooper Leader IV is active until the end of the encounter.
-            If he fails, he cannot activate Stromtrooper Leader IV until the end of the encounter.
-
-            When Stromtrooper Leader IV is active, once per turn, the character can upgrade a skill check a number time equal to the number of minion that he controls, up to a maximum of 4.
-            The minions must possess the skill (group only) that the character wants to improve.
-
-            For example, a character with Stromtrooper Leader IV, an attribute of 4, a skill of 5, that controls a group of 4 minions, would roll [PR][PR][PR][PR][PR][PR][AB] (skill: [PR][PR][PR][PR][AB], upgraded four time)
-        Source: FTNO
-
-- Name: Squad Leader
-  Description: |-
-      After an intensive training at the Imperial Army Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming Army troops into an extension of the squad leader!
-
-      This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
-  Talents:
-      - Name: Squad Leader I
-        IsCore: true
+      - Name: Born Stromtrooper Leader
         Tier: 1
-        Activation: Active (Incidental)
+        Activation: Passive
         Ranked: 'No'
         Prerequisites:
-            - Imperial Army or Imperial Security Bureau
-            - Rank 3
-            - Leadership 1
-            - Knowledge (Warfare) 1
+            - Stromtrooper Leader I
         Text: |-
-            TBD...
+            Add [BO][BO] to Leadership checks targeting [type of units] and add [BO] to Leadership checks targeting [type of units] when not in formation.
         Source: FTNO
+
+      - Name: Tight Stromtrooper Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            Lower the squad silhouette by 1.
+        Source: FTNO
+
+      - Name: Voluntary Stromtrooper Sacrifice
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+        Source: FTNO
+
+      - Name: Unthreatable Stromtrooper Squad
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            A squad cannot be disbanded (broken) using [TH][TH][TH].
+        Source: FTNO
+
+      - Name: Undespairable Stromtrooper Squad
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Unthreatable
+        Text: |-
+            A squad cannot be disbanded (broken) using [DE] (still work with [DE][DE]).
+        Source: FTNO
+
+      - Name: Fearless Stromtrooper Squad
+        Tier: 2
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Unthreatable
+        Text: |-
+            A squad cannot be disbanded after a failed fear check.
+        Source: FTNO
+
+      - Name: Unshakable Stromtrooper Squad
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            Minions cannot be forced out of position using [AD][AD][AD].
+        Source: FTNO
+
+      - Name: Easy Stromtrooper Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            Downgrade leadership check required to create a formation to easy ([DI]).
+        Source: FTNO
+
+      - Name: Quick Stromtrooper Formation
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+        Text: |-
+            Add [BO] when creating formation of [type of units].
+        Source: FTNO
+
+      - Name: Stromtrooper Formation Master
+        Tier: 5
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Stromtrooper Leader I
+            - Know at least 1 talent improving 3 different squad formations
+        Specials:
+            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+        Text: |-
+            Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
+        Source: FTNO
+
+      - Name: NAME
+        Tier: 1
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+        Specials:
+            - 'Formation: NEXT'
+        Text: |-
+            TEXT
+        Source: FTNO
+# - Name: Army Squad Leader
+#   Description: |-
+#       After an intensive training at the Imperial Army Academy, that only a selected few can attend, squad combats should have no more secrets for the attendee, transforming Army troops into an extension of the squad leader!
+
+#       This talent tree upgrades the benefits provided by [Squads & Squadrons](/rules/squads-and-squadrons/).
+#   Talents:
+#       - Name: Army Leader I
+#         IsCore: true
+#         Tier: 1
+#         Activation: Active (Incidental)
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Imperial Army or Imperial Security Bureau
+#             - Rank 3
+#             - Leadership 1
+#             - Knowledge (Warfare) 1
+#         Text: |-
+#             Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 8 squadmates) or may spend 1 Story Point to perform a second action (requires 12 squadmates).
+#         Source: FTNO
+
+#       - Name: Army Leader II
+#         IsCore: true
+#         Tier: 3
+#         Activation: Active (Incidental)
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Imperial Army or Imperial Security Bureau
+#             - Rank 4
+#             - Leadership 2
+#             - Knowledge (Warfare) 2
+#             - Army Leader I
+#         Text: |-
+#             Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 4 squadmates) or may spend 1 Story Point to perform a second action (requires 8 squadmates).
+#         Source: FTNO
+
+#       - Name: Army Leader III
+#         IsCore: true
+#         Tier: 5
+#         Activation: Active (Incidental)
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Imperial Army or Imperial Security Bureau
+#             - Rank 5
+#             - Leadership 3
+#             - Knowledge (Warfare) 3
+#             - Army Leader II
+#         Text: |-
+#             Once per game session, the squad leader may spend 2 Story Points to perform a second action (requires at least 1 squadmates) or may spend 1 Story Point to perform a second action (requires 4 squadmates).
+#         Source: FTNO
+
+#       - Name: Born Army Leader
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             Add [BO][BO] to Leadership checks targeting [type of units] and add [BO] to Leadership checks targeting [type of units] when not in formation.
+#         Source: FTNO
+
+#       - Name: Tight Army Formation
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             Lower the squad silhouette by 1.
+#         Source: FTNO
+
+#       - Name: Voluntary Army Sacrifice
+#         Tier: 3
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+#         Source: FTNO
+
+#       - Name: Unthreatable Army Squad
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             A squad cannot be disbanded (broken) using [TH][TH][TH].
+#         Source: FTNO
+
+#       - Name: Undespairable Army Squad
+#         Tier: 2
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#             - Unthreatable
+#         Text: |-
+#             A squad cannot be disbanded (broken) using [DE] (still work with [DE][DE]).
+#         Source: FTNO
+
+#       - Name: Fearless Army Squad
+#         Tier: 2
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#             - Unthreatable
+#         Text: |-
+#             A squad cannot be disbanded after a failed fear check.
+#         Source: FTNO
+
+#       - Name: Unshakable Army Squad
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             Minions cannot be forced out of position using [AD][AD][AD].
+#         Source: FTNO
+
+#       - Name: Easy Army Formation
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             Downgrade leadership check required to create a formation to easy ([DI]).
+#         Source: FTNO
+
+#       - Name: Quick Army Formation
+#         Tier: 1
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#         Text: |-
+#             Add [BO] when creating formation of [type of units].
+#         Source: FTNO
+
+#       - Name: Army Formation Master
+#         Tier: 5
+#         Activation: Passive
+#         Ranked: 'No'
+#         Prerequisites:
+#             - Army Leader I
+#             - Know at least 1 talent improving 3 different squad formations
+#         Specials:
+#             - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+#         Text: |-
+#             Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
+#         Source: FTNO

@@ -21,7 +21,9 @@
     }
 
     &.fluid-toc {
-        margin-right: 300px;
+        #main {
+            margin-right: 300px;
+        }
     }
 }
 
