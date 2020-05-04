@@ -571,5 +571,18 @@
                 }
             ]
         }
+    },
+    "TIE Striker": {
+        "model": {
+            "name": "TIE/sk"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0120",
+                    "description": ["TIE/sk are deployed from the Deceptor to help the Assault on Mulino."]
+                }
+            ]
+        }
     }
 }

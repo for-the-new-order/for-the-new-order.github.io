@@ -326,6 +326,17 @@
                 "display-motivation-strength: true",
                 "display-motivation-flaw: false"
             ]
+        },
+        {
+            "name": "Veronique Batzer",
+            "frontMatter": [
+                "display-motivation: true",
+                "display-motivation-personality: true",
+                "display-motivation-desires: true",
+                "display-motivation-fear: false",
+                "display-motivation-strength: true",
+                "display-motivation-flaw: false"
+            ]
         }
     ],
     "vehicles": [
@@ -366,6 +377,7 @@
         { "name": "Gaoler" },
         { "name": "TIE Interceptor" },
         { "name": "Zenith" },
-        { "name": "Deceptor" }
+        { "name": "Deceptor" },
+        { "name": "TIE Striker" }
     ]
 }

@@ -4089,5 +4089,53 @@
         "campaign_info": {
             "encounters": [{ "episode": "episode0110" }]
         }
+    },
+    "Veronique Batzer": {
+        "players_permissions": {
+            "stats": false,
+            "motivations": {
+                "personality": true,
+                "desires": true,
+                "fear": false,
+                "strength": true,
+                "flaw": false
+            }
+        },
+        "description": [
+            "Deputy Director Batzer is a thoughtless, condescending, and ambitious ISB officer. She made her place in the ranks of the ISB by always adjusting to the situation, and more importantly, prevailing through victory!",
+            "She's always wearing classy and stylized white uniforms, walking tall and with confidence. A perk from her status and achievements."
+        ],
+        "initialSeed": 421033,
+        "image_path": "/assets/images/npcs/Deputy-Director-Batzer.jpg",
+        "type": "nemesis",
+        "species": {
+            "name": "Human"
+        },
+        "rank": "Deputy Director",
+        "gender": "Female",
+        "clan": "Empire",
+        "corp": "Compnor",
+        "personality": "Condescending",
+        "motivation": {
+            "desires": {
+                "name": "Ambition",
+                "description": "Your character craves power and authority over others. The character may pursue privilege, social status, or rank to achieve this goal."
+            },
+            "fear": {
+                "name": "Death",
+                "description": "The fear of death is deep and primal, and it drives a lot of our behaviors. There are a large number of ways this could manifest in your character, many of them similar to what you see in real life."
+            },
+            "strength": {
+                "name": "Adaptable",
+                "description": "No matter what life throws at your character, they always rise to the challenge. Your character is flexible and can handle nearly every situation, no matter how grim or strange the circumstances."
+            },
+            "flaw": {
+                "name": "Deception",
+                "description": "Your character may be disloyal or a compulsive liar. They are concerned with their own wellbeing first and foremost, and they might always present themselves in the best possible light even when that isn’t the case."
+            }
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0120" }]
+        }
     }
 }

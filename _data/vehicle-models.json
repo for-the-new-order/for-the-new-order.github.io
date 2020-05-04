@@ -1004,5 +1004,71 @@
                 "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 3"
             }
         ]
+    },
+    "TIE/sk": {
+        "alias": "TIE Striker",
+        "image_path": "/assets/images/vehicles/TIE-Striker.jpg",
+        "description": [
+            "The TIE/sk are optimized for air superiority, capable of outperforming most airspeeders, while still performing okay in space.",
+            "Optimized for Atmosphere: While in space, handling becomes +0 and speed becomes 4.",
+            "Multi-Role Fighter: Can be fitted to deploy Proton Bombs in a Ventral-mounted Ejector with following profile: Fire Arc All; Damage 8; Critical 2; Range [Close]; Blast 6, Breach 6."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 6,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 7,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 9,
+                "current": 0
+            },
+            "protection": {
+                "defense": "1|0",
+                "armor": 2
+            }
+        },
+        "hyperdrive": {
+            "primary": "None",
+            "navicomputer": "None"
+        },
+        "customization": {
+            "hard_points": 0
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Sienar Fleet Systems",
+        "skill": "Piloting",
+        "complement": "1 pilot, 1 Gunner/Bombardier",
+        "passenger_capacity": 0,
+        "consumables": "1 day",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 50000,
+            "rarity": 6,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "Twin Forward-mounted Light Laser Cannon",
+                "specs": "Fire Arc Forward; Damage 5; Critical 3; Range [Close]; Linked 1"
+            },
+            {
+                "name": "Hull & Wingtip-mounted Heavy Blaster Cannons",
+                "specs": "Fire Arc Forward; Damage 5; Critical 4; Range [Close]; Linked 3"
+            }
+        ]
+    },
+    "reference": {
+        "source": "CCC",
+        "links": [
+            {
+                "text": "TIE/sk Striker Multi-Role Fighter",
+                "url": "https://star-wars-rpg-ffg.fandom.com/wiki/TIE/sk_Striker_Multi-Role_Fighter"
+            }
+        ]
     }
 }

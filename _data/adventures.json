@@ -204,6 +204,13 @@
         "chapters": []
     },
     "episode0120": {
+        "name": "Episode 12: Assault on Mulino",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/egeycxUV7LaZXmSBTPiY",
+        "isVisible": true,
+        "description": ["TBD"],
+        "chapters": []
+    },
+    "episode0130": {
         "name": "Episode 12: Into the Smuggling ring",
         "crawl": "",
         "isVisible": false,
