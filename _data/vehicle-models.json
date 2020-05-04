@@ -1026,7 +1026,7 @@
                 "current": 0
             },
             "protection": {
-                "defense": "1|0",
+                "defense": "1,-,-,0",
                 "armor": 2
             }
         },
