@@ -23,7 +23,8 @@ minimal_mistakes_skin: 'dark' # "default", "air", "aqua", "contrast", "dark", "d
 # Site Settings
 locale: 'en-US'
 title: 'For the New Order'
-title_separator: '-'
+logo: '/assets/images/star-wars-for-the-new-order.png'
+title_separator: '|'
 name: 'Carl-Hugo Marcotte'
 description: 'A Star Wars Genesys Imperial Setting.'
 url: 'https://fortheneworder.rpg.solutions'
