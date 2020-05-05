@@ -1070,5 +1070,94 @@
                 "url": "https://star-wars-rpg-ffg.fandom.com/wiki/TIE/sk_Striker_Multi-Role_Fighter"
             }
         ]
+    },
+    "Secutor-class Battlecarrier": {
+        "image_path": "/assets/images/vehicles/secutor-class-battlecarrier.jpg",
+        "image_source": {
+            "text": "Fractalsponge",
+            "url": "http://fractalsponge.net/?p=3143"
+        },
+        "description": [
+            "One of the largest, if not THE largest starfighter carrier in the Imperial arsenal. The Secutor-class Battlecarrier is an old design, but a few still remains.",
+            "Secutor-class Battlecarriers have about half the firepower of an Imperial Star Destroyer, but double the amount of starfighters, and about 150% more troops; this is a planetary invasion machine."
+        ],
+        "characteristics": {
+            "silhouette": 8,
+            "max_speed": 2,
+            "handling": -4,
+            "hull_trauma": {
+                "threshold": 130,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 55,
+                "current": 0
+            },
+            "protection": {
+                "defense": "3,3,3,2",
+                "armor": 8
+            },
+            "massive": 2
+        },
+        "skill": "Operating",
+        "consumables": "2 years",
+        "encumbrance_capacity": 28000,
+        "manufacturer": "Kuat Drive Yards",
+        "hyperdrive": {
+            "primary": "Class 2",
+            "backup": "Class 14",
+            "navicomputer": "Yes"
+        },
+        "complements": {
+            "crew": "40,000 officers, pilots, and enlisted crew",
+            "starfighters": "144 starfighters",
+            "vehicles": "Numerous shuttles, landing craft, utility vehicles, AT-series walkers, and ground assault vehicles",
+            "troops": "14,000 troops"
+        },
+        "customization": {
+            "hard_points": 2
+        },
+        "sensor": {
+            "range": "long"
+        },
+        "cost": {
+            "price": 200000000,
+            "rarity": 7,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "5 port and 5 starboard heavy turbolaser batteries",
+                "specs": "Fire Arc Port and Forward or Starboard and Forward; Damage 11; Critical 3; Range [Long]; Breach 4, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "5 dorsal heavy turbolaser batteries",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage 11; Critical 3; Range [Long]; Breach 4, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "5 port, 5 starboard, and 5 forward light turbolasers",
+                "specs": "Fire Arc Port, Starboard, or Forward; Damage 9; Critical 3; Range [Medium]; Breach 2, Slow-Firing 1"
+            },
+            {
+                "name": "5 port and 5 starboard battleship ion cannon turrets",
+                "specs": "Fire Arc Port and Forward or Starboard and Forward; Damage 9; Critical 4; Range [Medium]; Breach 3, Ion, Slow-Firing 2"
+            },
+            {
+                "name": "5 ventral battleship ion cannon batteries",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage 9; Critical 4; Range [Medium]; Breach 3, Ion, Linked 1, Slow-Firing 2"
+            },
+            {
+                "name": "8 port and 8 starboard medium ion cannons",
+                "specs": "Fire Arc Port or Starboard; Damage 6; Critical 4; Range [Short]; Ion"
+            },
+            {
+                "name": "12 heavy tractor beam emitters",
+                "specs": "Fire Arc Forward, Port, and Starboard; Damage -; Critical -; Range [Short]; Tractor 6"
+            }
+        ],
+        "reference": {
+            "source": "SOT",
+            "page": 62
+        }
     }
 }

@@ -287,7 +287,18 @@
         ],
         "campaign_info": {
             "flight_officer": "Salomon Fauls",
-            "encounters": [{ "episode": "episode0045" }, { "episode": "episode0050" }]
+            "encounters": [
+                { "episode": "episode0045" },
+                { "episode": "episode0050" },
+                {
+                    "episode": "episode0080",
+                    "description": ["The Kaki Usyk was part of the first line of defense during the battle of the Galactic Race."]
+                },
+                {
+                    "episode": "episode0120",
+                    "description": ["The Kaki Usyk was part of the Mulino system's invading forces."]
+                }
+            ]
         }
     },
     "Judgment": {
@@ -296,7 +307,13 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Carter Foxwell"
+            "flight_officer": "Carter Foxwell",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": ["The Judgment was part of the first line of defense during the battle of the Galactic Race."]
+                }
+            ]
         }
     },
     "Armorer": {
@@ -305,7 +322,13 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Benjy Lazzo"
+            "flight_officer": "Benjy Lazzo",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": ["The Armorer was part of the first line of defense during the battle of the Galactic Race."]
+                }
+            ]
         }
     },
     "Kryptoria": {
@@ -314,7 +337,35 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Travus Karns"
+            "flight_officer": "Travus Karns",
+            "encounters": [
+                {
+                    "episode": "episode0010",
+                    "description": ["The Kryptoria was part of the imperial armada during the battle of the Niyrius system."]
+                },
+                {
+                    "episode": "episode0080",
+                    "description": ["The Kryptoria was part of the first line of defense during the battle of the Galactic Race."]
+                }
+            ]
+        }
+    },
+    "Sparta": {
+        "model": {
+            "name": "Nebulon-B Frigate"
+        },
+        "description": ["This Nebulon-B Frigate was destroyed."],
+        "campaign_info": {
+            "flight_officer": "Ashton Mccausland",
+            "encounters": [
+                {
+                    "episode": "episode0010",
+                    "description": [
+                        "The Sparta was part of the imperial armada during the battle of the Niyrius system.",
+                        "The Sparta was disabled and rendered unusable by the **Gladiator**."
+                    ]
+                }
+            ]
         }
     },
     "Alienator": {
@@ -323,7 +374,15 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Helen Hartwich"
+            "flight_officer": "Helen Hartwich",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Alienator was part of the first wave of reinforcement that arrived during the battle of the Galactic Race."
+                    ]
+                }
+            ]
         }
     },
     "Glory": {
@@ -332,7 +391,19 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Dillon Poke"
+            "flight_officer": "Dillon Poke",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Glory was part of the first wave of reinforcement that arrived during the battle of the Galactic Race."
+                    ]
+                },
+                {
+                    "episode": "episode0120",
+                    "description": ["The Glory was part of the Mulino system's invading forces."]
+                }
+            ]
         }
     },
     "Liberator": {
@@ -341,7 +412,15 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Barret Marh"
+            "flight_officer": "Barret Marh",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Liberator, lead by Grand Admiral Marh, was leading the armada to crush the pathetic rebel assault during the Galactic Race."
+                    ]
+                }
+            ]
         }
     },
     "Herald of Sorrow": {
@@ -350,7 +429,15 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Ashton Mccausland"
+            "flight_officer": "Ashton Mccausland",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Herald of Sorrow was part of the armada, lead by Grand Admiral Marh, to crush the pathetic rebel assault during the Galactic Race."
+                    ]
+                }
+            ]
         }
     },
     "Avalanche": {
@@ -359,7 +446,15 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Bevin Stefanski"
+            "flight_officer": "Bevin Stefanski",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Avalanche was part of the armada, lead by Grand Admiral Marh, to crush the pathetic rebel assault during the Galactic Race."
+                    ]
+                }
+            ]
         }
     },
     "Lullaby": {
@@ -368,7 +463,19 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Kellina Niemiec"
+            "flight_officer": "Kellina Niemiec",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Lullaby was part of the armada, lead by Grand Admiral Marh, to crush the pathetic rebel assault during the Galactic Race."
+                    ]
+                },
+                {
+                    "episode": "episode0120",
+                    "description": ["The Lullaby was part of the Mulino system's invading forces."]
+                }
+            ]
         }
     },
     "Bastion": {
@@ -377,7 +484,15 @@
         },
         "description": [""],
         "campaign_info": {
-            "flight_officer": "Jerrold Penagonzalez"
+            "flight_officer": "Jerrold Penagonzalez",
+            "encounters": [
+                {
+                    "episode": "episode0080",
+                    "description": [
+                        "The Bastion was part of the armada, lead by Grand Admiral Marh, to crush the pathetic rebel assault during the Galactic Race."
+                    ]
+                }
+            ]
         }
     },
     "Falsifier": {
@@ -398,15 +513,17 @@
         }
     },
     "Poseidon": {
-        "flight_officer": "Xreq'is",
         "model": {
             "name": "Dreadnought-class Heavy Cruiser"
         },
-        "encounters": [
-            {
-                "episode": "episode0030"
-            }
-        ]
+        "campaign_info": {
+            "flight_officer": "Xreq'is",
+            "encounters": [
+                {
+                    "episode": "episode0030"
+                }
+            ]
+        }
     },
     "Crucible": {
         "model": {
@@ -555,7 +672,13 @@
         "description": ["The Deceptor is controlled by the PCs."],
         "campaign_info": {
             "flight_officer": "Felecia Kralick",
-            "army_officer": "Linoel Tatcher"
+            "army_officer": "Linoel Tatcher",
+            "encounters": [
+                {
+                    "episode": "episode0120",
+                    "description": ["The Deceptor was part of the Mulino system's invading forces."]
+                }
+            ]
         },
         "customization": {
             "hard_points": 4,
@@ -581,6 +704,23 @@
                 {
                     "episode": "episode0120",
                     "description": ["TIE/sk are deployed from the Deceptor to help the Assault on Mulino."]
+                }
+            ]
+        }
+    },
+    "Annamaria": {
+        "model": {
+            "name": "Secutor-class Battlecarrier"
+        },
+        "description": [
+            "The legend says that Annamaria means _a beautiful girl who has the world at her fingertips, and can do anything that she sets her mind to_, which seems to be the perfect name for Batzer's ship!"
+        ],
+        "campaign_info": {
+            "flight_officer": "Veronique Batzer",
+            "encounters": [
+                {
+                    "episode": "episode0120",
+                    "description": ["The Kaki Usyk was part of the Mulino system's invading forces."]
                 }
             ]
         }

@@ -42,11 +42,21 @@ display-weapons: true
         </h2>
     </header>
     <section class="content">
-        {%- if data.image_path -%}
-            <img src="{{ data.image_path }}" alt="{{ page.title }}" />
-        {%- elsif model and model.image_path -%}
-            <img src="{{ model.image_path }}" alt="{{ page.title }}" />
+        {%- if data.image_path or model.image_path -%}
+            <figure>
+            {%- if data.image_path -%}
+                <img src="{{ data.image_path }}" alt="{{ page.title }}" />
+            {%- elsif model and model.image_path -%}
+                <img src="{{ model.image_path }}" alt="{{ page.title }}" />
+            {%- endif -%}
+            {%- if data.image_source -%}
+                <figcaption>Source: <a href="{{ data.image_source.url }}" target="_blank">{{ data.image_source.text }}</a></figcaption>
+            {%- elsif model.image_source -%}
+                <figcaption>Source: <a href="{{ model.image_source.url }}" target="_blank">{{ model.image_source.text }}</a></figcaption>
+            {%- endif -%}
+            </figure>
         {%- endif -%}
+        
         {%- if  page.content -%}
             {{ page.content }}
         {%- endif -%}

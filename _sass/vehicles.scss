@@ -26,7 +26,24 @@ div.vehicles {
     }
 
     .vehicle-details {
-        @include npcs-vehicles-content();
+        .content {
+            @include clearfix();
+            figure {
+                float: right;
+                margin-left: 1em;
+                margin-bottom: 1em;
+                flex-direction: column;
+
+                img {
+                    width: auto;
+                    margin-bottom: 0;
+                }
+
+                figcaption {
+                    font-size: 0.5em;
+                }
+            }
+        }
         @include npcs-vehicles-details-base();
 
         display: flex;
