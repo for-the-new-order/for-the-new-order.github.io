@@ -1,5 +1,5 @@
 ---
-title: 'Updated Squad & Squadron house rules'
+title: 'Updated Squads & Squadrons house rules'
 date: 2020-05-03 14:00:00
 excerpt: 'Get ready to explore the updated Squads & Squadrons rules and the new Squadron and Stormtrooper Squad Leader talent trees!'
 toc: false
@@ -8,6 +8,8 @@ classes:
     - wide
 header:
     overlay_image: /assets/images/banners/Squads-and-Squadrons.jpg
+redirect_from:
+    - /updated-squad-and-squadrons-house-rules/
 ---
 
 # {{ page.title }}
