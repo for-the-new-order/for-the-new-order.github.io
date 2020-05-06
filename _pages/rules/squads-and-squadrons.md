@@ -56,6 +56,7 @@ During squad combat, the squad leader can use his minions by creating formations
 | :-----------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------- |
 | {%- include text-with-symbols.html content="[AD][AD][AD]" -%} | Force one minion in it out of position. The leader loses the benefits of that minion until the minion returns to formation. |
 |     {%- include text-with-symbols.html content="[TR]" -%}     | ~~If targeting a squad or squadron, may eliminate one minion in it.~~                                                       |
+|     {%- include text-with-symbols.html content="[TR]" -%}     | Kill a specialist in a Custom Squad; GM discretion: it can be random or not.                                                |
 
 #### If leading a squad or squadron
 
@@ -87,6 +88,7 @@ During squad combat, the squad leader can use his minions by creating formations
 -   **Skirmish** – Soldiers are given overlapping fire arcs. Use to ward off ambushes. Add {% include text-with-symbols.html content="[BO]" %} to any Vigilance checks made by the squad to determine initiative or to any Perception checks to detect enemies. Enemies need to spend 1 more {% include text-with-symbols.html content="[AD]" %} to activate Auto-fire or Blast weapon qualities.
 -   **Close** – Concentrates fire to a single target. Add {% include text-with-symbols.html content="[BO]" %} to any attack made by the squad.
 -   **Mission Specialist** – Represents a skilled team of specialists. Squad leader can use a Leadership check to perform a single Computers, Mechanics, Medicine, Skullduggery, Survival, or Knowledge check. Can only be used a number of times equal to Leadership ranks per session.
+    -   Requires a Custom Squad
 -   **Comm Silence** – Moves the squad undetected. Add {% include text-with-symbols.html content="[BO]" %} to all Stealth checks made by the unit.
 -   **Search Party** – Used for squad search patterns. Add {% include text-with-symbols.html content="[BO]" %} to any Survival checks to track a target and to all Perception checks.
 
@@ -97,4 +99,25 @@ During squad combat, the squad leader can use his minions by creating formations
 -   **Running Dark** – Hides the squad from sensor and visual scans. Downgrade difficulty of Stealth checks made by the unit. Upgrade the difficulty of all Leadership checks.
 -   **Sensor Sweep** – Allows the squad to scan in all directions. Add {% include text-with-symbols.html content="[BO]" %} to any Vigilance checks to determine initiative and to Computers and Perception checks to detect targets.
 -   **Skilled Navigator** – Represents a skilled navigator within the squad. Squadron leader can substitute a Leadership check for a single Astrogation, Computers, Mechanics, or Knowledge check. Can only be used a number of times equal to Leadership ranks per session.
+    -   Applies only to Capital Ships or Custom Squadron; GM discretion applies
 -   **Screen Formation** – Optimized shield strategy. Add 1 to ship defense in all zones. If the squadron entering this maneuver does not have shields or has lost them ~~upgrade the difficulty of this check one step~~ change formation.
+
+# Custom Squads
+
+A Custom Squads is a special unit purchased using Contribution Ranks. See [Rewards (NPCs)](/rules/ranks-and-rewards/npcs) for more info.
+
+-   A Custom Squad cost 1 CR.
+-   1 minion out of 4 is a specialist.
+-   The specialties must be chosen when purchasing the Custom Squad; for example a medic, a computer geek, and a mechanic guy.
+
+# Change log
+
+## 2020-05-05
+
+-   Add the notion of Custom Squads
+-   Add constraints to Squadron Formation: **Skilled Navigator**
+-   Add constraints to Squad Formation: **Mission Specialist**
+
+## 2020-05-03
+
+-   Initial Revision
