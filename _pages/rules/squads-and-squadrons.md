@@ -102,13 +102,9 @@ During squad combat, the squad leader can use his minions by creating formations
     -   Applies only to Capital Ships or Custom Squadron; GM discretion applies
 -   **Screen Formation** – Optimized shield strategy. Add 1 to ship defense in all zones. If the squadron entering this maneuver does not have shields or has lost them ~~upgrade the difficulty of this check one step~~ change formation.
 
-# Custom Squads
+## Custom Squads
 
 A Custom Squads is a special unit purchased using Contribution Ranks. See [Rewards (NPCs)](/rules/ranks-and-rewards/npcs) for more info.
-
--   A Custom Squad cost 1 CR.
--   1 minion out of 4 is a specialist.
--   The specialties must be chosen when purchasing the Custom Squad; for example a medic, a computer geek, and a mechanic guy.
 
 # Change log
 
