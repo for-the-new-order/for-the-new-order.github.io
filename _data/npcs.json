@@ -4136,6 +4136,72 @@
         },
         "campaign_info": {
             "encounters": [{ "episode": "episode0120" }]
+        },
+        "skills": [
+            "Knowledge (Warfare) 4",
+            "Leadership 4",
+            "Perception 3",
+            "Vigilance 2",
+            "Cool 4",
+            "Ranged (Light) 2",
+            "Deception 3",
+            "..."
+        ]
+    },
+    "Voiceless One Soldier": {
+        "players_permissions": {
+            "stats": true
+        },
+        "xfolder": "Generic/NPCs",
+        "clan": "Voiceless One",
+        "corp": "Army",
+        "type": "MINION",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0120"
+                }
+            ]
+        },
+        "attributes": {
+            "wounds": 5,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "minion_skills": "Athletics, Melee, Ranged (Heavy), Vigilance",
+        "equipment": [
+            "Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Padded Armor (+2 soak)",
+            "Utility belt",
+            "Extra reloads"
+        ],
+        "abilities": [
+            {
+                "name": "Voiceless Ones Telepathic Link",
+                "effect": "All Voiceless Ones have a telepathic link between each other and can use it to coordinate better. Add [BO] to any checks that requires unit coordination, like attacks, initiative, etc."
+            },
+            {
+                "name": "Voiceless Ones Upload Link",
+                "effect": "All Voiceless Ones have an upload link that send everything they see to a central server that stores everything."
+            }
+        ],
+        "description": ["A common soldier dressed with a military uniform, a padded armor, holding a Blaster rifle in his hand."],
+        "reference": {
+            "source": "FTNO"
         }
     }
 }

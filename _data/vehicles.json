@@ -724,5 +724,18 @@
                 }
             ]
         }
+    },
+    "D-24 Drone": {
+        "model": {
+            "name": "Voiceless Ones Drone"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "episode0120",
+                    "description": ["The drones are defending the Voiceless Ones' base."]
+                }
+            ]
+        }
     }
 }

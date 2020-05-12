@@ -1,0 +1,3 @@
+---
+title: Voiceless One Soldier
+---

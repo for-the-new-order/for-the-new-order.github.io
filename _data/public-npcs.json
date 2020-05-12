@@ -337,6 +337,17 @@
                 "display-motivation-strength: true",
                 "display-motivation-flaw: false"
             ]
+        },
+        {
+            "name": "Voiceless One Soldier",
+            "frontMatter": [
+                "display-attributes: true",
+                "display-characteristics: true",
+                "display-skills: true",
+                "display-talents: false",
+                "display-abilities: true",
+                "display-equipment: true"
+            ]
         }
     ],
     "vehicles": [
@@ -380,6 +391,7 @@
         { "name": "Deceptor" },
         { "name": "TIE Striker" },
         { "name": "Sparta" },
-        { "name": "Annamaria" }
+        { "name": "Annamaria" },
+        { "name": "D-24 Drone" }
     ]
 }

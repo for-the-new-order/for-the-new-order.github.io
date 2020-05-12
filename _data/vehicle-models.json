@@ -1060,16 +1060,16 @@
                 "name": "Hull & Wingtip-mounted Heavy Blaster Cannons",
                 "specs": "Fire Arc Forward; Damage 5; Critical 4; Range [Close]; Linked 3"
             }
-        ]
-    },
-    "reference": {
-        "source": "CCC",
-        "links": [
-            {
-                "text": "TIE/sk Striker Multi-Role Fighter",
-                "url": "https://star-wars-rpg-ffg.fandom.com/wiki/TIE/sk_Striker_Multi-Role_Fighter"
-            }
-        ]
+        ],
+        "reference": {
+            "source": "CCC",
+            "links": [
+                {
+                    "text": "TIE/sk Striker Multi-Role Fighter",
+                    "url": "https://star-wars-rpg-ffg.fandom.com/wiki/TIE/sk_Striker_Multi-Role_Fighter"
+                }
+            ]
+        }
     },
     "Secutor-class Battlecarrier": {
         "image_path": "/assets/images/vehicles/secutor-class-battlecarrier.jpg",
@@ -1158,6 +1158,58 @@
         "reference": {
             "source": "SOT",
             "page": 62
+        }
+    },
+    "Voiceless Ones Drone": {
+        "alias": "Standard D-24 Drone",
+        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "description": [
+            "Small automated drones that attack in group, like a swarm of insect. They looks like sphere with an Auto-Blaster mounted inside it.",
+            "They are usually launched in two group of 6 (12 total). The Drone's brain have 2 in all characteristic, and the skills (group only): Piloting, Gunnery, Vigilance, Cool"
+        ],
+        "characteristics": {
+            "silhouette": 2,
+            "max_speed": 5,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 4,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 4,
+                "current": 0
+            },
+            "protection": {
+                "defense": "1,-,-,1",
+                "armor": 1
+            }
+        },
+        "hyperdrive": {
+            "primary": "None",
+            "navicomputer": "None"
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Unknown (Voiceless Ones)",
+        "skill": "Piloting",
+        "complement": "Automated",
+        "passenger_capacity": 0,
+        "consumables": "1 day",
+        "encumbrance_capacity": 0,
+        "cost": {
+            "price": 25000,
+            "rarity": 5,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "Forward-mounted Auto-Blaster",
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range [Close]; Auto-fire"
+            }
+        ],
+        "reference": {
+            "source": "FTNO"
         }
     }
 }
