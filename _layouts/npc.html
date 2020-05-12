@@ -263,7 +263,7 @@ excerpt: "EMPTY!"
             <section class="related-npcs">
                 <h2>Related NPCs</h2>
                 {%- assign categories = categories | split: ',' | uniq | sort -%}
-                {%- include npcs-by-categories.html categories=categories -%}
+                {%- include npcs-by-categories.html categories=categories limit=3 -%}
             </section>
         {%- endif -%}
     {% else %}

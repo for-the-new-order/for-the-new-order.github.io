@@ -1,6 +1,7 @@
 {%- assign categories = include.categories -%}
 {%- assign names = include.names -%}
 {%- assign baseUrl = include.baseUrl -%}
+{%- assign limit = include.limit | default: -1 -%}
 
 {%- unless baseUrl -%}
     {%- if page.is-gm -%}
@@ -43,7 +44,7 @@
     
     <div class="card-board-row">
         <h2 id="{{ category | slugify }}">{{ category }}</h2>
-
+        {%- assign currentNpc = 0 -%}
         {%- for name in names -%}
             {%- assign data = site.data.npcs[name] -%}
             {%- assign shouldBeDisplayed = false -%}
@@ -58,9 +59,13 @@
                 {%- assign shouldBeDisplayed = true -%}
             {%- endif -%}
             {%- if shouldBeDisplayed -%}
+                {%- assign currentNpc = currentNpc | plus: 1 -%}
                 <div class="card-3">
                 {%- include npc-card.html npc=data name=name -%}
                 </div>
+            {%- endif -%}
+            {%- if limit > -1 and currentNpc >= limit -%}
+                {%- break -%}
             {%- endif -%}
         {%- endfor -%}
     </div>
