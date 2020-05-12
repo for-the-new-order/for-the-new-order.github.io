@@ -93,16 +93,22 @@ Award players +100 XP that cannot be used for characteristics.
 
 ## New Player Joining
 
-1. When a new player join in, he creates his character like mentioned above.
-1. [optional] Add 3 more contribution rank to buy rewards from (assuming the other PCs are CR 6+).
-    - The first PC to join our campaign got leveled up to CR 6, so I gave the same boost to others. Otherwise I would not give that +3 CR.
-1. [optional] Level it up to the same CR level as the other players, but without the rewards.
-    - Using this would create a team where all PCs are possibly at the same rank
-    - Not using this would make new comers lower rank than the other PCs
+1. When a new player joins in, he creates his character like mentioned above.
+1. Give a number of CR to the newcomer, that does not provide any reward, based on half the progression of the other PCs (rounded up). Example:
+    - If the PCs are CR 12 (started CR 3), they gained 9 CR (`12 - 3 = 9`).
+    - Half of that (rounded up) is 5 (`9 / 2 = 4.5 (rounded up) = 5`).
+    - So the new PC has 5 more CR, for a total of 8 (`5 + 3 = 8`).
+    - The new PC starts at the Agent rank (6), one CR away from Senior Agent (9).
 1. Give the new player XP equal to what the other PCs have accumulated, without the personal bonuses (game time + episode/story).
     - See [Awarding XP](/gm/awarding-xp) for more info
+    - This should bring the new player to a strong enough level to compete with the others.
 
 ## Player making a new character
 
 1. The player creates his character like mentioned above.
 1. Add the CR and XP that he had on his previous character to his new one.
+
+## Player coming back to play
+
+1. Even the XP like newcomers; from where he was to where they are (game time + episode/story)
+1. Even the CR (without the rewards) with half of the progression that they made since.
