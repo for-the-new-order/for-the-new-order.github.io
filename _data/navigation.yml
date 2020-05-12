@@ -67,6 +67,8 @@ rulesandgamecontent: # Rules menu (left)
             url: /imperial-sourcebook/imperial-intelligence/
     - title: 'Game Master Content'
       children:
+          - title: Awarding XP
+            url: /gm/awarding-xp/
           - title: NPCs
             url: /gm/npcs/
           - title: NPCs (categorized)
@@ -83,21 +85,20 @@ rulesandgamecontent: # Rules menu (left)
             url: /rules/imperial-troops-deployment-rules/
           - title: <del>Team presence talents</del>
             url: /rules/team-presence-talents/
-
-gamemaster: # Game master menu
-    - title: 'Game Master Content'
-      children:
-          - title: Game Master Home
-            url: /gm/
-          - title: NPCs
-            url: /gm/npcs/
-          - title: NPCs (by folder)
-            url: /gm/npcs/by-folders
-          - title: Vehicles
-            url: /gm/vehicles/
-          - title: Adventures
-            url: /gm/adventures/
-          - title: Card Boards
-            url: /gm/card-boards/
-          - title: Awarding XP
-            url: /gm/awarding-xp/
+# gamemaster: # Game master menu
+#     - title: 'Game Master Content'
+#       children:
+#           - title: Game Master Home
+#             url: /gm/
+#           - title: NPCs
+#             url: /gm/npcs/
+#           - title: NPCs (by folder)
+#             url: /gm/npcs/by-folders
+#           - title: Vehicles
+#             url: /gm/vehicles/
+#           - title: Adventures
+#             url: /gm/adventures/
+#           - title: Card Boards
+#             url: /gm/card-boards/
+#           - title: Awarding XP
+#             url: /gm/awarding-xp/
