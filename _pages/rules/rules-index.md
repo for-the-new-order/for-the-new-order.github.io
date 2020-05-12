@@ -46,7 +46,7 @@ Age of Rebellion's duty system (p. 49, 325).
 -   A character must have two rank 5 talents to purchase a signature ability for his character.
 -   The signature abilities are considered tier 6 talents.
 -   They cost 30xp to purchase.
--   Optionnally, there is no limitation to how many signature abilities a character can have.
+-   Optionally, there is no limitation to how many signature abilities a character can have.
 -   Once acquired, use the Star Wars signature ability trees as is.
 
 > That guy had something very similar to what I wrote about signature abilities, so I picked up some of his ideas to complete my version (which is almost the same thing now); Thanks to his work on [Star Wars to Genesys Special Rule Conversion](https://drive.google.com/drive/folders/1CD92_GacFtUMmlaFXQaBbvACcKz4eX_k).
@@ -93,7 +93,7 @@ Award players +100 XP that cannot be used for characteristics.
 
 ## New Player Joining
 
-1. When a new player join in, he creates his character like mentionned aboved.
+1. When a new player join in, he creates his character like mentioned above.
 1. [optional] Add 3 more contribution rank to buy rewards from (assuming the other PCs are CR 6+).
     - The first PC to join our campaign got leveled up to CR 6, so I gave the same boost to others. Otherwise I would not give that +3 CR.
 1. [optional] Level it up to the same CR level as the other players, but without the rewards.
@@ -104,5 +104,5 @@ Award players +100 XP that cannot be used for characteristics.
 
 ## Player making a new character
 
-1. The player creates his character like mentionned aboved.
+1. The player creates his character like mentioned above.
 1. Add the CR and XP that he had on his previous character to his new one.
