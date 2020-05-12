@@ -90,3 +90,19 @@ To kickstart the game and meet the Overwatch Division requirements, the PCs must
 ### After character creation
 
 Award players +100 XP that cannot be used for characteristics.
+
+## New Player Joining
+
+1. When a new player join in, he creates his character like mentionned aboved.
+1. [optional] Add 3 more contribution rank to buy rewards from (assuming the other PCs are CR 6+).
+    - The first PC to join our campaign got leveled up to CR 6, so I gave the same boost to others. Otherwise I would not give that +3 CR.
+1. [optional] Level it up to the same CR level as the other players, but without the rewards.
+    - Using this would create a team where all PCs are possibly at the same rank
+    - Not using this would make new comers lower rank than the other PCs
+1. Give the new player XP equal to what the other PCs have accumulated, without the personal bonuses (game time + episode/story).
+    - See [Awarding XP](/gm/awarding-xp) for more info
+
+## Player making a new character
+
+1. The player creates his character like mentionned aboved.
+1. Add the CR and XP that he had on his previous character to his new one.

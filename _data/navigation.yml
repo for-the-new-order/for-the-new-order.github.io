@@ -99,3 +99,5 @@ gamemaster: # Game master menu
             url: /gm/adventures/
           - title: Card Boards
             url: /gm/card-boards/
+          - title: Awarding XP
+            url: /gm/awarding-xp/
