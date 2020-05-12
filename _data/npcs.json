@@ -4156,7 +4156,18 @@
         "clan": "Voiceless One",
         "corp": "Army",
         "type": "MINION",
-        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "image_path": "/assets/images/npcs/Voiceless-Ones-Soldier.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/AdKjrTCuROFoRzsqwzW3Rm6pK9Vuq8xdREz4jIdl1hfaCxbty-fUqdE/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/467811480047108027/"
+                }
+            ]
+        },
         "campaign_info": {
             "encounters": [
                 {

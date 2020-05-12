@@ -1162,7 +1162,11 @@
     },
     "Voiceless Ones Drone": {
         "alias": "Standard D-24 Drone",
-        "image_path": "/assets/images/vehicles/250x250-generic.png",
+        "image_path": "/assets/images/vehicles/vo-d-24-drone.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/851813717008673796/"
+        },
         "description": [
             "Small automated drones that attack in group, like a swarm of insect. They looks like sphere with an Auto-Blaster mounted inside it.",
             "They are usually launched in two group of 6 (12 total). The Drone's brain have 2 in all characteristic, and the skills (group only): Piloting, Gunnery, Vigilance, Cool"
@@ -1205,7 +1209,7 @@
         "weapons": [
             {
                 "name": "Forward-mounted Auto-Blaster",
-                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range [Close]; Auto-fire"
+                "specs": "Fire Arc Forward; Damage 3; Critical 5; Range [Close]; Auto-fire; Accurate 1"
             }
         ],
         "reference": {
