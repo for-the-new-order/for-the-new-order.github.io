@@ -82,10 +82,10 @@ To kickstart the game and meet the Overwatch Division requirements, the PCs must
 
 -   20 Duty points each (for 4 players as per standard rules)
 -   3 contribution rank (PCs are talented and have been recruited by the Overwatch Division; they deserve a little extra!)
-    -   Each rank can contribute to one piece of special gear; something rare or costly; some personal vehicle, some kind of amenity's access or whatever else that feels like a good reward for 100 duty point of contribution to the empire's prosperity! GM approval is mandatory. See AoR p. 50, 325 (Table 9-3: group contribution rank guidelines) for more info.
+    -   Each rank can contribute to one piece of special gear; something rare or costly; some personal vehicle, some kind of amenity's access or whatever else that feels like a good reward for 100 duty point of contribution to the empire's prosperity! GM approval is mandatory.
+        -   See AoR p. 50, 325 (Table 9-3: group contribution rank guidelines) for more info.
+        -   For more _For the New Order_ oriented details, see also `RANKS & REWARDS` (left menu): [Rewards (NPCs)](/rules/ranks-and-rewards/npcs), [Rewards (Talents)](/rules/ranks-and-rewards/talents), [Rewards (Starships)](/rules/ranks-and-rewards/starships), and [Rewards (Others)](/rules/ranks-and-rewards/others)
     -   Should have of a maximum rarity of (3 + Contribution Rank) with a minimum of 6.
--   ~~Alternate rules~~ Not yet into play
-    -   ~~Each CR can also be invested in "Team Presence Talents". The rules are described at Imperial Troops Deployment Rules and the talents can be found at Team Presence Talents~~
 
 ### After character creation
 
