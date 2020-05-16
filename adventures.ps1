@@ -17,10 +17,15 @@ function Set-Players-Adventures($baseDirectory) {
         $name = $_.Name
         $title = $_.Value.name
         $path = "$baseDirectory/$name.md"
+        $frontMatter = $_.Value.frontMatter
+        if (!$frontMatter) {
+            $frontMatter = @()
+        }
         $content = @"
 ---
 title: '$title'
 key: $name
+$([String]::Join("`n", $frontMatter))
 ---
 "@
         Set-FileContent -name $name -path $path -content $content

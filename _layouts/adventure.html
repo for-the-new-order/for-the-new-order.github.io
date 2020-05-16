@@ -30,6 +30,20 @@ regenerate: true
                 {%- endfor -%}
             {%- endif -%}
         </section>
+        {%- if data.images -%}
+            <section class="photo-gallery">
+                <header><h2>Images</h2></header>
+                <div class="card-board">
+                    <div class="card-board-row">
+                    {%- for img in data.images -%}
+                        <a href="{{ img.url }}" title="{{ img.text }}" class="card-5">
+                            <img src="{{ img.thumbnail }}" alt="{{ img.text }}">
+                        </a>
+                    {%- endfor -%}
+                    </div>
+                </div>
+            </section>
+        {%- endif -%}
         {%- if data.chapters -%}
             <section class="chapters">
                 <header><h2>Chapters</h2></header>

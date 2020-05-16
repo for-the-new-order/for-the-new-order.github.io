@@ -159,12 +159,102 @@
         "name": "Episode 8: The Galactic Race",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/AILcWpnDofmCuukOXzVW",
         "isVisible": true,
-        "description": ["TBD"],
+        "description": [
+            "While Jenssar was racing in the semi-pro race, Undrake was shopping in the tech-expo, and Kaine was the ISB officer in charge of Grand Moff Leonis personal security.",
+            "Then an investigation on some suspicious rebel activity followed. The adventure concluded in an all-out assault of the sector rebel forces, sacrificing a few elements for the greater good. That was only to create a diversion for some other suspicious activity, including stealing data for a nearby research base."
+        ],
+        "frontMatter": [
+            "header:",
+            "    overlay_image: /assets/images/banners/All-Racers-Banner.jpg",
+            "    og_image: /assets/images/banners/Racers-og-image.jpg"
+        ],
+        "images": [
+            {
+                "url": "/assets/images/npcs/Racers/Alamy-Mano.png",
+                "text": "Alamy-Mano",
+                "thumbnail": "/assets/images/npcs/Racers/Alamy-Mano.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Amy-Vorly.png",
+                "text": "Amy-Vorly",
+                "thumbnail": "/assets/images/npcs/Racers/Amy-Vorly.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Arturo-Pitassi.png",
+                "text": "Arturo-Pitassi",
+                "thumbnail": "/assets/images/npcs/Racers/Arturo-Pitassi.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Illesh.png",
+                "text": "Illesh",
+                "thumbnail": "/assets/images/npcs/Racers/Illesh.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Jenssar-Veigha.png",
+                "text": "Jenssar-Veigha",
+                "thumbnail": "/assets/images/npcs/Racers/Jenssar-Veigha.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Knet'ohr-Netor.png",
+                "text": "Knet'ohr",
+                "thumbnail": "/assets/images/npcs/Racers/Knet'ohr-Netor.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Neesha-Glie.png",
+                "text": "Neesha-Glie",
+                "thumbnail": "/assets/images/npcs/Racers/Neesha-Glie.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Plass-Troupeiko.png",
+                "text": "Plass-Troupeiko",
+                "thumbnail": "/assets/images/npcs/Racers/Plass-Troupeiko.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Rue-Pam.png",
+                "text": "Rue-Pam",
+                "thumbnail": "/assets/images/npcs/Racers/Rue-Pam.png"
+            },
+            {
+                "url": "/assets/images/npcs/Racers/Wee-Dee.png",
+                "text": "Wee-Dee",
+                "thumbnail": "/assets/images/npcs/Racers/Wee-Dee.png"
+            }
+        ],
         "chapters": [
             {
-                "name": "...",
-                "isVisible": false,
-                "description": [""]
+                "name": "The semi-pro race",
+                "isVisible": true,
+                "description": [
+                    "Jenssar was invited by Grace Gray and her team of Repuls-o-ski sponsored by Sienar Fleet Systems. He was racing against 9 other semi-pro racers. He was at the command of a modified Tie Striker. As an Imperial Pilot, he was used to those Twin Ion Engine starfighters, giving him an edge.",
+                    "He raced until the end and won, followed by Knet'ohr in second place, Wee Dee in third place, Neesha Glie in fourth place, and Amy Vorly in the fifth position. The other five did not complete the race."
+                ]
+            },
+            {
+                "name": "The rebel investigation",
+                "isVisible": true,
+                "description": [
+                    "Kaine started an investigation on some suspicious rebel activity after a rebel blew himself up inside a tanker while trying to set up explosive! Fortunately, it did not explode completely, tanks were \"self-contained\" and protected for security purposes. 2 deads and 3 injured were reported.",
+                    "Then once the News reported that Kad Bane was responsible and detained in by the Empire, Kain used his contact to talk with his old \"friend\" about the incident. He then sent Bane as a spy working for him, where he came back with a rebel. After a bit of torture, the rebel tipped Kaine about bombs getting placed all around the Galactic Race site. Then Kaine sold the rebel base's location for 5,000 credits or 1,000 per rebel's head; that was a good bargain.",
+                    "Kaine called Undrake for help, and together they attacked the rebels in a small bar, down on the scavenger planet. They then tortured some information out of some more rebel scums. They found 7 out of 10 bombs that they disarmed with the help of Imperial Bomb Squad troopers.",
+                    "Unfortunately, they missed the one in the race-station, at a turbolift junction, that could paralyze half of the station, the one in an abandoned ship, well-positioned to make a show and create fear, and the one in an imperial governor's ship; goodbye governor Pitzel."
+                ]
+            },
+            {
+                "name": "The foulish rebel assault",
+                "isVisible": true,
+                "description": [
+                    "The race was halted due to the rebels attacking the race station. They jumped out of hyperspace with the Mon Calamari Flagship Caterpillar, the Mon Calamari Cruiser Gladiator, the Dreadnought-Class Heavy Cruiser Poseidon, the Nebulon-B frigate Tinkerbell, the Correllian Corvette Summertime, multiple light Freighters, Phantom Squadron, Banshee Squadron, and The A-cers Squadron.",
+                    "The Empire's forces are waiting for reinforcements but got the Imperial Star Destroyer Judgment, the Vindicator class heavy cruiser Armorer, the Vigil Corvette Kaki Usyk, and the Nebulon-B frigate Kryptoria.",
+                    "In a desperate attempt at turning the tie in favor of the Empire, the Overwatch is remotely controlling a ship, rigged (ironically) using the rebels' own explosive devices to blow up inside the Gladiator.",
+                    "After the explosion, the first wave of reinforcement arrived, composed of the Gladiator-class Star Destroyer Alienator, and the Raider II-class corvette Glory. Helped by Captain Helen Hartwich of the Alienator and Captain Dillon Poke of the Glory, onboard the Kaki Usyk, the Overwatch blew up the Gladiator, commanded by the infamous rebel commander Fitz Gorr.",
+                    "Then, Grand Admiral Marh's fleet came into play, showing up the full priority sector's fleet strength, scattering and blowing up the rebel insurgents like flies!",
+                    "The Mon Calamari Cruiser Caterpillar, with onboard the rebel Admiral Zryv'yhx, was able to escape the arrival of the Super Star Destroyer Liberator.",
+                    "The Dreadnought-Class Heavy Cruiser Poseidon, lead by Captain Xreq'is, was disabled by the Imperial Star destroyer The Herald of Sorrow, lead by Captain Ashton Mccausland, formerly captain of the Nebulon-B frigate Sparta, destroyed during the battle of the Niyrius System.",
+                    "The Correllian Corvette Summertime was disabled by the Imperial Star destroyer Avalanche but destroyed by the Captain Kellina Niemiec of the Nebulon-B frigate Lullaby; what a reckless move!",
+                    "The B-Wing Phantom Squadron lead by *Bonkers*, the X-Wing Banshee Squadron lead by Juno Eclipse, and the A-Wing A-cers Squadron lead by *Rush*, was able to escape; but took some hits during the fight.",
+                    "On the Imperial side, no significant casualties besides many repairs, a few civilians, and many Tie pilots whose families will miss. Don't cry for their children just yet, they knew what they were enrolling for!",
+                    "Grand Admiral Marh quickly deployed a search party for survivors inside the Gladiator. The PCs lead the assault, managing to capture Fitz Gorr, and his two loyal bodyguards Olav Heglund, and Alexandros Haff. That was an epic fight in a Cruiser that was about to explode!"
+                ]
             }
         ]
     },
