@@ -34,6 +34,9 @@
                 {%- assign markdownifiedDesc = d | markdownify -%}
                 {%- include text-with-symbols.html content=markdownifiedDesc -%}
             {%- endfor -%}
+        {%- elsif page.is-gm and npc.gm-description -%}
+            {%- assign markdownifiedDesc = npc.gm-description[0] | markdownify -%}
+            {%- include text-with-symbols.html content=markdownifiedDesc -%}
         {%- elsif npc.description -%}
             {%- assign markdownifiedDesc = npc.description[0] | markdownify -%}
             {%- include text-with-symbols.html content=markdownifiedDesc -%}

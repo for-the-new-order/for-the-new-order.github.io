@@ -4154,7 +4154,7 @@
         },
         "xfolder": "Generic/NPCs",
         "clan": "Voiceless One",
-        "corp": "Army",
+        "xcorp": "Army",
         "type": "MINION",
         "image_path": "/assets/images/npcs/Voiceless-Ones-Soldier.jpg",
         "image_source": {
@@ -4213,6 +4213,219 @@
         "description": ["A common soldier dressed with a military uniform, a padded armor, holding a Blaster rifle in his hand."],
         "reference": {
             "source": "FTNO"
+        }
+    },
+    "Voiceless One Shadow Trooper": {
+        "players_permissions": {
+            "stats": false
+        },
+        "xfolder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/Voiceless-Ones-Soldier.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/AdKjrTCuROFoRzsqwzW3Rm6pK9Vuq8xdREz4jIdl1hfaCxbty-fUqdE/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/467811480047108027/"
+                }
+            ]
+        },
+        "type": "rival",
+        "clan": "Voiceless One",
+        "xcorp": "Army",
+        "attributes": {
+            "wounds": 15,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Melee 1", "Perception 1", "Ranged (Heavy) 3", "Skulduggery 2", "Stealth 3"],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Stalker 2",
+                "effect": "Add [BO][BO] to all Coordination and Stealth checks"
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Shadowed",
+                "effect": "When in darkness or deep shadow, add [BO][BO] to all Stealth checks"
+            },
+            {
+                "name": "Shadow Trooper Stealth Armor",
+                "effect": "A Shadow Trooper can activate his armor with an Average ([DI][DI]) Stealth check. When enabled, his opponents must hit against his Stealth rating instead of distance (or distance if the distance is harder). An opponent could use a [TR] to turn the armor offline for a combat round (a new roll is needed to reactivate it). An opponent could use a [TR][TR] to destroy the armor stealth feature (impossible to reactivate). The armor circuits self-destruct when the wearer dies, and are directly calibrated for that individual, so the armor is not reusable afterward unless recalibrated (require Voiceless Ones tech)."
+            },
+            {
+                "name": "Voiceless Ones Telepathic Link",
+                "effect": "All Voiceless Ones have a telepathic link between each other and can use it to coordinate better. Add [BO] to any checks that requires unit coordination, like attacks, initiative, etc."
+            },
+            {
+                "name": "Voiceless Ones Upload Link",
+                "effect": "All Voiceless Ones have an upload link that send everything they see to a central server that stores everything."
+            }
+        ],
+        "equipment": [
+            "Shadow Trooper Blaster Rifle (Ranged [Heavy]; Damage 10; Critical 3; Range [Long]; Auto-fire, Accurate 1, Cumbersome 3)",
+            "Vibroknife (Melee; Damage 4; Critical 2; Range [Engaged]; Pierce 2, Vicious 1)",
+            "Shadow Trooper Stealth Armor (+1 soak)"
+        ],
+        "gm-description": [
+            "The Shadow Troopers are geared with some of the most advanced stealth tech in the galaxy, built by the Voiceless Ones. They are elite soliders with extra training, coordinating their attack using their bioware-like communication devices."
+        ],
+        "description": ["A soldier dressed with a military uniform, an steath armor, holding a Heavy Blaster rifle in his hand."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0120" }]
+        },
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "SpecForce Infiltrator",
+                    "source": "ACRB",
+                    "page": "414"
+                }
+            ]
+        }
+    },
+    "Shawn Shays": {
+        "players_permissions": {
+            "stats": false
+        },
+        "xfolder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/Voiceless-Ones-Soldier.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/AdKjrTCuROFoRzsqwzW3Rm6pK9Vuq8xdREz4jIdl1hfaCxbty-fUqdE/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/467811480047108027/"
+                }
+            ]
+        },
+        "type": "nemesis",
+        "clan": "Voiceless One",
+        "xcorp": "Army",
+        "attributes": {
+            "wounds": 24,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 6,
+            "strain": 23
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 3,
+            "intellect": 3,
+            "cunning": 3,
+            "willpower": 3,
+            "presence": 5
+        },
+        "skills": [
+            "Athletics 2",
+            "Brawl 2",
+            "Charm 2",
+            "Coercion 2",
+            "Cool 1",
+            "Deception 2",
+            "Discipline 3",
+            "Leadership 2",
+            "Lightsaber 4",
+            "Knowledge (All) 2",
+            "Perception 3",
+            "Piloting (Planetary) 2",
+            "Ranged (Light) 3",
+            "Stealth 3",
+            "Vigilance 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 3",
+                "effect": "Upgrade difficulty of all combat checks against this target three time."
+            },
+            {
+                "name": "Force Rating 3",
+                "effect": "Dark Side Force User: Uses Dark Side results instead of Light Side results: see page 281 of the Force and Destiny Core Rulebook."
+            },
+            {
+                "name": "Parry 4",
+                "effect": "When struck by a melee attack, but before applying soak, suffer 3 strain to reduce damage by 6."
+            },
+            {
+                "name": "Scathing Tirade (Improved)",
+                "effect": "As an action, make an Average ([DI][DI]) Coercion check. For each [SU], one enemy within short range suffers 1 strain. For every [AD] spent, an affected target suffers 1 additional strain. Affected enemies add [SE] to all skill checks they make for a two rounds."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Force Power: Voiceless One's Influence",
+                "effect": "Project terrifying visions onto foes, forcing them to face their greatest fears; EP12: describe the Emperor's death & RotJ events.\n- May spend [FP] to target one character within short range. That character must make an Average ([DI][DI]) fear check as an out of turn incidental.\n- Spend [FP] to increase the power’s range by 3 range bands.\n- Spend [FP] to increase the difficulty of the fear check by 2.\n- Spend [FP] to increase the number of targets affected by 2.\n- If target suffers strain, Shawn Shays recovers an equal amount of strain.\n- Once per session, after a target fails a fear check caused by this power, Shawn Shays may have the target perform one action as an out of turn incidental.",
+                "based_on": [
+                    {
+                        "name": "Jerserra's Influence",
+                        "source": "GOD",
+                        "page": "13"
+                    }
+                ]
+            },
+            {
+                "name": "Force Power: Voiceless One's Control",
+                "effect": "Shawn Shays restrains an enemy using fear, preventing the target from acting.\n- Spend [FP] to immobilize a target within short range until the end of Shawn's next turn. If Shawn used any [DP] to generate [FP], the target suffers 1 wound per [FP] (ignoring soak).\n- Spend [FP] to increase the range by 1.\n- Spend [FP][FP] to affect 1 additional target.",
+                "based_on": [
+                    {
+                        "name": "Bind",
+                        "source": "FCRB",
+                        "page": "286"
+                    }
+                ]
+            },
+            {
+                "name": "Voiceless Ones Telepathic Link",
+                "effect": "All Voiceless Ones have a telepathic link between each other and can use it to coordinate better. Add [BO] to any checks that requires unit coordination, like attacks, initiative, etc."
+            },
+            {
+                "name": "Voiceless Ones Upload Link",
+                "effect": "All Voiceless Ones have an upload link that send everything they see to a central server that stores everything."
+            }
+        ],
+        "equipment": [
+            "Shawn's Lightsaber Pike (Lightsaber; Damage 7; Critical 2; Range [Engaged]; Breach 1, Cumbersome 3, Defensive 1, Sunder)",
+            "Shawn's Armor and Cloak (+2 soak, +1 defense)"
+        ],
+        "gm-description": ["Shawn's Lightsaber Pike has an Extended Hilt mod that adds +1 damage."],
+        "description": ["X A soldier dressed with a military uniform, an steath armor, holding a Heavy Blaster rifle in his hand."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0120" }]
+        },
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Jerserra",
+                    "source": "GOD",
+                    "page": "42"
+                }
+            ]
         }
     }
 }

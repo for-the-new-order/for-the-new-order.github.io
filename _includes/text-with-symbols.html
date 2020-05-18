@@ -16,6 +16,6 @@
         {{ symbol.dest }}
     {%- endif -%}
     {%- endcapture -%}
-    {%- assign text = text | replace: symbol.source, htmlValue -%}
+    {%- assign text = text | markdownify | replace: symbol.source, htmlValue -%}
 {%- endfor -%}
 {{ text }}
