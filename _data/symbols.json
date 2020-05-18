@@ -60,6 +60,13 @@
         "description": "Proficiency dice",
         "category": "dice"
     },
+    {
+        "source": "[FO]",
+        "type": "force",
+        "description": "Force dice",
+        "category": "dice",
+        "isForce": true
+    },
 
     {
         "source": "[AD]",
@@ -96,5 +103,26 @@
         "type": "despair",
         "description": "Despair symbol",
         "category": "symbol"
+    },
+    {
+        "source": "[LP]",
+        "type": "lightpip",
+        "description": "Light Force Symbol",
+        "category": "symbol",
+        "isForce": true
+    },
+    {
+        "source": "[DP]",
+        "type": "darkpip",
+        "description": "Dark Force Symbol",
+        "category": "symbol",
+        "isForce": true
+    },
+    {
+        "source": "[FP]",
+        "type": "forcepip",
+        "description": "Force Symbol",
+        "category": "symbol",
+        "isForce": true
     }
 ]

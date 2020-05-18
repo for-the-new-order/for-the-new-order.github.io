@@ -1,32 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700");
-@import "_mixins";
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
+@import '_mixins';
 
 @font-face {
-    font-family: "genesys";
-    src: url("../fonts/genesys.eot?n3ksai");
-    src: url("../fonts/genesys.eot?n3ksai#iefix") format("embedded-opentype"),
-        url("../fonts/genesys.ttf?n3ksai") format("truetype"),
-        url("../fonts/genesys.woff?n3ksai") format("woff"),
-        url("../fonts/genesys.svg?n3ksai#genesys") format("svg");
+    font-family: 'genesys';
+    src: url('../fonts/genesys.eot?n3ksai');
+    src: url('../fonts/genesys.eot?n3ksai#iefix') format('embedded-opentype'), url('../fonts/genesys.ttf?n3ksai') format('truetype'),
+        url('../fonts/genesys.woff?n3ksai') format('woff'), url('../fonts/genesys.svg?n3ksai#genesys') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "EotESymbol";
-    src: url("../fonts/EotESymbol-Regular.eot?#iefix")
-            format("embedded-opentype"),
-        url("../fonts/EotESymbol-Regular.otf") format("opentype"),
-        url("../fonts/EotESymbol-Regular.woff") format("woff"),
-        url("../fonts/EotESymbol-Regular.ttf") format("truetype"),
-        url("../fonts/EotESymbol-Regular.svg#EotESymbol-Regular") format("svg");
+    font-family: 'EotESymbol';
+    src: url('../fonts/EotESymbol-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EotESymbol-Regular.otf') format('opentype'), url('../fonts/EotESymbol-Regular.woff') format('woff'),
+        url('../fonts/EotESymbol-Regular.ttf') format('truetype'), url('../fonts/EotESymbol-Regular.svg#EotESymbol-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 .genesys-theme {
     .page__content {
-        font-family: "Crimson Text", serif;
+        font-family: 'Crimson Text', serif;
 
         & > h2:first-of-type {
             margin-top: 0;
@@ -43,8 +38,7 @@
 
         .sidebar__right h4.nav__title {
             color: #fff;
-            font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-                "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
         }
 
         .talent {
@@ -66,32 +60,36 @@
 }
 
 $genesys-symbol-icons: (
-    boost: "",
-    ability: "",
-    proficiency: "",
-    setback: "",
-    difficulty: "",
-    challenge: "",
-    advantage: "",
-    success: "",
-    triumph: "",
-    threat: "",
-    failure: "",
-    despair: ""
+    boost: '',
+    ability: '',
+    proficiency: '',
+    setback: '',
+    difficulty: '',
+    challenge: '',
+    advantage: '',
+    success: '',
+    triumph: '',
+    threat: '',
+    failure: '',
+    despair: '',
 );
 $eote-symbol-icons: (
-    boost: "b",
-    ability: "c",
-    proficiency: "d",
-    setback: "b",
-    difficulty: "c",
-    challenge: "d",
-    advantage: "a",
-    success: "s",
-    triumph: "x",
-    threat: "t",
-    failure: "f",
-    despair: "y"
+    boost: 'b',
+    ability: 'c',
+    proficiency: 'd',
+    setback: 'b',
+    difficulty: 'c',
+    challenge: 'd',
+    advantage: 'a',
+    success: 's',
+    triumph: 'x',
+    threat: 't',
+    failure: 'f',
+    despair: 'y',
+    darkpip: 'z',
+    lightpip: 'Z',
+    forcepip: 'z',
+    force: 'C',
 );
 $genesys-symbol-colors: (
     boost: rgb(114, 205, 220),
@@ -99,11 +97,11 @@ $genesys-symbol-colors: (
     proficiency: rgb(255, 232, 0),
     setback: rgb(0, 0, 0),
     difficulty: rgb(108, 42, 132),
-    challenge: rgb(125, 24, 33)
+    challenge: rgb(125, 24, 33),
 );
 
 .genesys-symbol {
-    font-family: "genesys";
+    font-family: 'genesys';
 
     @each $name, $value in $genesys-symbol-icons {
         &.genesys-symbol-#{$name} {
@@ -118,7 +116,7 @@ $genesys-symbol-colors: (
 }
 
 .eote-symbol {
-    font-family: "EotESymbol";
+    font-family: 'EotESymbol';
 
     @each $name, $value in $eote-symbol-icons {
         &.eote-symbol-#{$name} {
@@ -129,6 +127,13 @@ $genesys-symbol-colors: (
                 color: map-get($genesys-symbol-colors, $name);
             }
         }
+    }
+
+    &.eote-symbol-forcepip {
+        background: linear-gradient(to left, #111 55%, #eee 55%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 

@@ -1,11 +1,16 @@
 {%- assign text = include.content -%}
-{%- assign cssPrefix = "genesys" -%}
+{%- assign defaultCssPrefix = "genesys" -%}
 {%- if include.css-prefix -%}
-    {%- assign cssPrefix = include.css-prefix -%}
+    {%- assign defaultCssPrefix = include.css-prefix -%}
 {%- endif -%}
 {%- for symbol in site.data.symbols -%}
     {%- capture htmlValue -%}
     {%- if symbol.type -%}
+        {%- if symbol.isForce -%}
+            {%- assign cssPrefix = "eote" -%}
+        {%- else -%}
+            {%- assign cssPrefix = defaultCssPrefix -%}
+        {%- endif -%}
         <span title="{{ symbol.description }}" class="{{ cssPrefix }}-symbol {{ cssPrefix }}-symbol-{{ symbol.type }}"></span>
     {%- elsif symbol.dest -%}
         {{ symbol.dest }}
