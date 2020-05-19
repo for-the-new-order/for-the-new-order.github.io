@@ -348,7 +348,9 @@
                 "display-abilities: true",
                 "display-equipment: true"
             ]
-        }
+        },
+        { "name": "Voiceless One Shadow Trooper" },
+        { "name": "Shawn Shays" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },
