@@ -183,6 +183,42 @@
         ]
     },
     {
+        "name": "Voiceless Ones",
+        "adventure": "episode0120",
+        "cards": [
+            {
+                "title": "Base invasion",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Voiceless One Soldier"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper Sergent"
+                    }
+                ]
+            },
+            {
+                "title": "Finale",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Voiceless One Shadow Trooper"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Shawn Shays"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "TEMPLATE",
         "adventure": "episode0000",
         "cards": [
