@@ -16,6 +16,10 @@
         {{ symbol.dest }}
     {%- endif -%}
     {%- endcapture -%}
-    {%- assign text = text | markdownify | replace: symbol.source, htmlValue -%}
+    {%- if include.markdownify -%}
+        {%- assign text = text | markdownify | replace: symbol.source, htmlValue -%}
+    {%- else -%}
+        {%- assign text = text | replace: symbol.source, htmlValue -%}
+    {%- endif -%}
 {%- endfor -%}
 {{ text }}

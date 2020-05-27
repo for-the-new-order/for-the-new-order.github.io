@@ -207,7 +207,7 @@ excerpt: "EMPTY!"
             {% for talent in data.talents %}
                 <div class="talent">
                     <strong>{{ talent.name }}</strong>
-                    <p>{% include text-with-symbols.html content=talent.effect %}</p>
+                    <p>{% include text-with-symbols.html content=talent.effect markdownify=true %}</p>
                 </div>
             {% endfor %}
         </section>
@@ -219,7 +219,7 @@ excerpt: "EMPTY!"
             {% for ability in data.abilities %}
                 <div class="ability">
                     <strong>{{ ability.name }}</strong>
-                    <p>{% include text-with-symbols.html content=ability.effect %}</p>
+                    <p>{% include text-with-symbols.html content=ability.effect markdownify=true %}</p>
                 </div>
             {% endfor %}
         </section>
