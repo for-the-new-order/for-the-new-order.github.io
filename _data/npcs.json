@@ -4350,7 +4350,7 @@
             "agility": 3,
             "intellect": 3,
             "cunning": 3,
-            "willpower": 3,
+            "willpower": 4,
             "presence": 5
         },
         "skills": [
@@ -4383,6 +4383,18 @@
             {
                 "name": "Parry 4",
                 "effect": "When struck by a melee attack, but before applying soak, suffer 3 strain to reduce damage by 6."
+            },
+            {
+                "name": "Reflect 4",
+                "effect": "When struck by a ranged attack, but before applying soak, suffer 3 strain to reduce damage by 6."
+            },
+            {
+                "name": "Reflect (Improved)",
+                "effect": "When reflecting a hit that generated [DE] or [TH][TH][TH] may hit one target in medium range with the same damage as the initial hit, after original attack resolves."
+            },
+            {
+                "name": "Deflection",
+                "effect": "After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent."
             },
             {
                 "name": "Scathing Tirade (Improved)",
@@ -4431,7 +4443,7 @@
         ],
         "equipment": [
             "Shawn's Pike Rifle (Ranged [Heavy]; Damage 10; Critical 3; Range [Long]; Stun setting, Accurate 1, Cumbersome 3)",
-            "Shawn's Lightsaber Pike (Lightsaber; Damage 7; Critical 2; Range [Engaged]; Breach 1, Cumbersome 3, Defensive 1, Sunder)",
+            "Shawn's Dark Red Lightsaber Pike (Lightsaber; Damage 7; Critical 2; Range [Engaged]; Breach 1, Cumbersome 3, Defensive 1, Sunder)",
             "Shawn's Armor and Cloak (+2 soak, +1 defense)"
         ],
         "gm-description": [
