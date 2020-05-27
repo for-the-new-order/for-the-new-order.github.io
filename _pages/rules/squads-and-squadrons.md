@@ -106,14 +106,14 @@ During squad combat, the squad leader can use his minions by creating formations
 
 A Custom Squads is a special unit purchased using Contribution Ranks. See [Rewards (NPCs)](/rules/ranks-and-rewards/npcs) for more info.
 
-# Change log
+## Change log
 
-## 2020-05-05
+### 2020-05-05
 
 -   Add the notion of Custom Squads
 -   Add constraints to Squadron Formation: **Skilled Navigator**
 -   Add constraints to Squad Formation: **Mission Specialist**
 
-## 2020-05-03
+### 2020-05-03
 
 -   Initial Revision
