@@ -301,9 +301,9 @@
         "chapters": []
     },
     "episode0130": {
-        "name": "Episode 12: Into the Smuggling ring",
-        "crawl": "",
-        "isVisible": false,
+        "name": "Episode 13: Shays' Legacy",
+        "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/XbZdpeRegjFVlOcUjlNn",
+        "isVisible": true,
         "description": ["TBD"],
         "chapters": []
     },

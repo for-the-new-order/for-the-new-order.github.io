@@ -350,7 +350,10 @@
             ]
         },
         { "name": "Voiceless One Shadow Trooper" },
-        { "name": "Shawn Shays" }
+        { "name": "Shawn Shays" },
+        { "name": "Invisible Beast" },
+        { "name": "Alpha Invisible Beast" },
+        { "name": "Young Invisible Beast" }
     ],
     "vehicles": [
         { "name": "The Raazial", "frontMatter": ["display-characteristics: false", "display-weapons: false"] },

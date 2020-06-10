@@ -4482,5 +4482,259 @@
                 }
             ]
         }
+    },
+    "Invisible Beast": {
+        "players_permissions": {
+            "stats": false
+        },
+        "xfolder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/Invisible-Beasts.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/704883779169783714/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/704883779169783766/"
+                }
+            ]
+        },
+        "type": "nemesis",
+        "clan": "Beasts",
+        "attributes": {
+            "wounds": 14,
+            "defense": {
+                "melee": 2,
+                "ranged": 2
+            },
+            "soak": 5,
+            "strain": 8
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 4,
+            "intellect": 1,
+            "cunning": 3,
+            "willpower": 1,
+            "presence": 2
+        },
+        "skills": ["Brawl 3", "Coordination 3", "Resilience 3", "Stealth 4", "Survival 3", "Vigilance 4"],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            },
+            {
+                "name": "Constant Vigilance",
+                "effect": "May always use Vigilance when making checks to determine initiative."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Invisible & Swift",
+                "effect": "Upgrade the difficulty to hit twice for ranged attacks and once for melee attacks (when already engaged); Sensors does not help to detect the beast; upgrade perception and vigilance checks twice when someone tries to see the beast."
+            },
+            {
+                "name": "Broad-spectrum vision",
+                "effect": "Can see in the dark and other invisible beings."
+            },
+            {
+                "name": "Energy-friendly",
+                "effect": "Energy weapons are only an annoyance to the beasts, each successful shot hit for a maximum of 1 wound."
+            },
+            {
+                "name": "Energy-conductor",
+                "effect": "Each energy weapon's hit makes the beast add up to a [SU] per soaked wound to its next attack, discharging some of the absorbed energy. This is cumulative."
+            }
+        ],
+        "equipment": [
+            "Teeth and claws (Brawl; Damage 4; Critical 4; Range [Engaged); Pierce 1)",
+            "Pounce (Brawl; Damage 5; Critical 5; Range [Engaged]; Disorient 2, Knockdown, Prepare 1)"
+        ],
+        "gm-description": [
+            "Adjust the strength of the Energy-conductor ability based on the strength of the PCs. For newer characters, reflect only 1 damage, while more advanced characters can take the full blow. Narratively, the stronger the beast, the more powerful it becomes. You should describe the glowing absorption of energy and discharge when melee attacking so the PCs understand to not auto-fire on that thing if they don't want to die...",
+            "The beasts feed on underground purple phosphorescent mushrooms that are growing in caverns near small ponds. There are subspecies that are known to be living in forests and jungles as well.",
+            "The beasts are harvested to power the Voiceless One's stealth technologies."
+        ],
+        "description": ["A feral invisible beast..."],
+        "campaign_info": {
+            "encounters": [
+                { "episode": "episode0010" },
+                { "episode": "episode0050", "description": "Brewinger was trading those beasts." },
+                { "episode": "episode0130" }
+            ]
+        },
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Sludge Panther",
+                    "source": "SOF",
+                    "page": "42"
+                }
+            ]
+        }
+    },
+    "Alpha Invisible Beast": {
+        "players_permissions": {
+            "stats": false
+        },
+        "xfolder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/Invisible-Beasts.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/704883779169783714/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/704883779169783766/"
+                }
+            ]
+        },
+        "type": "nemesis",
+        "clan": "Beasts",
+        "attributes": {
+            "wounds": 28,
+            "defense": {
+                "melee": 2,
+                "ranged": 2
+            },
+            "soak": 9,
+            "strain": 16
+        },
+        "characteristics": {
+            "brawn": 5,
+            "agility": 5,
+            "intellect": 1,
+            "cunning": 3,
+            "willpower": 1,
+            "presence": 2
+        },
+        "skills": ["Brawl 5", "Coordination 3", "Resilience 4", "Stealth 3", "Survival 4", "Vigilance 5", "Leadership 3"],
+        "talents": [
+            {
+                "name": "Adversary 2",
+                "effect": "Upgrade difficulty of all combat checks against this target twice."
+            },
+            {
+                "name": "Constant Vigilance",
+                "effect": "May always use Vigilance when making checks to determine initiative."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Invisible & Swift",
+                "effect": "Upgrade the difficulty to hit three times for ranged attacks and twice for melee attacks (when already engaged); Sensors does not help to detect the beast; upgrade perception and vigilance checks three times when someone tries to see the beast."
+            },
+            {
+                "name": "Broad-spectrum vision",
+                "effect": "Can see in the dark and other invisible beings."
+            },
+            {
+                "name": "Energy-friendly",
+                "effect": "Energy weapons are only an annoyance to the beasts, each successful shot hit for a maximum of 1 wound."
+            },
+            {
+                "name": "Energy-conductor",
+                "effect": "Each energy weapon's hit makes the beast add up to a [SU] per soaked wound to its next attack, discharging some of the absorbed energy. This is cumulative."
+            }
+        ],
+        "equipment": [
+            "Teeth and claws (Brawl; Damage 5; Critical 3; Range [Engaged); Pierce 2)",
+            "Pounce (Brawl; Damage 7; Critical 5; Range [Engaged]; Disorient 3, Knockdown, Prepare 1)"
+        ],
+        "gm-description": [
+            "Adjust the strength of the Energy-conductor ability based on the strength of the PCs. For newer characters, reflect only 1 damage, while more advanced characters can take the full blow. Narratively, the stronger the beast, the more powerful it becomes. You should describe the glowing absorption of energy and discharge when melee attacking so the PCs understand to not auto-fire on that thing if they don't want to die...",
+            "The beasts feed on underground purple phosphorescent mushrooms that are growing in caverns near small ponds. There are subspecies that are known to be living in forests and jungles as well.",
+            "The beasts are harvested to power the Voiceless One's stealth technologies.",
+            "This beast could be a lone wolf or the leader of a pack; use at your own risk! In the case of a pack, you could use the Squads & Squadrons rules to speed up the encounter."
+        ],
+        "description": ["The alpha male of a pack of feral invisible beasts..."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0130" }]
+        },
+        "reference": {
+            "source": "FTNO"
+        }
+    },
+    "Young Invisible Beast": {
+        "players_permissions": {
+            "stats": false
+        },
+        "xfolder": "Generic/NPCs",
+        "image_path": "/assets/images/npcs/Invisible-Beasts.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/704883779169783714/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/704883779169783766/"
+                }
+            ]
+        },
+        "type": "rival",
+        "clan": "Beasts",
+        "attributes": {
+            "wounds": 13,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 4,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 2
+        },
+        "skills": ["Brawl 2", "Coordination 3", "Resilience 2", "Stealth 4", "Survival 1", "Vigilance 2"],
+        "talents": [
+            {
+                "name": "Constant Vigilance",
+                "effect": "May always use Vigilance when making checks to determine initiative."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Invisible & Swift",
+                "effect": "Upgrade the difficulty to hit twice for ranged attacks and once for melee attacks (when already engaged); Sensors does not help to detect the beast; upgrade perception and vigilance checks twice when someone tries to see the beast."
+            },
+            {
+                "name": "Broad-spectrum vision",
+                "effect": "Can see in the dark and other invisible beings."
+            },
+            {
+                "name": "Energy-friendly",
+                "effect": "Energy weapons are only an annoyance to the beasts, each successful shot hit for a maximum of 1 wound."
+            },
+            {
+                "name": "Energy-conductor",
+                "effect": "Each energy weapon's hit makes the beast add up to a [SU] per soaked wound to its next attack, discharging some of the absorbed energy. This is cumulative."
+            }
+        ],
+        "equipment": [
+            "Teeth and claws (Brawl; Damage 3; Critical 4; Range [Engaged); Pierce 1)",
+            "Pounce (Brawl; Damage 4; Critical 5; Range [Engaged]; Disorient 1, Knockdown, Prepare 1)"
+        ],
+        "gm-description": [
+            "Adjust the strength of the Energy-conductor ability based on the strength of the PCs. For newer characters, reflect only 1 damage, while more advanced characters can take the full blow. Narratively, the stronger the beast, the more powerful it becomes. You should describe the glowing absorption of energy and discharge when melee attacking so the PCs understand to not auto-fire on that thing if they don't want to die...",
+            "The beasts feed on underground purple phosphorescent mushrooms that are growing in caverns near small ponds. There are subspecies that are known to be living in forests and jungles as well.",
+            "The beasts are harvested to power the Voiceless One's stealth technologies."
+        ],
+        "description": ["A young invisible beast..."],
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0130" }]
+        },
+        "reference": {
+            "source": "FTNO"
+        }
     }
 }
