@@ -4169,11 +4169,7 @@
             ]
         },
         "campaign_info": {
-            "encounters": [
-                {
-                    "episode": "episode0120"
-                }
-            ]
+            "encounters": [{ "episode": "episode0120" }, { "episode": "episode0130" }]
         },
         "attributes": {
             "wounds": 5,
@@ -4286,7 +4282,7 @@
             "Hard to see, the Shadow Troopers are blending with their environment, like cameleons, using Voiceless Ones' tech."
         ],
         "campaign_info": {
-            "encounters": [{ "episode": "episode0120" }]
+            "encounters": [{ "episode": "episode0120" }, { "episode": "episode0130" }]
         },
         "reference": {
             "source": "FTNO",
@@ -4303,7 +4299,7 @@
         "players_permissions": {
             "stats": false,
             "motivations": {
-                "personality": false,
+                "personality": true,
                 "desires": false,
                 "fear": false,
                 "strength": false,
@@ -4339,10 +4335,10 @@
         "attributes": {
             "wounds": 24,
             "defense": {
-                "melee": 1,
-                "ranged": 1
+                "melee": 2,
+                "ranged": 2
             },
-            "soak": 6,
+            "soak": 8,
             "strain": 23
         },
         "characteristics": {
@@ -4358,7 +4354,7 @@
             "Brawl 2",
             "Charm 2",
             "Coercion 2",
-            "Cool 1",
+            "Cool 2",
             "Deception 2",
             "Discipline 3",
             "Leadership 2",
@@ -4444,14 +4440,18 @@
         "equipment": [
             "Shawn's Pike Rifle (Ranged [Heavy]; Damage 10; Critical 3; Range [Long]; Stun setting, Accurate 1, Cumbersome 3)",
             "Shawn's Dark Red Lightsaber Pike (Lightsaber; Damage 7; Critical 2; Range [Engaged]; Breach 1, Cumbersome 3, Defensive 1, Sunder)",
-            "Shawn's Armor and Cloak (+2 soak, +1 defense)"
+            "Shawn's Armor and Cloak (+2 soak, +1 defense) - Episode 12",
+            "Shawn's Combat Armor (+4 soak, +2 defense) - Episode 13"
         ],
         "gm-description": [
             "Shawn's Lightsaber Pike has an Extended Hilt mod that adds +1 damage; on the other end is a blaster rifle. There are two entries in the gear section to make it easier, but that the same piece of gear. Same goes with the Cumbersome 3; that's for both combined."
         ],
         "description": ["Shawn looks like a high ranking officer..."],
         "campaign_info": {
-            "encounters": [{ "episode": "episode0120" }]
+            "encounters": [
+                { "episode": "episode0120", "description": ["Shawn was the commander of the outpost that was attacked by the Empire."] },
+                { "episode": "episode0130" }
+            ]
         },
         "personality": "Lacking empathy",
         "motivation": {
@@ -4469,7 +4469,7 @@
             },
             "flaw": {
                 "name": "Intolerance",
-                "description": "He finds non Voiceless Ones to be disgraceful and selfish. He quickly hate others."
+                "description": "He finds non-Voiceless Ones to be disgraceful and selfish. He quickly hate others."
             }
         },
         "reference": {
@@ -4561,7 +4561,7 @@
         "campaign_info": {
             "encounters": [
                 { "episode": "episode0010" },
-                { "episode": "episode0050", "description": "Brewinger was trading those beasts." },
+                { "episode": "episode0050", "description": ["Brewinger was trading those beasts."] },
                 { "episode": "episode0130" }
             ]
         },
