@@ -11,7 +11,7 @@ classes:
     - fluid-toc
 ---
 
-# Talents Rewards 3.0
+# Talents Rewards 3.1
 
 When ranking up, players can unlock unique talent trees using Contribution Ranks (CR).
 Unlocking a tree cost 1 CR, 30xp, and must be attached to two distinct Tier 5 talents (like a signature ability) and grants the first Core talent (Tier 1) for "free".
@@ -26,10 +26,33 @@ The idea is for characters to use minions as an extension of themselves, boostin
 
 > When purchasing a talent that talks about `[type of units]`, you must choose one, like Tie Fighter pilots for the Navy, Stormtroopers, Army troopers, etc.
 
-<mark>This is a work in progress, getting tested</mark>; don't purchase those until further notice.
-Jump to [Regular Talents](/rules/talents/#regular-talents) instead.
+## Work in progress
 
-> If you are a <mark>GM</mark> that want to try this out, please give me your feedback and ideas on [GitHub](https://github.com/for-the-new-order/for-the-new-order.github.io/issues/new).
+This is a work in progress, so please use your judgement, their may be missing prerequisites or typos or talents that should be moved to higher tiers, etc.
+We tested the Squad talents more than the Squadron talents, so balancing issues are more likely to happen with Squadrons.
+
+> If you are a <mark>GM</mark>, please give me your feedback, balancing issues, or ideas at [GitHub](https://github.com/for-the-new-order/for-the-new-order.github.io/issues/new).
+
+# Release notes
+
+Here is the history of changes.
+
+## Talents Rewards 3.1
+
+[2020-06-14] This is a balance update. It also fix missing prerequisites.
+
+-   Updated `Voluntary [unit] Sacrifice` talents
+-   Changed tiers of `Formation: Dug In` and `Formation: Close` talents from 1, 2, 3 to 1, 3, 5.
+-   Changed tiers of `Formation: Search Party` talents from 1, 1, 1 to 1, 3, 5.
+-   Changed `Unthreatable [unit] Squad/Squadron` from tier 1 to tier 2
+-   Changed `Fearless [unit] Squad/Squadron` from tier 2 to tier 3
+-   Changed `Undespairable [unit] Squad/Squadron` from tier 2 to tier 4
+-   Review `Running Dark` talents (name, tier, effects, prerequisites)
+-   Review `Stormtrooper Formation Master` and `Navy Formation Master`
+
+## Talents Rewards 3.0
+
+[2020-05-03] Initial release of the Squads and Squadrons talents.
 
 # Talent trees
 

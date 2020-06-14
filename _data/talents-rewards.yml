@@ -79,11 +79,13 @@
         Prerequisites:
             - Squadron Leader I
         Text: |-
-            After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+            After resolving damage, the leader may eliminate a minion instead of applying damages normally.
+
+            The leader can forward a critical hit on a minion instead. Resolve like normal (Wound Threshold + 1). Must be called before rolling the critical hit.
         Source: FTNO
 
       - Name: Unthreatable Squadron
-        Tier: 1
+        Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -93,7 +95,7 @@
         Source: FTNO
 
       - Name: Undespairable Squadron
-        Tier: 2
+        Tier: 4
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -104,7 +106,7 @@
         Source: FTNO
 
       - Name: Fearless Squadron
-        Tier: 2
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -152,9 +154,10 @@
             - Squadron Leader I
             - Know at least 1 talent improving 3 different squadron formations
         Specials:
-            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+            - 'GM discretion: a leader cannot combine opposite formations like Attack Formation and Evasive Maneuvers. These make a very powerful combo.'
         Text: |-
             Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
+            Requires a Daunting ([DI][DI][DI][DI]) check.
         Source: FTNO
 
       - Name: Improved Attack Formation I
@@ -248,7 +251,7 @@
             Enemies must spend 2 more [AD] instead of 1 to activate Auto-fire or Blast weapon qualities.
         Source: FTNO
 
-      - Name: Improved Running Dark I
+      - Name: Improved Running Dark Leadership I
         Tier: 1
         Activation: Passive
         Ranked: 'No'
@@ -260,40 +263,43 @@
             Instead of upgrading the difficulty of all Leadership checks, add [SE][SE][SE].
         Source: FTNO
 
-      - Name: Improved Running Dark II
+      - Name: Improved Running Dark Leadership II
         Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
             - Squadron Leader I
-        Specials:
-            - 'Formation: Running Dark'
-        Text: |-
-            Downgrade difficulty of Stealth checks made by the unit a second time.
-        Source: FTNO
-
-      - Name: Improved Running Dark III
-        Tier: 1
-        Activation: Passive
-        Ranked: 'No'
-        Prerequisites:
-            - Squadron Leader I
+            - Improved Running Dark Leadership I
         Specials:
             - 'Formation: Running Dark'
         Text: |-
             Instead of upgrading the difficulty of all Leadership checks, add [SE][SE].
         Source: FTNO
 
-      - Name: Improved Running Dark IV
-        Tier: 2
+      - Name: Improved Running Dark Leadership III
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
             - Squadron Leader I
+            - Improved Running Dark Leadership II
         Specials:
             - 'Formation: Running Dark'
         Text: |-
             Instead of upgrading the difficulty of all Leadership checks, add [SE].
+        Source: FTNO
+
+      - Name: Improved Running Dark Stealth
+        Tier: 3
+        Activation: Passive
+        Ranked: 'No'
+        Prerequisites:
+            - Squadron Leader I
+            - Improved Running Dark Leadership II
+        Specials:
+            - 'Formation: Running Dark'
+        Text: |-
+            Downgrade difficulty of Stealth checks made by the unit a second time.
         Source: FTNO
 
       - Name: Improved Sensor Sweep I
@@ -530,11 +536,13 @@
         Prerequisites:
             - Stormtrooper Squad Leader I
         Text: |-
-            After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+            After resolving damage, the leader may eliminate a minion instead of applying damages normally.
+
+            The leader can forward a critical hit on a minion instead. Resolve like normal (Wound Threshold + 1). Must be called before rolling the critical hit.
         Source: FTNO
 
       - Name: Unthreatable Stormtrooper Squad
-        Tier: 1
+        Tier: 2
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -544,7 +552,7 @@
         Source: FTNO
 
       - Name: Undespairable Stormtrooper Squad
-        Tier: 2
+        Tier: 4
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -555,7 +563,7 @@
         Source: FTNO
 
       - Name: Fearless Stormtrooper Squad
-        Tier: 2
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -603,9 +611,10 @@
             - Stormtrooper Squad Leader I
             - Know at least 1 talent improving 3 different squad formations
         Specials:
-            - 'TO BE TESTED: this has the potential to create deadly/overpower combos'
+            - 'GM discretion: a leader cannot combine opposite formations like Close and Dug In. Close and Dug In make a very powerful combo.'
         Text: |-
             Allow the squad leader to merge two formations into one, giving the benefits of both formations at the same time.
+            Requires a Daunting ([DI][DI][DI][DI]) check.
         Source: FTNO
 
       - Name: Improved Stormtrooper Dug In I
@@ -621,7 +630,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Dug In II
-        Tier: 2
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -635,7 +644,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Dug In III
-        Tier: 3
+        Tier: 5
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -709,7 +718,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Close II
-        Tier: 2
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -723,7 +732,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Close III
-        Tier: 3
+        Tier: 5
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -857,7 +866,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Search Party II
-        Tier: 1
+        Tier: 3
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -871,7 +880,7 @@
         Source: FTNO
 
       - Name: Improved Stormtrooper Search Party III
-        Tier: 1
+        Tier: 5
         Activation: Passive
         Ranked: 'No'
         Prerequisites:
@@ -960,11 +969,13 @@
 #         Prerequisites:
 #             - Army Leader I
 #         Text: |-
-#             After resolving damage, the leader may eliminate a minion instead of applying damages normally (this does not account for critical hits, only normal damage).
+#              After resolving damage, the leader may eliminate a minion instead of applying damages normally.
+#
+#              The leader can forward a critical hit on a minion instead. Resolve like normal (Wound Threshold + 1). Must be called before rolling the critical hit.
 #         Source: FTNO
 
 #       - Name: Unthreatable Army Squad
-#         Tier: 1
+#         Tier: 2
 #         Activation: Passive
 #         Ranked: 'No'
 #         Prerequisites:
@@ -974,7 +985,7 @@
 #         Source: FTNO
 
 #       - Name: Undespairable Army Squad
-#         Tier: 2
+#         Tier: 4
 #         Activation: Passive
 #         Ranked: 'No'
 #         Prerequisites:
@@ -985,7 +996,7 @@
 #         Source: FTNO
 
 #       - Name: Fearless Army Squad
-#         Tier: 2
+#         Tier: 3
 #         Activation: Passive
 #         Ranked: 'No'
 #         Prerequisites:
