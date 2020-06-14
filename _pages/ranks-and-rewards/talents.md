@@ -23,6 +23,7 @@ Moreover, it requires a bit of time (between two adventures) to complete the tra
 Use the _Table of Contents_, on the right, to quickly navigate between trees.
 
 The idea is for characters to use minions as an extension of themselves, boosting their combat skills, speeding up encounters with many NPCs, while still using the number provided by the Empire, but at a smaller scale than mass-combats.
+You can also mix the [Squads & Squadrons](/rules/squads-and-squadrons/) rules with [Mass Combat](/rules/mass-combat/) to create epic squads battle inside of an epic war-scale adventure.
 
 > When purchasing a talent that talks about `[type of units]`, you must choose one, like Tie Fighter pilots for the Navy, Stormtroopers, Army troopers, etc.
 
@@ -41,14 +42,18 @@ Here is the history of changes.
 
 [2020-06-14] This is a balance update. It also fix missing prerequisites.
 
--   Updated `Voluntary [unit] Sacrifice` talents
--   Changed tiers of `Formation: Dug In` and `Formation: Close` talents from 1, 2, 3 to 1, 3, 5.
--   Changed tiers of `Formation: Search Party` talents from 1, 1, 1 to 1, 3, 5.
--   Changed `Unthreatable [unit] Squad/Squadron` from tier 1 to tier 2
--   Changed `Fearless [unit] Squad/Squadron` from tier 2 to tier 3
--   Changed `Undespairable [unit] Squad/Squadron` from tier 2 to tier 4
+-   Update `Voluntary [unit] Sacrifice` talents
+-   Change tiers of `Formation: Dug In` and `Formation: Close` talents from 1, 2, 3 to 1, 3, 5.
+-   Change tiers of `Formation: Search Party` talents from 1, 1, 1 to 1, 3, 5.
+-   Change `Unthreatable [unit] [Squad|Squadron]` from tier 1 to tier 2
+-   Change `Fearless [unit] [Squad|Squadron]` from tier 2 to tier 3
+-   Change `Undespairable [unit] [Squad|Squadron]` from tier 2 to tier 4
 -   Review `Running Dark` talents (name, tier, effects, prerequisites)
--   Review `Stormtrooper Formation Master` and `Navy Formation Master`
+-   Review `[unit] Formation Master`
+
+> `[unit]` stands for the type of unit, like Navy, Army, or Stormtrooper.
+>
+> `[Squad|Squadron]` stands for `Squad` or `Squadron`.
 
 ## Talents Rewards 3.0
 
