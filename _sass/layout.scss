@@ -27,17 +27,17 @@
     }
 }
 
-@media (min-width: 0) {
-    #main {
-        .sidebar {
-            &.sticky {
-                overflow-y: visible;
+// @media (min-width: 0) {
+//     #main {
+//         .sidebar {
+//             &.sticky {
+//                 overflow-y: visible;
 
-                .nav__list {
-                    overflow-y: auto;
-                    height: 100%;
-                }
-            }
-        }
-    }
-}
+//                 .nav__list {
+//                     overflow-y: auto;
+//                     height: 100%;
+//                 }
+//             }
+//         }
+//     }
+// }
