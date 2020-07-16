@@ -4377,12 +4377,12 @@
                 "effect": "Dark Side Force User: Uses Dark Side results instead of Light Side results: see page 281 of the Force and Destiny Core Rulebook."
             },
             {
-                "name": "Parry 4",
-                "effect": "When struck by a melee attack, but before applying soak, suffer 3 strain to reduce damage by 6."
+                "name": "Parry 5",
+                "effect": "When struck by a melee attack, but before applying soak, suffer 3 strain to reduce damage by 7."
             },
             {
-                "name": "Reflect 4",
-                "effect": "When struck by a ranged attack, but before applying soak, suffer 3 strain to reduce damage by 6."
+                "name": "Reflect 5",
+                "effect": "When struck by a ranged attack, but before applying soak, suffer 3 strain to reduce damage by 7."
             },
             {
                 "name": "Reflect (Improved)",
@@ -4391,6 +4391,14 @@
             {
                 "name": "Deflection",
                 "effect": "After using Reflect, may spend 1 Story Point to perform Move maneuver as out-of-turn incidental to close distance with or engage opponent."
+            },
+            {
+                "name": "Draw Closer",
+                "effect": "Make a Lightsaber (Willpower) combat check against one silhouette 1 target within medium range, adding [FO][FO][FO] to the check. Shawn may spend [FP] to move the target one range band closer—may do this multiple times—or add [SU] to the check. He must move the target to engage her or the attack misses."
+            },
+            {
+                "name": "Drive Back",
+                "effect": "Spend [TR] or [AD][AD][AD] on a missed Brawl, Lightsaber, or Melee combat check to force the target to make a move maneuver in a direction of the Shawn’s choice"
             },
             {
                 "name": "Scathing Tirade (Improved)",
