@@ -181,5 +181,74 @@
         "related": {
             "npcs": [{ "name": "Felecia Kralick" }]
         }
+    },
+    "Mulino": {
+        "isVisible": true,
+        "type": "system",
+        "campaign_info": { "encounters": [{ "episode": "episode0120" }] },
+        "metadata": {
+            "sun": "F3 V Yellow-white Main Sequence",
+            "planets": [
+                { "name": "Mulino I", "description": ["Ice Planet + asteroid field"] },
+                { "name": "Mulino II", "description": ["Ice Planet + 1 moon"] }
+            ]
+        },
+        "related": {
+            "locations": [{ "name": "Mulino I" }]
+        }
+    },
+    "Mulino I": {
+        "isVisible": true,
+        "type": "planet",
+        "description": [
+            "The planet Mulino is on the outskirt of the Voiceless Ones territory. An asteroid field is orbiting the high gravity planet, which seems to be kept there artificially. The asteroids are not only a belt, they form a protective shield around the planet."
+        ],
+        "gm-description": [
+            "The Voiceless Ones technologies are powering the asteroid field. There is devices distributed in the asteroid field that draw upon the planet's gravity to keep that artificial field in place. It is a way to terraform the planet and make it more habitable (dryer; in a while). At the moment the terraforming process is in an early stage, so nothing crazy is happening.",
+            "The base is a terraforming base, and was not designed to sustain an heavy assault, so the defenses are limited. It was built to sustain the terraforming process, so they have a protective shield ready for anything. The base itself is build inward the planet, like an iceberg."
+        ],
+        "metadata": {
+            "type": "Ice",
+            "terrain": "Ice",
+            "temperature": {
+                "type": "Cold",
+                "description": ["Between -13°C and -93°C"]
+            },
+            "atmosphere": {
+                "type": "Type I",
+                "description": ["Breathable"]
+            },
+            "gravity": {
+                "type": "Heavy",
+                "description": [
+                    "Add [SE][SE][SE] to Brawn-based skills (but Resilience) and Coordination checks",
+                    "Heavy gravity planets have a much stronger pull than normal, the effects of which can be merely inconvenient or crippling. Planets with very heavy gravity may make a person's body so heavy that they cannot move. There are few planets with heavy gravity, and most of them are just beyond the standard gravity classification. On these *barely heavy* gravity planets, even walking counts as an action (it is not *free movement*)."
+                ]
+            },
+            "hydrosphere": {
+                "type": "Moderate",
+                "description": [
+                    "The planet is 15-49 percent covered by land. The planet has large oceans and probably a well-developed river network, especially if the planet has large hills and mountains. There are probably many different terrain types."
+                ]
+            },
+            "tech-level": {
+                "type": "none"
+            }
+        },
+        "campaign_info": { "encounters": [{ "episode": "episode0120" }] },
+        "related": {
+            "locations": [{ "name": "Mulino" }],
+            "npcs": [
+                { "name": "Shawn Shays", "description": ["Shawn Shays was the officer in charge of the Voiceless One station there."] }
+            ]
+        }
+    },
+    "Sylvaria": {
+        "isVisible": true,
+        "type": "moon",
+        "description": [
+            "The forest moon of Sylvaria is deep inside the Voiceless One's territory. It host two ancient force-aligned temples that predate the Sith and the Jedi, built by the Order of the Balance. Those temples are now a sacred place of worship for the Voiceless One."
+        ],
+        "campaign_info": { "encounters": [{ "episode": "episode0130" }] }
     }
 }
