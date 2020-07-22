@@ -1,9 +1,8 @@
 {%- if page.is-gm -%}
-    {%- assign adventures = site.gm-adventures -%}
+    {%- assign adventures = site.gm-adventures | reverse -%}
 {%- else -%}
-    {%- assign adventures = site.adventures -%}
+    {%- assign adventures = site.adventures | reverse -%}
 {%- endif -%}
-<h2>Adventures</h2>
 <div class="adventures">
     {% for adventure in adventures %}
         {% assign data = site.data.adventures[adventure.key] %}

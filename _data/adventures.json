@@ -351,13 +351,40 @@
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/XbZdpeRegjFVlOcUjlNn",
         "isVisible": true,
         "description": [
-            "The war against the Voiceless One is raging, and the New Order is having a hard time gaining terrain.",
-            "The PCs has been smuggled to Sylvaria by Duquai and Cathryn, on board of the Marshlander.",
-            "Heading toward the temple to retrieve the artifact, the PCs were attacked by invisible beasts. After taking a few small hits, they sliced and burned the creatures.",
-            "After that, the real journey toward the temple has begun, moving away from civilization, deeper into the forest...",
-            "To be continued (episode in progress)..."
+            "The war against the Voiceless One is raging, and the New Order is having a hard time gaining terrain. Deputy Director Batzer sent the Overwatch to retrieve an old relic, a key, from a Voiceless One sacred place of worship."
         ],
-        "chapters": []
+        "chapters": [
+            {
+                "name": "The arrival",
+                "isVisible": true,
+                "description": ["The PCs were smuggled to the forest moon of Sylvaria by Duquai and Cathryn, on board of the Marshlander."]
+            },
+            {
+                "name": "The hike",
+                "isVisible": true,
+                "description": [
+                    "Heading toward the temple to retrieve the artifact, the PCs were attacked by invisible beasts. After taking a few small hits, they sliced and burned the creatures. After that, the real journey toward the temple has begun, moving away from civilization, deeper into the forest. They crossed a waterfall, then encountered native temples guardians on natural bridges.",
+                    "They then traveled in a very humid part of the forest where trees and rocks were covered by moss, making it hard and tedious to move forward. While crossing a bog, Jenssar fell in a quicksand-like moss pit, but pulled himself out, \"helped\" by Daasir. After that moss-intensive experience, they climbed stairs for hours; Kaine seemed a bit confused during this part of the journey.",
+                    "At the top of all those stairs, they arrived at an old arch, covered in ancient symbols. Undrake scanned the arch for technical information while Daasir was trying to figure out the meaning of that alphabet that he saw while working with the Inquisitorium.",
+                    "About a hundred meters after the arch, the Overwatch had to scale a cliff. Even with the rock being soft and crumbling, Kaine and Daasir had no problem climbing up. Daasir threw a rope down to help out. Undrake fell twice; he was most-likely getting too excited at first, skipping some security measures. Jenssar, preferring cockpits over cliff-climbing, waited for the rope, and carefully scaled up without any incident. Some of our travelers were beginning to feel the pain of a long hike and were most likely hoping to have a good old air-speeder in their pockets.",
+                    "The final trail began by forking in two distinct paths. At the fork, they saw 3 markers. A stone marker had a new symbol carved in it and was positioned in the center of the fork. The two other stone markers were placed outside of each trail. Those two were similar to the ones they were following since the beginning of the hike.",
+                    "The PCs went left. The forest became brighter and cleaner with less and less dead branches between the trees. They then saw, at a distance, about four or five caretakers that were gardening and cleaning the forest. They seemed from the same race as the guardians they killed earlier. Right as they were planning an attack strategy, a very polite force-ghost named Raimunus appeared and started to convince them to move back and take the right path instead. Saliris, another ghost, then joined the conversation in time to see the characters turn back. Based on Daasir and Undrake memory, the force-ghost are former members of the Order of the Balance, that were important somehow.",
+                    "In the right trail, the dense forest slowly faded into a rocky swamp. There were bridges here and there that were built to cross ponds. This part of the forest was not cared about by anyone and was very dirty. After a while, the forest became more like a foggy wasteland with limited visibility. While advancing, there was nothing: fewer and fewer sounds, fewer and fewer animals, fewer and fewer lives.",
+                    "Now facing a huge dark-force-user statue in the middle of the wasteland, Daasir and Undrake started to analyze the material and the carving. They then met Zacharious, Néméguène, and Amalicius, three new force-ghosts. Zacharious was a little boy, about 12 years old, dressed in a Jedi-like robe. Néméguène was a Thisspiasian, which are serpentine species with four arms, also wearing a Jedi-like robe. Amalicius was walking toward them from afar, in a slow, but confident gait. She was a strong woman, with dark brown hairs, wearing a fancy Jedi-like robe. She had strong facial traits and look severe. Maybe even a little deviant, but they did not noticed that. After a bit of talk, they agreed to help the characters acquire the dark temple artifact to vinquish the Voiceless One. They then jumped into Jenssar's family heirloom and lucky charm: a ring, given to his late father by Palpatine himself!",
+                    "Tired of that hike, they arrived at the top to see both light and dark temples, separated by what seems to be a cliff. A bit further away was a landing platform, but they can't see if there is a ship or not that is landed there."
+                ]
+            },
+            {
+                "name": "The dark temple",
+                "isVisible": true,
+                "description": ["To be continued (episode in progress)..."]
+            },
+            {
+                "name": "...",
+                "isVisible": false,
+                "description": [""]
+            }
+        ]
     },
     "template": {
         "name": "Episode X: ",
