@@ -290,8 +290,42 @@
         "name": "Episode 11: Save Air Marshal Hublin",
         "crawl": "https://crawls.rpg.solutions/crawls/play/oUlK6AfnKncllH0uF5zoP6l7vEm1/VEmux4XH7kh6dOx38B4g",
         "isVisible": true,
-        "description": ["TBD"],
-        "chapters": []
+        "description": [
+            "Shea Hublin, the adopting father of Jenssar, was captured by Slavers while investigating disappearing citizens. The ISB has been tasked to retrieve Hublin alive and destroy the slaver operation.",
+            "The Chiss Initiative learned that Hublin was not just investigating the disappearance of citizens, but was on a secret mission for the New Order, to find the location of Rak Torn. Torn could be in possession of a precious artifact that was previously tracked to one of his slaves; Undrake must make sure that Hublin succeeds, without drawing too much attention. Daasir was also secretly tasked with retrieving that artifact.",
+            "The PCs are given the coordinates of an apartment complex in Coronet City, the home of a maintenance tech named Dalen Jing.",
+            "This adventure was based on a scenario that I found on Reddit: [Wrote 6 short (and pretty bad) scenarios for Edge of the Empire](https://www.reddit.com/r/swrpg/comments/fvwz0p/wrote_6_short_and_pretty_bad_scenarios_for_edge/)."
+        ],
+        "images": [
+            {
+                "url": "/assets/images/adventures/episode-11/Coronet_City.png",
+                "text": "Coronet City | Source: https://starwars.fandom.com/wiki/Coronet_City",
+                "thumbnail": "/assets/images/adventures/episode-11/Coronet_City-thumb.png"
+            },
+            {
+                "url": "/assets/images/adventures/episode-11/Coronet_Spaceport_exterior.jpg",
+                "text": "Coronet Spaceport exterior | Source: https://starwars.fandom.com/wiki/Coronet_Spaceport",
+                "thumbnail": "/assets/images/adventures/episode-11/Coronet_Spaceport_exterior-thumb.jpg"
+            }
+        ],
+        "chapters": [
+            {
+                "name": "MEET & GREET",
+                "isVisible": true,
+                "description": [
+                    "Traveling to Correlia on board the Victory II-class Star Destroyer Deceptor, the PCs went to Dalen Jing building, took control of his front neighbors' apartment. Then they broke into Jing's place to install high-tech surveillance equipment. They also elaborated a complex plan to integrate an agent in the city sewer to follow Jing at work. After a long spying phase, they ended up interrogating Jing in his apartment. He then told them that Heb Shan who is connected to the slave trade area. He also tells the PCs that Shan usually frequents the Purple Nebula restaurant in Coronet City. Our members of the Overwatch then got rid of the loose end, cutting Jing's throat.",
+                    "The PCs then created another elaborated plan to approach Heb Shan at the Purple Nebula. One player was the chauffeur and waited in the underground parking with other people chauffeurs, learning a few pieces of information along the way. Two others entered the place, one at the bar, while the other met with Shan. They ended up making a deal to buy 10 to 20 slaves."
+                ]
+            },
+            {
+                "name": "SERIOUS BUSINESS",
+                "isVisible": true,
+                "description": [
+                    "The PCs then headed toward the slavers meeting. While heading there, they loaned 80,000 credits (which got some Officers pissed). They used their personal ship for the inter-system travel, not to show up with a huge grey triangle in the sky. During the trade deal, they noticed that slaves where all Selonians and that Hublin was not part of them. They then started to deal their way through to get a human slave, making out a criminal backstory that made the slaver really interested in trading with the PCs.",
+                    "The PCs followed the Slavers to their camp, took a tour, then left. They then came back with an overpower invasion forces, composed of AT-AT and Stormtroopers. They killed the slavers, recuperated their credits, saved Hublin, and found the relic! Afterward, what happened with the salves remains unclear."
+                ]
+            }
+        ]
     },
     "episode0120": {
         "name": "Episode 12: Assault on Mulino",

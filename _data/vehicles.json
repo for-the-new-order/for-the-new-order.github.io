@@ -674,6 +674,7 @@
             "flight_officer": "Felecia Kralick",
             "army_officer": "Linoel Tatcher",
             "encounters": [
+                { "episode": "episode0110" },
                 {
                     "episode": "episode0120",
                     "description": ["The Deceptor was part of the Mulino system's invading forces."]
