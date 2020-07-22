@@ -353,6 +353,18 @@
         "description": [
             "The war against the Voiceless One is raging, and the New Order is having a hard time gaining terrain. Deputy Director Batzer sent the Overwatch to retrieve an old relic, a key, from a Voiceless One sacred place of worship."
         ],
+        "images": [
+            {
+                "url": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy.png",
+                "text": "Banner 1",
+                "thumbnail": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy.png"
+            },
+            {
+                "url": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-3.png",
+                "text": "Banner 2",
+                "thumbnail": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-3.png"
+            }
+        ],
         "chapters": [
             {
                 "name": "The arrival",
