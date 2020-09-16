@@ -423,10 +423,43 @@
             {
                 "name": "The dark temple",
                 "isVisible": true,
-                "description": ["To be continued (episode in progress)..."]
+                "description": [
+                    "The dark temple is gigantesque, built with dark grey stone, and carved into the mountain. A large bridge over a chasm leads to the temple. The gorge also separates the two temples, in a naturally chaotic pattern.",
+                    "They tactically crossed the bridge to find the great hall. The hall is made of old grey stones and features a high vaulted ceiling. The place appears to have been pillaged and looted. At the other end was what seemed to have been an altar and a colossal statue. There are a few corridors, but only two main one appears to exit the hall.",
+                    "Moving forward in the temple's non-symmetric dark tunnels and twisted architecture, the PCs explored quite a bit. They found much information about the place, the Order of the Balance, and a Fallen Master that could haunt the place.",
+                    "After getting deeper and deeper into the temple, the Overwatch unwisely reached the Fallen Master's burial place, where he sacrificed himself and his two apprentices. The three former force-users touched the realm of the living with their ghostly lightsaber, which led to an intense fight. The combat was almost lost at some point, but the PCs luck turned after Eliades and Fae-Dayo argued together to know who had the right to kill whom. Jenssar channeled his heirloom power and used the ghost stored inside it to temporarily bind the spirits to their respective altars and allow the Overwatch to move on. Bringing with them their unconscious ally.",
+                    "They continued to move deeper into the cavern. The caves were full of enormous statues, some there watching them pass, some holding the ceiling. The twisted architecture continued, even that deep into the ground."
+                ]
             },
             {
-                "name": "...",
+                "name": "The Colosseum",
+                "isVisible": true,
+                "description": [
+                    "The PCs finally reached what seemed to be an arena, a colosseum. Two thrones and quarters were located on the top level for the light and dark temple's headmasters to watch the two schools' clash. Once they activated both sides, they created different scenarios that both had to agree to, including pumping lava into what seemed to be a deadly obstacle course. On the lower level of the arena, they found two medical facilities that they used to restore their health.",
+                    "After about a week of bacta treatments, they were all back on their feet. During that time, the healthy ones did some digging. They found valuable information about how the invisible beasts are used in the Voiceless One stealth technology. They also learned that after the artifact chamber is what seems to translate to the Ultimate Power Machine."
+                ]
+            },
+            {
+                "name": "The final journey",
+                "isVisible": true,
+                "description": [
+                    "Using a map of the area they found, the Overwatch continued their journey deep underground to reach the lava pit. Unfortunately for them, their little fun in the arena broke a few ancient magnetic fields generator and canalization. That allowed the lava to do even more damage, destroying the passageways to the other side. The PCs crossed the lava pit room using Undrake's engineering skills and some old equipment that they found there.",
+                    "Then they reached the forgotten city that was long abandoned and deeper underground than anyone thinks it would ever go. They noticed a presence there, but they did not investigate further, passing through it to reach what seemed to be a temple, carved into the cavern stone. In there, led by Kaine's uncanny sense, they got to the artifact room, where Shawn Shays and a few Voiceless Ones were waiting. Shawn has a distinctive ring that belonged to Cathryn wrapped around his neck. The PCs noticed the head of both the Marshlander operators, Duquai and Cathryn, on pikes next to him.",
+                    "To be continued (episode in progress)..."
+                ]
+            },
+            {
+                "name": "The Ultimate Power Machine",
+                "isVisible": false,
+                "description": [""]
+            },
+            {
+                "name": "Looting the forgotten city",
+                "isVisible": false,
+                "description": [""]
+            },
+            {
+                "name": "The escape",
                 "isVisible": false,
                 "description": [""]
             }
