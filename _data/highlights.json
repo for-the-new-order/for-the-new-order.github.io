@@ -104,6 +104,18 @@
                     { "episode": "episode0100" }
                 ]
             }
+        },
+        {
+            "name": "Order of the Balance",
+            "type": "Force-users",
+            "description": [
+                "The Order of the Balance [in the Force] was an old cult that tried to embrace both the Light and the Dark side at the same time.",
+                "They initially started as a single entity, then divided the study into two different groups: Dark and Light. Ultimately, they built impressive temples to hold more power, gather more power, and become stronger. A rivalry started between both headmasters, which ended up a few generations later as an all-out war between the two factions. Some say that it created both the Jedi and the Sith orders, ultimately leading to more conflicts!",
+                "The adepts that mastered both the Light's power and the Dark sides of the Force could ascend to higher positions within the order. They were rumored to be extremely powerful beings, not to be trifled with. But even with all of that power, there were not enough to stop the madness that followed over the centuries."
+            ],
+            "campaign_info": {
+                "encounters": [{ "episode": "episode0130" }]
+            }
         }
     ],
     "races": [
