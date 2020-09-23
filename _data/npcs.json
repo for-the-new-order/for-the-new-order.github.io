@@ -4333,13 +4333,13 @@
         "clan": "Voiceless One",
         "xcorp": "Army",
         "attributes": {
-            "wounds": 30,
+            "wounds": 24,
             "defense": {
                 "melee": 2,
                 "ranged": 2
             },
             "soak": 8,
-            "strain": 25
+            "strain": 23
         },
         "characteristics": {
             "brawn": 4,
