@@ -4443,6 +4443,10 @@
             {
                 "name": "Double Initiative",
                 "effect": "Shawn Shays act twice per round and roll initiative twice."
+            },
+            {
+                "name": "Shawn's Combat Armor Integrated MedPak",
+                "effect": "As an out of turn incidental, once per turn, Shawn can active a MedPak, built-in its combat armor. Act as a normal MedPak."
             }
         ],
         "equipment": [
