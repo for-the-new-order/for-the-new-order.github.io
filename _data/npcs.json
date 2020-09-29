@@ -4748,5 +4748,143 @@
         "reference": {
             "source": "FTNO"
         }
+    },
+    "Voiceless One Protector": {
+        "players_permissions": {
+            "stats": true
+        },
+        "xfolder": "Generic/NPCs",
+        "clan": "Voiceless One",
+        "xcorp": "Army",
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/Voiceless-Ones-Soldier.jpg",
+        "image_source": {
+            "text": "Pinterest",
+            "url": "https://www.pinterest.ca/pin/AdKjrTCuROFoRzsqwzW3Rm6pK9Vuq8xdREz4jIdl1hfaCxbty-fUqdE/",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/467811480047108027/"
+                }
+            ]
+        },
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0130" }]
+        },
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 1,
+                "ranged": 1
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": ["Brawl 3", "Coercion 2", "Cool (pr) 3", "Discipline 3", "Ranged (Heavy) 2", "Vigilance 3"],
+        "equipment": [
+            "Ceremonial Blaster rifle (Ranged [Heavy]; Damage 9; Critical 3; Range [Long]; Stun setting)",
+            "Ceremonial Combat Armor (+2 soak, +1 defense)",
+            "Binders"
+        ],
+        "abilities": [
+            {
+                "name": "Voiceless Ones Telepathic Link",
+                "effect": "All Voiceless Ones have a telepathic link between each other and can use it to coordinate better. Add [BO] to any checks that requires unit coordination, like attacks, initiative, etc."
+            },
+            {
+                "name": "Voiceless Ones Upload Link",
+                "effect": "All Voiceless Ones have an upload link that send everything they see to a central server that stores everything."
+            }
+        ],
+        "talents": [
+            {
+                "name": "Body Guard 2",
+                "effect": "May perform a Body Guard maneuver once per round to protect one engaged ally. Suffer 2 strain; all combat checks targeting ally until the start of Voiceless One Protector's next turn are upgraded twice."
+            }
+        ],
+        "description": [
+            "A Voiceless One body guard soldier dressed with a military uniform, a Ceremonial Combat Armor, and holding a Ceremonial Blaster rifle in his hand. These fighter are specially trained to protect other high profile officers."
+        ],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Tetan Guard",
+                    "source": "???",
+                    "page": "??"
+                }
+            ]
+        }
+    },
+    "Order of the Balance Temple Stone Guardian": {
+        "players_permissions": {
+            "stats": true
+        },
+        "xfolder": "Generic/NPCs",
+        "clan": "Voiceless One",
+        "xcorp": "Army",
+        "type": "RIVAL",
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "campaign_info": {
+            "encounters": [{ "episode": "episode0130" }]
+        },
+        "attributes": {
+            "wounds": 10,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 7,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 5,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Athletics 2", "Brawl 3", "Melee 2", "Perception 2", "Vigilance 2"],
+        "equipment": [
+            "Stone Sword (Melee; Damage 9; Critical 4; Range [Engaged]; Cortosis, Concusive 1)",
+            "Stone Fists (Brawl; Damage 8; Critical 4; Range [Engaged]; Cortosis, Concusive 1)",
+            "Cortosis chassis (+2 soak, Cortosis)",
+            "'GuardTech' passive sensor suite (allow the droid to see in dim and dark conditions and hear sounds far above and below a human's range of hearing; add [BO] to Vigilance checks)"
+        ],
+        "abilities": [
+            {
+                "name": "Droid",
+                "effect": "Does not need to breathe, eat, or drink, and can survive in vacuum and underwater: immune to poisons and toxins."
+            }
+        ],
+        "talents": [
+            {
+                "name": "Durable 2",
+                "effect": "Your character reduces any Critical Injury result they suffer by 20, to a minimum of 1."
+            }
+        ],
+        "description": [
+            "Satues of ancient guardians, protecting the artifact room of the Order of the Balance deep underground Temple, located in the forgotten city."
+        ],
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Ossus Stone Guardian",
+                    "source": "???",
+                    "page": "??"
+                }
+            ]
+        }
     }
 }
