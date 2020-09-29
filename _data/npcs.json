@@ -4833,7 +4833,18 @@
         "clan": "Voiceless One",
         "xcorp": "Army",
         "type": "RIVAL",
-        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "image_path": "/assets/images/npcs/Order-of-the-Balance-Temple-Stone-Guardian.png",
+        "image_source": {
+            "url": "https://www.pinterest.ca/pin/826692075337546536/",
+            "text": "Pinterest",
+            "others": [
+                {
+                    "element": "Background",
+                    "text": "Pinterest",
+                    "url": "https://www.pinterest.ca/pin/664632857501528468/"
+                }
+            ]
+        },
         "campaign_info": {
             "encounters": [{ "episode": "episode0130" }]
         },
