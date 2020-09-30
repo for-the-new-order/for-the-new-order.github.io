@@ -445,23 +445,26 @@
                 "description": [
                     "Using a map of the area they found, the Overwatch continued their journey deep underground to reach the lava pit. Unfortunately for them, their little fun in the arena broke a few ancient magnetic fields generator and canalization. That allowed the lava to do even more damage, destroying the passageways to the other side. The PCs crossed the lava pit room using Undrake's engineering skills and some old equipment that they found there.",
                     "Then they reached the forgotten city that was long abandoned and deeper underground than anyone thinks it would ever go. They noticed a presence there, but they did not investigate further, passing through it to reach what seemed to be a temple, carved into the cavern stone. In there, led by Kaine's uncanny sense, they got to the artifact room, where Shawn Shays and a few Voiceless Ones were waiting. Shawn has a distinctive ring that belonged to Cathryn wrapped around his neck. The PCs noticed the head of both the Marshlander operators, Duquai and Cathryn, on pikes next to him.",
-                    "To be continued (episode in progress)..."
+                    "During an endless fight, the PCs triumphed over Shawn Shays and his Voiceless One's minions. At some point, near the end, a Show Trooper tried to escape with the artifact, leaving Shawn bleed to death behind, but the Overwatch prevailed!"
                 ]
             },
             {
                 "name": "The Ultimate Power Machine",
-                "isVisible": false,
-                "description": [""]
+                "isVisible": true,
+                "description": [
+                    "Jenssar, helped by the three force ghosts that live in his family heirloom, found a secret passage leading to the Ultimate Power Machine! As described, based on its design, the machine was made by deviant force users. Jenssar, encouraged by the three ghosts, recklessly entered the device and activated it.",
+                    "While in it, he tapped into the Voiceless One's power source, mapping the entire wild space area and beyond occupied by that enemy of the empire. The more he dug into it, the more the flow passed through him, as the *conduit* that he was born to be.",
+                    "He started to blow up Voiceless fleets, then moons, planets, and entire systems, using the Ultimate Power Source's energy against them! While doing that, the Emperor himself reached him and asked Jenssar to use the machine to transfer his living force to Exegol. Palpatine was falling toward the Death Star reactor. Without hesitation, Jenssar did what was asked of him to save the Emperor! Unfortunately, destroying the Voiceless One and saving the Emperor was too much, and the machine started to overload.",
+                    "Meanwhile, the other PCs started to feel the energy pulses being more and more powerful. At some point, when they realized it, it was too late; the machine is overloading, and they had to leave Jenssar behind. They then fleed toward the Voiceless One landing pad, stole a ship, and left. Once in space, the seismic activity was so crazy that they knew the moon was about to explode, so they planned a hyperspace course. Just before jumping, they saw the moon explode, with Jenssar on it..."
+                ]
             },
             {
-                "name": "Looting the forgotten city",
-                "isVisible": false,
-                "description": [""]
-            },
-            {
-                "name": "The escape",
-                "isVisible": false,
-                "description": [""]
+                "name": "The end",
+                "isVisible": true,
+                "description": [
+                    "Once back at Deputy Director Batzer's fleet, they got debriefed and learned that the Voiceless Ones' damages to their society caused an extinction/genocide-level event! But they also learned about the destruction of the second Death Star and the death of the Emperor.",
+                    "The End of the thirteen-logy"
+                ]
             }
         ]
     },
