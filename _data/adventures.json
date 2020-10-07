@@ -397,6 +397,21 @@
                 "url": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-3.png",
                 "text": "Banner 2",
                 "thumbnail": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-3.png"
+            },
+            {
+                "url": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-4.png",
+                "text": "Banner 3",
+                "thumbnail": "/assets/images/banners/Episode-13-Shawn-Shays-Legacy-4.png"
+            },
+            {
+                "url": "/assets/images/maps/Episode-13-Shawn-Shays-Legacy-Fight-Map.png",
+                "text": "Final battle map",
+                "thumbnail": "/assets/images/maps/Episode-13-Shawn-Shays-Legacy-Fight-Map-thumb.png"
+            },
+            {
+                "url": "/assets/images/maps/Episode-13-Shawn-Shays-Legacy-Fight-Map-overlays.png",
+                "text": "Final battle map (zones overlay)",
+                "thumbnail": "/assets/images/maps/Episode-13-Shawn-Shays-Legacy-Fight-Map-overlays-thumb.png"
             }
         ],
         "chapters": [
