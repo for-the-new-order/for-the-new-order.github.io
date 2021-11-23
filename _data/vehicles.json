@@ -738,5 +738,18 @@
                 }
             ]
         }
+    },
+    "TIE Fighter": {
+        "model": {
+            "name": "TIE/LN"
+        },
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["TIE/LN are deployed to chase the characters."]
+                }
+            ]
+        }
     }
 }

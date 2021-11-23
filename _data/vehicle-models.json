@@ -1005,6 +1005,57 @@
             }
         ]
     },
+    "TIE/LN": {
+        "alias": "TIE Fighter",
+        "image_path": "/assets/images/vehicles/tie-fighter.jpg",
+        "description": [
+            "The primary space superiority fighter of the Imperial Navy, the tiny and fragile Twin Ion Engine fighter has been in service for decades. Light, fast, and incredibly nimble, the iconic TIE fighter is a bare-bones, no-non sense fightercraft."
+        ],
+        "characteristics": {
+            "silhouette": 3,
+            "max_speed": 5,
+            "handling": 3,
+            "hull_trauma": {
+                "threshold": 6,
+                "current": 0
+            },
+            "system_strain": {
+                "threshold": 8,
+                "current": 0
+            },
+            "protection": {
+                "defense": "0",
+                "armor": 2
+            }
+        },
+        "hyperdrive": {
+            "primary": "None",
+            "navicomputer": "None"
+        },
+        "customization": {
+            "hard_points": 0
+        },
+        "sensor": {
+            "range": "close"
+        },
+        "manufacturer": "Sienar Fleet Systems",
+        "skill": "Piloting",
+        "complement": "1 pilot",
+        "passenger_capacity": 0,
+        "consumables": "2 days",
+        "encumbrance_capacity": 4,
+        "cost": {
+            "price": 50000,
+            "rarity": 4,
+            "restricted": true
+        },
+        "weapons": [
+            {
+                "name": "Forward Mounted Medium Laser Cannons ",
+                "specs": "Fire Arc Forward; Damage 6; Critical 3; Range [Close]; Linked 1"
+            }
+        ]
+    },
     "TIE/sk": {
         "alias": "TIE Striker",
         "image_path": "/assets/images/vehicles/TIE-Striker.jpg",

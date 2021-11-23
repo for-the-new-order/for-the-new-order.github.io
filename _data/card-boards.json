@@ -219,6 +219,75 @@
         ]
     },
     {
+        "name": "2021 EotE - OnTestTuCa - One Shot",
+        "adventure": "OnTestTuCa2021EotEOneShot",
+        "cards": [
+            {
+                "title": "Criminals",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Brewinger"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Apprentice Hunter"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Journeyman Hunter"
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "Empire",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Stormtrooper Sergent"
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    }
+                ]
+            },
+            {
+                "title": "Scene 6 – La fuite",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Tie Pilot"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Tie Ace"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "TIE Interceptor"
+                    },
+                    {
+                        "type": "vehicle",
+                        "name": "TIE Fighter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "TEMPLATE",
         "adventure": "episode0000",
         "cards": [
