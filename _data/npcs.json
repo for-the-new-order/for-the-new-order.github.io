@@ -4897,5 +4897,240 @@
                 }
             ]
         }
+    },
+    "K4 Security Droid": {
+        "players_permissions": {
+            "stats": true
+        },
+        "clan": "Empire",
+        "type": "RIVAL",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["Two K4 Droids are guarding a Nar Shaddaa subway."]
+                }
+            ]
+        },
+        "image_path": "/assets/images/npcs/k4-security-droid.jpg",
+        "attributes": {
+            "wounds": 12,
+            "defense": {
+                "melee": 2,
+                "ranged": 1
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 1,
+            "cunning": 1,
+            "willpower": 1,
+            "presence": 1
+        },
+        "skills": ["Melee 2", "Ranged (Light) 3", "Vigilance 2"],
+        "abilities": [
+            {
+                "name": "Droid",
+                "effect": " Droids do not need to eat, sleep, or breathe, and are unaffected by toxins and poisons."
+            }
+        ],
+        "equipment": [
+            "Armored Plating (+1 soak; +1 defense)",
+            "Built-in blaster pistol (Ranged [Light]; Damage 6; Critical 3; Range (Medium); Stun Setting)",
+            "Security Staff (Melee; Damage 4; Critical 2; Range (Engaged); Defensive 1, Disorient 2, Pierce 2)"
+        ],
+        "description": ["K4-S Jailor Droid are a specialized version of the K4 Security Droid aiming at containing prisoneers."],
+        "reference": {
+            "source": "JOY",
+            "page": "90"
+        }
+    },
+    "Aqualish Thug": {
+        "folder": "Taga the Hutt",
+        "image_path": "/assets/images/npcs/aqualish-thug.jpg",
+        "type": "minion",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["Aqualish Thug are employed by Taga the Hutt and sent by Mani."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Aqualish"
+        },
+        "clan": "Generic",
+        "attributes": {
+            "wounds": 6,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 3,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 1,
+            "presence": 1
+        },
+        "minion_skills": "Brawl, Coercion, Melee, Ranged (Light)",
+        "equipment": [
+            "Blaster pistol (Ranged (Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "Brass knuckles (Brawl; Damage 4; Critical 4; Range: Engaged; Disorient 3)"
+        ],
+        "description": ["Aqualish are physically powerful and very prone to violence as a means of resolving even the mildest dispute."],
+        "reference": {
+            "source": "ECRB",
+            "page": "391"
+        }
+    },
+    "Spaceport Urchin": {
+        "image_path": "/assets/images/npcs/spaceport-urchin.jpg",
+        "type": "minion",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["..."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Various"
+        },
+        "clan": "Generic",
+        "attributes": {
+            "wounds": 3,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 1,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 1,
+            "agility": 2,
+            "intellect": 1,
+            "cunning": 3,
+            "willpower": 1,
+            "presence": 3
+        },
+        "minion_skills": "Skulduggery, Stealth, Streetwise, Survival",
+        "equipment": [
+            "Small rocks (Ranged (Light); Damage 1; Critical -; Range (Short); Stun Damage)"
+        ],
+        "description": ["A spaceport urchin is a young individual, around ten years old by human standards, that seems to have absolutely nowhere else to go and nothing else to do than loiter around the facility sticking his nose into anything that attracts his attention."],
+        "reference": {
+            "source": "ECRB",
+            "page": "399"
+        }
+    },
+    "Barabel Enforcer": {
+        "folder": "Taga the Hutt",
+        "image_path": "/assets/images/npcs/barabel-enforcer.jpg",
+        "type": "rival",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["Barabel Enforcer are employed by Taga the Hutt and sent by Mani."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Barabel"
+        },
+        "clan": "Generic",
+        "description":["A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force"],
+        "attributes": {
+            "wounds": 16,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 1
+        },
+        "reference": {
+            "source": "ECRB",
+            "page": "391"
+        },
+        "skills":[
+            "Ranged (Heavy) 1",
+            "Melee 2",
+            "Perception 1",
+            "Survival 2",
+            "Vigilance 1"
+        ],
+        "equipment":[
+            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged])"
+        ]
+    },
+    "TO BE CONTINUED": {
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["Barabel Enforcer are employed by Taga the Hutt and sent by Mani."]
+                }
+            ]
+        },
+        "species": {
+            "name": "Barabel"
+        },
+        "clan": "Generic",
+        "description":["A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force"],
+        "attributes": {
+            "wounds": 16,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 5,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 4,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 1
+        },
+        "reference": {
+            "source": "ECRB",
+            "page": "391"
+        },
+        "skills":[
+            "Ranged (Heavy) 1",
+            "Melee 2",
+            "Perception 1",
+            "Survival 2",
+            "Vigilance 1"
+        ],
+        "equipment":[
+            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
+            "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged])"
+        ]
     }
 }

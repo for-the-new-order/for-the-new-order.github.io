@@ -223,11 +223,11 @@
         "adventure": "OnTestTuCa2021EotEOneShot",
         "cards": [
             {
-                "title": "Criminals",
+                "title": "Scène 1 – L’échange",
                 "cards": [
                     {
                         "type": "npc",
-                        "name": "Brewinger"
+                        "name": "Aqualish Thug"
                     },
                     {
                         "type": "npc",
@@ -235,7 +235,49 @@
                     },
                     {
                         "type": "npc",
-                        "name": "Journeyman Hunter"
+                        "name": "Barabel Enforcer"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Brewinger"
+                    }
+                ]
+            },
+            {
+                "title": "Scène 2 – Le palais de Taga le Hutt",
+                "cards":[]
+            },
+            {
+                "title": "Scene 3 – Les rues de Nar Shaddaa",
+                "cards": [
+                    {
+                        "type": "npc",
+                        "name": "Spaceport Security Detail"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "K4 Security Droid"
+                    },
+                    {
+                        "type": "npc",
+                        "name": "Spaceport Urchin"
+                    }
+                ]
+            },
+            {
+                "title": "optional",
+                "cards": [
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
+                    },
+                    {
+                        "type": "npc|vehicle",
+                        "name": ""
                     },
                     {
                         "type": "npc|vehicle",
