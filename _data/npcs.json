@@ -5084,14 +5084,14 @@
             "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged])"
         ]
     },
-    "TO BE CONTINUED": {
-        "image_path": "/assets/images/npcs/250x250-empire.png",
-        "type": "rival",
+    "Nar Shaadda Security Detail": {
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "minion",
         "campaign_info": {
             "encounters": [
                 {
                     "episode": "OnTestTuCa2021EotEOneShot",
-                    "description": ["Barabel Enforcer are employed by Taga the Hutt and sent by Mani."]
+                    "description": ["Subway guard"]
                 }
             ]
         },
@@ -5099,9 +5099,121 @@
             "name": "Barabel"
         },
         "clan": "Generic",
-        "description":["A step up from a simple thug, an enforcer is a bit more trained and intelligent in the application of brute force"],
+        "description": ["Individuals who serve as part of a spaceport security detail possess the same authority as planetary law enforcement, although they have only a portion of the training and are limited solely to the grounds of the spaceport itself."],
         "attributes": {
-            "wounds": 16,
+            "wounds": 4,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 4,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 2,
+            "intellect": 2,
+            "cunning": 2,
+            "willpower": 2,
+            "presence": 2
+        },
+        "reference": {
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Spaceport Security Detail",
+                    "source": "ECRB",
+                    "page": "398"
+                }
+            ]
+        },
+        "minion_skills": "Perception, Ranged [Light]",
+        "equipment": [
+            "Blaster pistol (Ranged (Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "2 stun grenades (Ranged [Light]; Damage 8; Critical -; Range [Short]; Blast 8, Disorient 3, Limited Ammo 1, Stun Damage)",
+            "Padded Armor (+2 soak)"
+        ]
+    },
+    "Dash Tavik": {
+        "initialSeed": 261969,
+        "image_path": "/assets/images/npcs/250x250-empire.png",
+        "type": "rival",
+        "species": {
+          "name": "Human"
+        },
+        "rank": "Lieutenant",
+        "gender": "Male",
+        "clan": "Empire",
+        "corp": "Navy",
+        "personality": "Impitoyable",
+        "motivation": {
+          "strength": {
+            "name": "Idealistic",
+            "description": "What ideals your character believes in are up to you, but to your character, those ideals are nothing short of sacred. Your character may feel that everyone should live up to those same ideals (and may be disappointed when people don’t), or they may be content to meet the standards they have set for themself."
+          },
+          "flaw": {
+            "name": "Intolerance",
+            "description": "For whatever reason, your character harbors some prejudices toward a group of people. These may be relatively “minor” biases, or they may give rise to an intense emotion of hatred or revulsion. Whatever form it takes, remember that intolerance is based more in emotion than rationality."
+          }
+        },
+        "description":["Dash Tavik est Lieutenant, chargé de l'inspection des territoires Hutt."],
+        "attributes": {
+            "wounds": 11,
+            "defense": {
+                "melee": 0,
+                "ranged": 0
+            },
+            "soak": 3,
+            "strain": "-"
+        },
+        "characteristics": {
+            "brawn": 2,
+            "agility": 3,
+            "intellect": 2,
+            "cunning": 3,
+            "willpower": 2,
+            "presence": 2
+        },
+        "skills": [
+            "Discipline 3",
+            "Ranged (Light) 3",
+            "Vigilance 2"
+        ],
+        "talents": [
+            {
+                "name": "Adversary 1",
+                "effect": "Upgrade difficulty of all combat checks against this target once."
+            }
+        ],
+        "abilities": [
+            {
+                "name": "Tactical Direction",
+                "effect": "May spend a maneuver to direct one minion group within medium range. The group may make an immediate free maneuver or adds one Boost die [BO] to its next check"
+            }
+        ],
+        "equipment": [
+            "Blaster pistol (Ranged (Light]; Damage 6; Critical 3; Range [Medium]; Stun setting)",
+            "Heavy uniform clothing (+1 soak)"
+        ]
+    },
+    "Genetech Security Detail":{
+        "image_path": "/assets/images/npcs/250x250-generic.png",
+        "type": "minion",
+        "campaign_info": {
+            "encounters": [
+                {
+                    "episode": "OnTestTuCa2021EotEOneShot",
+                    "description": ["Subway guard"]
+                }
+            ]
+        },
+        "species": {
+            "name": "Barabel"
+        },
+        "clan": "Generic",
+        "description": ["Individuals who serve as part of a spaceport security detail possess the same authority as planetary law enforcement, although they have only a portion of the training and are limited solely to the grounds of the spaceport itself."],
+        "attributes": {
+            "wounds": 5,
             "defense": {
                 "melee": 0,
                 "ranged": 0
@@ -5110,27 +5222,28 @@
             "strain": "-"
         },
         "characteristics": {
-            "brawn": 4,
+            "brawn": 3,
             "agility": 3,
             "intellect": 2,
-            "cunning": 3,
+            "cunning": 2,
             "willpower": 2,
-            "presence": 1
+            "presence": 2
         },
         "reference": {
-            "source": "ECRB",
-            "page": "391"
+            "source": "FTNO",
+            "based_on": [
+                {
+                    "name": "Spaceport Security Detail",
+                    "source": "ECRB",
+                    "page": "398"
+                }
+            ]
         },
-        "skills":[
-            "Ranged (Heavy) 1",
-            "Melee 2",
-            "Perception 1",
-            "Survival 2",
-            "Vigilance 1"
-        ],
-        "equipment":[
-            "Blaster Carabine (Ranged [Heavy]; Damage: 9; Critical: 3; Range [Medium]; Stun Setting)",
-            "Combat Knife (Melee; Damage 3; Critical 3; Range [Engaged])"
+        "minion_skills": "Perception, Ranged [Light], Cool",
+        "equipment": [
+            "Heavy Blaster Pistol (Ranged [Light]; Damage 7; Critical 3; Ranged [Medium]; Stun Setting)",
+            "2 stun grenades (Ranged [Light]; Damage 8; Critical -; Range [Short]; Blast 8, Disorient 3, Limited Ammo 1, Stun Damage)",
+            "Padded Armor (+2 soak)"
         ]
     }
 }

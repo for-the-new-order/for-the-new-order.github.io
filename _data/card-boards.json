@@ -252,7 +252,7 @@
                 "cards": [
                     {
                         "type": "npc",
-                        "name": "Spaceport Security Detail"
+                        "name": "Nar Shaadda Security Detail"
                     },
                     {
                         "type": "npc",
@@ -265,28 +265,16 @@
                 ]
             },
             {
-                "title": "optional",
-                "cards": [
+                "title": "Scene 4 – Entrer dans le lab",
+                "cards":[
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
-                    },
-                    {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Genetech Security Detail"
                     }
                 ]
             },
             {
-                "title": "Empire",
+                "title": "Scene 5 – Le hangar",
                 "cards": [
                     {
                         "type": "npc",
@@ -297,12 +285,12 @@
                         "name": "Stormtrooper Sergent"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Imperial Navy Trooper"
                     },
                     {
-                        "type": "npc|vehicle",
-                        "name": ""
+                        "type": "npc",
+                        "name": "Dash Tavik"
                     }
                 ]
             },
@@ -319,11 +307,11 @@
                     },
                     {
                         "type": "vehicle",
-                        "name": "TIE Interceptor"
+                        "name": "TIE Fighter"
                     },
                     {
                         "type": "vehicle",
-                        "name": "TIE Fighter"
+                        "name": "TIE Interceptor"
                     }
                 ]
             }
